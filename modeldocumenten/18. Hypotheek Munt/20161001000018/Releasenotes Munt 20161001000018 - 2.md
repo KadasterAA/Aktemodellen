@@ -1,9 +1,10 @@
 # Releasenotes
 
 
-Product: |  Munt stylesheetnummer 20161001000018  implementatienummer 2
- ----------|-------------
-Releasedatum: | december 2016
+**Product** |  **Munt stylesheetnummer 20161001000018  implementatienummer 2**
+----------|-------------
+**Releasedatum** | **december 2016**
+
 
 ## Wijzigingen
 
