@@ -26,7 +26,7 @@ Tekstblok - Algemene afspraken modeldocumenten en tekstblokken | [v2.5](/tekstbl
 Toelichting - Comparitie nummering en layout | []()| [v1.1.2](/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef | [v2.9](/tekstblokken/Tekstblok%20-%20Aanhef%20v2.9.docx)| [v3.3.1](/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.9%20-%20v3.3.1.docx)|   |
 Tekstblok - Burgerlijke staat | [v1.0](/tekstblokken/Tekstblok%20-%20Burgerlijke%20staat%20v1.0.docx)| [v1.3.0](/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.0%20-%20v1.3.docx)|   |
-Tekstblok - Equivalentieverklaring | [v3.0](/master/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.0.docx)| [v3.6.0](/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.0%20-%20v3.6.0.docx)|   |
+Tekstblok - Equivalentieverklaring | [v3.0](/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.0.docx)| [v3.6.0](/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.0%20-%20v3.6.0.docx)|   |
 Tekstblok - Gevolmachtigde | [v2.7](/tekstblokken/Tekstblok%20-%20Gevolmachtigde%20v2.7.docx)| [v2.8.0](/tekstblokken/Toelichting%20Tekstblok%20-%20Gevolmachtigde%202.7%20-%20v2.8.0.docx)|   |
 Tekstblok - Legitimatie | [v2.0](/tekstblokken/Tekstblok%20-%20Legitimatie%20v2.0.docx)| [v2.1](/tekstblokken/Toelichting%20Tekstblok%20-%20Legitimatie%202.0%20-%20v2.1.docx)|   |
 Tekstblok - Natuurlijk persoon | [v2.4](/tekstblokken/Tekstblok%20-%20Natuurlijk%20persoon%20v2.4.docx)| [v3.0.1](/tekstblokken/Toelichting%20Tekstblok%20-%20Natuurlijk%20persoon%202.4%20-%20v3.0.1.docx)|   |
