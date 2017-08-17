@@ -21,7 +21,7 @@ Dit is een voorbeeld hoe de specifieke release notes er uit kunnen gaan zien.
 | Naam| Versie MD/TB| Versie Toelich.|   |
 | --- | --- | --- | --- |
 Modeldocument Munt| [V1.0.1](/modeldocumenten/18.%20Hypotheek%20Munt/20161001000018/Modeldocument%20Munt%20v1.0.1.docx)| [V1.0.1](/modeldocumenten/18.%20Hypotheek%20Munt/20161001000018/Toelichting%20modeldocument%20Munt%20hypotheek%20v1.0.1.docx)| X |
-XSD StukAlgemeen| [v6.2.0]()| []()|   |
+XSD StukAlgemeen| v6.2.0| []()|   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken | [v2.5](/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.5.docx)| []()|   |
 Toelichting - Comparitie nummering en layout | []()| [v1.1.2](/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef | [v2.9](/tekstblokken/Tekstblok%20-%20Aanhef%20v2.9.docx)| [v3.3.1](/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.9%20-%20v3.3.1.docx)|   |
