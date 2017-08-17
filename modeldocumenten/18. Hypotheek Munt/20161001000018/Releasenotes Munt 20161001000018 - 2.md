@@ -1,9 +1,9 @@
 # Releasenotes
 
 
-|**Product** |  **Munt stylesheetnummer 20161001000018  implementatienummer 2**|
-|----------|-------------|
-|**Release** | **december 2016**|
+| **Product** | **Munt stylesheetnummer 20161001000018  implementatienummer 2** |
+| ---------- | ------------- |
+| **Release** | **december 2016** |
 
 
 ## Wijzigingen
@@ -18,7 +18,7 @@
 
 ### 2. Specificaties
 
-| **Naam** | **Versie**** MD/TB **|** Versie ****Toelich.** |   |
+| **Naam** | **Versie MD/TB** | **Versie Toelich.** |   |
 | --- | --- | --- | --- |
 | Modeldocument Munt | **V1.0.1** | **V1.0.1** | X |
 | XSD StukAlgemeen | v6.2.0 |   |   |
