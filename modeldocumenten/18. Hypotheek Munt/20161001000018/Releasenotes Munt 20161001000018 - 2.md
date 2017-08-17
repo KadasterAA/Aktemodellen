@@ -1,12 +1,12 @@
-| **Releasenotes** |
-| --- |
-| **Product:** | _Munt stylesheetnummer_  _20161001000018  implementatienummer 2_ |
-| **Releasedatum:** | _december 2016_ |
-|   |
+**Releasenotes**
+
+**Product:  Munt stylesheetnummer  20161001000018  implementatienummer 2**
+
+**Releasedatum: december 2016**
 
 **Wijzigingen**
 
-1. **1.**** MD Munt tekstaanpassingen**
+**1.**** MD Munt tekstaanpassingen**
 
 | **Issue** | **Omschrijving** | **Oplossing** |
 | --- | --- | --- |
@@ -14,10 +14,7 @@
 | AA-3115 | Achter het tekstblok Registergoed stond een komma in plaats van een punt | Modeldocument, Toelichting, Stylesheet |
 
 
-
-** **
-
-1. **2.**** Specificaties**
+**2.**** Specificaties**
 
 | **Naam** | **Versie**** MD/TB **|** Versie ****Toelich.** |   |
 | --- | --- | --- | --- |
