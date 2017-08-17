@@ -1,3 +1,4 @@
+Dit is een voorbeeld hoe de specifieke release notes er uit kunnen gaan zien.
 # Releasenotes
 
 
