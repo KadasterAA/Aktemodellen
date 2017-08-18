@@ -52,14 +52,14 @@ o.b.v. AA-2073 Modeldocument Doorhaling Hypotheek
   - naamNotaris [0..1]
   - plaatsNotarisKantoor [0..1]
 
-CHANGES XSD StukAlgemeen-5.0.0 DATUM 12 november 2015
+## CHANGES XSD StukAlgemeen-5.0.0 DATUM 12 november 2015
 
 o.b.v. AA-2284 Tekstblok Rechtspersoon
 
 - NHR\_Rechtspersoon
   - tia\_HandelendOnderNaam [0..1] toegevoegd t.b.v. hypotheeknemer die hypotheek verstrekt onder een andere naam dan de statutaire naam.
 
-CHANGES XSD StukAlgemeen-4.1.1 DATUM 6 september 2015
+## CHANGES XSD StukAlgemeen-4.1.1 DATUM 6 september 2015
 
 o.b.v. AA-2175 BLG Hypotheek
 
@@ -154,12 +154,12 @@ obv CH57662 Modeldocument Verdeling tekstkeuzes toegevoegd
 - StukdeelVerdelingHuwelijk
   - datumInschrijving (date) optioneel toegevoegd
 
-CHANGES stuk-algemeen XSD 2.3 – 2.3a
+CHANGES stuk-algemeen XSD 2.3 â€“ 2.3a
 
 - In IMKAD\_Persoon
   - tia\_AanduidingRechtsvorm (alg-AN80) toegevoegd
 
-CHANGES stuk-algemeen XSD 2.2f – 2.3
+CHANGES stuk-algemeen XSD 2.2f â€“ 2.3
 
 - Hoedanigheid toegevoegd
 - IMKAD\_AangebodenStuk Hoedanigheid (0..\*) toegevoegd
@@ -168,25 +168,25 @@ CHANGES stuk-algemeen XSD 2.2f – 2.3
 - Gevolmachtigde volmachtgeverRef (0..\*) verwijderd
 - IMKAD\_Persoon vertegenwoordigerRef (0..\*) toegevoegd
 
-CHANGES stuk-algemeen XSD 2.2e – 2.2f
+CHANGES stuk-algemeen XSD 2.2e â€“ 2.2f
 
 - In IMKAD\_ZakelijkRecht
   - aardVerkregenVariant (waardenlijst) toegevoegd
 - In NHR\_Rechtspersoon
   - statutaireNaam van type alg-AN200
 
-CHANGES stuk-algemeen XSD 2.2d – 2.2e
+CHANGES stuk-algemeen XSD 2.2d â€“ 2.2e
 
 - In StukdeelErfpachtcanonEeuwigAfgekocht
   - IMKAD\_Bedrag optioneel
 
-CHANGES stuk-algemeen XSD 2.2c – 2.2d
+CHANGES stuk-algemeen XSD 2.2c â€“ 2.2d
 
 - IMKAD\_ZakelijkRecht attributeGroup correct gemaakt
 - In IMKAD\_ZakelijkRecht
   - tia\_BedragKoopprijs mag [0..2] voorkomen
 
-CHANGES stuk-algemeen XSD 2.2b – 2.2c
+CHANGES stuk-algemeen XSD 2.2b â€“ 2.2c
 
 - In IMKAD\_Persoon
   - tia\_IndGerechtigde(boolean) toegevoegd
@@ -197,7 +197,7 @@ CHANGES stuk-algemeen XSD 2.2b – 2.2c
   - tia\_BedragKoopprijs mag [0..2] voorkomen
   - tia\_KoopprijsSpecificatie mag [0..2] voorkomen
 
-CHANGES stuk-algemeen XSD 2.2a – 2.2b
+CHANGES stuk-algemeen XSD 2.2a â€“ 2.2b
 
 - IMKAD\_Stukdeel RegistergoedRef (0..\*) toegevoegd
 - Partij partijPersoonRef (0..\*) toegevoegd
@@ -220,12 +220,12 @@ CHANGES stuk-algemeen XSD 2.2a – 2.2b
   - koopprijsTotaal (IMKAD\_Bedrag) toegevoegd
   - vveReservefondssom (IMKAD\_Bedrag) toegevoegd
 
-CHANGES stuk-algemeen XSD 2.2 – 2.2a
+CHANGES stuk-algemeen XSD 2.2 â€“ 2.2a
 
 - In IMKAD\_Appartementsrecht
   - Aandeel (Aandeel) toegevoegd
 
-CHANGES stuk-algemeen XSD 2.1a – 2.2
+CHANGES stuk-algemeen XSD 2.1a â€“ 2.2
 
 - IMKAD\_AangebodenStuk Gevolmachtigde mag 0..\* voorkomen
 - Partij Gevolmachtigde mag 0..\* voorkomen
@@ -251,72 +251,72 @@ CHANGES stuk-algemeen XSD 2.1a – 2.2
   - kenmerk gewijzigd in alg-AN100
 - GegevensOndertekening (ComplexType) toegevoegd
 
-## CHANGES stuk-algemeen XSD 2.1 – 2.1a
+## CHANGES stuk-algemeen XSD 2.1 â€“ 2.1a
 
 - Partij, vofCvMs -&gt; type gewijzigd in IMKAD\_Persoon
 
-CHANGES stuk-algemeen XSD 2.0b – 2.1
+CHANGES stuk-algemeen XSD 2.0b â€“ 2.1
 
 - datumOndertekening in KoopOvereenkomst is optioneel geworden. ##        
 
-CHANGES stuk-algemeen XSD 2.0a – 2.0b
+CHANGES stuk-algemeen XSD 2.0a â€“ 2.0b
 
 - VoormaligeRechtspersoon toegevoegd
 - Tia\_Tekstkeuze in IMKAD\_OnroerendeZaak is 0..\* geworden
 
-## CHANGES stuk-algemeen XSD 2.0 – 2.0a
+## CHANGES stuk-algemeen XSD 2.0 â€“ 2.0a
 
 - StukdeelErfpachtcanon toegevoegd
 - StukdeelErpachtcanonTijdelijkAfgekocht toegevoegd
 - StukdeelErfpachtcanonEeuwigAfgekocht toegevoegd
 - Betaling toegevoegd
 
-CHANGES stuk-algemeen XSD 1.9a – 2.0
+CHANGES stuk-algemeen XSD 1.9a â€“ 2.0
 
 - IMKAD\_Persoon, tia\_ExecuteurVan (alg\_AN70) toegevoegd
 - IMKAD\_Persoon, relatie met GerelateerdPersoon wordt &#39;0..\*&#39;
 - Partij, vofCvMs (NHR\_Rechtspersoon) toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.9 – 1.9a
+## CHANGES stuk-algemeen XSD 1.9 â€“ 1.9a
 
 - Richting relatie van IMKAD\_Persoon naar SimpleLink gewijzigd
 
-CHANGES stuk-algemeen XSD 1.8c – 1.9
+## CHANGES stuk-algemeen XSD 1.8c â€“ 1.9
 
 - Het type van de volgende attributen is gewijzigd (was: waardelijst):
--         Schip, landGebouwdIn (alg-AN50)
--         StukdeelHypotheek, soortHypotheek (alg-AN20)
--         IMKAD\_AantekeningKadastraalObject, aard (alg-AN20)
--         GBA\_Ingezetene, tia\_AdellijkeTitel (alg-AN40)
--         GBA\_Ingezetene, IMKAD\_KadNatuurlijkPersoon, tia\_AdellijkeTitel2 (alg-AN40)
--         GBA\_Ingezetene, IMKAD\_KadNatuurlijkPersoon, tia\_Titel (alg-AN40)
--         IMKAD\_KadNatuurlijkPersoon, adellijkeTitelOfPredikaat (alg-AN40)
--         BAG\_Woonplaats, woonplaatsNaam (alg-AN80V)
--         IMKAD\_KadBinnenlandsAdres, woonplaatsNaam (alg-AN80V)
--         IMKAD\_Ondertekenaar, standplaats (alg-AN80)
--         Verklaarder, standplaats (alg-AN80)
--         InformatiePB, naamGemeente (alg-AN80)
--         InformatiePB, naamBestuursorgaanInfo (alg-AN80)
--         Legitimatiebewijs, landUitgegeven (alg-AN50)
--         IMKAD\_DomicilieKeuze        , aard (alg-AN50V)
+  1. Schip, landGebouwdIn (alg-AN50)
+  2. StukdeelHypotheek, soortHypotheek (alg-AN20)
+  3. IMKAD\_AantekeningKadastraalObject, aard (alg-AN20)
+  4. GBA\_Ingezetene, tia\_AdellijkeTitel (alg-AN40)
+  5. GBA\_Ingezetene, IMKAD\_KadNatuurlijkPersoon, tia\_AdellijkeTitel2 (alg-AN40)
+  6. GBA\_Ingezetene, IMKAD\_KadNatuurlijkPersoon, tia\_Titel (alg-AN40)
+  7. IMKAD\_KadNatuurlijkPersoon, adellijkeTitelOfPredikaat (alg-AN40)
+  8. BAG\_Woonplaats, woonplaatsNaam (alg-AN80V)
+  9. IMKAD\_KadBinnenlandsAdres, woonplaatsNaam (alg-AN80V)
+  10. IMKAD\_Ondertekenaar, standplaats (alg-AN80)
+  11. Verklaarder, standplaats (alg-AN80)
+  12. InformatiePB, naamGemeente (alg-AN80)
+  13. InformatiePB, naamBestuursorgaanInfo (alg-AN80)
+  14. Legitimatiebewijs, landUitgegeven (alg-AN50)
+  15. IMKAD\_DomicilieKeuze, aard (alg-AN50V)
 
-## CHANGES stuk-algemeen XSD 1.8b – 1.8c
+## CHANGES stuk-algemeen XSD 1.8b â€“ 1.8c
 
 - In IMKAD\_Persoon/Id optioneel gemaakt
 
-## CHANGES stuk-algemeen XSD 1.8a – 1.8b
+## CHANGES stuk-algemeen XSD 1.8a â€“ 1.8b
 
 - IMKAD\_AangebodenStuk/tia\_Depotnummer gewijzigd in tia\_DepotnummerTekening
 - StukdeelVerdelingHuwelijk/plaatsBurgerlijkeStand gewijzigd in StukdeelVerdelingHuwelijk/plaatsOntbinding
 - StukdeelVerdelingHuwelijk/datumAantekeningBurgerlijkeStand gewijzigd in StukdeelVerdelingHuwelijk/datumOntbinding
 
-## CHANGES stuk-algemeen XSD 1.8 – 1.8a
+## CHANGES stuk-algemeen XSD 1.8 â€“ 1.8a
 
 - verkrijgerRechtRef van IMKAD\_ZakelijkRecht naar Partij is 0..\* geworden
 - Toedeling toegevoegd
 - In IMKAD\_Persoon een XSD-attribuut Id en relatie naar xlinks toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.7c – 1.8
+## CHANGES stuk-algemeen XSD 1.7c â€“ 1.8
 
 - StukdeelVerdeling:
   - attributen verwijderd
@@ -326,7 +326,7 @@ CHANGES stuk-algemeen XSD 1.8c – 1.9
 - In IMKAD\_ZakelijkRecht
   - Relatie verkrijgerRechtRef naar Partij toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.7b – 1.7c
+## CHANGES stuk-algemeen XSD 1.7b â€“ 1.7c
 
 - In Bericht\_TIA\_stuk:
   - nummerStylesheet verplicht gemaakt
@@ -340,7 +340,7 @@ CHANGES stuk-algemeen XSD 1.8c – 1.9
 - in Verklaarder
   - kadGegevensVerklaarder en kadGegevensWaarnemerVoor toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.7a – 1.7b
+## CHANGES stuk-algemeen XSD 1.7a â€“ 1.7b
 
 - In Bericht\_TIA\_stuk:
   - nummerStylesheet optioneel gemaakt
@@ -348,7 +348,7 @@ CHANGES stuk-algemeen XSD 1.8c – 1.9
 - Nieuwe klasse StukdeelVerdeling toegevoegd en hierbij behorende klasse Echtscheiding.
 - KoopprijsSpecificatie/inclusief opgesplitst in onroerendezakenInclusief en omzetbelastingInclusief
 
-##  CHANGES stuk-algemeen XSD 1.7 – 1.7a
+##  CHANGES stuk-algemeen XSD 1.7 â€“ 1.7a
 
 - KadBinnenlandsAdres -&gt; IMKAD\_KadBinnenlandsAdres
 - KadNatuurlijkPersoon -&gt; IMKAD\_KadNatuurlijkPersoon
@@ -363,7 +363,7 @@ CHANGES stuk-algemeen XSD 1.8c – 1.9
 - Aan StukdeelKoop het voglende optionele attribuut toegevoegd
   - koopprijsSpecificatie (KoopprijsSpecificatie)
 
-## CHANGES stuk-algemeen XSD 1.6a – 1.7
+## CHANGES stuk-algemeen XSD 1.6a â€“ 1.7
 
 - Aan &#39;StukdeelHypotheek&#39;zijn de volgende optionele attributen toegevoegd:
   - rangordeHypotheek (int)
@@ -394,11 +394,11 @@ CHANGES stuk-algemeen XSD 1.8c – 1.9
 - In IMKAD\_WoonlocatiePersoon is de multipliciteit van  IMKAD\_AdreskeuzeWl gewijzigd naar &#39;1 -2&#39;
 - In IMKAD\_Persoon is de multipliciteit van tia\_Gegevens gewijzigd naar &#39;1-2&#39;.
 
-CHANGES stuk-algemeen XSD 1.6 – 1.6a
+CHANGES stuk-algemeen XSD 1.6 â€“ 1.6a
 
 - In &#39;IMKAD\_Persoon&#39; het attribuut &#39;tia\_PartijOnderdeel&#39; (optioneel) toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.5b – 1.6
+## CHANGES stuk-algemeen XSD 1.5b â€“ 1.6
 
 - In &#39;IMKAD\_AangebodenStuk&#39; het attribuut &#39;tia\_OmschrijvingZaak&#39; (optioneel) toegevoegd
 - &#39;StukdeelMandeligheid&#39; toegevoegd met de volgende attributen:
@@ -407,23 +407,23 @@ CHANGES stuk-algemeen XSD 1.6 – 1.6a
   - Vervallen (boolean)
 - Optioneel attribuut &#39;aandeelInRechten&#39; (Aandeel) toegevoegd aan &#39;IMKAD\_Persoon&#39;
 
-## CHANGES stuk-algemeen XSD 1.5a – 1.5b
+## CHANGES stuk-algemeen XSD 1.5a â€“ 1.5b
 
--        type van &#39;soortOvereenkomst&#39; in &#39;StukdeelNotarieleVerklaring&#39; gewijzigd in waardenlijst
+-        type van 'soortOvereenkomst'; in 'StukdeelNotarieleVerklaring' gewijzigd in waardenlijst
 
-## CHANGES stuk-algemeen XSD 1.5 – 1.5a
+## CHANGES stuk-algemeen XSD 1.5 â€“ 1.5a
 
-- &#39;StukdeelNotariëleVerklaring&#39; gewijzigd in &#39;StukdeelNotarieleVerklaring&#39;
+- &#39;StukdeelNotariÃ«leVerklaring&#39; gewijzigd in &#39;StukdeelNotarieleVerklaring&#39;
 
-## CHANGES stuk-algemeen XSD 1.4 – 1.5
+## CHANGES stuk-algemeen XSD 1.4 â€“ 1.5
 
--  &#39;StukdeelNotariëleVerklaring&#39; toegevoegd met de volgende attributen:
+-  &#39;StukdeelNotariÃ«leVerklaring&#39; toegevoegd met de volgende attributen:
   - soortOvereenkomst
   - datumOnderhandseOvereenkomst
   - bedragKoopprijs
   - datumLevering
 - Attribuut &#39;tia\_BedragKoopprijs&#39; toegevoegd in IMKAD\_ZakelijkRecht
-- Attribuut &#39;tia\_TekstKeuze&#39; toegevoegd in GBA\_Ingezetene én in IMKAD\_NietIngezetene
+- Attribuut &#39;tia\_TekstKeuze&#39; toegevoegd in GBA\_Ingezetene Ã©n in IMKAD\_NietIngezetene
 - Attribuut &#39;adresKantoor&#39; optioneel gemaakt in GegevensGevolmachtigde
 - Attributen toegevoegd in GegevensGevolmachtigde:
   - adresPersoon
@@ -434,7 +434,7 @@ CHANGES stuk-algemeen XSD 1.6 – 1.6a
 
 
 
-## CHANGES stuk-algemeen XSD 1.3 – 1.4
+## CHANGES stuk-algemeen XSD 1.3 â€“ 1.4
 
 - In &#39;InformatiePB&#39; de volgende attributen toegevoegd:
   - aardPubliekrechtelijkeBeperking
@@ -445,11 +445,11 @@ CHANGES stuk-algemeen XSD 1.6 – 1.6a
 - In &#39;InformatiePB&#39; het attribuut &#39;naamBestuursorgaanInfo&#39; optioneel gemaakt. _(Dit attribuut kan tzt vervallen als de oude stylesheet voor WKPB v0.9 niet meer gebruikt wordt.)_
 - In &#39;IMKAD\_OnroerendeZaak&#39; het attribuut &#39;tia\_Tekstkeuze&#39; toegevoegd
 
-## CHANGES stuk-algemeen XSD 1.2 – 1.3
+## CHANGES stuk-algemeen XSD 1.2 â€“ 1.3
 
 Attribuut &#39;aanduidingHypotheek&#39; (optioneel) met waardelijst toegevoegd aan &#39;StukdeelHypotheek&#39;
 
-CHANGES stuk-algemeen XSD 1.1 – 1.2
+CHANGES stuk-algemeen XSD 1.1 â€“ 1.2
 
 Corrections to new versions tekstblokken:
 
@@ -457,7 +457,7 @@ Corrections to new versions tekstblokken:
 - IndGezamenlijkeToekomstigeWoonlocatie (optional) added to &#39;GerelateerdPersoon&#39;
 - IndRegistergoedBewonen (optional) added to &#39;Partij&#39;
 
-## CHANGES stuk-algemeen XSD 1.0 – 1.1 (1.0.1)
+## CHANGES stuk-algemeen XSD 1.0 â€“ 1.1 (1.0.1)
 
 Changes related to new versions tekstblokken:
 
@@ -478,7 +478,7 @@ Changes related to JIRA bug 499
 - sterkte changed from integer to D9 (maximum fraction digits is 3) in &#39;Voortstuwing&#39;,
 - getal in Inhoud: added maximum fraction digits is 3.
 
-## CHANGES stuk-algemeen XSD 0.81 – 1.0
+## CHANGES stuk-algemeen XSD 0.81 â€“ 1.0
 
 - Optional element &quot;partnerSpecifiek&quot; added to class Bericht\_TIA\_Stuk, used by the bank information.
 - Element &#39;soortHypotheek&#39; from StukdeelHypotheek made optional, this element is not used in the partner specific modeldocument.
@@ -496,11 +496,11 @@ Changes from v0.6 reversed so XSD remain backward compatible from v0.5:
 
 
 
-## CHANGES stuk-algemeen XSD 0.8 – 0.81
+## CHANGES stuk-algemeen XSD 0.8 â€“ 0.81
 
 Relation from IMKAD\_AangebodenStuk to Partij changed from 1..n to 0..n, because Partij isn&#39;t used for WKPB
 
-## CHANGES stuk-algemeen XSD 0.72 – 0.8
+## CHANGES stuk-algemeen XSD 0.72 â€“ 0.8
 
 Changes following realisation of KetenPortaalKadaster:
 
@@ -521,7 +521,7 @@ Changes related to the implementation of WKPB:
 - class  IMKAD\_AangebodenStuk: attribute &quot;ondertekenaar&quot; has been made optional because this class isn&#39;t used for WKPB
 - class  IMKAD\_AantekeningKadastraalObject: attribute &quot;aard&quot; has been made optional because this attribute isn&#39;t used for WKPB.
 
-CHANGES stuk-algemeen XSD 0.7 – 0.72
+CHANGES stuk-algemeen XSD 0.7 â€“ 0.72
 
 Changes from v0.6 reversed so XSD remain backward compatible from v0.5:
 
@@ -557,7 +557,7 @@ Changes relating to the implementation of WKPB:
 - class Verklaarder: elements naamBestuursorgaan and  informatiePR\_Beperking added.
 - IMKAD\_AangebodenStuk: element informatiePR\_Beperking added.
 
-CHANGES stuk-algemeen XSD 0.61 – 0.7
+CHANGES stuk-algemeen XSD 0.61 â€“ 0.7
 
 XSD: Only changes to annotations
 
@@ -592,7 +592,7 @@ Waardelijsten/codelists:
   - soortinhoudkik.xml
   - eenheidkik.xml
 
-CHANGES stuk-algemeen XSD 0.6 – 0.61
+CHANGES stuk-algemeen XSD 0.6 â€“ 0.61
 
 Changes after review
 
@@ -600,7 +600,7 @@ Changes after review
 - StukdeelBeslag/doorTeHalenStuk renamed to doorTeHalenBeslag
 - tia\_DatumOndertekening (xs:date) and tia\_TijdOndertekening (xs:time) have been replaced by one element tijdstipOndertekening of type xs:dateTime.
 
-CHANGES stuk-algemeen XSD 0.5 – 0.6
+CHANGES stuk-algemeen XSD 0.5 â€“ 0.6
 
 Changes made for the purpose of supporting more types of deeds (deeds of cancellation of mortgage, seizure, and cancellation of seizure).
 
