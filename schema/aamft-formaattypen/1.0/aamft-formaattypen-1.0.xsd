@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:schema targetNamespace="http://www.kadaster.nl/schemas/KIK/ABNAMROMoneYouHypotheekakte/formaattypen/v20101101" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aamft="http://www.kadaster.nl/schemas/KIK/ABNAMROMoneYouHypotheekakte/formaattypen/v20101101" elementFormDefault="qualified">
+	<xs:simpleType name="Waardenlijst">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\p{L}|\d|')+.*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="alg-D20">
+		<xs:restriction base="xs:decimal">
+			<xs:totalDigits value="20"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

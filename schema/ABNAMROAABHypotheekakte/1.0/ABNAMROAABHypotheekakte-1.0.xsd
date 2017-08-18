@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by Kadaster (Kadaster) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aab="http://www.kadaster.nl/schemas/KIK/ABNAMROAABHypotheekakte/v20101101" xmlns:aaaft="http://www.kadaster.nl/schemas/KIK/ABNAMROAABHypotheekakte/formaattypen/v20101101" targetNamespace="http://www.kadaster.nl/schemas/KIK/ABNAMROAABHypotheekakte/v20101101" elementFormDefault="qualified">
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/ABNAMROAABHypotheekakte/formaattypen/v20101101" schemaLocation="aaaft-formaattypen-1.0.xsd"/>
+	<xs:element name="BedragType" type="aab:BedragType"/>
+	<xs:complexType name="BedragType">
+		<xs:annotation>
+			<xs:documentation>Standaard type voor bedragen.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence minOccurs="0">
+			<xs:element name="som" type="aaaft:alg-D20">
+				<xs:annotation>
+					<xs:documentation>Het bedrag.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="valuta" type="aaaft:Waardenlijst">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de valutasoort. Hiervoor wordt de codelijst ISO 4217 gebruikt. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AanvullendeKosten" type="aab:AanvullendeKosten"/>
+	<xs:complexType name="AanvullendeKosten">
+		<xs:annotation>
+			<xs:documentation>De aanvullende renten en kosten die samen met het hypotheekbedrag het totaal bedrag vormen.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="bedragRente" type="aab:BedragType">
+				<xs:annotation>
+					<xs:documentation>Bedrag aan renten en kosten, die samen worden begroot op een bepaald percentage van de hoofdsom.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedragTotaal" type="aab:BedragType">
+				<xs:annotation>
+					<xs:documentation>Totaal bedrag van hoofdsom plus het bedrag begroot voor de renten en kosten.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AanvullendeHypotheekGegevens" type="aab:AanvullendeHypotheekGegevens"/>
+	<xs:complexType name="AanvullendeHypotheekGegevens">
+		<xs:annotation>
+			<xs:documentation>De partner specifieke ABN AMRO AAB gegevens.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="rangordeHypotheek" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>De rangorde geeft aan het hoeveelste recht van hypotheek het betreft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="rangordeOverbruggingshypotheek" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>De rangorde geeft aan het hoeveelste recht van overbruggingshypotheek het betreft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedragLening" type="aab:BedragType">
+				<xs:annotation>
+					<xs:documentation>Bedrag van de schuldbekentenis van de schuldenaar aan de bank.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="aab:AanvullendeKosten"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

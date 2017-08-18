@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.kadaster.nl/schemas/KIK/INGHypotheekakte/formaattypen/v20100701" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ift="http://www.kadaster.nl/schemas/KIK/INGHypotheekakte/formaattypen/v20100701">
+<xs:annotation>
+<xs:documentation>Versie 1.0 - 10-06-2010: definitief, gebaseerd op versie 1.4 van alg_formaattypen. 
+</xs:documentation>
+</xs:annotation>
+<xs:simpleType name="Waardenlijst">
+<xs:restriction base="xs:string">
+<xs:pattern value="(\p{L}|\d|')+.*"></xs:pattern>
+</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="alg-D20">
+<xs:restriction base="xs:decimal">
+<xs:totalDigits value="20"></xs:totalDigits>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>
