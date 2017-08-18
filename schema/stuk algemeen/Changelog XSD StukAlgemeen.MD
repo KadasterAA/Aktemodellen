@@ -1,4 +1,4 @@
-# Changelog
+# Changelog XSD StukAlgemeen
 
 ## CHANGES XSD StukAlgemeen-6.3.1 DATUM 12 april 2017
 
