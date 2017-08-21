@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
+    <!-- 
+    Keuzeteksten voor DoorhalingHypotheken XSD
+    Versie: 1.00
+    Datum: 2010-01-11
+    -->
+    <tia:TekstKeuze>
+        <tia:tagNaam>margin-top</tia:tagNaam>
+        <tia:tekst>60</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>margin-left</tia:tagNaam>
+        <tia:tekst>50</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Dagaanduiding</tia:tagNaam>
+        <tia:tekst>Heden</tia:tekst>
+        <tia:tekst>Vandaag</tia:tekst>
+    </tia:TekstKeuze>
+</tia:Keuzeteksten>

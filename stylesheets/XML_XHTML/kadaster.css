@@ -1,0 +1,63 @@
+body,
+table,
+table td {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #ffffff;
+	color: #000000;
+}
+h1 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+}
+h2 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+h2.header {
+	text-decoration: underline;
+	font-weight: normal !important;
+}
+h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+ol {
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+ul {
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+li { 
+	margin-top: 0px;
+	margin-left: 20px;
+}
+ul.arrow,
+ul.arrow li.arrow { 
+	list-style-image: url(../images/dash.png);
+}
+a.location {
+	position: absolute;
+}
+td.number {
+	width: 30px;
+	vertical-align: top;
+}
+ol.zeromargin,
+ul.zeromargin {
+	margin-left: 0px;
+	padding-left: 0px;
+	_margin-left: 12px;
+}
