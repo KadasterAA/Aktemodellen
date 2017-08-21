@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
+	<!-- 
+	Optional text choices for Deed of transfer
+	Version: 1.18
+	Date: 2010-06-15
+	-->
+	<!-- Begin common optional text choices -->
+	<tia:TekstKeuze>
+		<tia:tagNaam>margin-top</tia:tagNaam>
+		<tia:tekst>60</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>margin-left</tia:tagNaam>
+		<tia:tekst>50</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Dagaanduiding</tia:tagNaam>
+		<tia:tekst>Op</tia:tekst>
+		<tia:tekst>Heden</tia:tekst>
+		<tia:tekst>Vandaag</tia:tekst>
+	</tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_VerklaarderPlaatsaanduiding</tia:tagNaam>
+        <tia:tekst>1</tia:tekst>
+        <tia:tekst>te</tia:tekst>
+        <tia:tekst>gevestigd te</tia:tekst>
+        <tia:tekst>met plaats van vestiging</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_OndertekenaarPlaatsaanduiding</tia:tagNaam>
+        <tia:tekst>1</tia:tekst>
+        <tia:tekst>te</tia:tekst>
+        <tia:tekst>gevestigd te</tia:tekst>
+        <tia:tekst>met plaats van vestiging</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Kandidaat</tia:tagNaam>
+        <tia:tekst>kandidaat-notaris,</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_VacantKantoor</tia:tagNaam>
+        <tia:tekst>van het vacante kantoor</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_TijdOndertekening</tia:tagNaam>
+        <tia:tekst>1</tia:tekst>
+    </tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Professor</tia:tagNaam>
+		<tia:tekst>professor</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_VerantwoordelijkheidNotaris</tia:tagNaam>
+		<tia:tekst>onder de verantwoordelijkheid van mij, notaris,</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Statutair</tia:tagNaam>
+		<tia:tekst>statutair</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Kantoorhoudende</tia:tagNaam>
+		<tia:tekst>kantoorhoudende te</tia:tekst>
+		<tia:tekst>en aldaar kantoorhoudende aan</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_KantoorhoudendeLidwoord</tia:tagNaam>
+		<tia:tekst>de</tia:tekst>
+		<tia:tekst>het</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Voortstuwing</tia:tagNaam>
+		<tia:tekst>met de volgende motor</tia:tekst>
+		<tia:tekst>met de volgende motoren</tia:tekst>
+		<tia:tekst>met de volgende voortstuwingsmiddelen</tia:tekst>
+		<tia:tekst>met het volgende voortstuwingsmiddel</tia:tekst>
+		<tia:tekst>zonder voortstuwingswerktuigen</tia:tekst>
+		<tia:tekst/>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Scheepstoebehoren</tia:tagNaam>
+		<tia:tekst>alsmede alle scheepstoebehoren in de zin van artikel 8:1 Burgerlijk Wetboek, aan partijen genoegzaam bekend</tia:tekst>
+	</tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Woonplaatskeuze</tia:tagNaam>
+        <tia:tekst>Terzake van de uitvoering van deze overeenkomst, waaronder tevens dient te worden begrepen de inschrijving in de openbare registers, alsmede voor de fiscale gevolgen, wordt woonplaats gekozen ten kantore van de bewaarder van deze akte.</tia:tekst>
+        <tia:tekst>Terzake van de uitvoering van deze overeenkomst, waaronder tevens dient te worden begrepen de inschrijving in de openbare registers, wordt woonplaats gekozen ten kantore van de bewaarder van deze akte.</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_BurgerlijkeStaatPersoon</tia:tagNaam>
+        <tia:tekst>thans ongehuwd en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>ongehuwd en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>gehuwd</tia:tekst>
+        <tia:tekst>geregistreerd partner in de zin van het geregistreerd partnerschap</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_BurgerlijkeStaatTekst</tia:tagNaam>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_BurgerlijkeStaatTekstPartners</tia:tagNaam>
+        <tia:tekst>beiden {tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s in de zin van het geregistreerd partnerschap</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Mandeligheid</tia:tagNaam>
+        <tia:tekst>De tot mandelig bestemd</tia:tekst>
+        <tia:tekst>Het tot mandelig bestemd</tia:tekst>
+        <tia:tekst>De tot mandelig bestemde</tia:tekst>
+        <tia:tekst>Het tot mandelig bestemde</tia:tekst>
+        <tia:tekst>met bestemming mandeligheid</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_KvK</tia:tagNaam>
+        <tia:tekst>van de Kamer van Koophandel</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_VoorZich</tia:tagNaam>
+        <tia:tekst>- voor zich; en</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_RolVennootMaat</tia:tagNaam>
+        <tia:tekst>beherend vennoot</tia:tekst>
+        <tia:tekst>gezamenlijk bevoegde vennoten</tia:tekst>
+        <tia:tekst>bevoegde vennoten</tia:tekst>
+        <tia:tekst>enige vennoten</tia:tekst>
+        <tia:tekst>gezamenlijk bevoegde maten</tia:tekst>
+        <tia:tekst>bevoegde maten</tia:tekst>
+        <tia:tekst>enige maten</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+		<tia:tagNaam>k_Registergoederen</tia:tagNaam>
+		<tia:tekst>het bij deze verkochte</tia:tekst>
+		<tia:tekst>het Registergoed</tia:tekst>
+		<tia:tekst>de Registergoederen</tia:tekst>
+		<tia:tekst>1</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Verschuldigd</tia:tagNaam>
+		<tia:tekst>voor zover over elk kalenderjaar verschuldigd is,</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Voldoen</tia:tagNaam>
+		<tia:tekst>maandelijks worden voldaan</tia:tekst>
+		<tia:tekst>bij achterafbetaling in twee gelijke halfjaarlijkse termijnen uiterlijk op de {betaalDag} werkdag van de maand {betaalMaand} en {betaalMaand} worden voldaan</tia:tekst>
+		<tia:tekst>bij achterafbetaling uiterlijk op de {betaalDag} werkdag van de maand {betaalMaand} en {betaalMaand} worden voldaan</tia:tekst>
+		<tia:tekst>per half jaar in twee gelijke halfjaarlijkse termijnen achteraf worden voldaan</tia:tekst>
+		<tia:tekst>per half jaar in twee gelijke halfjaarlijkse termijnen vooraf worden voldaan</tia:tekst>
+		<tia:tekst>per half jaar achteraf worden voldaan</tia:tekst>
+		<tia:tekst>per half jaar vooraf worden voldaan</tia:tekst>
+		<tia:tekst>bij vooruitbetaling worden voldaan in twee gelijke halfjaarlijkse termijnen op {betaalDag} {betaalMaand} en {betaalDag} {betaalMaand}, eerstmaals op {startBetaling} aanstaande</tia:tekst>
+		<tia:tekst>bij vooruitbetaling worden voldaan op {betaalDag} {betaalMaand} en {betaalDag} {betaalMaand}, eerstmaals op {startBetaling} aanstaande</tia:tekst>
+	</tia:TekstKeuze>
+	<!-- End common optional text choices -->
+	<!-- Begin deed specific optional text choices -->
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_VerklaringWvg</tia:tagNaam>
+		<tia:tekst>dat op de onroerende za(a)k(en) waarop de vervreemding in dit stuk betrekking heeft, geen aanwijzing of voorlopige aanwijzing van toepassing is in de zin van de Wet voorkeursrecht gemeenten.</tia:tekst>
+		<tia:tekst>dat de vervreemding in dit stuk niet in strijd is met de Wet voorkeursrecht gemeenten.</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Koopakte</tia:tagNaam>
+		<tia:tekst>koopcontract</tia:tekst>
+		<tia:tekst>koopakte</tia:tekst>
+		<tia:tekst>koopovereenkomst</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Handelend</tia:tagNaam>
+		<tia:tekst>, handelend als gemeld,</tia:tekst>
+	</tia:TekstKeuze>
+	<!-- End deed specific optional text choices -->
+</tia:Keuzeteksten>
