@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd"><!--HALLO-->
+   <Identification>
+      <ShortName>aardondertekenaarkik</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/aardondertekenaarkik</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/aardondertekenaarkik/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Aard" Use="required">
+         <ShortName>Aard</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="AardKey">
+         <ShortName>Aard Key</ShortName>
+         <ColumnRef Ref="Aard"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Aard">
+            <SimpleValue>notaris</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Aard">
+            <SimpleValue>waarnemer notaris</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

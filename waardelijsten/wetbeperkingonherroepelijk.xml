@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>wetbeperkingonherroepelijk</ShortName>
+		<Version>v20101125_091909</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/wetbeperkingonherroepelijk</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/wetbeperkingonherroepelijk/v20101125_091909</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="D">
+			<ShortName>kode</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+		<Key Id="kodeKey">
+			<ShortName>key for column 'kode'</ShortName>
+			<ColumnRef Ref="D"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet geluidhinder (Artikel 110)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WG</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>

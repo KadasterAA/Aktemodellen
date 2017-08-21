@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd">
+   <Identification>
+      <ShortName>objekt-belemmering-imkad</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/objekt-belemmering-imkad</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/objekt-belemmering-imkad/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="OBJ-BEL" Use="required">
+         <ShortName>OBJ-BEL</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Column Id="Omschrijving" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="OBJ-BELKey">
+         <ShortName>OBJ-BEL Key</ShortName>
+         <ColumnRef Ref="OBJ-BEL"/>
+      </Key>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="Omschrijving"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Annotation>
+         <Description>
+            <kad:p>De additionele waardenlijst voor de aard van een AantekeningKadastraalObject. In IMKAD wordt een erfdienstbaarheid gemarkeerd met behulp van een aantekening met de waarde 'Erfdienstbaarheid'. Deze waarde zit niet in het Kodestelsel.</kad:p>
+         </Description>
+      </Annotation>
+      <Row>
+         <Value ColumnRef="OBJ-BEL">
+            <SimpleValue>ERFD</SimpleValue>
+         </Value>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Erfdienstbaarheid</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>zakelijk-recht-kodes-aa</ShortName>
+		<Version>v20150602_150834</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/zakelijk-recht-kodes-aa</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/zakelijk-recht-kodes-aa/v20150602_150834</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Id="A" Use="required">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Id="B" Use="optional">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Id="C" Use="required">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET BP RECHT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET ZAKELIJK RECHT ALS BEDOELD IN ART.5,LID 3,ONDER B, VAN DE BELEMMERINGENWET PRIVAATRECHT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>ERFPACHT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>ERFPACHT OP OPSTAL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET ERFPACHT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET OPSTAL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET VRUCHTGEBRUIK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>OPSTAL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET OPSTAL NUTSVOORZIENINGEN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET OPSTAL LEIDINGEN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>ONDERERFPACHT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>EIGENDOM BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>ONDEROPSTAL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>OPSTAL OP ERFPACHT</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>

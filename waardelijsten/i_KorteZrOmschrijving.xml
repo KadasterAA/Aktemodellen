@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Crane-gc2html.xsl"?>
+<?Crane-gc2ods indentation Save with indentation?>
+<?Crane-gc2ods encoding UTF-8?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Annotation>
+      <Description>KIK-Inzage specifieke waardelijst, ter vervanging van enumeraties in de xsd</Description>
+   </Annotation>
+   <Identification>
+      <ShortName>KorteZrOmschrijving</ShortName>
+      <LongName>KorteZrOmschrijving</LongName>
+      <Version>2013-06-13</Version>
+      <CanonicalUri>KorteZrOmschrijving</CanonicalUri>
+      <CanonicalVersionUri>KorteZrOmschrijving20130613</CanonicalVersionUri>
+      <LocationUri>https://service1.kadaster.nl/kik/waardelijsten/i_KorteZrOmschrijving.xml</LocationUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="String"/>
+      </Column>
+      <Column Id="Waarde" Use="required">
+         <ShortName>Waarde</ShortName>
+         <Data Type="String"/>
+      </Column>
+      <Column Id="DatumVanaf" Use="optional">
+         <ShortName>DatumVanaf</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="DatumTot" Use="optional">
+         <ShortName>DatumTot</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="CodeKey">
+         <ShortName>key for column 'Code'</ShortName>
+         <ColumnRef Ref="Code"/>
+      </Key>
+      <Key Id="WaardeKey">
+         <ShortName>key for column 'Waarde'</ShortName>
+         <ColumnRef Ref="Waarde"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>1</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>BEKLEMRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>2</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>BEKLEMRECHT BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>3</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>BEKLEMRECHT BELAST MET VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>4</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>5</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET BEKLEMRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>6</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET BEPERKTE RECHTEN</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>7</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET ERFPACHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>8</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET ERFPACHT EN OPSTAL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>9</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>10</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET OPSTAL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET STADSMEIERRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>EIGENDOM BELAST MET VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT BELAST MET VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT EN OPSTAL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>19</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT EN OPSTAL BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>20</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ERFPACHT EN OPSTAL BELAST MET VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ONDERBEKLEMRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ONDERERFPACHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>26</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>OPSTAL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>27</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>OPSTAL BELAST MET GEBRUIK EN BEWONING</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>28</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>OPSTAL BELAST MET VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>STADSMEIERRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>VRUCHTGEBRUIK</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ZAKELIJK RECHT ALS BEDOELD IN ART.5,LID 3,ONDER B, VAN DE BELEMMERINGENWET PRIVAATRECHT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Waarde">
+            <SimpleValue>ZIE AKTE</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

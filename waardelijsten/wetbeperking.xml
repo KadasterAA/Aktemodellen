@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>wetbeperking-aa</ShortName>
+		<Version>v20121109_100254</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/wetbeperking-aa</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/wetbeperking-aa/v20121109_100254</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="D">
+			<ShortName>kode</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+		<Key Id="kodeKey">
+			<ShortName>key for column 'kode'</ShortName>
+			<ColumnRef Ref="D"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Flora- en Faunawet (beschermde leefomgeving)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belemmeringenwet Privaatrecht (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Boswet (kapverbod)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belemmeringenwet Landsverdediging</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet ruimtelijke ordening (exploitatieplan)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet inzake de luchtverontreiniging (gedoogplicht)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ontgrondingenwet (gedoogplicht)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Interimwet Stad en Milieubenadering (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet Bodembescherming (kennisgeving, vordering, bevel of beschikking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Luchtvaartwet (verbod)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Provinciale monumentenverordening</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Monumentenwet 1988 (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Natuurbeschermingswet 1998 (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wabo (handhavingsbesluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wabo (vorderingsbesluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Grondwaterwet (gedoogplicht) </SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Waterschapskeur (plicht tot onderhoud of verbodsbepaling)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet agrarisch grondverkeer (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet geluidhinder (Artikel 110)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Waterstaatswet 1900 (besluit of bevel)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Waterwet (bevel of gedoogplicht)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (besluit)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gemeentewet (Sluiting van woning, lokaal of bijbehorend erf) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gemeentewet (heffen van bouwgrondbelasting) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gemeentewet (heffen van baatbelasting) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Waterstaatswet 1900 (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Opiumwet (Sluiting object) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Huisvestingswet (Huisvestingsverordening, splitsingsvergunningstelsel) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Huisvestingswet (Vordering tot woonruimte) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet Bodembescherming (Kennisgeving, vordering, bevel of beschikking) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet ruimtelijke ordening (Exploitatieplan) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet voorkeursrecht gemeenten (Aanwijzing van gronden) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet voorkeursrecht gemeenten (Voorstel tot aanwijzing van gronden) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (Plicht tot het treffen van voorzieningen) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (Plicht tot het treffen van voorzieningen ten behoeve van eisen van welstand) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet  (Plicht tot gebruik of beheer door derden)(gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (Aanschrijving) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (Sluiting gebouw, open erf of terrein) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Woningwet (Bestuursdwangbesluit of dwangsombesluit) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Waterwet (Bevel of gedoogplicht) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet algemene bepalingen omgevingsrecht (Bestuursdwangbesluit of dwangsombesluit) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gemeentewet (Beschermd monument) (gemeentelijke beperking)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-07-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2012-10-15</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Besluit op grond van de wet Milieubeheer</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-10-15</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wet milieubeheer</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2016-07-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gedoogplicht archeologisch onderzoek, Erfgoedwet</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EW</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>

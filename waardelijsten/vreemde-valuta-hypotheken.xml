@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>vreemde-valuta-hypotheken</ShortName>
+		<Version>v20110214_160246</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/vreemde-valuta-hypotheken</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/vreemde-valuta-hypotheken/v20110214_160246</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Andorrese peseta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dirham uit de Verenigde Arabische Emiraten</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Afghaanse afghani</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Afghaanse afghani</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Albanese lek</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Armeense dram</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nederlands Antilliaanse gulden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Angolese kwanza</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Angolese kwanza</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Angolese kwanza reajustado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Argentijnse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Argentijnse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oostenrijkse schilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Australische dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Arubaanse gulden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Manat uit Azerbeidzjan</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Manat uit Azerbeidzjan</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bosnische Mark</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dollar uit Barbados</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Taka uit Bangladesh</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belgische frank</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bulgaarse lev</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bulgaarse lev</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bahreinse dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Burundische frank</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Burundische franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bermudaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bruneise dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Boliviaanse boliviano</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Braziliaanse real cruzeiro</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bahamaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bhutaanse Ngultrum</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Botswaanse pula</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Roebel uit Wit Rusland</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Roebel uit Wit Rusland</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belizaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Canadese dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Congolese Dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zwitserse frank</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Chileense peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Chinese Yuan renminbi</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Colombiaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Colombiaanse unidad de valor real</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Costaricaanse colon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Servische Dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cubaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kaapverdische escudo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cypriotisch pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tsjechische koruna</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Duitse mark</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Djiboutiaanse franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Deense kroon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dominicaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Algerijnse dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ecuadoraanse sucre</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2011-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Estlandse kroon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Egyptisch pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Eritrese Nafka</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Spaanse peseta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ethiopische birr</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Euro</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Finse markka</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Fijische dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pond van de Falkland-eilanden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Franse franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Engelse pond sterling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Georgische kupon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Georgische Lari</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ghanese cedi</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gibraltarees pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nederlandse gulden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gambiaanse dalasi</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guinese franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Griekse drachme</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guatemalteekse quetzal</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guineebissause peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guyaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hongkong dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hondurese lempira</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kroatische kuna</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Haïtiaanse gourde</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hongaarse forint</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Indonesische rupiah</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ierse pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Israëlische shekel</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Indiase rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Iraakse dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Iraanse rial</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>IJslandse kroon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Italiaanse lire</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jamaicaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jordaanse dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Japanse yen</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kenyaanse shilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kirgizische som</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cambodjaanse riel</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Comorese frank</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Noord-Koreaanse won</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zuid-Koreaanse won</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Koeweitse nieuwe dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dollar van de Kaaiman-eilanden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tenge uit Kazachstan</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Laotiaanse kip</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Libanese pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Srilankaanse rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Liberiaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Lesothaanse loti</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Litouwse Litas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Luxemburgse franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Letlandse lat</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Libische dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Marokkaanse dirham</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Moldavische lev</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malagassische ariary</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malagassische frank</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Macedonische Dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Myanmarese kyat</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mongoolse tugrik</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pataca uit Macau</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mauretanische ouguiya</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malteser lira</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mauritiaanse rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Maldivische ruffiyaa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malawische kwacha</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mexicaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mexicaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Maleisische ringgit</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mozambiquaanse metical</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mozambiquaanse metical</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Namibische Dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nigeriaanse naira</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nicaraguaanse cordoba</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nicaraguaanse cordoba oro</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Noorse kroon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nepalese rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuw-Zeelandse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Omaanse rial</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Panamese balboa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Peruaanse nieuwe sole</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kina uit Papoea Nieuw Guinea</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Filipijnse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pakistaanse rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Poolse zloty</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Poolse zloty</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Portugese escudo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Paraguayaanse guarani</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Rial uit Qatar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Roemeense leu</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Roemeense leu</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Russische roebel</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Russische roebel</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Rwandese franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Saudische riyal</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dollar van de Salomons-eilanden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Seychelse rupee</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sudanese dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Soedanese pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zweedse Kroon</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Singaporese dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint-Heleense pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sloveense Tolar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Slowaakse koruna</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sierraleoonse leone</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Somalische shilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Surinaamse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Surinaamse gulden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dobra van Sao Toma en Principe</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Colon uit El Salvador</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Syrische pond</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Lilangeni uit Swaziland</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Thaise baht</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tadzjiekse Roebel</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tadzjiekse somini</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Manat uit Turkmenistan</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tunesische dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pa'anga uit Tonga</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Timorese escudo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Turkse lira</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwe turkse lira</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dollar uit Trinidad en Tobago</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Taiwanese dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tanzaniaanse shilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hryvnia uit Oekraine</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Karbovanet uit Oekraine</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ugandese shilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ugandese shilling</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Amerikaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Uruguayaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Uruguayaanse peso</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sum uit Oezbekistan</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Venezolaanse bolivar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Viëtnamese dong</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Vatu uit Vanuata</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tala uit West-Somoa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>CFA frank equatoriaal</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oost-Caribische dollar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2002-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ecu</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>CFA franc west</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Polynesische franc</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jeminitische rial</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwe Joegoslavische dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwe Joegoslavische dinar</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zuid-Afrikaanse rand</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zambiaanse kwacha</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zaïrese zaire</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zimbabwaanse dollar</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>
