@@ -1,3 +1,5 @@
+Per implementatienummer vindt u hier de versie van het stylesheet met bijbehorende versie van het keuzetekstenfile.
+
 Depotnummer|Implementatienr|Versie stylesheet|Versie keuzeteksten
 ---|---|---|---
 20140830000001|5|1.79|1.26
