@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd"><!--HALLO-->
+   <Identification>
+      <ShortName>burgerlijkestaatkik</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/burgerlijkestaatkik</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/burgerlijkestaatkik/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Omschrijving" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="Omschrijving"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>thans ongehuwd en geen geregistreerd partner</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>ongehuwd en geen geregistreerd partner</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>gehuwd</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>geregistreerd partner</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd">
+   <Identification>
+      <ShortName>objekt-belemmering</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/objekt-belemmering</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/objekt-belemmering/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="column1" Use="required">
+         <ShortName>OBJ-BEL</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Column Id="column2" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="OBJ-BELKey">
+         <ShortName>OBJ-BEL Key</ShortName>
+         <ColumnRef Ref="column1"/>
+      </Key>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="column2"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+         <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ERFD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Erfdienstbaarheid</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KV</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kwalitatieve verbintenis</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

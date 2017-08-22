@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd"><!--HALLO-->
+   <Identification>
+      <ShortName>titelingezetenekik</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/titelingezetenekik</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/titelingezetenekik/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Omschrijving" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="Omschrijving"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>bc.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.Drs.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.ing.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.ir.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.Mr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Dr.rer.nat.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Drs.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Drs.ing.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Drs.ir.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>ing.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>ir.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Mr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Mr.Dr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Mr.Drs.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Mr.ing.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Mr.ir.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Dr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Dr.ing.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Dr.ir.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Dr.Mr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Drs.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Mr.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prof.Mr.Dr.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

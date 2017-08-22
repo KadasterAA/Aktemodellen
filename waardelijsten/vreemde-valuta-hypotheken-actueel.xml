@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd">
+   <Identification>
+      <ShortName>vreemde-valuta-hypotheken-actueel</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/vreemde-valuta-hypotheken-actueel</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/vreemde-valuta-hypotheken-actueel/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="column1" Use="required">
+         <ShortName>Vreemde valuta hypotheken</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Column Id="column2" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Column Id="column3" Use="required">
+         <ShortName>ind verv</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="Vreemde-valuta-hypothekenKey">
+         <ShortName>Vreemde valuta hypotheken Key</ShortName>
+         <ColumnRef Ref="column1"/>
+      </Key>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="column2"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AED</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dirham uit de Verenigde Arabische Emiraten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AFN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Afghaanse afghani</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ALL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Albanese lek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AMD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Armeense dram</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ANG</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nederlands Antilliaanse gulden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AOA</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Angolese kwanza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ARS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Argentijnse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AUD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Australische dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AWG</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Arubaanse gulden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>AZN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Manat uit Azerbeidzjan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BAM</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bosnische Mark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BBD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dollar uit Barbados</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BDT</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Taka uit Bangladesh</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BGN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bulgaarse lev</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BHD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bahreinse dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BIF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Burundische frank</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BMD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bermudaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BND</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bruneise dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BOB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Boliviaanse boliviano</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BRL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Braziliaanse real cruzeiro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BSD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bahamaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BTN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Bhutaanse Ngultrum</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BWP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Botswaanse pula</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BYR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Roebel uit Wit Rusland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>BZD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Belizaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CAD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Canadese dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CDF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Congolese Dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CHF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zwitserse frank</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CLP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Chileense peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CNY</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Chinese Yuan renminbi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>COP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Colombiaanse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>COU</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Colombiaanse unidad de valor real</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CRC</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Costaricaanse colon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CSD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Servische Dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CUP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Cubaanse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CVE</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kaapverdische escudo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CYP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Cypriotisch pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>CZK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tsjechische koruna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>DJF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Djiboutiaanse franc</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>DKK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Deense kroon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>DOP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dominicaanse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>DZD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Algerijnse dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>EEK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Estlandse kroon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>EGP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Egyptisch pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ERN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Eritrese Nafka</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ETB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Ethiopische birr</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>EUR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Euro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>FJD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Fijische dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>FKP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Pond van de Falkland-eilanden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GBP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Engelse pond sterling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GEL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Georgische Lari</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GHC</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Ghanese cedi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GIP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Gibraltarees pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GMD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Gambiaanse dalasi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GNF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Guinese franc</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GTQ</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Guatemalteekse quetzal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>GYD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Guyaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>HKD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Hongkong dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>HNL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Hondurese lempira</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>HRK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kroatische kuna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>HTG</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Haïtiaanse gourde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>HUF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Hongaarse forint</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>IDR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Indonesische rupiah</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ILS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Israëlische shekel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>INR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Indiase rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>IQD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Iraakse dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>IRR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Iraanse rial</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ISK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>IJslandse kroon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>JMD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Jamaicaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>JOD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Jordaanse dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>JPY</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Japanse yen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KES</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kenyaanse shilling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KGS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kirgizische som</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KHR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Cambodjaanse riel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KMF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Comorese frank</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KPW</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Noord-Koreaanse won</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KRW</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zuid-Koreaanse won</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KWD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Koeweitse nieuwe dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KYD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dollar van de Kaaiman-eilanden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>KZT</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tenge uit Kazachstan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LAK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Laotiaanse kip</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LBP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Libanese pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LKR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Srilankaanse rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LRD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Liberiaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LSL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Lesothaanse loti</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LTL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Litouwse Litas</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LVL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Letlandse lat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>LYD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Libische dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MAD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Marokkaanse dirham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MDL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Moldavische lev</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MGA</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Malagassische ariary</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MKD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Macedonische Dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MMK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Myanmarese kyat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MNT</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Mongoolse tugrik</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MOP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Pataca uit Macau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MRO</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Mauretanische ouguiya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MTL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Malteser lira</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MUR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Mauritiaanse rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MVR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Maldivische ruffiyaa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MWK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Malawische kwacha</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MXN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Mexicaanse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MYR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Maleisische ringgit</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>MZN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Mozambiquaanse metical</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NAD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Namibische Dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NGN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nigeriaanse naira</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NIO</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nicaraguaanse cordoba oro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NOK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Noorse kroon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NPR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nepalese rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>NZD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nieuw-Zeelandse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>OMR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Omaanse rial</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PAB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Panamese balboa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PEN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Peruaanse nieuwe sole</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PGK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Kina uit Papoea Nieuw Guinea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PHP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Filipijnse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PKR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Pakistaanse rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PLN</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Poolse zloty</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>PYG</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Paraguayaanse guarani</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>QAR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Rial uit Qatar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>RON</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Roemeense leu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>RUB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Russische roebel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>RWF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Rwandese franc</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SAR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Saudische riyal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SBD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dollar van de Salomons-eilanden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SCR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Seychelse rupee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SDD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Sudanese dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SEK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zweedse Kroon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SGD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Singaporese dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SHP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Sint-Heleense pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SIT</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Sloveense Tolar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SKK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Slowaakse koruna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SLL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Sierraleoonse leone</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SOS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Somalische shilling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SRD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Surinaamse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>STD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dobra van Sao Toma en Principe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SVC</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Colon uit El Salvador</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SYP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Syrische pond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>SZL</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Lilangeni uit Swaziland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>THB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Thaise baht</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TJS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tadzjiekse somini</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TMM</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Manat uit Turkmenistan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TND</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tunesische dinar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TOP</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Pa'anga uit Tonga</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TPE</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Timorese escudo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TRY</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Nieuwe turkse lira</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TTD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Dollar uit Trinidad en Tobago</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TWD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Taiwanese dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>TZS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tanzaniaanse shilling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>UAH</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Hryvnia uit Oekraine</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>UGX</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Ugandese shilling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>USD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Amerikaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>UYU</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Uruguayaanse peso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>UZS</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Sum uit Oezbekistan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>VEB</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Venezolaanse bolivar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>VND</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Viëtnamese dong</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>VUV</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Vatu uit Vanuata</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>WST</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Tala uit West-Somoa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>XAF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>CFA frank equatoriaal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>XCD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Oost-Caribische dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>XOF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>CFA franc west</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>XPF</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Polynesische franc</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>YER</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Jeminitische rial</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ZAR</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zuid-Afrikaanse rand</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ZMK</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zambiaanse kwacha</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="column1">
+            <SimpleValue>ZWD</SimpleValue>
+         </Value>
+         <Value ColumnRef="column2">
+            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

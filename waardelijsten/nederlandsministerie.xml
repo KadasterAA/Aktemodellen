@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>nederlandsministerie</ShortName>
+		<Version>v20101125_091909</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nederlandsministerie</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nederlandsministerie/v20101125_091909</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="D">
+			<ShortName>kode</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+		<Key Id="kodeKey">
+			<ShortName>key for column 'kode'</ShortName>
+			<ColumnRef Ref="D"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Algemene Zaken</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Binnenlandse Zaken en Koninkrijksrelaties</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Buitenlandse Zaken</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Defensie</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Economische Zaken</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Financiën</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Justitie</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Landbouw, Natuur en Voedselkwaliteit</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Onderwijs, Cultuur en Wetenschap</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sociale Zaken en Werkgelegenheid</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Verkeer en Waterstaat</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Volksgezondheid, Welzijn en Sport</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Economische Zaken, Landbouw en Innovatie</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Infrastructuur en Milieu</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-14</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Veiligheid en Justitie</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>

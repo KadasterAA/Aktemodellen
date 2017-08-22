@@ -1,0 +1,3157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>land-kodes</ShortName>
+		<Version>v20110214_160246</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/land-kodes</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/land-kodes/v20110214_160246</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="D">
+			<ShortName>kode</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+		<Key Id="kodeKey">
+			<ShortName>key for column 'kode'</ShortName>
+			<ColumnRef Ref="D"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Anguilla</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Aruba</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Azoren</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Andorra</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Verenigde Arabische Emiraten</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Afghanistan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Antigua en Barbuda</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Frans Afar en Issa gebied</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Albanië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Armenië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2010-11-09</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nederlandse Antillen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Angola</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Antarctica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Argentinië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Amerikaans Samoa</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oostenrijk</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Australië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ascension</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Azerbajdsjan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>AZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Republiek van Palau</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Barbados</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bangladesh</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>België</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-28</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bonaire</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bulgarije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bahrein</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Burundi</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belarus (Wit-Rusland)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bermuda</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Brunei</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bolivia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Brits territorium in Antarctica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Brazilië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bahama-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bhutan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Myanmar</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bouvet-eiland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Botswana</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bosnie-Herzegovina</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BX</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Belize</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Canada</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-28</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Curacao</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cocoseilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Centrafrika</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kongo Brazzaville</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zwitserland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ivoorkust</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cookeilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Chili</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kameroen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>China</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Colombia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Costa Rica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tsjechoslowakije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Canton en Enderbury</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cuba</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kaapverdische eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Christmaseiland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CX</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Cyprus</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Duitse Democratische Republiek</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Bondsrepubliek Duitsland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Djibouti</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Denemarken</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dominica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dominicaanse Republiek</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Benin</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Algerije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-28</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint Eustatius</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ecuador</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Egypte</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Spaans Noord-Afrika</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Estland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Eritrea</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ER</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Spanje</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ES</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ethiopië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ET</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Finland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Fiji</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Falklandeilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Faeroer</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Frans Zuid-Antarctica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Frankrijk</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>FR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gabon</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Groot-Brittannië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Grenada</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gilbert- en Ellice-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Frans Guyana</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Georgië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ghana</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gibraltar</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Groenland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Gambia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guinee</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guadeloupe</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Equatoriaal-Guinee</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Griekenland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guatemala</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guam</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guinee Bissau</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Guyana</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>GY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hongkong</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Heard en MC Donald eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Honduras</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Haïti</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Hongarije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Burkina Faso</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>HV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Canarische eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Indonesië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ID</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Ierland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Israël</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>India</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Brits territorium in de Indische Oceaan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Irak</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Iran</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>IJsland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Italië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>IT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jamaica</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>JM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jordanië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>JO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Japan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>JP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Federale Republiek Joegoslavië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>JS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Johnston</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>JT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kiribati</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kenya</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kyrgyzstan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kambodja</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Comoren</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Saint Kitts-Nevis</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Noordkorea</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kanaal-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zuidkorea</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kroatië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Koeweit</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Caymaneilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kazachstan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Laos</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Libanon</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint Lucia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Liechtenstein</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sri Lanka</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Letland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Liberia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Lesotho</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Litouwen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Luxemburg</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Libië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>LY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Marokko</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Moldavië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Monaco</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Madeira-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Montenegro</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ME</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mayotte</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Madagaskar</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Marshalleilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Midway</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-28</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint Maarten</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Macedonië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mali</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ML</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Man</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mongolië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Macau</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Micronesia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Martinique</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mauritanië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Montserrat</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malta</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mauritius</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Maldiven</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Malawi</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mexico</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MX</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Maleisië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Mozambique</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Namibië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwcaledonie</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Niger</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Norfolk</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nigeria</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwehebriden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nicaragua</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nederland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Noorwegen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nepal</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dronning Maud-land</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nauru</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Neutr. zone (T. Saoedi en Irak)</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Niue</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Nieuwzeeland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oekraine</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Muscat en Oman</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oman</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ON</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Oezbekistan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Panama</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Eil. Pacific beheerd door V.S.</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Peru</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Frans Polynesië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Papua Nieuwguinea</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Filipijnen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pakistan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Polen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Saint Pierre en Miquelon</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Pitcairneilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Puerto Rico</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Portugal</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Eil. Pacific behorend tot V.S.</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Paraguay</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Panamakanaalzone</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Katar</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>QA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Reunion</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Rhodesië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Roemenië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Servie </SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Rusland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Rwanda</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>RW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Saoediarabie</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Solomoneilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Seychellen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Soedan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zweden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Singapore</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint Helena</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Svalbard-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sikkim</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sierra Leone</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>San Marino</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Senegal</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Somalia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Slovenië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Suriname</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Servie en Montenegro</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sao Tome en Principe</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ST</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sowjetunie</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>El Salvador</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Slowakije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2010-10-28</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Saba</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SX</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Syrië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Swaziland</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>SZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tadzjikistan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Turks- en Caicoseilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tsjaad</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Togo</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Thailand</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TH</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tibet</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tsjechië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TJ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tokelau-eilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Timor Leste</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TL</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Toerkmenistan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tunesië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tonga</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TO</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Portugees Timor</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Turkije</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TR</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tristan da Cunha</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Trinidad en Tobago</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tuvalu</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Taiwan</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TW</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Tanzania</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>TZ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Uganda</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>UG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Verenigde Staten van Amerika</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>US</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Uruguay</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>UY</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Vaticaanstad</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Sint Vincent en de Grenadinen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Venezuela</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Britse Maagdeneilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VG</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Amerikaanse Maagdeneilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VI</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Vietnam</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VN</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Vanuatu</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VT</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wallis- en Futuna</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WF</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Wake</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Westelijke Sahara</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WQ</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Westsamoa</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>WS</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kosovo</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>XK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Dem. Volksrepubliek Jemen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>YD</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Jemen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>YE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2009-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Joegoslavië</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>YU</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zuidafrika</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ZA</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zimbabwe</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ZB</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Zambia</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ZM</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Democratische Republiek Congo</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ZR</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>

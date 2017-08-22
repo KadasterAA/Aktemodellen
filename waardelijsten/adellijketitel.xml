@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd"><!--HALLO-->
+   <Identification>
+      <ShortName>adellijketitelkik</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/adellijketitelkik</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/adellijketitelkik/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Omschrijving" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="Omschrijving"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Baron</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Barones</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Graaf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Gravin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Hertog</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Hertogin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Jonkheer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Jonkvrouw</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Markies</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Markiezin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prins</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Prinses</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>Ridder</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:kad="http://www.kadaster.nl/schema">
+<Identification>
+<ShortName>reeks-kode</ShortName>
+<Version>1.0</Version>
+<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/reeks-kode</CanonicalUri>
+<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/reeks-kode/1.0</CanonicalVersionUri>
+</Identification>
+<ColumnSet DatatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<Column Id="Reeks-kode" Use="required">
+<ShortName>Reeks kode</ShortName>
+<Data Type="xs:string" />
+</Column>
+<Column Id="Omschrijving" Use="required">
+<ShortName>Omschrijving</ShortName>
+<Data Type="xs:string" />
+</Column>
+<Key Id="Reeks-kodeKey">
+<ShortName>Reeks kode Key</ShortName>
+<ColumnRef Ref="Reeks-kode" />
+</Key>
+<Key Id="OmschrijvingKey">
+<ShortName>Omschrijving Key</ShortName>
+<ColumnRef Ref="Omschrijving" />
+</Key>
+</ColumnSet>
+<SimpleCodeList>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>AHM</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Arnhem</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>AMF</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Amersfoort</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>AML</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Almelo</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>AMR</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Alkmaar</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>APG</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Appingedam</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ASD</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Amsterdam</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ASN</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Assen</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>BDA</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Breda</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>BLE</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Brielle</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>DDT</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Dordrecht</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>DVT</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Deventer</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>EHV</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Eindhoven</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>EML</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Emmeloord NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ENS</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Ens NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>EPL</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Espel NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>GNG</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Groningen</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>GOE</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Goes</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>GRC</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Gorinchem</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>GVH</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>s-Gravenhage</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>HLM</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Haarlem</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>HOO</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Hoorn</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>HRV</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Heerenveen</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>HTG</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>s-Hertogenbosch</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>LDN</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Leiden</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>LLS</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Lelystad</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>LTG</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Luttelgeest NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>LWD</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Leeuwarden</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>MDB</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Middelburg</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>MNS</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Marknesse NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>MTT</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Maastricht</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>NGL</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Nagele NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>NMG</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Nijmegen</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>OFV</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Oostelijk Flevoland</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>RMD</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Roermond</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>RTD</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Rotterdam</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>RTN</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Rutten NOP</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>RWK</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Rijswijk</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>SNE</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Sneek</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>TIE</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Tiel</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>UTT</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Utrecht</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>WST</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Winschoten</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ZFV</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Zuidelijk Flevoland</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ZLE</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Zwolle</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ZPN</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Zutphen</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ZRZ</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Zierikzee</SimpleValue>
+</Value>
+</Row>
+<Row>
+<Value ColumnRef="Reeks-kode">
+<SimpleValue>ZTM</SimpleValue>
+</Value>
+<Value ColumnRef="Omschrijving">
+<SimpleValue>Zoetermeer</SimpleValue>
+</Value>
+</Row>
+</SimpleCodeList>
+</gc:CodeList>

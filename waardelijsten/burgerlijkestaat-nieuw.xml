@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kad="http://www.kadaster.nl/schema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd"><!--HALLO-->
+   <Identification>
+      <ShortName>burgerlijkestaat</ShortName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/burgerlijkestaat</CanonicalUri>
+      <CanonicalVersionUri>http://www.kadaster.nl/schemas/dataverkeer/waardelijst/burgerlijkestaat/1.0</CanonicalVersionUri>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Omschrijving" Use="required">
+         <ShortName>Omschrijving</ShortName>
+         <Data Type="xs:string"/>
+      </Column>
+      <Column Id="ZR-bel-kode" Use="required">
+			<ShortName>ZR-bel-kode</ShortName>
+			<Data Type="xs:string" />
+	  </Column>
+      <Key Id="OmschrijvingKey">
+         <ShortName>Omschrijving Key</ShortName>
+         <ColumnRef Ref="Omschrijving"/>
+      </Key>
+      <Key Id="ZR-bel-kodeKey">
+         <ShortName>ZR-bel-kode Key</ShortName>
+         <ColumnRef Ref="ZR-bel-kode"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>ongehuwd</SimpleValue>
+         </Value>
+         <Value ColumnRef="ZR-bel-kode">
+            <SimpleValue>BN</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>geregistreerd partner</SimpleValue>
+         </Value>
+                  <Value ColumnRef="ZR-bel-kode">
+            <SimpleValue>BP</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Omschrijving">
+            <SimpleValue>gehuwd</SimpleValue>
+         </Value>
+                  <Value ColumnRef="ZR-bel-kode">
+            <SimpleValue>BG</SimpleValue>
+         </Value>
+      </Row>      
+   </SimpleCodeList>
+</gc:CodeList>
