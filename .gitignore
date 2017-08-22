@@ -21,3 +21,12 @@ hs_err_pid*
 .idea/
 Thumbs.db
 
+# hidden OSX Files
+
+.Spotlight-V100
+.Trashes
+._.Trashes
+.disk
+.fseventsd
+
+
