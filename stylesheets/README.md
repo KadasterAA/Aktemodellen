@@ -1,7 +1,7 @@
 Per implementatienummer vindt u hier de versie van het stylesheet met bijbehorende versie van het keuzetekstenfile.
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Versie keuzeteksten
----|---|---|---|---
+:---:|:---:|---|---|---
 Hypotheek ABN AMRO AAB|20140830000001|5|1.79|1.26
  “ | “ |7|3.3.0|3.3.0
  “ | “ |6|1.80|1.26
