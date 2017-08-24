@@ -7,6 +7,8 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 De hier gepubliceerde informatie vervangt op termijn de informatie welke nu nog gepubliceerd staat op https://kik-aa.kadaster.nl/kik/aktemodellen/.
 
+We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
+
 # Globale release notes
 Dit is een voorbeeld hoe de globale release notes er uit kunnen gaan zien.
 
