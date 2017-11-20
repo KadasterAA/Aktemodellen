@@ -12,6 +12,9 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 # Globale release notes
 Dit is een voorbeeld hoe de globale release notes er uit kunnen gaan zien.
 
+## Release 17 november 2017 #
+- Aanpassing van een technische waardelijst. [Details staan in de release notes voor Abn Amro AAB](/modeldocumenten/Hypotheek ABN AMRO AAB/20140830000001/Releasenotes Modeldocumenten 2014083000000x - 8.doc)
+
 ## Release 12 april 2017
 - Numerieke definities in StukAlgemeen aangepast. [Details staan in Changelog van XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD)
 ....
