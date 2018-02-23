@@ -9,7 +9,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 # Globale release notes
 ## Release 23 februari 2018 
-- We vaste tekst bij hypotheekrecht en overbrugging aangepast conform model MUNT 18.01. Daarnaast hebben we een voorbeeld en de toelichting verbeterd van dit modeldocument. Meer details staan beschreven in de [release notes voor de Munt hypotheek](/modeldocumenten/Hypotheek%20Munt/20161001000018/Releasenotes%20Munt%2020161001000018%20-%205.md)
+- De vaste tekst bij hypotheekrecht en overbrugging aangepast conform model MUNT 18.01. Daarnaast hebben we een voorbeeld en de toelichting verbeterd van dit modeldocument. Meer details staan beschreven in de [release notes voor de Munt hypotheek](/modeldocumenten/Hypotheek%20Munt/20161001000018/Releasenotes%20Munt%2020161001000018%20-%205.md)
 
 
 ## Release 29 januari 2018 #
