@@ -1,106 +1,105 @@
-Per implementatienummer vindt u hier de versie van het stylesheet met bijbehorende versie van het keuzetekstenfile.
+Per implementatienummer vindt u hier de versie van het stylesheet
 
-Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Versie keuzeteksten
-:---:|:---:|---|---|---
-Akte van levering KNB nieuw|20140830000007|12|4.4.0|4.2.0
- “ | “ |11|4.3.0|4.2.0
- “ | “ |10|4.2.0|4.2.0
- “ | “ |9|1.94|1.39
- “ | “ |8|1.93|1.39
- “ | “ |7|1.92|1.39
- “ | “ |6|1.91|1.39
-Akte van verdeling|20150801000009|9|3.10.0|3.8.0
- “ | “ |8|3.9.0|3.8.0
- “ | “ |7|3.8.0|3.8.0
- “ | “ |6|1.72|1.25
- “ | “ |5|1.71|1.25
- “ | “ |4|1.70|1.25
- “ | “ |3|1.69|1.25
- “ |20140830000009|8|1.66.05|1.23.01
- “ | “ |7|1.66.04|1.23
- “ | “ |6|1.66.03|1.23
- “ | “ |5|1.66.02|1.23
-Doorhaling hypotheek |20160401000010|7|2.1.8|2.0.0 
- “ | “ |6|2.1.7|2.0.0
- “ | “ |5|2.1.6|2.0.0
- “ | “ |4|2.1.5|2.0.0
- “ | “ |3|2.1.6|2.0.0
- “ | “ |2|2.1.3|2.0.0
- “ | “ |1|2.0.1|2.0.0
-Hypotheek ABN AMRO AAB|20140830000001|9|3.5.0|3.3.0
- “ | “ |8|3.4.0|3.3.0
- “ | “ |7|3.3.0|3.3.0
- “ | “ |6|1.80|1.26
- “ | “ |5|1.79|1.26
-Hypotheek ABN AMRO Florius|20140830000002|9|3.4.0|3.2.0
- “ | “ |8|3.3.0|3.2.0
- “ | “ |7|3.2.0|3.2.0
- “ | “ |6|1.80|1.27
- “ | “ |5|1.79|1.27
-Hypotheek ABN AMRO MoneYou|20140830000003|9|3.6.0|3.4.0
- “ | “ |8|3.5.0|3.4.0
- “ | “ |7|3.4.0|3.4.0
- “ | “ |6|1.80|1.26
- “ | “ |5|1.79|1.26
-Hypotheek ABP|20170727000019|4|obvion_abp-1.3.0|obvion-2.3.0
- “ | “ |3|obvion_abp-1.2.0|obvion-2.3.0
- “ | “ |2|obvion_abp-1.1.0|obvion-2.3.0
- “ | “ |1|obvion_abp-1.0.0|obvion-2.3.0
-Hypotheek AEGON|20170606000015|3|4.2.0|2.3.0
- “ | “ |2|4.1.0|2.3.0
- “ | “ |1|4.0.0|2.3.0
- “ |20160701000015|1|3.0.0|2.3.0
-Hypotheek BLG|20151101000014|5|2.4.0|2.1.1
- “ | “ |4|2.3.0|2.1.1
- “ | “ |3|2.2.0|2.1.1
- “ | “ |2|2.1|1.01
- “ | “ |1|2.0|1.01
-Hypotheek ING|20160101000004|4|3.4.0|3.2.0
- “ | “ |3|3.3.0|3.2.0
- “ | “ |2|3.2.0|3.2.0
- “ | “ |1|2.0.1|2.0.0
- “ |20140830000004|7|1.79.01|1.25.01
- “ | “ |6|1.79|1.25
- “ | “ |5|1.78|1.25
-Hypotheek Munt|20161001000018|4|1.3.0|1.0.0
- “ | “ |3|1.2.0|1.0.0
- “ | “ |2|1.1.0|1.0.0
- “ | “ |1|1.0.0|1.0.0 
-Hypotheek Obvion|20160701000012|5|obvion_abp-1.3.0|obvion-2.3.0
- “ | “ |4|obvion_abp-1.2.0|obvion-2.3.0
- “ | “ |3|obvion_abp-1.1.0|obvion-2.3.0
- “ | “ |2|obvion_abp-1.0.0|obvion-2.3.0
- “ | “ |1|obvion_3.1.0|obvion-2.3.0
- “ |20150101000012|7|2.3.0|2.3.0
- “ | “ |6|1.5.0|1.02
- “ | “ |5|1.0.7|1.02
- “ | “ |4|1.0.6|1.02
-Hypotheek Particulier|20140830000006|12|2.10.0|2.8.0
- “ | “ |11|2.9.0|2.8.0
- “ | “ |10|2.8.0|2.8.0
- “ | “ |9|1.77|1.27
- “ | “ |8|1.76|1.27
- “ | “ |7|1.75|1.27
-Hypotheek Rabobank|20140830000005|10|3.11.0|3.9.0
- “ | “  |9|3.10.0|3.9.0
- “ | “  |8|3.9.0|3.9.0
- “ | “  |7|1.88|1.27
- “ | “  |6|1.87|1.27
-Hypotheek Regiobank|20161201000016|3|2.2.0|1.2.0
- “ | “ |2|2.1.0|1.2.0
- “ | “ |1|2.0.0|1.2.0
- “ |20160201000016|3|1.2.0|1.2.0
- “ | “ |2|1.1.0|1.1.0
- “ | “ |1|1.00|1.00
-Hypotheek SNS|20161201000013|7|2.2.0|1.2.0
- “ | “ |6|2.1.0|1.2.0
- “ | “ |5|2.0.0|1.2.0
- “ |20150201000013|8|1.2.0|1.2.0
- “ | “ |7|1.11|1.01
- “ | “ |6|1.10|1.01
- “ | “ |5|1.09|1.01
-Notariële verklaring|20140830000008|10|2.11.0|2.9.0
-  “ | “ |9|2.10.0|2.9.0
-  “ | “ |8|2.9.0|2.9.0
-  “ | “ |7|1.76|1.26
-  “ | “ |6|1.75|1.26
+Modeldocument|Depotnummer|Implementatienr|Versie stylesheet
+:---:|:---:|---|---
+Akte van levering KNB nieuw model|20140830000007|12|levering-4.4.0
+ “ | “ |11|levering-4.3.0
+ “ | “ |10|levering-4.2.0
+ “ | “ |9|levering-1.94
+ “ | “ |8|levering-1.93
+ “ | “ |7|levering-1.92
+ “ | “ |6|levering-1.91
+Akte van verdeling|20150801000009|9|verdeling-3.10.0
+ “ | “ |8|verdeling-3.9.0
+ “ | “ |7|verdeling-3.8.0
+ “ | “ |6|verdeling-1.72
+ “ | “ |5|verdeling-1.71
+ “ | “ |4|verdeling-1.70
+ “ | “ |3|verdeling-1.69
+ “ |20140830000009|8|verdeling-1.66.05
+ “ | “ |7|verdeling-1.66.04
+ “ | “ |6|verdeling-1.66.03
+ “ | “ |5|verdeling-1.66.02
+Doorhaling hypotheek|20160401000010|7|doorhaling_hypotheek-2.1.8
+ “ | “ |6|doorhaling_hypotheek-2.1.7
+ “ | “ |5|doorhaling_hypotheek-2.1.6
+ “ | “ |4|doorhaling_hypotheek-2.1.5
+ “ | “ |3|doorhaling_hypotheek-2.1.4
+ “ | “ |2|doorhaling_hypotheek-2.1.3
+ “ | “ |1|doorhaling_hypotheek-2.0.1
+ “ |20090513000002|4|DoorhalingHypotheken-xml_xhtml-1.08
+Hypotheek ABN AMRO AAB|20140830000001|9|hypotheek_abn_amro_aab-3.5.0
+ “ | “ |8|hypotheek_abn_amro_aab-3.4.0
+ “ | “ |7|hypotheek_abn_amro_aab-3.3.0
+ “ | “ |6|hypotheek_abn_amro_aab-1.80
+ “ | “ |5|hypotheek_abn_amro_aab-1.79
+Hypotheek ABN AMRO Florius|20140830000002|9|hypotheek_abn_amro_florius-3.4.0
+ “ | “ |8|hypotheek_abn_amro_florius-3.3.0
+ “ | “ |7|hypotheek_abn_amro_florius-3.2.0
+ “ | “ |6|hypotheek_abn_amro_florius-1.80
+ “ | “ |5|hypotheek_abn_amro_florius-1.79
+Hypotheek ABN AMRO MoneYou|20140830000003|9|hypotheek_abn_amro_moneyou-3.6.0
+ “ | “ |8|hypotheek_abn_amro_moneyou-3.5.0
+ “ | “ |7|hypotheek_abn_amro_moneyou-3.4.0
+ “ | “ |6|hypotheek_abn_amro_moneyou-1.80
+ “ | “ |5|hypotheek_abn_amro_moneyou-1.79
+Hypotheek ABP|20170727000019|4|hypotheek_obvion_abp-1.3.0
+ “ | “ |3|hypotheek_obvion_abp-1.2.0
+ “ | “ |2|hypotheek_obvion_abp-1.1.0
+ “ | “ |1|hypotheek_obvion_abp-1.0.0
+Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
+ “ | “ |2|hypotheek_aegon-4.1.0
+ “ | “ |1|hypotheek_aegon-4.0.0
+ “ |20160701000015|1|hypotheek_aegon-3.0.0
+Hypotheek BLG|20151101000014|5|hypotheek_blg-2.4.0
+ “ | “ |4|hypotheek_blg-2.3.0
+ “ | “ |3|hypotheek_blg-2.2.0
+ “ | “ |2|hypotheek_blg-2.1
+ “ | “ |1|hypotheek_blg-2.0
+Hypotheek ING|20160101000004|4|hypotheek_ing-3.4.0
+ “ | “ |3|hypotheek_ing-3.3.0
+ “ | “ |2|hypotheek_ing-3.2.0
+ “ | “ |1|hypotheek_ing-2.0.1
+Hypotheek Munt|20161001000018|5|hypotheek_munt-1.4.0
+ “ | “ |4|hypotheek_munt-1.3.0
+ “ | “ |3|hypotheek_munt-1.2.0
+ “ | “ |2|hypotheek_munt-1.1.0
+ “ | “ |1|hypotheek_munt-1.0.0
+Hypotheek Obvion|20160701000012|5|hypotheek_obvion_abp-1.3.0
+ “ | “ |4|hypotheek_obvion_abp-1.2.0
+ “ | “ |3|hypotheek_obvion_abp-1.1.0
+ “ | “ |2|hypotheek_obvion_abp-1.0.0
+ “ | “ |1|hypotheek_obvion-3.1.0
+ “ |20150101000012|7|hypotheek_obvion-2.3.0
+ “ | “ |6|hypotheek_obvion-1.5.0
+ “ | “ |5|hypotheek_obvion-1.07
+ “ | “ |4|hypotheek_obvion-1.06
+Hypotheek Particulier|20140830000006|12|hypotheek_particulier-2.10.0
+ “ | “ |11|hypotheek_particulier-2.9.0
+ “ | “ |10|hypotheek_particulier-2.8.0
+ “ | “ |9|hypotheek_particulier-1.77
+ “ | “ |8|hypotheek_particulier-1.76
+ “ | “ |7|hypotheek_particulier-1.75
+Hypotheek Rabobank|20140830000005|10|hypotheek_rabobank-3.11.0
+ “ | “ |9|hypotheek_rabobank-3.10.0
+ “ | “ |8|hypotheek_rabobank-3.9.0
+ “ | “ |7|hypotheek_rabobank-1.88
+ “ | “ |6|hypotheek_rabobank-1.87
+Hypotheek Regiobank|20161201000016|3|hypotheek_regiobank-2.2.0
+ “ | “ |2|hypotheek_regiobank-2.1.0
+ “ | “ |1|hypotheek_regiobank-2.0.0
+ “ |20160201000016|3|hypotheek_regiobank-1.2.0
+ “ | “ |2|hypotheek_regiobank-1.1.0
+ “ | “ |1|hypotheek_regiobank-1.0.0
+Hypotheek SNS|20161201000013|7|hypotheek_sns-2.2.0
+ “ | “ |6|hypotheek_sns-2.1.0
+ “ | “ |5|hypotheek_sns-2.0.0
+ “ |20150201000013|8|hypotheek_sns-1.2.0
+ “ | “ |7|hypotheek_sns-1.11
+ “ | “ |6|hypotheek_sns-1.10
+ “ | “ |5|hypotheek_sns-1.09
+Notariële verklaring|20140830000008|10|notariele_verklaring-2.11.0
+ “ | “ |9|notariele_verklaring-2.10.0
+ “ | “ |8|notariele_verklaring-2.9.0
+ “ | “ |7|notariele_verklaring-1.76
+ “ | “ |6|notariele_verklaring-1.75
