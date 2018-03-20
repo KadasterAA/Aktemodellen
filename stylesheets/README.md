@@ -51,7 +51,12 @@ Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
  “ |20160701000015|1|hypotheek_aegon-3.0.0
-Hypotheek BLG|20151101000014|5|hypotheek_blg-2.4.0
+Hypotheek Aegon|20151001000015|4|hypotheek_aegon-2.3.0
+ “ | “ |3|hypotheek_aegon-1.0.2
+ “ | “ |2|hypotheek_aegon-1.0.1
+ “ | “ |1|hypotheek_aegon-1.0.0
+Hypotheek BLG|20151101000014|6|hypotheek_blg-2.5.0
+ “ | “ |5|hypotheek_blg-2.4.0
  “ | “ |4|hypotheek_blg-2.3.0
  “ | “ |3|hypotheek_blg-2.2.0
  “ | “ |2|hypotheek_blg-2.1
@@ -85,13 +90,15 @@ Hypotheek Rabobank|20140830000005|10|hypotheek_rabobank-3.11.0
  “ | “ |8|hypotheek_rabobank-3.9.0
  “ | “ |7|hypotheek_rabobank-1.88
  “ | “ |6|hypotheek_rabobank-1.87
-Hypotheek Regiobank|20161201000016|3|hypotheek_regiobank-2.2.0
+Hypotheek Regiobank|20161201000016|4|hypotheek_regiobank-2.3.0
+ “ | “ |3|hypotheek_regiobank-2.2.0
  “ | “ |2|hypotheek_regiobank-2.1.0
  “ | “ |1|hypotheek_regiobank-2.0.0
  “ |20160201000016|3|hypotheek_regiobank-1.2.0
  “ | “ |2|hypotheek_regiobank-1.1.0
  “ | “ |1|hypotheek_regiobank-1.0.0
-Hypotheek SNS|20161201000013|7|hypotheek_sns-2.2.0
+Hypotheek SNS|20161201000013|8|hypotheek_sns-2.3.0
+ “ | “ |7|hypotheek_sns-2.2.0
  “ | “ |6|hypotheek_sns-2.1.0
  “ | “ |5|hypotheek_sns-2.0.0
  “ |20150201000013|8|hypotheek_sns-1.2.0
