@@ -8,6 +8,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 27 maart 2018
+Dinsdag 20 maart hebben wij naar aanleiding van tekstwijzigingen in het model van de Volksbank, de modeldocumenten van de labels BLG, SNS en RegioBank aangepast en gepubliceerd. Deze aanpassingen hebben wij gerealiseerd onder een nieuw implementatienummer. 
+Dit bleek bij nader inzien een nieuw depotnummer te moeten zijn, omdat er een nieuwe controle op offertenummer is opgenomen welke nu ook onterecht ging gelden voor alle eerdere implementaties.
+De wijziging van de modeldocumenten hebben wij daarom per direct weer teruggedraaid.
+Wij zullen deze zo snel mogelijk weer onder een nieuw depotnummer publiceren. U ontvangt hiervan bericht.
+Excuses voor het ongemak.
+
 ## Release 20 maart 2018
 - De modeldocumenten van de Volksbank zijn aangepast met betrekking tot de offerte. Zie voor details de [release notes voor de BLG hypotheek](/modeldocumenten/Hypotheek%20BLG/20151101000014/Releasenotes%20BLG%2020151101000014%20-%206.md), de [release notes voor de RegioBank hypotheek](/modeldocumenten/Hypotheek%20Regiobank/20161201000016/Releasenotes%20Regiobank%2020161201000016%20-%204.md) en de [release notes voor de SNS hypotheek](/modeldocumenten/Hypotheek%20SNS/20161201000013/Releasenotes%20SNS%2020161201000013%20%20-%208.md).
 
