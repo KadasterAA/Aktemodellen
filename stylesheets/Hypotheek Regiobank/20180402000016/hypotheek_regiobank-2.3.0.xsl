@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 *************************************************************
-Stylesheet: hypotheek_aegon.xsl
-Version: 1.0.2 AA-2392 en 2131 (TB Aanhef)
+Stylesheet: hypotheek_regiobank.xsl
+Version: 2.3.0 (AA-3767: tekstwijziging en offertenummer toegevoegd)
 *************************************************************
 
 Description:
-Aegon hypotheek.
+Regiobank hypotheek.
 
 Public:
 (mode) do-deed
 -->
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia xsl xlink kef gc" version="1.0">
 	<xsl:include href="generiek-1.08.xsl"/>
-	<xsl:include href="tekstblok_aanhef-1.17.xsl"/>
-	<xsl:include href="tekstblok_burgerlijke_staat-1.01.xsl"/>
-	<xsl:include href="tekstblok_equivalentieverklaring-1.25.xsl"/>
-	<xsl:include href="tekstblok_gevolmachtigde-1.25.xsl"/>
+	<xsl:include href="tekstblok_aanhef-1.18.xsl"/>
+	<xsl:include href="tekstblok_burgerlijke_staat-1.02.xsl"/>
+	<xsl:include href="tekstblok_equivalentieverklaring-1.26.xsl"/>
+	<xsl:include href="tekstblok_gevolmachtigde-1.26.xsl"/>
 	<xsl:include href="tekstblok_legitimatie-1.01.xsl"/>
 	<xsl:include href="tekstblok_natuurlijk_persoon-1.12.xsl"/>
 	<xsl:include href="tekstblok_partij_natuurlijk_persoon-1.39.xsl"/>
-	<xsl:include href="tekstblok_partij_niet_natuurlijk_persoon-1.51.xsl"/>
+	<xsl:include href="tekstblok_partij_niet_natuurlijk_persoon-1.52.xsl"/>
+	<xsl:include href="tekstblok_partijnamen_in_hypotheekakten-1.14.xsl"/>
 	<xsl:include href="tekstblok_personalia_van_natuurlijk_persoon-1.06.xsl"/>
 	<xsl:include href="tekstblok_recht-1.16.xsl"/>
-	<xsl:include href="tekstblok_rechtspersoon-1.13.xsl"/>
-	<xsl:include href="tekstblok_registergoed-1.26.xsl"/>
+	<xsl:include href="tekstblok_rechtspersoon-1.14.0.xsl"/>
+	<xsl:include href="tekstblok_registergoed-1.27.xsl"/>
 	<xsl:include href="tekstblok_titel_hypotheekakten-1.01.xsl"/>
 	<xsl:include href="tekstblok_woonadres-1.05.xsl"/>
 	<xsl:include href="tweededeel-1.05.xsl"/>
-	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_aegon-1.00.xml')"/>
+	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_regiobank-1.2.0.xml')"/>
 	<xsl:variable name="legalPersonNames" select="document('nnp-kodes_hypotheek.xml')/gc:CodeList/SimpleCodeList/Row"/>
 	<xsl:variable name="RegistergoedTonenPerPerceel">
 		<!-- t.b.v. TB Registergoed -->
@@ -73,12 +74,6 @@ Public:
 	**** matching template ********************************************************************************
 	-->
 	<xsl:template match="tia:Bericht_TIA_Stuk" mode="do-deed">
-		<xsl:variable name="vordering" select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_vordering']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-				translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_vordering']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-				translate(normalize-space(current()/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_vordering']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="toestemming" select="tia:IMKAD_AangebodenStuk/tia:Partij[translate(tia:aanduidingPartij,$upper, $lower) = 'de schuldenaar']/tia:tekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_toestemmingpartners']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-				translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_toestemmingpartners']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-				translate(normalize-space(current()/tia:IMKAD_AangebodenStuk/tia:Partij[translate(tia:aanduidingPartij,$upper, $lower) = 'de schuldenaar']/tia:tekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_toestemmingpartners']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
 		<!-- Text block Statement of equivalence -->
 		<xsl:if test="translate($type-document, $upper, $lower) = 'afschrift'">
 			<a name="hyp3.statementOfEquivalence" class="location">&#160;</a>
@@ -97,190 +92,179 @@ Public:
 		<!-- (Aanhef) Text block Header -->
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk" mode="do-header"/>
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:Partij" mode="do-parties"/>
+		<xsl:variable name="Datum_DATE" select="substring(string(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:datumOfferte), 0, 11)"/>
+		<xsl:variable name="datumOfferte">
+			<xsl:if test="$Datum_DATE != ''">
+				<xsl:value-of select="kef:convertDateToText($Datum_DATE)"/>
+			</xsl:if>
+		</xsl:variable>
+		<xsl:variable name="hypotheekgever">
+			<xsl:choose>
+				<xsl:when test="tia:IMKAD_AangebodenStuk/tia:Partij[@id = substring-after(../tia:StukdeelHypotheek/tia:vervreemderRechtRef/@*[translate(local-name(), $upper, $lower) = 'href'], '#') and (tia:aanduidingPartij[translate(normalize-space(.), $upper, $lower) = 'de hypotheekgever'] or tia:aanduidingPartij[translate(normalize-space(.), $upper, $lower) = 'aanduiding per persoon'] or tia:aanduidingPartij[translate(normalize-space(.), $upper, $lower) = 'de schuldenaar en/of de hypotheekgever'])]">
+					<xsl:text>true</xsl:text>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:text>false</xsl:text>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 		<p>
-			<b>
-				<xsl:text>OVEREENKOMST VAN GELDLENING</xsl:text>
-			</b>
+			<xsl:text>De comparanten verklaren als volgt:</xsl:text>
 		</p>
 		<p>
-			<xsl:text>De comparanten, handelend als voormeld, verklaarden dat tussen hen een overeenkomst van geldlening met hypotheekstelling en inpandgeving is gesloten, welke overeenkomst is omschreven in de door de schuldenaar getekende offerte van geldgeefster onder nummer </xsl:text>
-			<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_Offertenummer']/tia:tekst"/>
-			<xsl:text>. Ter uitvoering van die overeenkomst zal door geldgeefster een som geld aan de schuldenaar ter beschikking worden gesteld en zullen door de schuldenaar een recht van hypotheek en pandrechten ten behoeve van geldgeefster worden gevestigd, een en ander zoals in deze akte omschreven.</xsl:text>
+			<strong>
+				<xsl:text>Overeenkomst tot vestigen hypotheek- en pandrechten</xsl:text>
+			</strong>
 		</p>
 		<p>
-			<b>
-				<xsl:text>BEDRAG GELDLENING (Hypotheeknummer: </xsl:text>
-				<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_Offertenummer']/tia:tekst"/>
-				<xsl:text>)</xsl:text>
-			</b>
+			<xsl:text>De schuldenaar</xsl:text>
+			<xsl:if test="$hypotheekgever = 'true'">
+				<xsl:text>, de hypotheekgever</xsl:text>
+			</xsl:if>
+			<xsl:text> en de bank komen overeen dat ten behoeve van de bank het recht van hypotheek en pandrechten worden verleend op de in deze akte en in na te melden algemene voorwaarden omschreven goederen, tot zekerheid zoals hierna vermeld.</xsl:text>
 		</p>
 		<p>
-			<xsl:text>De schuldenaar verklaart heden van geldgeefster ter leen te hebben ontvangen en aan deze daarom een bedrag van </xsl:text>
+			<strong>
+				<xsl:text>Vestiging hypotheekrecht</xsl:text>
+			</strong>
+		</p>
+		<p>
+			<xsl:text>De in de aanhef onder 1. genoemde schuldenaar</xsl:text>
+			<xsl:if test="$hypotheekgever = 'true'">
+				<xsl:text>/hypotheekgever</xsl:text>
+			</xsl:if>
+			<xsl:text> verleent aan de bank, tot zekerheid voor de betaling van:</xsl:text>
+		</p>
+		<p>
+			<xsl:text>al hetgeen de bank blijkens haar administratie nu of te eniger tijd van de schuldenaar te vorderen heeft of zal hebben:</xsl:text>
+		</p>
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>a.</xsl:text>
+					</td>
+					<td>
+						<xsl:text>uit hoofde van de door de bank en de schuldenaar gesloten overeenkomst van verstrekte geldlening van in hoofdsom </xsl:text>
+						<xsl:call-template name="amountText">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text> </xsl:text>
+						<xsl:call-template name="amountNumber">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text> zoals vastgelegd in de door de schuldenaar ondertekende offerte hypothecaire geldlening van </xsl:text>
+						<xsl:value-of select="$datumOfferte"/>
+						<xsl:text> onder nummer </xsl:text>
+						<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_Offertenummer']/tia:tekst"/>
+						<xsl:text> of zoals deze eventueel, al dan niet met kredietfaciliteiten, later gewijzigd, aangevuld of verhoogd mocht worden;</xsl:text>
+					</td>
+				</tr>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>b.</xsl:text>
+					</td>
+					<td>
+						<xsl:text>uit hoofde van de heden tussen de bank en de schuldenaar bestaande rekening-courant; en/of</xsl:text>
+					</td>
+				</tr>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>c.</xsl:text>
+					</td>
+					<td>
+						<xsl:text>uit welken andere hoofde ook, al dan niet onder tijdsbepaling of voorwaarde, al dan niet uit hoofde van gewoon bankverkeer zowel in als buiten rekening-courant, tot een totaalbedrag van 	</xsl:text>
+						<xsl:call-template name="amountText">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text> </xsl:text>
+						<xsl:call-template name="amountNumber">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text>, te vermeerderen met al hetgeen de bank nu of te eniger tijd van de schuldenaar te vorderen heeft of zal hebben uit hoofde van renten, boeten, kosten en/of premies tot maximaal vijftig procent (50%) van voornoemd bedrag of </xsl:text>
+						<xsl:call-template name="amountText">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text> </xsl:text>
+						<xsl:call-template name="amountNumber">
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+						</xsl:call-template>
+						<xsl:text>,</xsl:text>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<xsl:text>derhalve tot een totaalbedrag van </xsl:text>
 			<xsl:call-template name="amountText">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
 			</xsl:call-template>
 			<xsl:text> </xsl:text>
 			<xsl:call-template name="amountNumber">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
 			</xsl:call-template>
-			<xsl:text>, hierna te noemen de hoofdsom, schuldig te zijn, zo de schuldenaar uit meerdere personen bestaat onder het beding van hoofdelijke aansprakelijkheid en voorts onder de volgende bepalingen.</xsl:text>
-		</p>
-		<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']">
-			<p>
-				<b>
-					<xsl:text>OVERBRUGGINGSLENING (Hypotheeknummer: </xsl:text>
-					<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_Offertenummer']/tia:tekst"/>
-					<xsl:text>)</xsl:text>
-				</b>
-			</p>
-			<p>
-				<xsl:text>De schuldenaar en geldgeefster verklaren hierbij tevens een overeenkomst van overbruggingslening te hebben gesloten voor een bedrag van </xsl:text>
-				<xsl:call-template name="amountText">
-					<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragLening/tia:som"/>
-					<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragLening/tia:valuta"/>
-				</xsl:call-template>
+			<xsl:text>, recht van</xsl:text>
+			<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:rangordeHypotheek">
 				<xsl:text> </xsl:text>
-				<xsl:call-template name="amountNumber">
-					<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragLening/tia:som"/>
-					<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragLening/tia:valuta"/>
-				</xsl:call-template>
-				<xsl:text>, hierna te noemen de overbrugging. Deze overeenkomst is omschreven in de bovengenoemde offerte, zo de schuldenaar uit meerdere personen bestaat onder het beding van hoofdelijke aansprakelijkheid en voorts onder de volgende bepalingen.</xsl:text>
-			</p>
-		</xsl:if>
-		<p>
-			<b>
-				<xsl:text>VERZEKERDE VERPLICHTINGEN</xsl:text>
-			</b>
-		</p>
-		<p>
-			<xsl:text>De schuldenaar en geldgeefster zijn overeengekomen dat tot zekerheid voor de terugbetaling van de hoofdsom, hypotheek- en pandrechten worden gevestigd, zoals hieronder nader wordt omschreven, hierna te noemen de verzekerde verplichting hoofdsom.</xsl:text>
-			<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']">
-				<br/>
-				<xsl:text>Het door de schuldenaar nu of te eniger tijd uit welken hoofde dan ook aan geldgeefster verschuldigde, hypotheek- en pandrechten worden gevestigd, zoals hieronder nader wordt omschreven, hierna te noemen de verzekerde verplichting overbrugging.</xsl:text>
+				<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:rangordeHypotheek)"/>
+				<xsl:text> </xsl:text>
 			</xsl:if>
-		</p>
-		<p>
-			<b>
-				<xsl:text>HYPOTHEEKSTELLINGEN</xsl:text>
-			</b>
-		</p>
-		<p>
-			<xsl:text>De schuldenaar verleent tot zekerheid voor de betaling van al hetgeen geldgeefster te vorderen mocht hebben of krijgen op grond van de verzekerde verplichting hoofdsom, de betaling van de verschuldigde rente (ook indien deze betrekking heeft op een periode van langer dan drie jaar), boeten en de in artikel 3 van de hierna te noemen Algemene Bepalingen bedoelde kosten, een recht van hypotheek </xsl:text>
-			<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:rangordeHypotheek)"/>
-			<xsl:text> in rang, en wel op het registergoed zoals hierna vermeld tot een bedrag van </xsl:text>
-			<xsl:call-template name="amountText">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> </xsl:text>
-			<xsl:call-template name="amountNumber">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> te vermeerderen met de hiervoor bedoelde rente, boeten en kosten, die tezamen worden begroot op vijftig procent (50%), dus tot een eindbedrag van </xsl:text>
-			<xsl:call-template name="amountText">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> </xsl:text>
-			<xsl:call-template name="amountNumber">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text>.</xsl:text>
-			</p>
-			<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']">
-				<p>
-					<xsl:text>De schuldenaar verleent, tot zekerheid voor de betaling van al hetgeen geldgeefster te vorderen mocht hebben of krijgen op grond van de verzekerde verplichting overbrugging de betaling van de verschuldigde rente (ook indien deze betrekking heeft op een periode van langer dan drie jaar), boeten en de in artikel 3 van de hierna te noemen Algemene Bepalingen bedoelde kosten, een recht van hypotheek tweede in rang, en wel op het registergoed zoals hierna vermeld en een recht van hypotheek </xsl:text>
-					<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:rangordeHypotheek)"/>
-					<xsl:text> in rang en wel op het overbruggingspand zoals hierna vermeld tot een bedrag van </xsl:text>
-					<xsl:call-template name="amountText">
-						<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:hoofdsom/tia:som"/>
-						<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:hoofdsom/tia:valuta"/>
-					</xsl:call-template>
-					<xsl:text> </xsl:text>
-					<xsl:call-template name="amountNumber">
-						<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:hoofdsom/tia:som"/>
-						<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:hoofdsom/tia:valuta"/>
-					</xsl:call-template>
-					<xsl:text>, te vermeerderen met de hiervoor bedoelde rente, boeten en kosten, die tezamen worden begroot op vijftig procent (50%), dus tot een eindbedrag van </xsl:text>
-					<xsl:call-template name="amountText">
-						<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragTotaal/tia:som"/>
-						<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragTotaal/tia:valuta"/>
-					</xsl:call-template>
-					<xsl:text> </xsl:text>
-					<xsl:call-template name="amountNumber">
-						<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragTotaal/tia:som"/>
-						<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:bedragTotaal/tia:valuta"/>
-					</xsl:call-template>
-					<xsl:text>.</xsl:text>
-				</p>
-			</xsl:if>
-		<p>	
-			<xsl:text>De zekerheden zoals in deze akte omschreven worden verleend op:</xsl:text>
+			<xsl:text>hypotheek op:</xsl:text>
 		</p>
 		<!-- Registered objects -->
 		<a name="hyp3.rights" class="location">&#160;</a>
 		<xsl:apply-templates select="." mode="do-rights">
 			<xsl:with-param name="stukdeel" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']"/>
+			<xsl:with-param name="endMark" select="','"/>
 		</xsl:apply-templates>
 		<p>
-			<xsl:text>in deze akte </xsl:text>
-			<xsl:if test="count(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:IMKAD_ZakelijkRecht) > 1">
-				<xsl:text>gezamenlijk </xsl:text>
-			</xsl:if>
-			<xsl:text>te noemen 'het registergoed'</xsl:text>
-			<xsl:choose>
-				<xsl:when test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']">
-					<xsl:text>;</xsl:text>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:text>.</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
+			<xsl:text>hierna te noemen: 'het registergoed'.</xsl:text>
 		</p>
+		<!-- Bridging mortgage -->
 		<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']">
+		<xsl:variable name="schuldenaaroverbrugging" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_schuldenaaroverbrugging']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
+				translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_schuldenaaroverbrugging']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
+				translate(normalize-space(current()/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_schuldenaaroverbrugging']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
+			<p>
+				<strong>
+					<xsl:text>Overbruggingshypotheek</xsl:text>
+				</strong>
+			</p>
+			<p>
+				<xsl:text>Voorts verleent </xsl:text>
+				<xsl:value-of select="$schuldenaaroverbrugging"/>
+				<xsl:text>, tot meerdere zekerheid voor de betaling van de lening als hierboven vermeld, bij deze aan de bank, die van </xsl:text>
+				<xsl:value-of select="$schuldenaaroverbrugging"/>
+				<xsl:text> aanvaardt het recht van </xsl:text>
+				<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:rangordeHypotheek)"/>		
+				<xsl:text> hypotheek op het hierna te omschrijven onderpand: </xsl:text>
+			</p>
+			<!-- Registered objects -->
 			<a name="hyp3.rights" class="location">&#160;</a>
 			<xsl:apply-templates select="." mode="do-rights">
 				<xsl:with-param name="stukdeel" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']"/>
+				<xsl:with-param name="endMark" select="'.'"/>
 			</xsl:apply-templates>
-			<p>
-				<xsl:text>in deze akte </xsl:text>
-				<xsl:if test="count(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:IMKAD_ZakelijkRecht) > 1">
-					<xsl:text>gezamenlijk </xsl:text>
-				</xsl:if>
-				<xsl:text>te noemen 'het overbruggingspand'.</xsl:text>
-			</p>
 		</xsl:if>
 		<p>
-			<xsl:text>De schuldenaar verklaart ermee bekend te zijn dat geldgeefster gerechtigd is de </xsl:text>
-			<xsl:value-of select="$vordering"/>
-			<xsl:text>, inclusief de daarmee verbonden afhankelijke rechten en nevenrechten, waaronder uitdrukkelijk begrepen het recht tot renteherziening en pand- en/of hypotheekrechten, uit hoofde van de in deze akte geconstateerde geldlening en/of overbruggingslening geheel of gedeeltelijk aan een derde over te dragen.</xsl:text>
-			<br/>
-			<xsl:text>Bovendien is geldgeefster gerechtigd haar rechtsverhouding, inclusief alle afhankelijke rechten en nevenrechten, waaronder uitdrukkelijk begrepen pand- en/of hypotheekrechten, uit deze overeenkomst geheel of gedeeltelijk aan een derde over te dragen conform artikel 6:159 Burgerlijk Wetboek, waarvoor schuldenaar reeds nu, bij voorbaat, haar medewerking verleent. Van een eventuele overdracht zal mededeling worden gedaan aan de schuldenaar. 
-</xsl:text>
+			<strong>
+				<xsl:text>Aanvaarding</xsl:text>
+			</strong>
 		</p>
 		<p>
-			<b>
-				<xsl:text>AANVAARDING ZEKERHEDEN EN HYPOTHEEKSTELLING</xsl:text>
-			</b>
+			<xsl:text>De in deze akte vermelde hypotheekverlening, verpandingen, volmachten en verdere verbintenissen worden door de bank aanvaard.</xsl:text>
 		</p>
-		<p>
-			<xsl:text>Geldgeefster verklaart alle de hiervoor vermelde hypotheekstelling, de hierna vermelde (verpande) rechten, alle aangegane verbintenissen en alle verleende volmachten te aanvaarden.</xsl:text>
-		</p>
-		<xsl:if test="$toestemming != ''">
-			<p>
-				<xsl:value-of select="$toestemming"/>
-				<xsl:text>.</xsl:text>
-			</p>
-		</xsl:if>
 		<xsl:apply-templates select="." mode="do-election-of-domicile"/>
 		<p>
-			<b>
-				<xsl:text>EINDE KADASTERDEEL</xsl:text>
-			</b>
+			<xsl:text>EINDE KADASTERDEEL</xsl:text>
 		</p>
 		<xsl:apply-templates select="." mode="do-free-text"/>
 	</xsl:template>
@@ -292,7 +276,7 @@ Public:
 
 	Identity transform: no
 
-	Description: blg mortgage deed rights.
+	Description: sns mortgage deed rights.
 
 	Input: tia:Bericht_TIA_Stuk
 
@@ -313,6 +297,7 @@ Public:
 	-->
 	<xsl:template match="tia:Bericht_TIA_Stuk" mode="do-rights">
 		<xsl:param name="stukdeel"/>
+		<xsl:param name="endMark"/>
 		<xsl:variable name="allProcessedRights" select="$stukdeel/tia:IMKAD_ZakelijkRecht"/>
 		<xsl:choose>
 			<xsl:when test="count($allProcessedRights) = 1">
@@ -325,11 +310,11 @@ Public:
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="$allProcessedRights" mode="do-registered-object"/>
-					<xsl:text>,</xsl:text>
+					<xsl:value-of select="$endMark"/>
 				</p>
 			</xsl:when>
 			<!-- Multiple registered objects, all parcels with same data -->
-			<xsl:when test="count($allProcessedRights)
+		<xsl:when test="count($allProcessedRights)
 					= count($allProcessedRights[
 						tia:aardVerkregen = $allProcessedRights[tia:IMKAD_Perceel][1]/tia:aardVerkregen
 						and normalize-space(tia:aardVerkregen) != ''
@@ -498,7 +483,7 @@ Public:
 							<xsl:with-param name="position" select="1"/>
 							<xsl:with-param name="registeredObjects" select="$stukdeel"/>
 							<xsl:with-param name="haveAdditionalText" select="'false'"/>
-							<xsl:with-param name="endMark" select="','"/>
+							<xsl:with-param name="endMark" select="$endMark"/>
 						</xsl:call-template>
 					</tbody>
 				</table>
@@ -537,9 +522,9 @@ Public:
 		<a name="hyp3.electionOfDomicile" class="location">&#160;</a>
 		<xsl:if test="$woonplaatskeuze != ''">
 			<p>
-				<b>
-					<xsl:text>DOMICILIEKEUZE</xsl:text>
-				</b>
+				<strong>
+					<xsl:text>Woonplaatskeuze</xsl:text>
+				</strong>
 			</p>
 			<p>
 				<xsl:value-of select="$woonplaatskeuze"/>
@@ -678,19 +663,24 @@ Public:
 		<xsl:choose>
 			<xsl:when test="position() = 1">
 				<p style="margin-left:30px">
-					<xsl:text>hierna </xsl:text>
-					<xsl:if test="$numberOfPersons > 1">
-						<xsl:text>(zowel tezamen als ieder afzonderlijk) </xsl:text>
+					<xsl:if test="@id = substring-after(../tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:vervreemderRechtRef/@xlink:href, '#')">
+						<xsl:apply-templates select="." mode="do-mortgage-deed-party-name">
+							<xsl:with-param name="partyNumber" select="'1'"/>
+						</xsl:apply-templates>
+						<xsl:text>;</xsl:text>
 					</xsl:if>
-					<xsl:text>ook te noemen 'de schuldenaar';</xsl:text>
 				</p>
 			</xsl:when>
 			<xsl:when test="position() = 2">
 				<p style="margin-left:30px">
-					<xsl:text>hierna ook te noemen ’geldgeefster’, alsmede haar rechtverkrijgenden onder algemene en onder bijzondere titel. Overal waar in deze akte of de Algemene Bepalingen gesproken wordt van geldgeefster, zal na overgang hierin worden gelezen haar rechtsopvolger.</xsl:text>
-					<br/>
-					<xsl:text>Van de hier bedoelde volmacht is mij, notaris, genoegzaam gebleken.</xsl:text>
-				</p>
+				<xsl:text>hierna zowel </xsl:text>
+					<xsl:value-of select="tia:IMKAD_Persoon/tia:tia_Gegevens/tia:NHR_Rechtspersoon/tia:statutaireNaam"/>
+					<xsl:text> als haar rechtsopvolgers onder algemene of bijzondere titel te noemen:  '</xsl:text>
+					<u>
+						<xsl:text>de bank</xsl:text>
+					</u>
+					<xsl:text>'.</xsl:text>
+				</p>	
 			</xsl:when>
 		</xsl:choose>
 	</xsl:template>

@@ -16,10 +16,6 @@ Akte van verdeling|20150801000009|9|verdeling-3.10.0
  “ | “ |5|verdeling-1.71
  “ | “ |4|verdeling-1.70
  “ | “ |3|verdeling-1.69
- “ |20140830000009|8|verdeling-1.66.05
- “ | “ |7|verdeling-1.66.04
- “ | “ |6|verdeling-1.66.03
- “ | “ |5|verdeling-1.66.02
 Doorhaling hypotheek|20160401000010|7|doorhaling_hypotheek-2.1.8
  “ | “ |6|doorhaling_hypotheek-2.1.7
  “ | “ |5|doorhaling_hypotheek-2.1.6
@@ -27,7 +23,6 @@ Doorhaling hypotheek|20160401000010|7|doorhaling_hypotheek-2.1.8
  “ | “ |3|doorhaling_hypotheek-2.1.4
  “ | “ |2|doorhaling_hypotheek-2.1.3
  “ | “ |1|doorhaling_hypotheek-2.0.1
- “ |20090513000002|4|DoorhalingHypotheken-xml_xhtml-1.08
 Hypotheek ABN AMRO AAB|20140830000001|9|hypotheek_abn_amro_aab-3.5.0
  “ | “ |8|hypotheek_abn_amro_aab-3.4.0
  “ | “ |7|hypotheek_abn_amro_aab-3.3.0
@@ -51,12 +46,8 @@ Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
  “ |20160701000015|1|hypotheek_aegon-3.0.0
-Hypotheek Aegon|20151001000015|4|hypotheek_aegon-2.3.0
- “ | “ |3|hypotheek_aegon-1.0.2
- “ | “ |2|hypotheek_aegon-1.0.1
- “ | “ |1|hypotheek_aegon-1.0.0
-Hypotheek BLG|20151101000014|6|hypotheek_blg-2.5.0
- “ | “ |5|hypotheek_blg-2.4.0
+Hypotheek BLG|20180402000014|1|hypotheek_blg-2.5.0
+ “ |20151101000014|5|hypotheek_blg-2.4.0
  “ | “ |4|hypotheek_blg-2.3.0
  “ | “ |3|hypotheek_blg-2.2.0
  “ | “ |2|hypotheek_blg-2.1
@@ -75,10 +66,6 @@ Hypotheek Obvion|20160701000012|5|hypotheek_obvion_abp-1.3.0
  “ | “ |3|hypotheek_obvion_abp-1.1.0
  “ | “ |2|hypotheek_obvion_abp-1.0.0
  “ | “ |1|hypotheek_obvion-3.1.0
- “ |20150101000012|7|hypotheek_obvion-2.3.0
- “ | “ |6|hypotheek_obvion-1.5.0
- “ | “ |5|hypotheek_obvion-1.07
- “ | “ |4|hypotheek_obvion-1.06
 Hypotheek Particulier|20140830000006|12|hypotheek_particulier-2.10.0
  “ | “ |11|hypotheek_particulier-2.9.0
  “ | “ |10|hypotheek_particulier-2.8.0
@@ -90,21 +77,14 @@ Hypotheek Rabobank|20140830000005|10|hypotheek_rabobank-3.11.0
  “ | “ |8|hypotheek_rabobank-3.9.0
  “ | “ |7|hypotheek_rabobank-1.88
  “ | “ |6|hypotheek_rabobank-1.87
-Hypotheek Regiobank|20161201000016|4|hypotheek_regiobank-2.3.0
- “ | “ |3|hypotheek_regiobank-2.2.0
+Hypotheek Regiobank|20180402000016|1|hypotheek_regiobank-2.3.0
+ “ |20161201000016|3|hypotheek_regiobank-2.2.0
  “ | “ |2|hypotheek_regiobank-2.1.0
  “ | “ |1|hypotheek_regiobank-2.0.0
- “ |20160201000016|3|hypotheek_regiobank-1.2.0
- “ | “ |2|hypotheek_regiobank-1.1.0
- “ | “ |1|hypotheek_regiobank-1.0.0
-Hypotheek SNS|20161201000013|8|hypotheek_sns-2.3.0
- “ | “ |7|hypotheek_sns-2.2.0
+Hypotheek SNS|20180402000013|1|hypotheek_sns-2.3.0
+ “ |20161201000013|7|hypotheek_sns-2.2.0
  “ | “ |6|hypotheek_sns-2.1.0
  “ | “ |5|hypotheek_sns-2.0.0
- “ |20150201000013|8|hypotheek_sns-1.2.0
- “ | “ |7|hypotheek_sns-1.11
- “ | “ |6|hypotheek_sns-1.10
- “ | “ |5|hypotheek_sns-1.09
 Notariële verklaring|20140830000008|10|notariele_verklaring-2.11.0
  “ | “ |9|notariele_verklaring-2.10.0
  “ | “ |8|notariele_verklaring-2.9.0

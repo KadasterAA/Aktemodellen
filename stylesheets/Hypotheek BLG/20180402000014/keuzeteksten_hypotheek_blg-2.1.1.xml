@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
 	<!-- 
-	Optional text choices for Obvion mortgage deed
-	Version: 1.01
-	Date: 2014-08-15
+	Optional text choices for BLG mortgage deed
+	Version: 2.1.1 (AA-2407,2413)
+	Date: 2016-03-04	
 	-->
 	<!-- Begin common optional text choices -->
 	<tia:TekstKeuze>
@@ -46,8 +46,8 @@
 	</tia:TekstKeuze>
 	<tia:TekstKeuze>
 		<tia:tagNaam>k_Kantoorhoudende</tia:tagNaam>
-		<tia:tekst>mede kantoorhoudende te</tia:tekst>
 		<tia:tekst>kantoorhoudende te</tia:tekst>
+		<tia:tekst>mede kantoorhoudende te</tia:tekst>
 		<tia:tekst>en aldaar kantoorhoudende aan</tia:tekst>
 	</tia:TekstKeuze>
 	<tia:TekstKeuze>
@@ -70,7 +70,7 @@
 	</tia:TekstKeuze>
     <tia:TekstKeuze>
         <tia:tagNaam>k_Woonplaatskeuze</tia:tagNaam>
-        <tia:tekst>De comparanten verklaren voor de uitvoering en alle gevolgen van het bij deze akte overeengekomen woonplaats te kiezen ten kantore van de bewaarder van deze akte en geldgeefster voorts nog te haren hoofdkantore te 's-Gravenhage</tia:tekst>
+        <tia:tekst>De comparanten verklaarden ook voor daden van executie, woonplaats te kiezen ten kantore van de notaris, bewaarder van deze akte</tia:tekst>
     </tia:TekstKeuze>
     <tia:TekstKeuze>
         <tia:tagNaam>k_BurgerlijkeStaatPersoon</tia:tagNaam>
@@ -181,10 +181,10 @@
     </tia:TekstKeuze>
     <tia:TekstKeuze>
         <tia:tagNaam>k_Mandeligheid</tia:tagNaam>
-        <tia:tekst>De tot mandelig bestemd</tia:tekst>
-        <tia:tekst>Het tot mandelig bestemd</tia:tekst>
-        <tia:tekst>De tot mandelig bestemde</tia:tekst>
-        <tia:tekst>Het tot mandelig bestemde</tia:tekst>
+        <tia:tekst>de tot mandelig bestemd</tia:tekst>
+        <tia:tekst>het tot mandelig bestemd</tia:tekst>
+        <tia:tekst>de tot mandelig bestemde</tia:tekst>
+        <tia:tekst>het tot mandelig bestemde</tia:tekst>
         <tia:tekst>met bestemming mandeligheid</tia:tekst>
     </tia:TekstKeuze>
     <tia:TekstKeuze>
@@ -308,7 +308,7 @@
    	<tia:TekstKeuze>
 		<tia:tagNaam>k_MeervoudStuk</tia:tagNaam>
 		<tia:tekst>het desbetreffende gedeelte van</tia:tekst>
-		<tia:tekst>de betreffende gedeelten van</tia:tekst>
+		<tia:tekst>de desbetreffende gedeelten van</tia:tekst>
 	</tia:TekstKeuze>
 	<tia:TekstKeuze>
 		<tia:tagNaam>k_WijzeVanLevering</tia:tagNaam>
@@ -379,15 +379,8 @@
 		<tia:tekst>hoofdelijk</tia:tekst>
 	</tia:TekstKeuze>
 	<tia:TekstKeuze>
-		<tia:tagNaam>k_Vordering</tia:tagNaam>
-		<tia:tekst>vordering</tia:tekst>
-		<tia:tekst>vorderingen</tia:tekst>
-	</tia:TekstKeuze>
-	<tia:TekstKeuze>
 		<tia:tagNaam>k_ToestemmingPartners</tia:tagNaam>
-		<tia:tekst>Van de toestemming van de echtgenoot van de schuldenaar, als vereist in artikel 88 Boek 1 Burgerlijk Wetboek, blijkt uit aangehechte verklaring</tia:tekst>
-		<tia:tekst>De comparanten sub 1 verklaarden elkaar toestemming als vereist in artikel 88 Boek 1 Burgerlijk Wetboek te hebben verleend</tia:tekst>
+		<tia:tekst>elkander over en weer toestemming verlenende als bedoeld in artikel 1:88 van het Burgerlijk Wetboek</tia:tekst>
 	</tia:TekstKeuze>
-
 	<!-- End deed specific optional text choices -->
 </tia:Keuzeteksten>
