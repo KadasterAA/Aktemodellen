@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument ABN AMRO - Florius|[2.7.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20140830000002/Modeldocument%20ABN%20AMRO%20-%20Florius%20v2.7.0.docx)|[3.3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20140830000002/Toelichting%20modeldocument%20ABN%20AMRO%20-%20Florius%202.7.0%20-%20v3.3.0.docx)|   |
+Modeldocument ABN AMRO - Florius|[2.7.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20140830000002/Modeldocument%20ABN%20AMRO%20-%20Florius%20v2.7.0.docx)|[3.3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20140830000002/Toelichting%20modeldocument%20ABN%20AMRO%20-%20Florius%202.7.0%20-%20v3.3.0.docx)|   |
 XSD StukAlgemeen|6.1.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

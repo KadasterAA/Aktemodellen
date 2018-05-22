@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Particuliere hypotheek|[2.3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20140830000006/Modeldocument%20particuliere%20hypotheek%20v2.3.0.docx)|[2.9.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20140830000006/Toelichting%20modeldocument%20Particuliere%20hypotheek%202.3.0%20-%20v2.9.0.docx)|   |
+Modeldocument Particuliere hypotheek|[2.3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20140830000006/Modeldocument%20particuliere%20hypotheek%20v2.3.0.docx)|[2.9.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20140830000006/Toelichting%20modeldocument%20Particuliere%20hypotheek%202.3.0%20-%20v2.9.0.docx)|   |
 XSD StukAlgemeen|6.1.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

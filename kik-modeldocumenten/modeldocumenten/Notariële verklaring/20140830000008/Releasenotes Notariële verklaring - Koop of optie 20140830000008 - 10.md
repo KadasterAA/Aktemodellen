@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Notariële Verklaring - Koop of optie|[2.6.0](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20140830000008/Modeldocument%20Notariële%20verklaring%20-%20Koop%20of%20optie%20v2.6.0.docx)|[2.10.0](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20140830000008/Toelichting%20modeldocument%20Notariële%20verklaring%20-%20Koop%20of%20optie%202.6.0%20-%20v2.10.0.docx)|   |
+Modeldocument Notariële Verklaring - Koop of optie|[2.6.0]( /kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20140830000008/Modeldocument%20Notariële%20verklaring%20-%20Koop%20of%20optie%20v2.6.0.docx)|[2.10.0]( /kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20140830000008/Toelichting%20modeldocument%20Notariële%20verklaring%20-%20Koop%20of%20optie%202.6.0%20-%20v2.10.0.docx)|   |
 Tekstblok - Aanhef Notariele verklaring|[1.9](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20Notariele%20verklaring%20v1.9.docx)|[1.10](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%20Notariele%20verklaring%201.9%20-%20v1.10.docx)|   |
 XSD StukAlgemeen|6.1.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 

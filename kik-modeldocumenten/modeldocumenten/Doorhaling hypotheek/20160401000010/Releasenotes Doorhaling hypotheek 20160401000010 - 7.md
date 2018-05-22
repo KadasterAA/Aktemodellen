@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument doorhaling hypotheek|[2.14.0](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20160401000010/Modeldocument%20doorhaling%20hypotheek%20v2.14.0.docx)|[6.14.0](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20160401000010/Toelichting%20modeldocument%20Doorhaling%20Hypotheek%202.14.0%20-%20v6.14.0.docx)|   |
+Modeldocument doorhaling hypotheek|[2.14.0]( /kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20160401000010/Modeldocument%20doorhaling%20hypotheek%20v2.14.0.docx)|[6.14.0]( /kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20160401000010/Toelichting%20modeldocument%20Doorhaling%20Hypotheek%202.14.0%20-%20v6.14.0.docx)|   |
 XSD StukAlgemeen|6.2.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

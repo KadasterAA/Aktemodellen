@@ -1,4 +1,4 @@
-﻿# Aktemodellen
+# Aktemodellen
 Kadaster Automatische Akteverwerking
 
 Op deze locatie staat de informatie ten behoeve van software leveranciers die software ontwikkelen ten behoeve van het notariaat. Specifiek staat hier de informatie welke nodig is om zogeheten KIK-Akten te kunnen vervaardigen. 
@@ -8,6 +8,35 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 18 mei 2018
+- In de nieuwe versie van tekstblok [Burgerlijke Staat](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.4.docx) dient u ‘geregistreerd partnerschap’ i.p.v. ‘geregistreerd partner’ te gebruiken. Tevens hebben we de mogelijkheid om ook ‘in beperkte gemeenschap van goederen’ te gebruiken toegevoegd. Zie voor verdere details de release notes voor de nieuwe stylesheets van de verschillende modeldocumenten.
+- In de nieuwe versie van het tekstblok [Recht](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Recht%202.7%20-%20v2.9.docx) dient bij (Eigendom belast met) Opstal, Erfpacht en BP rechten het aantal vermeld te worden. Voor BP rechten was dit al verplicht via een specifieke constructie. Het aantal kan voor voor zowel Opstal, Erfpacht als BP rechten nu op een gelijke wijze aangegeven worden. Zie voor verdere details de release notes voor de nieuwe stylesheets van de verschillende modeldocumenten.
+- Bij een recht van erfpacht of bij een recht van ondererfpacht (variant d) werd voorfgaand aan 'belast met' geen komma getoond. Dit is wel de bedoeling. Het tekstblok [Recht](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Recht%20v2.7.docx) en de [Toelichting](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Recht%202.7%20-%20v2.9.docx) hebben we hier op aangepast.
+- De [Documentatie XSD StukAlgemeen](/schema/stuk%20algemeen/7.0.0/Documentatie%20XSD%20StukAlgemeen-7.0.0.doc) bevat nu alleen nog de algemene documentatie. De modelbeschrijving zelf is vanaf nu opgenomen in een [HTML versie](/schema/stuk%20algemeen/7.0.0/HTML/index.htm) welke leesbaar is met Internet Explorer.
+- Ook de Overzichtsplaat StukAlgemeen is vanaf nu beschikbaar in deze HTML versie van de modelbeschrijving.
+- De datum ondertekening hypotheekofferte is verwijderd uit de modeldocumenten voor de [RegioBank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180501000016/Releasenotes%20Regiobank%2020180501000016%20-%201.md) en de [SNS](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20180501000013/Releasenotes%20SNS%2020180402000013%20%20-%201.md).
+- We hebben een drietal bugs opgelost in de [Doorhaling Hypotheek](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20180501000010/Releasenotes%20Doorhaling%20hypotheek%2020180501000010%20-%201.md) en een bug in de [Akte van Levering](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20180501000007/Releasenotes%20Akte%20van%20Levering%2020180501000007%20-%201.md).
+- Zoals eerder aangekondigd, kunnen de volgende stylesheet-nummers met ingang van heden niet meer aangeboden worden via KIK:
+
+| Nummer | Model |
+| --- | --- |
+| 20120323000001 | ABN AMRO AAB |
+| 20120501000001 | ABN AMRO AAB |
+| 20120323000002 | ABN AMRO Florius |
+| 20120501000002 | ABN AMRO Florius |
+| 20120501000003 | ABN AMRO MoneYou |
+| 20120501000009 | Akte van verdeling |
+| 20120323000004 | ING bank |
+| 20120501000004 | ING bank |
+| 20120501000008 | Koop- of Optieovereenkomst |
+| 20120323000007 | Leveringsakte KNB |
+| 20120501000007 | Leveringsakte KNB |
+| 20120701000001 | Leveringsakte KNB |
+| 20120323000006 | Particuliere hypotheek |
+| 20120501000006 | Particuliere hypotheek |
+| 20120323000005 | Rabobank |
+| 20120501000005 | Rabobank |
+
 ## 4 mei 2018
 - De bestandstructuur hebben we aangepast om een hogere kwaliteit te kunnen bieden. De mappen tekstblokken en modeldocumenten hebben we beiden onder de map kik-modeldocumenten geplaatst. We hebben geen inhoudelijke wijzigingen doorgevoerd.
 

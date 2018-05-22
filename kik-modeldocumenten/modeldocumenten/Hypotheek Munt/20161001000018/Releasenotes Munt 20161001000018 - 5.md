@@ -12,7 +12,7 @@ AA-3345|Toelichting bij overbruggingshypotheek gelijkgetrokken met toelichting b
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Munt|**[1.0.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20161001000018/Modeldocument%20Munt%20v1.0.2.docx)**|**[1.2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20161001000018/Toelichting%20modeldocument%20Munt%201.0.2%20-%20v1.2.0.docx)**| X |
+Modeldocument Munt|**[1.0.2]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20161001000018/Modeldocument%20Munt%20v1.0.2.docx)**|**[1.2.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20161001000018/Toelichting%20modeldocument%20Munt%201.0.2%20-%20v1.2.0.docx)**| X |
 XSD StukAlgemeen|6.2.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

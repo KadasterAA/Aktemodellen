@@ -1,4 +1,4 @@
-j# Release notes
+# Release notes
 Product|RegioBank stylesheetnummer 20180402000016 implementatienummer 1|
 |---|---|
 |**Release**|**april 2018**|
@@ -10,7 +10,7 @@ AA-3767|Modeldocument 2.0.1: tekstwijziging in model RegioBank |Modeldocument, T
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument RegioBank|**[2.0.1](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180402000016/Modeldocument%20Regiobank%20v2.0.1.docx)**|**[2.2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180402000016/Toelichting%20modeldocument%20Regiobank%202.0.1%20-%20v2.2.0.docx)**| X  |
+Modeldocument RegioBank|**[2.0.1]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180402000016/Modeldocument%20Regiobank%20v2.0.1.docx)**|**[2.2.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180402000016/Toelichting%20modeldocument%20Regiobank%202.0.1%20-%20v2.2.0.docx)**| X  |
 XSD StukAlgemeen|6.1.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

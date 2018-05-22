@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Aegon|[4.0.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20170606000015/Modeldocument%20AEGON%20v4.0.0.docx)|[4.1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20170606000015/Toelichting%20modeldocument%20AEGON%204.0.0%20-%20v4.1.0.docx)|   |
+Modeldocument Aegon|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20170606000015/Modeldocument%20AEGON%20v4.0.0.docx)|[4.1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20170606000015/Toelichting%20modeldocument%20AEGON%204.0.0%20-%20v4.1.0.docx)|   |
 XSD StukAlgemeen|6.3.1||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

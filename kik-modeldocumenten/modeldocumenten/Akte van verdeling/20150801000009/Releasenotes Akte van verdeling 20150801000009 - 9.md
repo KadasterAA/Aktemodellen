@@ -9,7 +9,7 @@ Product|Akte van verdeling stylesheetnummer 20150801000009 implementatienummer 9
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument akte van Verdeling|[3.5.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20150801000009/Modeldocument%20akte%20van%20verdeling%20v3.5.0.docx)|[3.9.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20150801000009/Toelichting%20modeldocument%20Akte%20van%20verdeling%203.5.0%20-%20v3.9.0.docx)|   |
+Modeldocument akte van Verdeling|[3.5.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20150801000009/Modeldocument%20akte%20van%20verdeling%20v3.5.0.docx)|[3.9.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20150801000009/Toelichting%20modeldocument%20Akte%20van%20verdeling%203.5.0%20-%20v3.9.0.docx)|   |
 XSD StukAlgemeen|6.1.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

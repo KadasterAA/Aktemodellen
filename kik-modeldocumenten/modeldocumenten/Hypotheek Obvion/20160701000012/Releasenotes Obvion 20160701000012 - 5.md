@@ -10,7 +10,7 @@ AA-3626|Mogelijkheid om perceelgrootte in vierkante meters op te nemen in tekstb
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Obvion|[2.0.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20160701000012/Modeldocument%20Obvion%20v2.0.0.docx)|[3.1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20160701000012/Toelichting%20modeldocument%20Obvion%202.0.0%20-%20v3.1.0.docx)|   |
+Modeldocument Obvion|[2.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20160701000012/Modeldocument%20Obvion%20v2.0.0.docx)|[3.1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20160701000012/Toelichting%20modeldocument%20Obvion%202.0.0%20-%20v3.1.0.docx)|   |
 XSD StukAlgemeen|6.2.0||   |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|**[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)**|| X | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
