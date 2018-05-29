@@ -8,6 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 29 mei 2018
+- De [handleiding voor de Externe Test Omgeving (ETO)](/kik-eto/readme.md) voor KIK-AA hebben we omgezet naar Markdown en uitgebreid met de eisen waaraan voldaan moet worden voor het gebruik van de ETO.
+
 ## 18 mei 2018
 - In de nieuwe versie van tekstblok [Burgerlijke Staat](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.4.docx) dient u ‘geregistreerd partnerschap’ i.p.v. ‘geregistreerd partner’ te gebruiken. Tevens hebben we de mogelijkheid om ook ‘in beperkte gemeenschap van goederen’ te gebruiken toegevoegd. Zie voor verdere details de release notes voor de nieuwe stylesheets van de verschillende modeldocumenten.
 - In de nieuwe versie van het tekstblok [Recht](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Recht%202.7%20-%20v2.9.docx) dient bij (Eigendom belast met) Opstal, Erfpacht en BP rechten het aantal vermeld te worden. Voor BP rechten was dit al verplicht via een specifieke constructie. Het aantal kan voor zowel Opstal, Erfpacht als BP rechten nu op een gelijke wijze aangegeven worden. Zie voor verdere details de release notes voor de nieuwe stylesheets van de verschillende modeldocumenten.
