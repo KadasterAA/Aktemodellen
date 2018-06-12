@@ -1,5 +1,14 @@
 # Changelog XSD StukAlgemeen
 
+
+## CHANGES XSD StukAlgemeen-7.0.0 DATUM 18 mei 2018
+o.b.v. AA-3724 IMKAD_ZakelijkRecht uitgebreid met:
+- tia_Aantal_Rechten
+- tia_Aantal_RechtenVariant
+
+Dit om het aantal zakelijke rechten betreffende eigendom welke belast zijn met Opstal, Erfpacht of BP recht respectievelijk zakelijke rechten variant betreffende Opstal, Erfpacht of BP recht aan te geven.
+
+
 ## CHANGES XSD StukAlgemeen-6.3.1 DATUM 12 april 2017
 
 o.b.v. AA-3358 Numerieke definities &#39;StukAlgemeen&#39; aangepast (alg-formaattypen-1.8.1.xsd):
