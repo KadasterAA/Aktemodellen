@@ -1,5 +1,5 @@
 # Release notes
-Product|AEGON stylesheetnummer 20180501000017 implementatienummer 1|
+Product|AEGON stylesheetnummer 20180501000015 implementatienummer 1|
 |---|---|
 |**Release**|**Juni 2018**|
 ## Wijzigingen
@@ -13,7 +13,7 @@ AA-4025 | TB Burgerlijke staat: Terugdraaien issue AA-3777: waarde "geregistreer
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Aegon|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000017/Modeldocument%20AEGON%20v4.0.0.docx)|**[4.3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000017/Toelichting%20modeldocument%20AEGON%204.0.0%20-%20v4.3.0.docx)**| X |
+Modeldocument Aegon|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015/Modeldocument%20AEGON%20v4.0.0.docx)|**[4.3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015/Toelichting%20modeldocument%20AEGON%204.0.0%20-%20v4.3.0.docx)**| X |
 XSD StukAlgemeen|[7.0.0](/schema/stuk%20algemeen/7.0.0/StukAlgemeen-7.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

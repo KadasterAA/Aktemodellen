@@ -8,6 +8,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 4 juli 2018
+-  Bij het modeldocument, de toelichting en de releasenotes van het modeldocument van Aegon is per abuis een verkeerd stylesheetnummer getoond. 
+De fout is inmiddels in de documentatie hersteld, het juiste stylesheetnummer moet zijn [20180501000015](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015).
+
 ## 18 juni 2018
 - Met deze release maken we de wĳziging AA-3777 in de toelichting van het [tekstblok Burgerlijke Staat](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.5.docx) ongedaan. Zie voor de details release notes van de verschillende modeldocumenten.
 - Voor de modeldocumenten van [SNS](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20180501000013/Releasenotes%20SNS%2020180501000013%20%20-%201b.md) en [RegioBank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20180501000016/Releasenotes%20Regiobank%2020180501000016%20-%201b.md) hebben we de nu overbodige controle op datum ondertekening hypotheekofferte verwijderd.
