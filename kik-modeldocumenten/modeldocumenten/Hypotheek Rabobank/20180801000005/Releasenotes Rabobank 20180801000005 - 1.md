@@ -12,7 +12,7 @@ AA-3913 |Nieuwe versie van het modeldocument voor de Rabobank. De akte is op vel
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Rabobank|**[4.0.1]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180501000005/Modeldocument%20Rabobank%20v3.5.0.docx)**|**[4.0.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180801000005/Toelichting%20modeldocument%20Rabobank%204.0.1%20-%20v4.0.0.docx)**| X |
+Modeldocument Rabobank|**[4.0.1]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180501000005/Modeldocument%20Rabobank%20vv4.0.1.docx)**|**[4.0.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180801000005/Toelichting%20modeldocument%20Rabobank%204.0.1%20-%20v4.0.0.docx)**| X |
 XSD RabobankHypotheekakte|**[1.3](/kik-xsd/PartnerSpecifiek/Rabobank/KIK/versie%201.3/RabobankHypotheekakte-1.3.xsd)**|| X |
 XSD StukAlgemeen|[7.0.0](/schema/stuk%20algemeen/7.0.0/StukAlgemeen-7.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
