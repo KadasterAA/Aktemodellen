@@ -8,6 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 3 augustus 2018
+-  Nieuwe versie van het modeldocument voor de Rabobank. De details staan in de [release notes voor de Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180801000005/Releasenotes%20Rabobank%2020180801000005%20-%201.md) en in de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180801000005/Toelichting%20modeldocument%20Rabobank%204.0.1%20-%20v4.0.0.docx).
+
 ## 4 juli 2018
 -  Bij het modeldocument, de toelichting en de releasenotes van het modeldocument van Aegon is per abuis een verkeerd stylesheetnummer getoond. 
 De fout is inmiddels in de documentatie hersteld, het juiste stylesheetnummer moet zijn [20180501000015](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015).
