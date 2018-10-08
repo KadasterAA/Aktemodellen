@@ -79,14 +79,16 @@ Hypotheek Obvion|20180501000012|1|hypotheek_obvion_abp-1.4.0
  “ | “ |3|hypotheek_obvion_abp-1.1.0
  “ | “ |2|hypotheek_obvion_abp-1.0.0
  “ | “ |1|hypotheek_obvion-3.1.0
-Hypotheek Particulier|20180501000006|1|hypotheek_particulier-2.11.0
+Hypotheek Particulier|20180501000006|2|hypotheek_particulier-2.12.0
+ “ | “ |1|hypotheek_particulier-2.11.0
  “ |20140830000006|12|hypotheek_particulier-2.10.0
  “ | “ |11|hypotheek_particulier-2.9.0
  “ | “ |10|hypotheek_particulier-2.8.0
  “ | “ |9|hypotheek_particulier-1.77
  “ | “ |8|hypotheek_particulier-1.76
  “ | “ |7|hypotheek_particulier-1.75
-Hypotheek Rabobank|20180801000005|2|hypotheek_rabobank-4.0.1
+Hypotheek Rabobank|20180801000005|3|hypotheek_rabobank-4.0.2
+ “ | “ |2|hypotheek_rabobank-4.0.1
  “ | “ |1|hypotheek_rabobank-4.0.0
  “ |20180501000005|1|hypotheek_rabobank-3.12.0
 Hypotheek Rabobank|20140830000005|10|hypotheek_rabobank-3.11.0
