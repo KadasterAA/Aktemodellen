@@ -11,6 +11,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 # 15 oktober 2018
 - AA-4249: We hebben een bug in het modeldocument voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md) opgelost.	
 - AA-4250: In het Tekstblok Partijnamen in Hypotheekakten hebben we 'de' in partijaanduiding optioneel gemaakt en toegepast voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md).
+- AA-4248: We hebben verouderde documentatie van tekstblokken verwijderd.
 
 # 05 oktober 2018
 - AA-3586: een kleine aanpassing aan de waardelijst [land-codes-actueel](/waardelijsten/land-kodes-actueel.xml). We hebben daarnaast voor Automatische Akteverwerking overbodige waardelijsten verwijderd uit de publicatie.
