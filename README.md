@@ -8,12 +8,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
-# 15 oktober 2018
+## 15 oktober 2018
 - AA-4249: We hebben een bug in het modeldocument voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md) opgelost.	
 - AA-4250: In het Tekstblok Partijnamen in Hypotheekakten hebben we 'de' in partijaanduiding optioneel gemaakt en toegepast voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md).
 - AA-4248: We hebben verouderde documentatie van tekstblokken verwijderd.
 
-# 05 oktober 2018
+## 5 oktober 2018
 - AA-3586: een kleine aanpassing aan de waardelijst [land-codes-actueel](/waardelijsten/land-kodes-actueel.xml). We hebben daarnaast voor Automatische Akteverwerking overbodige waardelijsten verwijderd uit de publicatie.
 - AA-4200: Er is een nieuwe generieke waardelijst met [nnp-kodes](/waardelijsten/nnp-kodes.xml) met een extra kolom, code rechtsvorm. Voor het modeldocument van de Rabobank gebruiken we vanaf nu niet meer de specifieke waardelijst nnp-kodes_hypotheek. Ook voor andere modeldocumenten gaan we op termijn over op deze generieke waardelijst. De reden hiervoor is dat alle waardelijsten met nnp-kodes inhoudelijk identiek zijn. 
 - We hebben een aantal bugs in het modeldocument [voor de Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20180801000005/Releasenotes%20Rabobank%2020180801000005%20-%203.md) opgelost.
