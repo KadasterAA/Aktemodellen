@@ -1,5 +1,31 @@
 # Changelog XSD StukAlgemeen
 
+## CHANGES XSD StukAlgemeen-8.0.0 DATUM 7 november 2018
+o.b.v. AA-4242, AA-4243 en AA-4241
+- definitie kvkNummer toegevoegd: [0-9]{8} (alg-formaattypen-1.8.0.xsd)
+- definitie Huisletter toegevoegd: [a-zA-Z] (alg-formaattypen-1.8.0.xsd)
+- type NHR_Rechtspersoon/FINummer gewijzigd in KvkNummer
+- type IMKAD_OnroerendeZaak/tia_OmschrijvingEigendom gewijzigd naar alg-AN250V
+- type BAG_NummerAanduiding/huisletter gewijzigd in Huisletter
+- type IMKAD_KadBinnenlandsAdres/huisletter gewijzigd in Huisletter
+
+- IMKAD_AangebodenStuk tia_WoonplaatsKeuze verwijderd
+- IMKAD_Persoon tia_ExecuteurVan verwijderd
+- GerelateerdPersoon tia_IndPartij verwijderd
+- GerelateerdPersoon bevoegdheid verwijderd
+- GegevensGevolmachtigde bevoegdheid verwijderd
+- GegevensGevolmachtigde naamKantoor verwijderd
+- IMKAD_Ondertekenaar tia_Aard verwijderd
+- IMKAD_Ondertekenaar tia_KadGegevensOndertekenaar verwijderd
+- IMKAD_Ondertekenaar tia_KadGegevensWaarnemerVoor verwijderd
+- Verklaarder aard verwijderd
+- Verklaarder kadGegevensWaarnemerVoor verwijderd
+- AkteOpzeggingsbevoegdheid verwijderd
+- KeuzeAkteOpzeggingsbevoegdheid verwijderd
+- AkteOpzeggingsbevoegdheidGroup verwijderd
+- StukdeelBeslag verwijderd
+- StukdeelDoorhalingBeslag verwijderd
+- KostenStuk verwijderd
 
 ## CHANGES XSD StukAlgemeen-7.0.0 DATUM 18 mei 2018
 o.b.v. AA-3724 IMKAD_ZakelijkRecht uitgebreid met:

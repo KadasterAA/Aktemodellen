@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.kadaster.nl/schemas/KIK/RabobankHypotheekakte/v20181101" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rabo="http://www.kadaster.nl/schemas/KIK/RabobankHypotheekakte/v20181101" xmlns:rft="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316">
+	<xs:annotation>
+		<xs:documentation>CHANGES 1.0-1.1
+See changelog.
+
+CHANGES 1.0
+See changelog.</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316" schemaLocation="rft-formaattypen-1.0.xsd"/>
+	<xs:element name="datum" type="rabo:datum"/>
+	<xs:complexType name="datum">
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:element name="OnderhandseAkte" type="rabo:OnderhandseAkte"/>
+	<xs:complexType name="OnderhandseAkte">
+		<xs:annotation>
+			<xs:documentation>Een verklaring of overeenkomst die zonder de aanwezigheid van een notaris is opgesteld.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De datum van de onderhandse akte.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Financieringsvoorstel" type="rabo:Financieringsvoorstel"/>
+	<xs:complexType name="Financieringsvoorstel">
+		<xs:annotation>
+			<xs:documentation>Het voorstel tot financiering.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De datum van het financieringsvoorstel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="FinancieringsvoorstelAcceptatie" type="rabo:FinancieringsvoorstelAcceptatie"/>
+	<xs:complexType name="FinancieringsvoorstelAcceptatie">
+		<xs:annotation>
+			<xs:documentation>Het geaccepteerde financieringsvoorstel.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De datum van acceptatie van het financieringsvoorstel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BedragType" type="rabo:BedragType"/>
+	<xs:complexType name="BedragType">
+		<xs:annotation>
+			<xs:documentation>Standaard type voor bedragen.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence minOccurs="0">
+			<xs:element name="som" type="rft:alg-D20" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="valuta" type="rft:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de valutasoort. Hiervoor wordt de codelijst ISO 4217 gebruikt. 
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Persoon" type="rabo:IMKAD_Persoon"/>
+	<xs:complexType name="IMKAD_Persoon">
+		<xs:annotation>
+			<xs:documentation>Een persoon is een Natuurlijk persoon of een Niet Natuurlijk persoon. 
+
+Natuurlijk persoon is een individueel menselijk wezen (NEN 1888). Een niet natuurlijk persoon is een bedrijf of rechtspersoon. Imkad maakt bij niet natuurlijke personen onderscheid in personen die in Nederland zijn ingeschreven of in het buitenland.
+
+Imkad maakt onderscheid tussen natuurlijke personen die bij het GBA bekende ingezetenen zijn, natuurlijke personen die buitenlander zijn, en natuurlijke personen die in geen van deze categorieen vallen, maar wel bij het Kadaster bekend zijn. 
+
+Eén persoon kan verschillende rollen hebben. Een persoon kan bijvoorbeeld eigenaar zijn van een onroerende zaak, een hypotheekhouder van een Hypotheek, als partner betrokken bij de verkrijging van een recht, etc. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tia_Gegevens" type="rabo:PersoonKeuze" minOccurs="1" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>De gegevens die over een persoon worden opgenomen hangen af van de soort persoon. PersoonKeuze is een keuze tussen de soorten personen Imkad_Ingezetene, Imkad_NietIngezetene of NHR_Rechtspersoon.
+
+In dit model is NHR_Rechtspersoon niet van toepassing en daarom niet opgenomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TekstKeuze" type="rabo:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="PersoonKeuze" type="rabo:PersoonKeuze"/>
+	<xs:complexType name="PersoonKeuze">
+		<xs:annotation>
+			<xs:documentation>PersoonKeuze is een keuze tussen de soorten personen (GBA_Ingezetene, IMKAD_NietIngezetene en NHR_Rechtspersoon) die in de interface voor de akte gehanteerd mogen worden.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element ref="rabo:GBA_Ingezetene" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="rabo:IMKAD_NietIngezetene" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="rabo:IMKAD_KadNatuurlijkPersoon" minOccurs="1" maxOccurs="1"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="GBA_Naam" type="rabo:GBA_Naam"/>
+	<xs:complexType name="GBA_Naam">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de naam van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="voornamen" type="rft:alg-AN200" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voornamen van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_NietIngezetene" type="rabo:IMKAD_NietIngezetene"/>
+	<xs:complexType name="IMKAD_NietIngezetene">
+		<xs:annotation>
+			<xs:documentation>Een natuurlijk persoon die geen ingezetene in Nederland is. 
+
+Binnen het programma stroomlijning basisgegevens wordt onderzocht of het mogelijk is een basisregistratie voor niet ingezetenen (RNI) toe te voegen aan het stelsel. Het is momenteel nog niet duidelijk of en wanneer deze registratie beschikbaar komt.
+
+In afwachting van de mogelijke komst van het RNI wordt binnen Imkad de klasse NietIngezetene in een eigen namespace gezet. In de toekomst kan deze vervangen worden door de RNI namespace. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geslachtsnaam" type="rft:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De achternaam, exclusief voorvoegsels.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RNIIdentificatie" type="xs:integer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Identificatiecode van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorvoegsels" type="rft:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels bij de achternaam.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voornamen" type="rft:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voornamen van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslacht" type="rabo:AanduidingGeslacht" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon (Man of Vrouw).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboortedatum" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De geboortedatum.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteplaats" type="rft:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van de plaats waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel" type="rft:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel2" type="rft:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel" type="rft:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel2" type="rft:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VasteHypotheekGeenSchip" type="rabo:VasteHypotheekGeenSchip"/>
+	<xs:complexType name="VasteHypotheekGeenSchip">
+		<xs:annotation>
+			<xs:documentation>Hypotheek van het soort vaste hypotheek niet zijnde teboekgesteld schip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="vasteHypotheek" type="rabo:VasteHypotheekType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De onderhandse akte(n) waarin de geaccepteerde financieringsvoorstellen zijn opgenomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="rabo:Geldleningen" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:Kredieten" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:Borgtochten" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Geldleningen" type="rabo:Geldleningen"/>
+	<xs:complexType name="Geldleningen">
+		<xs:annotation>
+			<xs:documentation>De geldlening(en) die verstrekt zijn of worden.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tekstKeuze" type="rabo:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedrag" type="rabo:BedragType" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Het bedrag van de geldlening.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Kredieten" type="rabo:Kredieten"/>
+	<xs:complexType name="Kredieten">
+		<xs:annotation>
+			<xs:documentation>De kredieten die verleend zijn of worden.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tekstKeuze" type="rabo:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedrag" type="rabo:BedragType" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Het bedrag van het krediet.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Borgtochten" type="rabo:Borgtochten"/>
+	<xs:complexType name="Borgtochten">
+		<xs:annotation>
+			<xs:documentation>Borgtocht is de overeenkomst waarbij de ene partij, de borg, zich tegenover de andere partij, de schuldeiser, verbindt tot nakoming van een verbintenis, die een derde, de hoofdschuldenaar, tegenover de schuldeiser heeft of zal krijgen.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tekstKeuze" type="rabo:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="rabo:IMKAD_Persoon" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VasteHypotheekType" type="rabo:VasteHypotheekType"/>
+	<xs:complexType name="VasteHypotheekType">
+		<xs:annotation>
+			<xs:documentation>Zie VasteHypotheek(geen)Schip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="rabo:OnderhandseAkte" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:Financieringsvoorstel" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:FinancieringsvoorstelAcceptatie" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:Offerte" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:OfferteAcceptatie" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AanvullendeKosten" type="rabo:AanvullendeKosten"/>
+	<xs:complexType name="AanvullendeKosten">
+		<xs:annotation>
+			<xs:documentation>De aanvullende kosten die samen met het hypotheekbedrag het totaal bedrag vormen.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element ref="rabo:RegistergoedGeenSchip" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="rabo:HypotheekMedeOpSchip" minOccurs="1" maxOccurs="1"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="GBA_Geboorte" type="rabo:GBA_Geboorte"/>
+	<xs:complexType name="GBA_Geboorte">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de geboorte van de persoon</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geboortedatum" type="xs:date" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De geboortedatum.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteplaatsOmschrijving" type="rft:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De plaatsnaam van de plaats waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GBA_Geslacht" type="rabo:GBA_Geslacht"/>
+	<xs:complexType name="GBA_Geslacht">
+		<xs:annotation>
+			<xs:documentation>De aanduiding van het geslacht van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geslachtsaanduiding" type="rabo:AanduidingGeslacht" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon (Man of Vrouw).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="AanduidingGeslacht">
+		<xs:annotation>
+			<xs:documentation>Het geslacht van een natuurlijk persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Man"/>
+			<xs:enumeration value="Vrouw"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="IMKAD_KadNatuurlijkPersoon" type="rabo:IMKAD_KadNatuurlijkPersoon"/>
+	<xs:complexType name="IMKAD_KadNatuurlijkPersoon">
+		<xs:annotation>
+			<xs:documentation>Indien de persoongegevens afwijken van de GBA gegevens</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adellijkeTitelOfPredikaat" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="geslachtsnaam" type="rft:alg-AN200" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="voornamen" type="rft:alg-AN200" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="voorvoegselsgeslachtsnaam" type="rft:alg-AN10" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tia_TekstKeuze" type="rabo:TekstKeuze" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tia_Titel" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tia_Titel2" type="rft:alg-AN10" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tia_AdellijkeTitel2" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Offerte" type="rabo:Offerte"/>
+	<xs:complexType name="Offerte">
+		<xs:annotation>
+			<xs:documentation>De offerte van de lening.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De datum van de offerte en overeenkomst lening.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="OfferteAcceptatie" type="rabo:OfferteAcceptatie"/>
+	<xs:complexType name="OfferteAcceptatie">
+		<xs:annotation>
+			<xs:documentation>De geaccepteerde offerte.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De datum van de acceptatie van de offerte.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GBA_Ingezetene" type="rabo:GBA_Ingezetene"/>
+	<xs:complexType name="GBA_Ingezetene">
+		<xs:annotation>
+			<xs:documentation>Een ingezetene is een natuurlijk persoon die is geregistreerd bij GBA en die een BSN heeft. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="BSN" type="rft:alg-N9" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het BSN (Burger Service Nummer) is een uniek nummer dat gelijk is aan het sofi-nummer. Ieder  natuurlijk persoon die een relatie heeft met de Nederlandse overheid krijgt een BSN.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naam" type="rabo:GBA_Naam" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Geslachtsnaam van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorte" type="rabo:GBA_Geboorte" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens over de geboorte van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslacht" type="rabo:GBA_Geslacht" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel2" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel2" type="rft:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_VoorvoegselsNaam" type="rft:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_NaamZonderVoorvoegsels" type="rft:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de ingezetene exclusief voorvoegsels.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_BuitenlandsAdres" type="rabo:IMKAD_BuitenlandsAdres"/>
+	<xs:complexType name="IMKAD_BuitenlandsAdres">
+		<xs:annotation>
+			<xs:documentation>Een woonlocatie in het buitenland bestaat uit een aantal adresregels, te weten: Plaatsnaam en postcode, Regio, Straatnaam en huisnummer, en Landnaam.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="rft:alg-AN50" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat straatnaam en huisnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaats" type="rft:alg-AN80" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat postcode en woonplaats.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="regio" type="rft:alg-AN39" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gebied binnen een land.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="land" type="rft:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De mogelijke waarden zijn vastgelegd in een catalogus.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GeldleningenInclRente" type="rabo:GeldleningenInclRente"/>
+	<xs:complexType name="GeldleningenInclRente">
+		<xs:annotation>
+			<xs:documentation>De geldleningen die verstrekt zijn of worden met de bedongen rente percentages.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="rabo:Geldleningen" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="rente" type="rabo:RenteType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het rentepercentage van de geldlening.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="RenteType" type="rabo:RenteType"/>
+	<xs:complexType name="RenteType">
+		<xs:annotation>
+			<xs:documentation>Standaard type voor renten.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="rabo:Rentepercentage" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="rabo:VervalDatum" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="rabo:EersteVervalDatum" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Rentepercentage" type="rabo:Rentepercentage"/>
+	<xs:complexType name="Rentepercentage">
+		<xs:annotation>
+			<xs:documentation>Bedongen rente percentage.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="percentage" type="xs:decimal" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VervalDatum" type="rabo:VervalDatum"/>
+	<xs:complexType name="VervalDatum">
+		<xs:annotation>
+			<xs:documentation>Vervaldatum van de bedongen rente.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="EersteVervalDatum" type="rabo:EersteVervalDatum"/>
+	<xs:complexType name="EersteVervalDatum">
+		<xs:annotation>
+			<xs:documentation>Eerste vervaldatum van den bedongen rente.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="KredietenInclRente" type="rabo:KredietenInclRente"/>
+	<xs:complexType name="KredietenInclRente">
+		<xs:annotation>
+			<xs:documentation>De kredieten die verleend zijn of worden met de bedongen rente percentages.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="rabo:Kredieten" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="rente" type="rabo:RenteType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het rentepercentage van het krediet.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VasteHypotheekSchip" type="rabo:VasteHypotheekSchip"/>
+	<xs:complexType name="VasteHypotheekSchip">
+		<xs:annotation>
+			<xs:documentation>Hypotheek van het soort vaste hypotheek teboekgesteld binnenschip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="vasteHypotheek" type="rabo:VasteHypotheekType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De onderhandse akte(n) waarin de geaccepteerde financieringsvoorstellen zijn opgenomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="rabo:GeldleningenInclRente" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="rabo:KredietenInclRente" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="RegistergoedGeenSchip" type="rabo:RegistergoedGeenSchip"/>
+	<xs:complexType name="RegistergoedGeenSchip">
+		<xs:annotation>
+			<xs:documentation>De aanvullende kosten ten behoeve van een registergoed niet zijnde een schip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="bedragRente" type="rabo:BedragType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bedrag aan renten, vergoedingen, boeten en kosten, die samen worden begroot op een bepaald percentage van de hoofdsom.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedragTotaal" type="rabo:BedragType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Totaal bedrag van hoofdsom plus het bedrag begroot voor de renten, vergoedingen, boeten en kosten.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="HypotheekMedeOpSchip" type="rabo:HypotheekMedeOpSchip"/>
+	<xs:complexType name="HypotheekMedeOpSchip">
+		<xs:annotation>
+			<xs:documentation>De aanvullende kosten ten behoeve van een hypotheek (mede) op een schip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="bedragRente" type="rabo:BedragType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bedrag aan renten, vergoedingen, boeten en kosten, die samen worden begroot op een bepaald percentage van de hoofdsom.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="bedragTotaal" type="rabo:BedragType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Totaal bedrag van hoofdsom plus het bedrag begroot voor de renten, vergoedingen, boeten en kosten.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="TekstKeuze" type="rabo:TekstKeuze"/>
+	<xs:complexType name="TekstKeuze">
+		<xs:annotation>
+			<xs:documentation>In een stylesheet komen variabele teksten voor. Tekstkeuze is de tekst die door een aanbieder gekozen wordt bij het opstellen van een document.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tagNaam" type="rft:alg-AN50V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de tekst waarvoor een keuze gemaakt kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekst" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De tekst die gekozen is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
