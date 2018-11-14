@@ -8,6 +8,19 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 12 november 2018
+Als gevolg van strengere eisen voor de Basisregistratie Kadaster (BRK) hebben we wijzigingen doorgevoerd in een aantal gegevensformaten zodat uitval bij verwerking van KIK-akten zal verminderen:
+- AA-4241: We hebben het formaat voor omschrijvingKadastraalObject aangepast zodat deze in lijn is met de BRK.
+- AA-4242: We hebben het formaat voor FINummer aangepast naar het formaat voor kvknummer. 
+- AA-4243: We hebben het formaat voor huisletter strikter gemaakt zodat deze in overeenstemming is met de BAG.
+
+Naast deze verbeteringen hebben we overbodige onderdelen verwijderd uit de schema's StukAlgemeen en Rabobank.
+
+De details voor StukAlgemeen zijn terug te vinden in de 
+[Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [xsd van de algemene formaattypen](/schema/alg-formaattypen/2.0.0/alg-formaattypen-2.0.0.xsd), [xsd van StukAlgemeen](/schema/stuk%20algemeen/8.0.0/StukAlgemeen-8.0.0.xsd) en de [documentatie](/schema/stuk%20algemeen/8.0.0/HTML/index.htm). 
+
+De wijzigingen in het schema van de Rabobank zijn op genomen in de [Changelog XSD RabobankHypotheekakte](/schema/RabobankHypotheekakte/Changelog%20XSD%20RabobankHypotheekakte.MD), [xsd van RabobankHypotheekakte](/schema/RabobankHypotheekakte/1.5/RabobankHypotheekakte-1.5.xsd) en de bijbehorende [documentatie](/schema/RabobankHypotheekakte/1.5/HTML/index.htm).
+
 ## 15 oktober 2018
 - AA-4249: We hebben een bug in het modeldocument voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md) opgelost.	
 - AA-4250: In het Tekstblok Partijnamen in Hypotheekakten hebben we 'de' in partijaanduiding optioneel gemaakt en toegepast voor de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20181015000005/Releasenotes%20Rabobank%2020181015000005%20-%201.md).
