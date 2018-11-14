@@ -2,8 +2,8 @@
 
 ## CHANGES XSD StukAlgemeen-8.0.0 DATUM 7 november 2018
 o.b.v. AA-4242, AA-4243 en AA-4241
-- definitie kvkNummer toegevoegd: [0-9]{8} (alg-formaattypen-1.8.0.xsd)
-- definitie Huisletter toegevoegd: [a-zA-Z] (alg-formaattypen-1.8.0.xsd)
+- definitie kvkNummer toegevoegd: [0-9]{8} (alg-formaattypen-2.0.0.xsd)
+- definitie Huisletter toegevoegd: [a-zA-Z] (alg-formaattypen-2.0.0.xsd)
 - type NHR_Rechtspersoon/FINummer gewijzigd in KvkNummer
 - type IMKAD_OnroerendeZaak/tia_OmschrijvingEigendom gewijzigd naar alg-AN250V
 - type BAG_NummerAanduiding/huisletter gewijzigd in Huisletter
