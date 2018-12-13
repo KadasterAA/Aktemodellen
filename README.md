@@ -8,6 +8,25 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 13 december 2018
+- AA-4273: Wanneer 2 locatieadressen werden opgegeven in het Tekstblok Registergoed dan werden deze ten onrechte gescheiden door een komma in plaats van "en". Dit probleem hebben we hiermee opgelost. 
+
+- AA-4298: Wegens compatibiliteitsproblemen met de stylesheets, hebben we de partnerspecifieke XSD voor de Rabobank versie 1.5 van 12 november aangepast. Zie de [Changelog XSD RabobankHypotheekakte](/schema/RabobankHypotheekakte/Changelog%20XSD%20RabobankHypotheekakte.MD), [XSD versie 1.5.1](/schema/RabobankHypotheekakte/1.5.1/RabobankHypotheekakte-1.5.1.xsd) en de [documentatie](http://htmlpreview.github.com/?/schema/RabobankHypotheekakte/1.5/HTML/index.htm) voor de details.
+
+- AA-4293: De huidige waardelijst voor landen in woon- en postadressen van buitenlandsAdres was al langere tijd niet meer actueel. Dit leverde ongewenste uitval op in de verwerking en sommige landen werden ten onrechte afgekeurd. Om eenvoudiger actueel te blijven zal AA overgaan op de algemene waardelijst BRPLand. We hebben hier nu een aangepaste voor AA-specifieke versie van gepubliceerd welke in de plaats komt van de huidige land-kodes-actueel. De aangepaste versie van BRPLand bevat nu nog schrijfwijzen voor landen die geldig waren volgens land-kodes-actueel, maar niet voorkomen in de algemene BRPLand waardelijst. Deze waarden zijn met einddatum geldigheid (Datum tot) ook opgenomen. De specifieke versie van BRPLand bevat nu alle actueel geldige landen. Nieuw zijn onder andere Bonaire, Curaçao, Saba en Sint Eustatius. Vanaf 1 april 2019 zal de algemene BRPLand waardelijst van toepassing zijn. 
+Let op waarden voor Land als "Verenigd Koninkrijk" en "Verenigde Staten" waren en blijven onjuist en zullen uitval blijven geven. 
+
+- AA-3973: De volgende stylesheet-nummers kunnen met ingang van 1 april  2019 niet meer aangeboden worden via KIK:
+
+| Nummer | Model |
+| --- | --- |
+| 20160701000015 | Aegon |
+| 20180402000014 | BLG |
+| 20151101000014 | BLG |
+| 20180402000016 | RegioBank |
+| 20180402000013 | SNS |
+
+
 ## 12 november 2018
 Als gevolg van strengere eisen voor de Basisregistratie Kadaster (BRK) hebben we wijzigingen doorgevoerd in een aantal gegevensformaten zodat uitval bij verwerking van KIK-akten zal verminderen:
 - AA-4241: We hebben het formaat voor omschrijvingKadastraalObject aangepast zodat deze in lijn is met de BRK.
