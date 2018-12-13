@@ -16,6 +16,8 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 - AA-4293: De huidige waardelijst voor landen in woon- en postadressen van buitenlandsAdres was al langere tijd niet meer actueel. Dit leverde ongewenste uitval op in de verwerking en sommige landen werden ten onrechte afgekeurd. Om eenvoudiger actueel te blijven zal AA overgaan op de algemene waardelijst BRPLand. We hebben hier nu een aangepaste voor AA-specifieke versie van gepubliceerd welke in de plaats komt van de huidige land-kodes-actueel. De aangepaste versie van BRPLand bevat nu nog schrijfwijzen voor landen die geldig waren volgens land-kodes-actueel, maar niet voorkomen in de algemene BRPLand waardelijst. Deze waarden zijn met einddatum geldigheid (Datum tot) ook opgenomen. De specifieke versie van BRPLand bevat nu alle actueel geldige landen. Nieuw zijn onder andere Bonaire, Curaçao, Saba en Sint Eustatius. Vanaf 1 april 2019 zal de algemene BRPLand waardelijst van toepassing zijn. 
 Let op waarden voor Land als "Verenigd Koninkrijk" en "Verenigde Staten" waren en blijven onjuist en zullen uitval blijven geven. 
 
+- AA-4292: De waarden "Laren Noord-Holland" en "Netwerken" ontbraken in de waardelijst kadastralegemeente_backend. Deze waarden hebben we hier aan toegevoegd.
+
 - AA-3973: De volgende stylesheet-nummers kunnen met ingang van 1 april  2019 niet meer aangeboden worden via KIK:
 
 | Nummer | Model |
