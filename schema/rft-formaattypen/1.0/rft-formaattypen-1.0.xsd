@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2010 (http://www.altova.com) by Kadaster (Kadaster) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rft="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316" targetNamespace="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316" elementFormDefault="qualified">
+<xs:schema targetNamespace="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rft="http://www.kadaster.nl/schemas/KIK/rabobankhypotheekakte/formaattypen/v20100316">
+	<xs:annotation>
+		<xs:documentation>Versie 1.0 - Susan Veltman - 16-03-2010: defintief 
+Versie 0.1 - Susan Veltman - 27-01-2010: gebaseerd op versie 1.4 van alg_formaattypen.</xs:documentation>
+	</xs:annotation>
 	<xs:simpleType name="alg-N3">
 		<xs:restriction base="xs:integer">
 			<xs:totalDigits value="3"/>
@@ -28,8 +31,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN50V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="50"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="50"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN250">
@@ -39,8 +42,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN250V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="250"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="250"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN40V">
@@ -48,8 +51,8 @@
 			<xs:documentation>Alfanumeriek element met verplichte inhoud.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="40"/>
 			<xs:pattern value="(\p{L}|\d)+.*"/>
+			<xs:maxLength value="40"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN15">
@@ -74,8 +77,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN20V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="20"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="20"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-D4">
@@ -100,14 +103,14 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN5V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="5"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="5"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN4V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="4"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="4"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-N5">
@@ -147,8 +150,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN30V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="30"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="30"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-D2">
@@ -178,8 +181,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN6V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="6"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="6"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN80V">
@@ -187,8 +190,8 @@
 			<xs:documentation>Alfanumeriek element met verplichte inhoud.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="80"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="80"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN2">
@@ -198,8 +201,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN2V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="2"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="2"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-D7">
@@ -230,8 +233,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN24V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="24"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="24"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN80">
@@ -241,8 +244,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN10V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="10"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="10"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN65">
@@ -278,8 +281,8 @@
 			<xs:documentation>Element met verplichte inhoud</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="14"/>
 			<xs:pattern value="(\p{L}|\d)+.*"/>
+			<xs:maxLength value="14"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN6">
@@ -310,8 +313,8 @@
 	</xs:simpleType>
 	<xs:simpleType name="alg-AN200V">
 		<xs:restriction base="xs:string">
-			<xs:maxLength value="200"/>
 			<xs:pattern value="(\p{L}|\d|')+.*"/>
+			<xs:maxLength value="200"/>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>
