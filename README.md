@@ -8,6 +8,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 31 januari 2019
+-  AA-4303: In het tekstblok Registergoed is het groeperen van percelen nu ook afhankelijk van "tia_Aantal_Rechten" en "tia_Aantal_RechtenVariant". De mogelijkheid om percelen te groeperen hield eerder nog geen rekening met deze variabelen. Deze dienen nu ook gelijk te zijn willen percelen gegroepeerd kunnen worden in het tekstblok registergoed. Deze wijziging hebben we doorgevoerd in alle modeldocumenten. Zie eventueel ook de release notes van de modeldocumenten zelf.
+- AA-4311: Sinds 1 januari 2019 is voor de Rabobank alleen nog de statutaire naam 'Coöperatieve Rabobank U.A.' toegestaan in aktes. 
+
 ## 13 december 2018
 - AA-4273: Wanneer 2 locatieadressen werden opgegeven in het Tekstblok Registergoed dan werden deze ten onrechte gescheiden door een komma in plaats van "en". Dit probleem hebben we hiermee opgelost. 
 
