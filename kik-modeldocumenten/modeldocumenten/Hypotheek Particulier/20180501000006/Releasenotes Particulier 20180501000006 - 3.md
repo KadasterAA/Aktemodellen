@@ -1,14 +1,13 @@
 # Release notes
-Product|Particulier stylesheetnummer 20180501000006 implementatienummer 2|
+Product|Particulier stylesheetnummer 20180501000006 implementatienummer 3|
 |---|---|
-|**Release**|**15 oktober 2018**|
+|**Release**|**Januari 2019**|
 ## Wijzigingen
-
-### MD Particulier wijzigingen
+### Tekstblok Registergoed
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-| AA-4324 | Erratum: Wijziging AA-4303 hebben we op 31 januari 2019 ten onrechte gepubliceerd onder implementatienummer 2, dit had implementatienummer 3 moeten zijn. Wijziging AA-4198 was reeds in oktober gereleased, maar ontbraken de release notes. Met deze release notes corrigeren wij dit. | Release notes | 
-|AA-4198 | MD Particuliere hypotheek: De stylesheet toonde ten onrechte een komma na tekstblok natuurlijk persoon bij een Vaste hypotheek, niet zijnde teboekgesteld schip. Deze bug is hiermee opgelost. |Stylesheet|
+| AA-4324 | Erratum: Wijziging AA-4303 hebben we op 31 januari 2019 ten onrechte gepubliceerd onder implementatienummer 2, dit had implementatienummer 3 moeten zijn. | Release notes | 
+| AA-4303 | TB Registergoed: Groeperen van percelen ook mogelijk maken bij gebruik van "tia_Aantal_Rechten" en "tia_Aantal_RechtenVariant" | Toelichting, Stylesheet|
 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
@@ -30,7 +29,7 @@ Tekstblok - Partijnamen in hypotheekakten|[1.1](/kik-modeldocumenten/tekstblokke
 Tekstblok - Personalia van Natuurlijk persoon|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%20v1.0.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%201.0%20-%20v1.4.docx)|   |
 Tekstblok - Recht|[2.7](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Recht%20v2.7.docx)|[2.9](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Recht%202.7%20-%20v2.9.docx)| |
 Tekstblok - Rechtspersoon|[2.8.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Rechtspersoon%20v2.8.0.docx)|[2.11.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Rechtspersoon%202.8.0%20-%20v2.11.0.docx)|   |
-Tekstblok - Registergoed|[2.7.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Registergoed%20v2.7.0.docx)|[2.11.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Registergoed%202.7.0%20-%20v2.11.0.docx)|  | 
+Tekstblok - Registergoed|[2.7.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Registergoed%20v2.7.0.docx)|**[2.12.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Registergoed%202.7.0%20-%20v2.11.0.docx)**| X | 
 Tekstblok - Titel hypotheek|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Titel%20hypotheek%20v1.1.docx)|[1.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Titel%20hypotheek%201.1%20-%20v1.0.docx)|   |
 Tekstblok - Woonadres|[2.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Woonadres%20v2.1.docx)|[2.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Woonadres%202.1%20-%20v2.4.docx)|   |
 X = nieuw of gewijzigd voor dit stylesheet- en implementatienummer, vetgedrukte versienummers zijn gewijzigd.
