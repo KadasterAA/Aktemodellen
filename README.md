@@ -8,6 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 18 februari 2019
+- AA-4294: We hebben de meldingen van een aantal controles verbeterd waardoor duidelijker is op welk object of persoon de melding betrekking heeft.
+
 ## 5 februari 2019
 - AA-4324: Wijziging AA-4303 was voor de particuliere hypotheek vermeld in de [release notes met implementatienummer 2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20180501000006/Releasenotes%20Particulier%2020180501000006%20-%202.md), dit had in de [release notes van implementatienummer 3](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20180501000006/Releasenotes%20Particulier%2020180501000006%20-%203.md) moeten staan. Dit hebben we opgelost. De opgeloste bug AA-4198 was eerder opgelost onder implementatienummer 2 van de particuliere hypotheek, deze staat nu ook vermeld.
 - AA-4324: Ten onrechte wees de ETO Tester Obvion hypotheekaktes met implementatienummer 2 af. Dit hebben we opgelost.
