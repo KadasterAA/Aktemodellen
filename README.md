@@ -8,6 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 20 maart 2019
+- AA-4345: Bij bij de kadastrale gemeenten met de naam NES en NES (A) klopte de opgegeven kode niet. Dit hebben we gecorrigeerd in de waardelijst kadastralegemeente_backend.
+
 ## 18 februari 2019
 - AA-4294: We hebben de meldingen van een aantal controles verbeterd waardoor duidelijker is op welk object of persoon de melding betrekking heeft.
 

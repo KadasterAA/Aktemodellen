@@ -13663,13 +13663,13 @@
 				<SimpleValue>Nes (Ameland)</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
-				<SimpleValue>NES02</SimpleValue>
+				<SimpleValue>NES01</SimpleValue>
 			</Value>
 			<Value ColumnRef="E">
 				<SimpleValue>LA</SimpleValue>
 			</Value>
 			<Value ColumnRef="F">
-				<SimpleValue>642</SimpleValue>
+				<SimpleValue>1191</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -13680,13 +13680,13 @@
 				<SimpleValue>Nes Ameland</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
-				<SimpleValue>NES02</SimpleValue>
+				<SimpleValue>NES01</SimpleValue>
 			</Value>
 			<Value ColumnRef="E">
 				<SimpleValue>LA</SimpleValue>
 			</Value>
 			<Value ColumnRef="F">
-				<SimpleValue>642</SimpleValue>
+				<SimpleValue>1191</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
