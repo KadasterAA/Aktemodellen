@@ -1,5 +1,17 @@
 # Changelog XSD StukAlgemeen
 
+## CHANGES XSD StukAlgemeen-8.1.0 DATUM 1 december 2018
+o.b.v. AA-4239 
+- IMKAD_NietIngezetene geboorteland toegevoegd
+- GBA_Geboorte geboorteland toegevoegd
+
+## CHANGES XSD StukAlgemeen-8.0.1 DATUM 1 november 2018
+o.b.v. AA-2850
+- Legitimatiebewijs plaatsUitgegeven optioneel gemaakt
+- Legitimatiebewijs datumUitgegeven optioneel gemaakt
+- Legitimatiebewijs datumGeldigTot [0..1] toegevoegd
+- Legitimatiebewijs instantieUitgegeven [0..1] toegevoegd
+
 ## CHANGES XSD StukAlgemeen-8.0.0 DATUM 7 november 2018
 o.b.v. AA-4242, AA-4243 en AA-4241
 - definitie kvkNummer toegevoegd: [0-9]{8} (alg-formaattypen-2.0.0.xsd)
