@@ -8,7 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
-##
+## 3 mei 2019
+- Voor de ASR hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%201.md) en de [toelichting]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Toelichting%20modeldocument%20ASR%201.1%20-v1.0.0.docx) hebben we de details opgenomen.
+
 ## 5 April 2019 (Bèta)
 - We hebben in deze release drie vaak gehoorde wensen vanuit het notariaat vervuld. Daarnaast hebben we veertien  verbeteringen doorgevoerd in diverse tekstblokken. Tevens hebben we een aantal verbeteringen in de akte van levering zelf doorgevoerd. Met deze release hebben we deze wijzigingen doorgevoerd in de Akte van Levering. In de komende maanden zullen we deze wijzigingen ook doorvoeren in de overige akten. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Releasenotes%20Akte%20van%20Levering%2020190301000007%20-%201.md) van de Akte van Levering.  
 Voorbeelden van een aantal doorgevoerde wijzigingen hebben we opgenomen onder de FAQ map in [voorbeelden](/kik-modeldocumenten/FAQ/Voorbeelden).  
