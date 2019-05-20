@@ -8,6 +8,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 17 mei 2019
+Met deze release wordt de bèta release van 5 april 2019 definitief gemaakt. Vanaf nu resulteren wijzigingen van de Akte van Levering in een nieuw stylesheetnummer of een nieuw implementatienummer.
+- AA-4386: In het tekstblok Aanhef is de komma tussen 'gemeente' en 'kantoorhoudende', op verzoek, optioneel gemaakt. Deze wijziging hebben we nog alleen doorgevoerd voor de Levering en ASR.
+- AA-4391: In het tekstblok Equivalentieverklaring is de komma tussen 'gemeente' en 'kantoorhoudende', op verzoek, optioneel gemaakt. Deze wijziging hebben we nog alleen doorgevoerd voor de Levering en ASR.
+- AA-4395 en AA-4409: In de ASR zijn kleine tekstuele wijzigingen in de vaste tekst doorgevoerd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%202.md) van de ASR hebben we de details opgenomen.
+
+
 ## 3 mei 2019
 - Voor de ASR hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%201.md) en de [toelichting]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Toelichting%20modeldocument%20ASR%201.1%20-v1.0.0.docx) hebben we de details opgenomen.
 
