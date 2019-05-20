@@ -64,7 +64,8 @@ Hypotheek Aegon|20180501000015|2|hypotheek_aegon-4.3.1
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
 Hypotheek Aegon|20160701000015|1|hypotheek_aegon-3.0.0
-Hypotheek ASR|20190401000020|1|hypotheek_asr-1.0.0
+Hypotheek ASR|20190401000020|2|hypotheek_asr-1.1.0
+ “ | “ |1|hypotheek_asr-1.0.0
 Hypotheek BLG|20180501000014|2|hypotheek_blg-2.6.1
  “ | “ |1|hypotheek_blg-2.6.0
  “ |20180402000014|1|hypotheek_blg-2.5.0
