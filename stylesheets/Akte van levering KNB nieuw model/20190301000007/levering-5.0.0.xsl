@@ -5,6 +5,8 @@ Stylesheet: levering.xsl
 Version: 5.0.0
 (AA-250: teksblok-legitimatiebewijs)
 (AA-4303: tekstblok registergoed)
+AA-4386 - Tekstblok Aanhef versie opgehoogd (k_Komma).
+AA-4391 - Tekstblok Equivalentverklaring versie opgehoogd (k_Komma).
 *********************************************************
 Description:
 Deed of transfer.
@@ -41,9 +43,9 @@ Private:
 -->
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia kef xsl exslt xlink gc" version="1.0">
 	<xsl:include href="generiek-1.08.xsl"/>
-	<xsl:include href="tekstblok_aanhef-1.19.xsl"/>
+	<xsl:include href="tekstblok_aanhef-1.20.xsl"/>
 	<xsl:include href="tekstblok_burgerlijke_staat-1.03.xsl"/>
-	<xsl:include href="tekstblok_equivalentieverklaring-1.27.xsl"/>
+	<xsl:include href="tekstblok_equivalentieverklaring-1.28.xsl"/>
 	<xsl:include href="tekstblok_erfpachtcanon-1.11.xsl"/>
 	<xsl:include href="tekstblok_gevolmachtigde-1.26.xsl"/>
 	<xsl:include href="tekstblok_legitimatie-2.00.xsl"/>
