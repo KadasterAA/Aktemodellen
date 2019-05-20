@@ -1,8 +1,18 @@
 # Release notes
 Product|Akte van Levering stylesheetnummer 20190301000007 implementatienummer 1|
 |---|---|
-|**Release**|**April 2019**|
+|**Release**|**Mei 2019**|
 ## Wijzigingen
+
+### Tekstblok TB Aanhef
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4386 | De komma voor 'kantoorhoudende te', die in een eerdere release is toegevoegd, is op verzoek optioneel gemaakt.  | Tekstblok, Toelichting, Stylesheet |
+
+### Tekstblok TB Equivalentieverklaring
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4391 | De komma voor 'kantoorhoudende te', die in een eerdere release is toegevoegd, is op verzoek optioneel gemaakt. | Tekstblok, Toelichting, Stylesheet |
 
 ### Tekstblok TB Aanhef
 |Wijziging|Omschrijving|Oplossing|
@@ -62,12 +72,12 @@ AA-2729 | In het onderdeel 'Vervreemders, Verkrijgers en Belanghebbenden' stond 
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
 Modeldocument Akte van Levering|**[4.7.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Modeldocument%20Akte%20van%20Levering%20v4.7.0.docx)**|**[4.6.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Toelichting%20modeldocument%20Akte%20van%20Levering%204.7.0%20-%20v4.6.0.docx)**| X |
-XSD StukAlgemeen|**[8.0.1](/schema/stuk%20algemeen/8.0.1/StukAlgemeen-8.0.1.xsd)**|| X |
+XSD StukAlgemeen|**[8.1.0](/schema/stuk%20algemeen/8.1.0/StukAlgemeen-8.1.0.xsd)**|| X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
-Tekstblok - Aanhef|**[2.12](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20v2.12.docx)**|**[3.6](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.12%20-%20v3.6.docx)**| X |
+Tekstblok - Aanhef|**[2.13](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20v2.13.docx)**|**[3.7](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.12%20-%20v3.7.docx)**| X |
 Tekstblok - Burgerlijke staat|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Burgerlijke%20staat%20v1.1.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.4.docx)|   |
-Tekstblok - Equivalentieverklaring|**[3.2](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.2.docx)**|**[3.8](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.2%20-%20v3.8.docx)**| X |
+Tekstblok - Equivalentieverklaring|**[3.3](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.3.docx)**|**[3.9](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.2%20-%20v3.9.docx)**| X |
 Tekstblok - Erfpachtcanon|[1.2](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Erfpachtcanon%20v1.2.docx)|[1.7.1](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Erfpachtcanon%201.2%20-%20v1.7.1.docx)|   |
 Tekstblok - Gevolmachtigde|[2.7](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Gevolmachtigde%20v2.7.docx)|[2.8.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Gevolmachtigde%202.7%20-%20v2.8.0.docx)|   |
 Tekstblok - Legitimatie|**[3.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Legitimatie%20v3.0.docx)**|**[3.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Legitimatie%203.0%20-%20v3.0.docx)**| X |
