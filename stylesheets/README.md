@@ -64,7 +64,8 @@ Hypotheek Aegon|20180501000015|2|hypotheek_aegon-4.3.1
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
 Hypotheek Aegon|20160701000015|1|hypotheek_aegon-3.0.0
-Hypotheek ASR|20190401000020|2|hypotheek_asr-1.1.0
+Hypotheek ASR|20190401000020|3|hypotheek_asr-1.1.1
+ “ | “ |2|hypotheek_asr-1.1.0
  “ | “ |1|hypotheek_asr-1.0.0
 Hypotheek BLG|20180501000014|2|hypotheek_blg-2.6.1
  “ | “ |1|hypotheek_blg-2.6.0
@@ -74,9 +75,10 @@ Hypotheek BLG|20151101000014|5|hypotheek_blg-2.4.0
  “ | “ |3|hypotheek_blg-2.2.0
  “ | “ |2|hypotheek_blg-2.1
  “ | “ |1|hypotheek_blg-2.0
-Hypotheek ING|20180501000004|2|hypotheek_ing-3.5.1
+Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
+ “ |20180501000004|2|hypotheek_ing-3.5.1
  “ | “ |1|hypotheek_ing-3.5.0
- “ |20160101000004|4|hypotheek_ing-3.4.0
+Hypotheek ING|20160101000004|4|hypotheek_ing-3.4.0
  “ | “ |3|hypotheek_ing-3.3.0
  “ | “ |2|hypotheek_ing-3.2.0
  “ | “ |1|hypotheek_ing-2.0.1
