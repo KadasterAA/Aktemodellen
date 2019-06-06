@@ -8,6 +8,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 3 juni 2019 
+We hebben in deze release een nieuwe stylesheet van de ING opgeleverd. Dit zijn de tekstblok aanpassingen die we eerder al voor de Levering (release 5 april 2019) hebben opgeleverd. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ING/20190601000004/Releasenotes%20ING%2020190601000004%20-%201.md) van de ING.
+- AA-4411: We hebben een bug opgelost in de stylesheet van de [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%203.md).
+- AA-4412: We hebben een nieuwe versie van het Modeldocument van de [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%203.md) opgeleverd.
+
 ## 17 mei 2019
 Met deze release wordt de bèta release van 5 april 2019 definitief gemaakt. Vanaf nu resulteren wijzigingen van de Akte van Levering in een nieuw stylesheetnummer of een nieuw implementatienummer.
 - AA-4386: In het tekstblok Aanhef is de komma tussen 'gemeente' en 'kantoorhoudende', op verzoek, optioneel gemaakt. Deze wijziging hebben we nog alleen doorgevoerd voor de [Levering](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Releasenotes%20Akte%20van%20Levering%2020190301000007%20-%201.md) en [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%202.md).
