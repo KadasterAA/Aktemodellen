@@ -8,8 +8,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+
+
+## 13 juni 2019 
+- We hebben in deze release nieuwe stylesheets van de Rabobank en de Regiobank opgeleverd. Dit zijn de tekstblok aanpassingen die we eerder al voor de Levering en ING  hebben opgeleverd. Tevens hebben we een bug in de Rabobank zelf opgelost. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Releasenotes%20Rabobank%2020190610000005%20-%201.md) van de Rabobank en de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20190610000016/Releasenotes%20Regiobank%20201906101000016%20-%201.md) van de Regiobank.
+- AA-4417: De [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%204.md) maakte nog gebruik van een oudere versie van het TB Registergoed.
+
 ## 3 juni 2019 
-We hebben in deze release een nieuwe stylesheet van de ING opgeleverd. Dit zijn de tekstblok aanpassingen die we eerder al voor de Levering (release 5 april 2019) hebben opgeleverd. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ING/20190601000004/Releasenotes%20ING%2020190601000004%20-%201.md) van de ING.
+- We hebben in deze release een nieuwe stylesheet van de ING opgeleverd. Dit zijn de tekstblok aanpassingen die we eerder al voor de Levering (release 5 april 2019) hebben opgeleverd. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ING/20190601000004/Releasenotes%20ING%2020190601000004%20-%201.md) van de ING.
 - AA-4411: We hebben een bug opgelost in de stylesheet van de [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%203.md).
 - AA-4412: We hebben een nieuwe versie van het Modeldocument van de [ASR](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%203.md) opgeleverd.
 
