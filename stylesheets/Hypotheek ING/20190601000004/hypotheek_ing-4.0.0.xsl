@@ -39,7 +39,7 @@ Private:
 	<xsl:include href="tekstblok_partijnamen_in_hypotheekakten-1.15.xsl" />
 	<xsl:include href="tekstblok_recht-1.17.xsl" />
 	<xsl:include href="tekstblok_rechtspersoon-1.15.0.xsl" />
-	<xsl:include href="tekstblok_registergoed_hypotheek-1.28.xsl" />
+	<xsl:include href="tekstblok_registergoed-1.29.xsl" />
 	<xsl:include href="tekstblok_titel_hypotheekakten-1.01.xsl" />
 	<xsl:include href="tekstblok_woonadres-1.05.xsl" />
 	<xsl:include href="tweededeel-1.05.xsl" />

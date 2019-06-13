@@ -63,18 +63,12 @@ Hypotheek Aegon|20180501000015|2|hypotheek_aegon-4.3.1
  “ |20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
-Hypotheek Aegon|20160701000015|1|hypotheek_aegon-3.0.0
-Hypotheek ASR|20190401000020|3|hypotheek_asr-1.1.1
+Hypotheek ASR|20190401000020|4|hypotheek_asr-1.2.0
+ “ | “ |3|hypotheek_asr-1.1.1
  “ | “ |2|hypotheek_asr-1.1.0
  “ | “ |1|hypotheek_asr-1.0.0
 Hypotheek BLG|20180501000014|2|hypotheek_blg-2.6.1
  “ | “ |1|hypotheek_blg-2.6.0
- “ |20180402000014|1|hypotheek_blg-2.5.0
-Hypotheek BLG|20151101000014|5|hypotheek_blg-2.4.0
- “ | “ |4|hypotheek_blg-2.3.0
- “ | “ |3|hypotheek_blg-2.2.0
- “ | “ |2|hypotheek_blg-2.1
- “ | “ |1|hypotheek_blg-2.0
 Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ |20180501000004|2|hypotheek_ing-3.5.1
  “ | “ |1|hypotheek_ing-3.5.0
@@ -105,22 +99,22 @@ Hypotheek Particulier|20180501000006|3|hypotheek_particulier-2.12.1
  “ | “ |9|hypotheek_particulier-1.77
  “ | “ |8|hypotheek_particulier-1.76
  “ | “ |7|hypotheek_particulier-1.75
-Hypotheek Rabobank|20181015000005|2|hypotheek_rabobank-4.0.4
+Hypotheek Rabobank|20190610000005|1|hypotheek_rabobank-5.0.0
+ “ |20181015000005|2|hypotheek_rabobank-4.0.4
  “ | “ |1|hypotheek_rabobank-4.0.3
- “ |20180801000005|4|hypotheek_rabobank-4.0.2.1
+Hypotheek Rabobank|20180801000005|4|hypotheek_rabobank-4.0.2.1
  “ | “ |3|hypotheek_rabobank-4.0.2
  “ | “ |2|hypotheek_rabobank-4.0.1
  “ | “ |1|hypotheek_rabobank-4.0.0
-Hypotheek Regiobank|20180501000016|2|hypotheek_regiobank-2.4.1
+Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
+ “ |20180501000016|2|hypotheek_regiobank-2.4.1
  “ | “ |1|hypotheek_regiobank-2.4.0
- “ |20180402000016|1|hypotheek_regiobank-2.3.0
 Hypotheek Regiobank|20161201000016|3|hypotheek_regiobank-2.2.0
  “ | “ |2|hypotheek_regiobank-2.1.0
  “ | “ |1|hypotheek_regiobank-2.0.0
 Hypotheek SNS|20180501000013|2|hypotheek_sns-2.4.1
  “ | “ |1|hypotheek_sns-2.4.0
- “ |20180402000013|1|hypotheek_sns-2.3.0
-Hypotheek SNS|20161201000013|7|hypotheek_sns-2.2.0
+ “ |20161201000013|7|hypotheek_sns-2.2.0
  “ | “ |6|hypotheek_sns-2.1.0
  “ | “ |5|hypotheek_sns-2.0.0
 Notariële verklaring|20180501000008|2|notariele_verklaring-2.12.1

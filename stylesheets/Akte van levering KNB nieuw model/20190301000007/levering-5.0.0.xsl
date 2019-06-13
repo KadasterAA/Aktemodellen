@@ -55,7 +55,7 @@ Private:
 	<xsl:include href="tekstblok_partij_niet_natuurlijk_persoon-1.53.xsl"/>
 	<xsl:include href="tekstblok_recht-1.17.xsl"/>
 	<xsl:include href="tekstblok_rechtspersoon-1.15.0.xsl"/>
-	<xsl:include href="tekstblok_registergoed_levering-1.28.xsl"/>
+	<xsl:include href="tekstblok_registergoed-1.29.xsl"/>
 	<xsl:include href="tekstblok_woonadres-1.05.xsl"/>
 	<xsl:include href="tekstblok_deel_nummer-1.03.xsl"/>
 	<xsl:include href="tweededeel-1.05.xsl"/>
