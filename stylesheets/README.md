@@ -76,16 +76,18 @@ Hypotheek ING|20160101000004|4|hypotheek_ing-3.4.0
  “ | “ |3|hypotheek_ing-3.3.0
  “ | “ |2|hypotheek_ing-3.2.0
  “ | “ |1|hypotheek_ing-2.0.1
-Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1
+Hypotheek Munt|20190617000018|1|hypotheek_munt-2.0.0
+ “ |20180501000018|2|hypotheek_munt-1.5.1
  “ | “ |1|hypotheek_munt-1.5.0
- “ |20161001000018|5|hypotheek_munt-1.4.0
+Hypotheek Munt|20161001000018|5|hypotheek_munt-1.4.0
  “ | “ |4|hypotheek_munt-1.3.0
  “ | “ |3|hypotheek_munt-1.2.0
  “ | “ |2|hypotheek_munt-1.1.0
  “ | “ |1|hypotheek_munt-1.0.0
-Hypotheek Obvion|20180501000012|2|hypotheek_obvion_abp-1.4.1
+Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
+ “ |20180501000012|2|hypotheek_obvion_abp-1.4.1
  “ | “ |1|hypotheek_obvion_abp-1.4.0
- “ |20160701000012|5|hypotheek_obvion_abp-1.3.0
+Hypotheek Obvion|20160701000012|5|hypotheek_obvion_abp-1.3.0
  “ | “ |4|hypotheek_obvion_abp-1.2.0
  “ | “ |3|hypotheek_obvion_abp-1.1.0
  “ | “ |2|hypotheek_obvion_abp-1.0.0
@@ -99,7 +101,8 @@ Hypotheek Particulier|20180501000006|3|hypotheek_particulier-2.12.1
  “ | “ |9|hypotheek_particulier-1.77
  “ | “ |8|hypotheek_particulier-1.76
  “ | “ |7|hypotheek_particulier-1.75
-Hypotheek Rabobank|20190610000005|1|hypotheek_rabobank-5.0.0
+Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
+ “ | “ |1|hypotheek_rabobank-5.0.0
  “ |20181015000005|2|hypotheek_rabobank-4.0.4
  “ | “ |1|hypotheek_rabobank-4.0.3
 Hypotheek Rabobank|20180801000005|4|hypotheek_rabobank-4.0.2.1
