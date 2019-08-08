@@ -9,6 +9,12 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 # Globale release notes
 
+## 9 augustus 2019
+- Voor de Syntrus Achmea hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.0%20-%20v1.0.docx) hebben we de details opgenomen.  
+Deze release is voor de Syntrus Achmea hypotheek een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+- Tevens hebben we een nieuwe stylesheet voor de Particuliere hypotheek opgeleverd met daarin de tekstblok aanpassingen die we eerder voor andere akten hebben opgeleverd. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20190801000006/Releasenotes%20Hypotheek%20Particulier%2020190801000006%20-%201.md) van de Hypotheek Particulier.
+
 ## 4 juli 2019
 - We hebben in deze release nieuwe stylesheets van de Munt en de Obvion opgeleverd met daarin de tekstblok aanpassingen die we eerder voor andere akten hebben opgeleverd. Tevens hebben we in de Munt het mogelijk gemaakt om bij de Hypotheekgever aan te geven of een persoon Schuldenaar en/of Hypotheekgever is. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20190617000018/Releasenotes%20Munt%2020190617000018%20-%201.md) van de Munt en de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20190624000012/Releasenotes%20Obvion%2020180501000012%20-%201.md) van de Obvion.
 - AA-4421: We hebben een bug opgelost in de stylesheet van de [Rabobank](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Releasenotes%20Rabobank%2020190610000005%20-%202.md). 
