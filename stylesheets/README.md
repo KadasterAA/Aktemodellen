@@ -92,10 +92,11 @@ Hypotheek Obvion|20160701000012|5|hypotheek_obvion_abp-1.3.0
  “ | “ |3|hypotheek_obvion_abp-1.1.0
  “ | “ |2|hypotheek_obvion_abp-1.0.0
  “ | “ |1|hypotheek_obvion-3.1.0
-Hypotheek Particulier|20180501000006|3|hypotheek_particulier-2.12.1
+Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
+ “ |20180501000006|3|hypotheek_particulier-2.12.1
  “ | “ |2|hypotheek_particulier-2.12.0
  “ | “ |1|hypotheek_particulier-2.11.0
- “ |20140830000006|12|hypotheek_particulier-2.10.0
+Hypotheek Particulier|20140830000006|12|hypotheek_particulier-2.10.0
  “ | “ |11|hypotheek_particulier-2.9.0
  “ | “ |10|hypotheek_particulier-2.8.0
  “ | “ |9|hypotheek_particulier-1.77
@@ -120,6 +121,7 @@ Hypotheek SNS|20180501000013|2|hypotheek_sns-2.4.1
  “ |20161201000013|7|hypotheek_sns-2.2.0
  “ | “ |6|hypotheek_sns-2.1.0
  “ | “ |5|hypotheek_sns-2.0.0
+Hypotheek Syntrus Achmea|20190701000022|1|hypotheek_syntrus_achmea-1.0.0
 Notariële verklaring|20180501000008|2|notariele_verklaring-2.12.1
  “ | “ |1|notariele_verklaring-2.12.0
  “ |20140830000008|10|notariele_verklaring-2.11.0
