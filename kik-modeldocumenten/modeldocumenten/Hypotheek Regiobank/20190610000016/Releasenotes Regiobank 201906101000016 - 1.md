@@ -25,22 +25,22 @@ AA-2850 | We hebben de mogelijkheden uitgebreid met betrekking tot plaats, datum
 |---|---|---|
 AA-4239 | We hebben de mogelijkheid om het geboorteland apart op te nemen toegevoegd. De reden hiervoor is dat dit element nu apart wordt geregistreerd in de Basisregistratie Kadaster (BRK) waardoor de gegevenskwaliteit verbetert. Voorheen was het alleen mogelijk om geboorteland en geboorteplaats samen in één veld aan te leveren.| Tekstblok, Toelichting, Stylesheet, Schema| 
 
-### Tekstblok - Partij natuurlijk persoon
+### Tekstblok Partij natuurlijk persoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4305 | De toelichting vermelde ten onrechte op een tweetal plaatsen dat tekstblok gevolmachtigde werd gevolgd door een puntkomma. Dit hebben we gecorrigeerd. Zie voor details de toelichting. | Toelichting | 
 
-### Tekstblok - Partij niet natuurlijk persoon
+### Tekstblok Partij niet natuurlijk persoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-2652 | Wanneer er 2 gerelateerde niet natuurlijke personen in het tekstblok voorkwamen en beiden een correspondentieadres hadden, dan werd alleen van de eerste het correspondentieadres getoond. Dit hebben we opgelost en toont de stylesheet het correspondentieadres bij elke persoon afzonderlijk. | Stylesheet | 
 
-### Tekstblok - Partijnamen in hypotheekakten
+### Tekstblok Partijnamen in hypotheekakten
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4250 | Bij de partijaanduiding hebben we 'de' optioneel gemaakt. | Modeldocument, Toelichting, Stylesheet | 
 
-### Tekstblok - Rechtspersoon
+### Tekstblok Rechtspersoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-2736 | De optionele gebruikerskeuze om 'tevens' te tonen in dit tekstblok was niet helemaal correct geïmplementeerd. We hebben dit gecorrigeerd. Nu toont de akte de inhoud van de tekst horende bij de tagnaam 'k_HandelendOnderNaam' getoond. | Stylesheet | 

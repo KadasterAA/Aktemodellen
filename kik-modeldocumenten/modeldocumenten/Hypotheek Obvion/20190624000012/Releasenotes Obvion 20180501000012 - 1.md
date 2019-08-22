@@ -26,17 +26,17 @@ AA-2850 | We hebben de mogelijkheden uitgebreid met betrekking tot plaats, datum
 |---|---|---|
 AA-4239 | We hebben de mogelijkheid om het geboorteland apart op te nemen toegevoegd. De reden hiervoor is dat dit element nu apart wordt geregistreerd in de Basisregistratie Kadaster (BRK) waardoor de gegevenskwaliteit verbetert. Voorheen was het alleen mogelijk om geboorteland en geboorteplaats samen in één veld aan te leveren.| Tekstblok, Toelichting, Stylesheet, Schema| 
 
-### Tekstblok - Partij natuurlijk persoon
+### Tekstblok Partij natuurlijk persoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4305 | De toelichting vermelde ten onrechte op een tweetal plaatsen dat tekstblok gevolmachtigde werd gevolgd door een puntkomma. Dit hebben we gecorrigeerd. Zie voor details de toelichting. | Toelichting | 
 
-### Tekstblok - Partij niet natuurlijk persoon
+### Tekstblok Partij niet natuurlijk persoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-2652 | Wanneer er 2 gerelateerde niet natuurlijke personen in het tekstblok voorkwamen en beiden een correspondentieadres hadden, dan werd alleen van de eerste het correspondentieadres getoond. Dit hebben we opgelost en toont de stylesheet het correspondentieadres bij elke persoon afzonderlijk. | Stylesheet | 
 
-### Tekstblok - Rechtspersoon
+### Tekstblok Rechtspersoon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-2736 | De optionele gebruikerskeuze om 'tevens' te tonen in dit tekstblok was niet helemaal correct geïmplementeerd. We hebben dit gecorrigeerd. Nu toont de akte de inhoud van de tekst horende bij de tagnaam 'k_HandelendOnderNaam' getoond. | Stylesheet | 
@@ -46,7 +46,7 @@ AA-2736 | De optionele gebruikerskeuze om 'tevens' te tonen in dit tekstblok was
 |---|---|---|
 AA-4274 | Het tekstblok toont nu 'even' of 'oneven' bij respectievelijk even of oneven adresreeksen ter verduidelijking van de locatie van een perceel. Op deze manier is het duidelijker welke huisnummers precies bedoeld worden. Dit komt de gegevenskwaliteit ten goede. | Tekstblok, Toelichting, Stylesheet, Java library|
 
-### MD Rabobank
+### MD Obvion
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 | AA-4220 | Er is een nieuwe generieke waardelijst met nnp-kodes met een extra kolom, code rechtsvorm. Voor dit modeldocument gebruiken we vanaf nu dus niet meer de specifieke waardelijst nnp-kodes_hypotheek. | Stylesheet |

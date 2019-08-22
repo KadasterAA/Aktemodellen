@@ -7,7 +7,7 @@ Product|Syntrus Achmea stylesheetnummer 20190701000022 implementatienummer 1|
 ### MD Syntrus Achmea
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4055 | Nieuw modeldocument Syntrus Achmea. | Modeldocument, Toelichting, Stylesheet en backend controles| 
+AA-4055 | Nieuw modeldocument Syntrus Achmea | Modeldocument, Toelichting, Stylesheet en backend controles| 
 
 
 ### Specificaties

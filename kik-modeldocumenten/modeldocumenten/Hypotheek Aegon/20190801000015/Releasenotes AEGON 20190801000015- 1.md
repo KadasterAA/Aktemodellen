@@ -1,7 +1,7 @@
 # Release notes
-Product|Munt stylesheetnummer 20190617000018 implementatienummer 1|
+Product|AEGON stylesheetnummer 20190801000015 implementatienummer 1|
 |---|---|
-|**Release**|**4 juli 2019**|
+|**Release**|**22 augustus 2019**|
 ## Wijzigingen
 
 ### Tekstblok Aanhef
@@ -41,23 +41,20 @@ AA-2652 | Wanneer er 2 gerelateerde niet natuurlijke personen in het tekstblok v
 |---|---|---|
 AA-2736 | De optionele gebruikerskeuze om 'tevens' te tonen in dit tekstblok was niet helemaal correct geïmplementeerd. We hebben dit gecorrigeerd. Nu toont de akte de inhoud van de tekst horende bij de tagnaam 'k_HandelendOnderNaam' getoond. | Stylesheet | 
 
-### Tekstblok Registergoed
+### Tekstblok TB Registergoed
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4274 | Het tekstblok toont nu 'even' of 'oneven' bij respectievelijk even of oneven adresreeksen ter verduidelijking van de locatie van een perceel. Op deze manier is het duidelijker welke huisnummers precies bedoeld worden. Dit komt de gegevenskwaliteit ten goede. | Tekstblok, Toelichting, Stylesheet, Java library|
 
-### MD Munt
+### MD Aegon
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4219 | Op verzoek hebben we het mogelijk gemaakt om bij de de Hypotheekgever partij aan te geven of een persoon Schuldenaar en/of Hypotheekgever is. | Tekstblok, Toelichting, Stylesheet | 
 AA-4229 | Er is een nieuwe generieke waardelijst met nnp-kodes met een extra kolom, code rechtsvorm. Voor dit modeldocument gebruiken we vanaf nu dus niet meer de specifieke waardelijst nnp-kodes_hypotheek. | Stylesheet | 
-
-
 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Munt|**[2.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20190617000018/Modeldocument%20Munt%20v2.0.docx)**|**[2.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20190617000018/Toelichting%20modeldocument%20Munt%202.0%20-%20v2.0.0.docx)**| X |
+Modeldocument Aegon|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015/Modeldocument%20AEGON%20v4.0.0.docx)|[4.3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20180501000015/Toelichting%20modeldocument%20AEGON%204.0.0%20-%20v4.3.0.docx)|  |
 XSD StukAlgemeen|**[8.1.0](/schema/stuk%20algemeen/8.1.0/StukAlgemeen-8.1.0.xsd)**|| X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

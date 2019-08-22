@@ -8,6 +8,16 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+## 22 augustus 2019
+- We hebben in deze release nieuwe stylesheets van de BLG, SNS, Aegon, ABP, ABN Amro, Florius en MoneYou opgeleverd met daarin de tekstblok aanpassingen die we eerder voor andere akten hebben opgeleverd. Tevens hebben we een aantal bugs oplost in de SNS.
+De details van deze wijzigingen hebben we opgenomen in de volgende release notes:
+ [BLG](/kik-modeldocumenten/modeldocumenten/Hypotheek%20BLG/20190801000014/Releasenotes%20BLG%2020190801000014%20-%201.md), 
+ [SNS](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20190801000013/Releasenotes%20SNS%2020190801000013%20%20-%201.md), 
+ [ABP](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20190801000019/Releasenotes%20ABP%2020180501000019-%202.md), 
+ [Aegon](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20190801000015/Releasenotes%20AEGON%2020190801000015-%201.md),
+ [ABN Amro](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20AAB/20190801000001/Releasenotes%20ABN%20AMRO%20AAB%2020190801000001%20-%201.md), 
+ [Florius](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20190801000002/Releasenotes%20ABN%20AMRO%20Florius%2020190801000002%20-%201.md), 
+ [MoneYou](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20MoneYou/20190801000003/Releasenotes%20ABN%20AMRO%20MoneYou%2020190801000003%20-%201.md).
 
 ## 9 augustus 2019
 - Voor de Syntrus Achmea hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.0%20-%20v1.0.docx) hebben we de details opgenomen.  
