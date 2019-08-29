@@ -1,8 +1,20 @@
 # Release notes
+
 Product|Syntrus Achmea stylesheetnummer 20190701000022 implementatienummer 1|
 |---|---|
-|**Release**|**9 augustus 2019**|
+|**Release**|**30 augustus 2019**|
+
 ## Wijzigingen
+
+
+### MD Syntrus Achmea
+
+| Wijziging | Omschrijving                                                 | Oplossing                                                   |
+| --------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| AA-4466   | Onder het kopje 2.4.4 Afsluiting partijen hebben we in de vaste tekst het woord 'volmachten' gewijzigd in 'volmacht(en)' | Modeldocument, Toelichting,  Stylesheet   |                  |
+
+
+## 9 augustus 2019 oplevering bèta versie
 
 ### MD Syntrus Achmea
 |Wijziging|Omschrijving|Oplossing|
@@ -11,6 +23,7 @@ AA-4055 | Nieuw modeldocument Syntrus Achmea | Modeldocument, Toelichting, Style
 
 
 ### Specificaties
+
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
 Modeldocument Syntrus Achmea|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Modeldocument%20Syntrus%20Achmea%20v1.0.docx)|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.0%20-%20v1.0.docx)|  |

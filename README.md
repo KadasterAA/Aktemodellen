@@ -8,7 +8,15 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 # Globale release notes
+
+## 30 augustus 2019
+- We hebben een kleine aanpassing aan de Syntrus Achmea gedaan. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%201.md) hebben we de details opgenomen. 
+
+Met deze release wordt de bèta release betreffende de Syntrus Achmea akte definitief gemaakt. Vanaf nu resulteren wijzigingen aan deze Akte in een nieuw stylesheetnummer of een nieuw implementatienummer.
+
+
 ## 22 augustus 2019
+
 - We hebben in deze release nieuwe stylesheets van de BLG, SNS, Aegon, ABP, ABN Amro, Florius en MoneYou opgeleverd met daarin de tekstblok aanpassingen die we eerder voor andere akten hebben opgeleverd. Tevens hebben we een aantal bugs oplost in de SNS.
 De details van deze wijzigingen hebben we opgenomen in de volgende release notes:
  [BLG](/kik-modeldocumenten/modeldocumenten/Hypotheek%20BLG/20190801000014/Releasenotes%20BLG%2020190801000014%20-%201.md), 
