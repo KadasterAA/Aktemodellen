@@ -122,7 +122,7 @@
 			<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_Mondelinge']/tia:tekst,$upper, $lower)='true'">
 				<xsl:text> mondelinge</xsl:text>
 			</xsl:if>
-			<xsl:text> volmachten is mij, notaris, genoegzaam gebleken.</xsl:text>
+			<xsl:text> volmacht(en) is mij, notaris, genoegzaam gebleken.</xsl:text>
 		</p>
 		<p>
 			<xsl:text>De comparanten, handelend als gemeld, verklaarden: </xsl:text>
