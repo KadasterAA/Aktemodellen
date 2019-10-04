@@ -9,6 +9,46 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 # Globale release notes
 
+## 4 oktober 2019
+- We hebben in deze release een nieuwe stylesheet van de Doorhaling Hypotheek opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%201.md) hebben we de details opgenomen.
+- In de Syntrus Achmea hebben we een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%202.md) hebben we de details opgenomen.
+- In de ASR hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%205.md) zijn de details opgenomen.
+- Het veld geboorteland en het veld land bij buitenlands adres in tekstblok natuurlijk persoon maken nu gebruik van de BRP-landenlijst zoals gepubliceerd in www.kadaster.nl/waardelijsten
+
+Deze release is voor de Doorhaling Hypotheek een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+Per 4 oktober 2019 worden de volgende stylesheets uitgezet:
+
+| Nummer | Model |
+| --- | --- |
+| 20161201000016  | Regiobank |
+| 20161201000013  | SNS       |
+
+We zijn van plan om per 1 november de volgende stylesheet uit te zetten:
+
+| Nummer | Model |
+| --- | --- |
+| 20190701000022/1  | Syntrus Achmea |
+
+En per 1 januari 2020:
+
+| Nummer | Model |
+| --- | --- |
+| 20140830000001  | ABN AMRO AAB         |
+|20140830000002   | ABN AMRO Florius     |
+|20140830000003   | ABN AMRO MoneYou     |
+|20170606000015   | Aegon                |
+|20150801000009   | Akte van verdeling   |
+|20160401000010   | Doorhaling hypotheek |
+|20160101000004   | ING                  |
+|20140830000008   | Notariële Verklaring |
+|20140830000007   | Leveringsakte KNB    |
+|20161001000018   | Munt                 |
+|20160701000012   | Obvion               |
+|20140830000006   | Particuliere hypotheek|
+
+     
+
 ## 30 augustus 2019
 - We hebben een kleine aanpassing aan de Syntrus Achmea gedaan. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%201.md) hebben we de details opgenomen. 
 

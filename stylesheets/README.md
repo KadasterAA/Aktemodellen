@@ -21,9 +21,10 @@ Akte van verdeling|20180501000009|2|verdeling-3.11.1
  “ | “ |5|verdeling-1.71
  “ | “ |4|verdeling-1.70
  “ | “ |3|verdeling-1.69
-Doorhaling hypotheek|20180501000010|2|doorhaling_hypotheek-2.2.1
+Doorhaling hypotheek|20190826000010|1|doorhaling_hypotheek-3.0.0
+ “ |20180501000010|2|doorhaling_hypotheek-2.2.1
  “ | “ |1|doorhaling_hypotheek-2.2.0
- “ |20160401000010|8|doorhaling_hypotheek-2.1.9
+Doorhaling hypotheek|20160401000010|8|doorhaling_hypotheek-2.1.9
  “ | “ |7|doorhaling_hypotheek-2.1.8
  “ | “ |6|doorhaling_hypotheek-2.1.7
  “ | “ |5|doorhaling_hypotheek-2.1.6
@@ -68,7 +69,8 @@ Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
 Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
-Hypotheek ASR|20190401000020|4|hypotheek_asr-1.2.0
+Hypotheek ASR|20190401000020|5|hypotheek_asr-1.2.1
+ “ | “ |4|hypotheek_asr-1.2.0
  “ | “ |3|hypotheek_asr-1.1.1
  “ | “ |2|hypotheek_asr-1.1.0
  “ | “ |1|hypotheek_asr-1.0.0
@@ -119,16 +121,11 @@ Hypotheek Rabobank|20180801000005|4|hypotheek_rabobank-4.0.2.1
 Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
  “ |20180501000016|2|hypotheek_regiobank-2.4.1
  “ | “ |1|hypotheek_regiobank-2.4.0
-Hypotheek Regiobank|20161201000016|3|hypotheek_regiobank-2.2.0
- “ | “ |2|hypotheek_regiobank-2.1.0
- “ | “ |1|hypotheek_regiobank-2.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1
  “ | “ |1|hypotheek_sns-2.4.0
-Hypotheek SNS|20161201000013|7|hypotheek_sns-2.2.0
- “ | “ |6|hypotheek_sns-2.1.0
- “ | “ |5|hypotheek_sns-2.0.0
-Hypotheek Syntrus Achmea|20190701000022|1|hypotheek_syntrus_achmea-1.0.0
+Hypotheek Syntrus Achmea|20190701000022|2|hypotheek_syntrus_achmea-1.0.1
+ “ | “ |1|hypotheek_syntrus_achmea-1.0.0
 Notariële verklaring|20180501000008|2|notariele_verklaring-2.12.1
  “ | “ |1|notariele_verklaring-2.12.0
  “ |20140830000008|10|notariele_verklaring-2.11.0
