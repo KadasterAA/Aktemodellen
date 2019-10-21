@@ -117,6 +117,9 @@ none
 							</xsl:when>
 						</xsl:choose>
 					</xsl:for-each>
+					<xsl:if test="$name and translate(normalize-space($voornoemdHypotheekgever/tia:tekst), $upper, $lower) = 'voornoemd'">
+						<xsl:text> voornoemd,</xsl:text>
+					</xsl:if>
 					<xsl:text> hierna </xsl:text>
 					<xsl:if test="$numberOfDebtorPersons > 1">
 						<xsl:text>zowel tezamen als ieder afzonderlijk </xsl:text>
@@ -145,7 +148,7 @@ none
 							</xsl:when>
 						</xsl:choose>
 					</xsl:for-each>
-					<xsl:if test="$name and translate(normalize-space($voornoemdHypotheekgever/tia:tekst), $upper, $lower) = 'voornoemd'">
+					<xsl:if test="$name and translate(normalize-space($voornoemdSchuldenaar/tia:tekst), $upper, $lower) = 'voornoemd'">
 						<xsl:text> voornoemd,</xsl:text>
 					</xsl:if>
 					<xsl:text> hierna </xsl:text>

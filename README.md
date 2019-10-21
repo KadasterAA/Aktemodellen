@@ -9,6 +9,11 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 # Globale release notes
 
+## 21 oktober 2019
+- We hebben in deze release een nieuwe stylesheet van de ASR opgeleverd. Hierin hebben we een aantal vaste tekst wijzigingen doorgevoerd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20191015000020/Releasenotes%20ASR%2020191015000020%20-%201.md) hebben we de details opgenomen.
+- In de Syntrus Achmea hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%2020190701000022%20-%203.md) zijn de details opgenomen.
+
+
 ## 4 oktober 2019
 - We hebben in deze release een nieuwe stylesheet van de Doorhaling Hypotheek opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%201.md) hebben we de details opgenomen.
 - In de Syntrus Achmea hebben we een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%202.md) hebben we de details opgenomen.
