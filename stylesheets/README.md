@@ -12,16 +12,18 @@ Akte van levering KNB nieuw model|20140830000007|12|levering-4.4.0
  “ | “ |8|levering-1.93
  “ | “ |7|levering-1.92
  “ | “ |6|levering-1.91
-Akte van verdeling|20180501000009|2|verdeling-3.11.1
+Akte van verdeling|20191001000009|1|verdeling-4.0.0
+ “ |20180501000009|2|verdeling-3.11.1
  “ | “ |1|verdeling-3.11.0
- “ |20150801000009|9|verdeling-3.10.0
+Akte van verdeling|20150801000009|9|verdeling-3.10.0
  “ | “ |8|verdeling-3.9.0
  “ | “ |7|verdeling-3.8.0
  “ | “ |6|verdeling-1.72
  “ | “ |5|verdeling-1.71
  “ | “ |4|verdeling-1.70
  “ | “ |3|verdeling-1.69
-Doorhaling hypotheek|20190826000010|1|doorhaling_hypotheek-3.0.0
+Doorhaling hypotheek|20190826000010|2|doorhaling_hypotheek-3.1.0
+ “ | “ |1|doorhaling_hypotheek-3.0.0
  “ |20180501000010|2|doorhaling_hypotheek-2.2.1
  “ | “ |1|doorhaling_hypotheek-2.2.0
 Doorhaling hypotheek|20160401000010|8|doorhaling_hypotheek-2.1.9
@@ -127,7 +129,6 @@ Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ | “ |1|hypotheek_sns-2.4.0
 Hypotheek Syntrus Achmea|20190701000022|3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
- “ | “ |1|hypotheek_syntrus_achmea-1.0.0
 Notariële verklaring|20180501000008|2|notariele_verklaring-2.12.1
  “ | “ |1|notariele_verklaring-2.12.0
  “ |20140830000008|10|notariele_verklaring-2.11.0

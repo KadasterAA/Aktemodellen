@@ -2,18 +2,18 @@
 <?xml-stylesheet type="text/xsl" href="../Crane-gc2html.xsl"?>
 <?Crane-gc2ods indentation Save without indentation?>
 <?Crane-gc2ods encoding UTF-8?>
-<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd">
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Annotation>
 		<Description>
-			<!-- 2011-12-07: initiële versie.2012-03-08: Aanpassing aan Voer lijst en tbv xml generatie (omschrijving hernoemd naar waarde, kolom namen op eerste rij en tabbladnaam "kodes")2012-07-16: Zuid-Soedan toegevoegd, Kolom AKRCode (orkr codes) verwijderd2017-03-13: Landenlijst overgenomen van BRP tabel 34, zoals geldig op 2017-03-012018-02-16: Landenlijst overgenomen van BRP tabel 34, zoals geldig op 2018-01-012018-08-13: IM-591: BRPLand 0 gewijzigd naar 0000-->
+			<html:p> 2011-12-07: initiële versie.<html:br/>2012-03-08: Aanpassing aan Voer lijst en tbv xml generatie (omschrijving hernoemd naar waarde, kolom namen op eerste rij en tabbladnaam "kodes")<html:br/>2012-07-16: Zuid-Soedan toegevoegd, Kolom AKRCode (orkr codes) verwijderd<html:br/>2017-03-13: Landenlijst overgenomen van BRP tabel 34, zoals geldig op 2017-03-01<html:br/>2018-02-16: Landenlijst overgenomen van BRP tabel 34, zoals geldig op 2018-01-01<html:br/>2018-08-13: IM-591: BRPLand 0 gewijzigd naar 0000<html:br/>2019-08-05: IM-656: 5100 Macedonië beëindigd, einddatum 7060 Palestina gewijzigd, 5112 Gazastrook en Westelijke Jordaanoever en 5113 Republiek Noord-Macedonië toegevoegd</html:p>
 		</Description>
 	</Annotation>
 	<Identification>
 		<ShortName>BRPLand</ShortName>
 		<LongName>BRPLand</LongName>
-		<Version>2018-08-13</Version>
+		<Version>2019-08-05</Version>
 		<CanonicalUri>BRPLand</CanonicalUri>
-		<CanonicalVersionUri>BRPLand20180813</CanonicalVersionUri>
+		<CanonicalVersionUri>BRPLand20190805</CanonicalVersionUri>
 		<LocationUri>www.kadaster.nl/schemas/waardelijsten/BRPLand</LocationUri>
 	</Identification>
 	<ColumnSet>
@@ -1031,6 +1031,12 @@
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1993-04-19</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2019-10-07</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>In BRP beëindigd op 12-02-2019</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -1154,6 +1160,28 @@
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>2011-07-09</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>5112</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Gazastrook en Westelijke Jordaanoever</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumVanaf">
+				<SimpleValue>1948-05-15</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>5113</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Republiek Noord-Macedonië</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumVanaf">
+				<SimpleValue>2019-02-12</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2292,7 +2320,7 @@
 				<SimpleValue>Palestina</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>1948-05-14</SimpleValue>
+				<SimpleValue>1948-05-15</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
