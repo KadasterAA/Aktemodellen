@@ -1,6 +1,6 @@
 # Changelog XSD StukAlgemeen
 
-## CHANGES XSD StukAlgemeen-9.0.0 DATUM 22 november 2019
+## CHANGES XSD StukAlgemeen-9.0.0 DATUM 25 november 2019
 o.b.v. AA-4427
 - StukdeelErfpachtcanonTijdelijkAfgekocht optionele velden afgekochtTot en aantalMaand toegevoegd, aantalJaar en afgekochtVanaf ook optioneel.
 
