@@ -1,7 +1,15 @@
 # Release notes
 Product|Doorhaling hypotheek stylesheetnummer 20190826000010 implementatienummer 1|
 |---|---|
-|**Release**|**4 oktober 2019**|
+|**Release**|**25 november 2019**|
+
+### MD Doorhaling Hypotheek
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4547 | Komma toevoegen bij afsluiting (na de tekst w.g.) achter de naam van de notaris.| Stylesheet, Modeldocument, Toelichting|
+
+## 4 oktober 2019 oplevering bèta versie
+
 ## Wijzigingen
 ### Tekstblok Aanhef
 |Wijziging|Omschrijving|Oplossing|
@@ -34,6 +42,7 @@ AA-4274 | Het tekstblok toont nu 'even' of 'oneven' bij respectievelijk even of 
 ### MD Doorhaling Hypotheek
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
+AA-4547 | Komma toevoegen bij afsluiting (na de tekst w.g.) achter de naam van de notaris.| Stylesheet, Modeldocument, Toelichting|
 AA-2992 | Romeinse nummering van de stukdelen gewijzigd in alfabetische nummering. |Stylesheet, Modeldocument, Toelichting |
 AA-4484 | Nummering personen aangepast: Als de partij precies één combinatie van aan elkaar gerelateerde personen bevat, krijgen deze gerelateerde personen geen cijfer maar een opvolgende letter.| Stylesheet, Modeldocument, Toelichting |
 AA-4469 | Tekstuele wijzigingen: ‘Uitgegeven voor afschrift’ optioneel gemaakt, ‘kandidaat’ bij ondertekening notaris optioneel gemaakt en keuze voor ‘toegevoegd’ toegevoegd, alinea ‘Geen beperkt recht …’ optioneel gemaakt.. |Stylesheet, Modeldocument, Toelichting |

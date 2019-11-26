@@ -1,5 +1,22 @@
 # Changelog XSD StukAlgemeen
 
+## CHANGES XSD StukAlgemeen-9.0.0 DATUM 25 november 2019
+o.b.v. AA-4427
+- StukdeelErfpachtcanonTijdelijkAfgekocht optionele velden afgekochtTot en aantalMaand toegevoegd, aantalJaar en afgekochtVanaf ook optioneel.
+
+o.b.v. AA-4403
+- definitie alg-AN2V (alg-formaattypen-2.1.0.xsd) aangepast t.b.v. Sectie: geen cijfers meer toegestaan
+
+o.b.v. AA-4470
+- definitie alg-Datum (alg-formaattypen-2.1.0.xsd) toegevoegd t.b.v. tia_DatumOndertekening: jaartal is van 1000 geldig
+
+o.b.v. AA-4329
+- definitie LettersCijfers5 (alg-formaattypen-2.1.0.xsd) toegevoegd t.b.v. deel (binnen IMKAD_DeelEnNummer): alleen cijfers en letters toegestaan
+- definitie CijfersZonder2Voorloopnullen (alg-formaattypen-2.1.0.xsd) toegevoegd t.b.v. nummer (binnen IMKAD_DeelEnNummer): 2 voorloopnullen zijn niet meer teoegestaan.
+
+o.b.v. AA-4377
+- definitie alg-AN80zonderVoorloopspatie (alg-formaattypen-2.1.0.xsd) toegevoegd t.b.v. standplaats en gemeente (binnen Notaris): eerste positie mag geen spatie meer zijn.
+
 ## CHANGES XSD StukAlgemeen-8.1.0 DATUM 1 december 2018
 o.b.v. AA-4239 
 - IMKAD_NietIngezetene geboorteland toegevoegd
