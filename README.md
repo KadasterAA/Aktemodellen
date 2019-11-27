@@ -9,6 +9,18 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 # Globale release notes
 
+## 25 november 2019
+- We hebben in deze release een nieuwe stylsheet van de akte van Verdeling opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost.  [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
+- In het Tekstblok Erfpachtcanon zijn een aantal tekstuele wijzigingen doorgevoerd. Deze versie van het TB is alleen nog beschikbaar voor de nieuwe verdeling. 
+In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
+- In Doorhaling hypotheek hebben we een kleine bug opgelost (AA-4547). In de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%201.md) hebben we de details opgenomen.
+- Voor de wijzigingen van het TB Erfpachtcanon hebben we het schema moeten aanpassen. Ook hebben we gelijk van een aantal tags de reguliere expressie aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [xsd van StukAlgemeen](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd) en de [documentatie](/schema/stuk%20algemeen/9.0.0/HTML/index.htm).  
+- Per 1 november is de stylesheet van Syntrus Achmea met depotnummer 20190701000022 implementatienummer 1 uitgezet.
+
+Deze release is voor de Verdeling en tekstblok Erfpachtcanon een bèta release. De onvolkomendheden die we de komende 4 weken vinden in de Verdeling en tekstblok Erfpachtcanon, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+Met deze release wordt de bèta release betreffende de Doorhaling hypotheek definitief gemaakt. Vanaf nu resulteren wijzigingen aan deze Akte in een nieuw stylesheetnummer of een nieuw implementatienummer.
+
 ## 21 oktober 2019
 - We hebben in deze release een nieuwe stylesheet van de ASR opgeleverd. Hierin hebben we een aantal vaste tekst wijzigingen doorgevoerd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20191015000020/Releasenotes%20ASR%2020191015000020%20-%201.md) hebben we de details opgenomen.
 - In de Syntrus Achmea hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%2020190701000022%20-%203.md) zijn de details opgenomen.
