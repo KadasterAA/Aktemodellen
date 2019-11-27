@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 # Globale release notes
 
 ## 25 november 2019
-- We hebben in deze release een nieuwe stylsheet van de akte van Verdeling opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost.  [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
+- We hebben in deze release een nieuwe stylsheet van de akte van Verdeling opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
 - In het Tekstblok Erfpachtcanon zijn een aantal tekstuele wijzigingen doorgevoerd. Deze versie van het TB is alleen nog beschikbaar voor de nieuwe verdeling. 
 In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
 - In Doorhaling hypotheek hebben we een kleine bug opgelost (AA-4547). In de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%201.md) hebben we de details opgenomen.
