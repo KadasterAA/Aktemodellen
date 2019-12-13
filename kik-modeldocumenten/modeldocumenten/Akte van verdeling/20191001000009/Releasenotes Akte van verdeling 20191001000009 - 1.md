@@ -1,7 +1,16 @@
 # Release notes
 Product|Akte van verdeling stylesheetnummer 20191001000009 implementatienummer 1|
 |---|---|
-|**Release**|**25 november 2019**|
+|**Release**|**13 december 2019**|
+## Wijzigingen
+### MD Verdelingk
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4561 | Tekstuele aanpassing onder keuzeblok soort verdeling variant D (Beëindiging geregistreerd partnerschap), punt 1.| Stylesheet, Modeldocument, Toelichting, XSD|
+
+
+
+## 4 oktober 2019 oplevering bèta versie
 ## Wijzigingen
 ### Tekstblok Aanhef
 |Wijziging|Omschrijving|Oplossing|
@@ -68,7 +77,7 @@ AA-4539 | Onder 2.4.4 variant D beëindiging geregistreerd partnerschap een teks
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
 Modeldocument Akte van verdeling|**[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Modeldocument%20akte%20van%20verdeling%20v4.0.docx)**|**[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Toelichting%20modeldocument%20Akte%20van%20verdeling%204.0%20-%20v4.0.docx)**|X|
-XSD StukAlgemeen|**[9.0.0](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd)**|| X |
+XSD StukAlgemeen|**[9.1.0](/schema/stuk%20algemeen/9.1.0/StukAlgemeen-9.1.0.xsd)**|| X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef|**[2.13](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20v2.13.docx)**|**[3.7](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.13%20-%20v3.7.docx)**| X |

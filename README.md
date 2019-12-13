@@ -7,13 +7,17 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 13 december 2019
+-  In de akte van Verdeling hebben we nog een tekstuele wijziging doorgevoerd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
+Voor deze wijziging hebben we het [XSD van StukAlgemeen](/schema/stuk%20algemeen/9.1.0/StukAlgemeen-9.1.0.xsd) aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+- We hebben de nieuwe versie van het tekstblok Erfpachtcanon in de akte van Levering opgenomen. Tevens hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Releasenotes%20Akte%20van%20Levering%2020190301000007%20-%202.md) hebben we de details opgenomen.
 
 
 ## 25 november 2019
 - We hebben in deze release een nieuwe stylesheet van de akte van Verdeling opgeleverd. Hierin hebben we een aantal wensen vanuit het notariaat verwerkt, nieuwe versies van een aantal Tekstblokken toegevoegd en een aantal bugs opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
 - In het Tekstblok Erfpachtcanon zijn een aantal tekstuele wijzigingen doorgevoerd. Deze versie van het TB is alleen nog beschikbaar voor de nieuwe verdeling. In de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md) hebben we de details opgenomen.
 - In Doorhaling hypotheek hebben we een kleine bug opgelost (AA-4547). In de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%201.md) hebben we de details opgenomen.
-- Voor de wijzigingen van het TB Erfpachtcanon hebben we het schema moeten aanpassen. Ook hebben we gelijk van een aantal tags de reguliere expressie aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [xsd van StukAlgemeen](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd) en de [documentatie](/schema/stuk%20algemeen/9.0.0/HTML/index.htm).  
+- Voor de wijzigingen van het TB Erfpachtcanon hebben we het schema moeten aanpassen. Ook hebben we van een aantal tags de reguliere expressie aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [XSD van StukAlgemeen](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd) en de [documentatie](/schema/stuk%20algemeen/9.0.0/HTML/index.htm).  
 - Per 1 november is de stylesheet van Syntrus Achmea met depotnummer 20190701000022 implementatienummer 1 uitgezet.
 
 Deze release is voor de Verdeling en tekstblok Erfpachtcanon een bèta release. De onvolkomendheden die we de komende 4 weken vinden in de Verdeling en tekstblok Erfpachtcanon, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
