@@ -67,7 +67,7 @@ AA-4539 | Onder 2.4.4 variant D beëindiging geregistreerd partnerschap een teks
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Akte van verdeling|[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Modeldocument%20akte%20van%20verdeling%20v4.0.docx)|[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Toelichting%20modeldocument%20Akte%20van%20verdeling%204.0.0%20-%20v4.0.0.docx)|  |
+Modeldocument Akte van verdeling|**[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Modeldocument%20akte%20van%20verdeling%20v4.0.docx)**|**[4.0]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Toelichting%20modeldocument%20Akte%20van%20verdeling%204.0%20-%20v4.0.docx)**|X|
 XSD StukAlgemeen|**[9.0.0](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd)**|| X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
