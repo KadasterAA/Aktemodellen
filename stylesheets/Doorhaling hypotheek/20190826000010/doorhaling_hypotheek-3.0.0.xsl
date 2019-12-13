@@ -3,6 +3,7 @@
 *********************************************************
 Stylesheet: doorhaling_hypotheek.xsl
 Version: 3.0.0
+AA-4547 - komma bij afsluiting achter de naam van de notaris
 AA-4463 Doorhaling - bijwerken naar nieuwste versies tekstblokken
 AA-4403 Doorhaling - Afsluitend karakter na tekstblok registergoed wordt verkeerd getoond
 AA-4222 Doorhaling Hypotheek - Stylesheet aanpassen naar algemene waardelijst met nnp-kodes
@@ -2195,7 +2196,7 @@ Private:
 				<xsl:text>w.g.</xsl:text>
 				<br/>
 				<xsl:apply-templates select="tia:heeftOndertekenaar/tia:persoonsgegevens" mode="ondertekenaar"/>
-				<xsl:text> </xsl:text>
+				<xsl:text>, </xsl:text>
 				<xsl:if test="tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kandidaattoegevoegd']">
 					<xsl:choose>
 						<xsl:when test="tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kandidaattoegevoegd']/tia:tekst = 'kandidaat'">

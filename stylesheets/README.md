@@ -2,7 +2,8 @@ Per implementatienummer vindt u hier de versie van het stylesheet
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet
 :---:|:---:|---|---
-Akte van levering KNB nieuw model|20190301000007|1|levering-5.0.0
+Akte van levering KNB nieuw model|20190301000007|2|levering-5.1.0
+ “ | “ |1|levering-5.0.0
  “ |20180501000007|2|levering-4.5.1
  “ | “ |1|levering-4.5.0
 Akte van levering KNB nieuw model|20140830000007|12|levering-4.4.0
@@ -22,8 +23,7 @@ Akte van verdeling|20150801000009|9|verdeling-3.10.0
  “ | “ |5|verdeling-1.71
  “ | “ |4|verdeling-1.70
  “ | “ |3|verdeling-1.69
-Doorhaling hypotheek|20190826000010|2|doorhaling_hypotheek-3.1.0
- “ | “ |1|doorhaling_hypotheek-3.0.0
+Doorhaling hypotheek|20190826000010|1|doorhaling_hypotheek-3.0.0
  “ |20180501000010|2|doorhaling_hypotheek-2.2.1
  “ | “ |1|doorhaling_hypotheek-2.2.0
 Doorhaling hypotheek|20160401000010|8|doorhaling_hypotheek-2.1.9
@@ -131,7 +131,7 @@ Hypotheek Syntrus Achmea|20190701000022|3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
 Notariële verklaring|20180501000008|2|notariele_verklaring-2.12.1
  “ | “ |1|notariele_verklaring-2.12.0
- “ |20140830000008|10|notariele_verklaring-2.11.0
+Notariële verklaring|20140830000008|10|notariele_verklaring-2.11.0
  “ | “ |9|notariele_verklaring-2.10.0
  “ | “ |8|notariele_verklaring-2.9.0
  “ | “ |7|notariele_verklaring-1.76

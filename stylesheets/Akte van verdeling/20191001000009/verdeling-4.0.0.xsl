@@ -1057,25 +1057,6 @@ Private:
 				<xsl:with-param name="aantalRegistergoederen" select="count(tia:StukdeelVerdelingPartnerschap/tia:IMKAD_ZakelijkRecht)"/>
 			</xsl:call-template>
 		</xsl:variable>
-		<xsl:variable name="zonder" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_zonder']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_zonder']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_zonder']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="gemeenschapGoederen" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenschapgoederen']/tia:tekst[translate(normalize-space(.), $upper, $lower)]"/>
-		<xsl:variable name="kopieOvereenkomst" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kopieovereenkomst']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kopieovereenkomst']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kopieovereenkomst']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="ondermeerOvereenkomst" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeerovereenkomst']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeerovereenkomst']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeerovereenkomst']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="ondermeerGemeenschap" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeergemeenschap']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeergemeenschap']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeergemeenschap']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="gemeenteRegistratie" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteregistratie']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteregistratie']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteregistratie']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
-		<xsl:variable name="gemeenteOntbinding" select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteontbinding']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteontbinding']/tia:tekst[translate(normalize-space(.), $upper, $lower) =
-			translate(normalize-space(current()/tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteontbinding']/tia:tekst), $upper, $lower)]), $upper, $lower)]"/>
 		<xsl:variable name="Datum_DATE1" select="substring(string(tia:StukdeelVerdelingPartnerschap/tia:datumRegistratie), 0, 11)"/>
 		<xsl:variable name="Datum_STRING1">
 			<xsl:if test="$Datum_DATE1 != ''">
@@ -1086,6 +1067,12 @@ Private:
 		<xsl:variable name="Datum_STRING2">
 			<xsl:if test="$Datum_DATE2 != ''">
 				<xsl:value-of select="kef:convertDateToText($Datum_DATE2)"/>
+			</xsl:if>
+		</xsl:variable>
+		<xsl:variable name="Datum_DATE3" select="substring(string(tia:StukdeelVerdelingPartnerschap/tia:datumUitspraakRechtbank), 0, 11)"/>
+		<xsl:variable name="Datum_STRING3">
+			<xsl:if test="$Datum_DATE3 != ''">
+				<xsl:value-of select="kef:convertDateToText($Datum_DATE3)"/>
 			</xsl:if>
 		</xsl:variable>
 		<tr>
@@ -1104,11 +1091,37 @@ Private:
 				<xsl:text>De deelgenoten zijn op </xsl:text>
 				<xsl:value-of select="$Datum_STRING1"/>
 				<xsl:text> </xsl:text>
-				<xsl:value-of select="$gemeenteRegistratie"/>
+				<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteregistratie']/tia:tekst"/>
 				<xsl:text> </xsl:text>
 				<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:gemeenteRegistratie"/>
-				<xsl:text> een geregistreerd partnerschap aangegaan. Hun geregistreerd partnerschap is ontbonden door het inschrijven van de be&#x00EB;indigingsverklaring in de registers van de Burgerlijke Stand </xsl:text>
-				<xsl:value-of select="$gemeenteOntbinding"/>
+				<xsl:text> een geregistreerd partnerschap aangegaan. Hun geregistreerd partnerschap is ontbonden door het inschrijven van de </xsl:text>
+				<xsl:choose>
+					<xsl:when test="tia:StukdeelVerdelingPartnerschap/tia:plaatsRechtbank or tia:StukdeelVerdelingPartnerschap/tia:gemeenteRechtbank">
+						<xsl:text>beschikking tot ontbinding van het geregistreerd parnterschap, uitgesproken door de Rechtbank </xsl:text>
+						<xsl:choose>
+							<xsl:when test="tia:StukdeelVerdelingPartnerschap/tia:plaatsRechtbank">
+								<xsl:text> te </xsl:text>
+								<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:plaatsRechtbank"/>
+								<xsl:text> op </xsl:text>
+								<xsl:value-of select="$Datum_STRING3"/>
+								<xsl:text>,</xsl:text>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:naamRechtbank"/>
+								<xsl:text> locatie </xsl:text>
+								<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:gemeenteRechtbank"/>
+								<xsl:text> op </xsl:text>
+								<xsl:value-of select="$Datum_STRING3"/>
+								<xsl:text>,</xsl:text>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>be&#x00EB;indigingsverklaring</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:text> in de registers van de Burgerlijke Stand </xsl:text>
+				<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenteontbinding']/tia:tekst"/>
 				<xsl:text> </xsl:text>
 				<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:gemeenteOntbinding"/>
 				<xsl:text> op </xsl:text>
@@ -1122,10 +1135,10 @@ Private:
 			</td>
 			<td>
 				<xsl:text>De deelgenoten waren </xsl:text>
-				<xsl:value-of select="$zonder"/>
+				<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_zonder']/tia:tekst"/>
 				<xsl:text>onder het maken van partnerschapsvoorwaarden geregistreerd als partner. Tot de </xsl:text>
-				<xsl:if test="$gemeenschapGoederen != ''">
-					<xsl:value-of select="$gemeenschapGoederen"/>
+				<xsl:if test="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenschapgoederen']/tia:tekst != ''">
+					<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_gemeenschapgoederen']/tia:tekst"/>
 				</xsl:if>
 				<xsl:text> goederen </xsl:text>
 				<xsl:choose>
@@ -1136,8 +1149,8 @@ Private:
 						<xsl:text>behoren </xsl:text>
 					</xsl:when>
 				</xsl:choose>
-				<xsl:if test="normalize-space($ondermeerGemeenschap) != ''">
-					<xsl:value-of select="$ondermeerGemeenschap"/>
+				<xsl:if test="normalize-space(tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeergemeenschap']/tia:tekst) != ''">
+					<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeergemeenschap']/tia:tekst"/>
 					<xsl:text> </xsl:text>
 				</xsl:if>
 				<xsl:choose>
@@ -1158,13 +1171,13 @@ Private:
 				</td>
 				<td>
 					<xsl:text>Zoals blijkt uit een door de deelgenoten ondertekende overeenkomst omtrent be&#x00EB;indiging van het geregistreerd partnerschap, </xsl:text>
-					<xsl:if test="normalize-space($kopieOvereenkomst) != ''">
-						<xsl:value-of select="$kopieOvereenkomst"/>
+					<xsl:if test="normalize-space(tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kopieovereenkomst']/tia:tekst) != ''">
+						<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_kopieovereenkomst']/tia:tekst"/>
 						<xsl:text>, </xsl:text>
 					</xsl:if>
 					<xsl:text>hebben de deelgenoten een overeenkomst gesloten inzake </xsl:text>
-					<xsl:if test="normalize-space($ondermeerOvereenkomst) != ''">
-						<xsl:value-of select="$ondermeerOvereenkomst"/>
+					<xsl:if test="normalize-space(tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeerovereenkomst']/tia:tekst) != ''">
+						<xsl:value-of select="tia:StukdeelVerdelingPartnerschap/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_ondermeerovereenkomst']/tia:tekst"/>
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:text>de verdeling van </xsl:text>

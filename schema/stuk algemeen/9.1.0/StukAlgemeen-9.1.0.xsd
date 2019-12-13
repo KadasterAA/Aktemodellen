@@ -1,0 +1,2851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" elementFormDefault="qualified" version="9.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:alg="http://www.kadaster.nl/schemas/KIK/Formaattypen">
+	<xs:annotation>
+		<xs:documentation>Zie changelog voor wijzigingen</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/Formaattypen" schemaLocation="alg-formaattypen-2.1.0.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlinks.xsd"/>
+	<xs:element name="IMKAD_Postbusadres" type="tia:IMKAD_Postbusadres"/>
+	<xs:complexType name="IMKAD_Postbusadres">
+		<xs:annotation>
+			<xs:documentation>De locatie waar een persoon post wenst te ontvangen kan een postbusaanduiding zijn. Een postbusaanduiding bestaat uit een woonplaatsnaam, postcode en postbusnummer.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="postbusnummer" type="alg:alg-N7" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De numerieke aanduiding zoals deze door de Nederlandse PTT is vastgesteld voor postbusadressen. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postcode" type="alg:Postcode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De officiële Nederlandse PTT codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaatsnaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaatsen worden vastgesteld door de gemeenten.
+De vastgestelde woonplaatsen worden door een
+beheerder van een landelijke woonplaatsentabel voorzien
+van een unieke aanduiding, te vergelijken met de
+gemeentecode volgens GBA tabel 33.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Imkad_AdreskeuzePl" type="tia:Imkad_AdreskeuzePl"/>
+	<xs:complexType name="Imkad_AdreskeuzePl">
+		<xs:annotation>
+			<xs:documentation>Keuze tussen PostbusAdres, BinnenlandsAdres en BuitenlandsAdres.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element name="binnenlandsAdres" type="tia:BAG_BinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>In de kadastrale registratie bestaat een woonlocatie in Nederland uit een woonplaatsnaam, een straatnaam, postcode, huisnummer en eventueel een huisnummertoevoeging. Om alvast aan te sluiten bij de komst van BAG wordt zoveel mogelijk het informatiemodel van BAG gevolgd, waar veel meer gegevens in opgenomen zijn. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="buitenlandsAdres" type="tia:IMKAD_BuitenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een woonlocatie in het buitenland bestaat uit een aantal adresregels, te weten: Plaatsnaam en postcode, Regio, Straatnaam en huisnummer, en Landnaam. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postbusAdres" type="tia:IMKAD_Postbusadres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De locatie waar een persoon post wenst te ontvangen kan een postbusaanduiding zijn. Een postbusaanduiding bestaat uit een woonplaatsnaam, postcode en postbusnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="GBA_Ingezetene" type="tia:GBA_Ingezetene"/>
+	<xs:complexType name="GBA_Ingezetene">
+		<xs:annotation>
+			<xs:documentation>Een ingezetene is een natuurlijk persoon die is geregistreerd bij GBA en die een BSN heeft. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="BSN" type="alg:alg-0N9" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het BSN (Burger Service Nummer) is een uniek nummer dat gelijk is aan het sofi-nummer. Ieder  natuurlijk persoon die een relatie heeft met de Nederlandse overheid krijgt een BSN. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naam" type="tia:GBA_Naam" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Geslachtsnaam van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorte" type="tia:GBA_Geboorte" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens over de geboorte van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslacht" type="tia:GBA_Geslacht" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die vóór de voornamen wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel2" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die na de voornamen, maar vóór de achternaam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. Betreft de titel die vóór de naam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel2" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. Deze titel is vrij invulbaar. Betreft de titel die achter de naam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_VoorvoegselsNaam" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_NaamZonderVoorvoegsels" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de ingezetene exclusief voorvoegsels.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_BuitenlandsAdres" type="tia:IMKAD_BuitenlandsAdres"/>
+	<xs:complexType name="IMKAD_BuitenlandsAdres">
+		<xs:annotation>
+			<xs:documentation>Een locatie in het buitenland bestaat uit een aantal adresregels, te weten:
+- Plaatsnaam en postcode.
+- Regio.
+- Straatnaam en huisnummer;
+- Landnaam </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="alg:alg-AN50V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat straatnaam en huisnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaats" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat postcode en woonplaats.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="regio" type="alg:alg-AN39" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gebied binnen een land.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="land" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De mogelijke waarden zijn vastgelegd in een catalogus.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Schip" substitutionGroup="tia:TeboekgesteldeZaak" type="tia:Schip"/>
+	<xs:complexType name="Schip">
+		<xs:annotation>
+			<xs:documentation>Een schip is Teboekgestelde zaak, gekenmerkt als een schip, dat bij het Kadaster te boek is gesteld door het toegekend brandmerknummer.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:TeboekgesteldeZaak">
+				<xs:sequence>
+					<xs:element name="typering" type="alg:alg-AN250V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het type schip.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="naam" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De naam van het schip.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="oudeNaam" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De oude naam van het schip.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="brandmerk" type="tia:Brandmerk" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het brandmerk vormt de unieke identificatie van een Schip.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="naamGebouwdDoor" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Naam van de bouwwerf is een aanduiding van de werf in Nederland waar het schip wordt of is gebouwd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="plaatsGebouwdIn" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Naam van de plaats waar het schip gebouwd is. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="landGebouwdIn" type="alg:alg-AN50" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Naam van het land waar het schip gebouwd is. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bouwjaar" type="xs:gYear" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het jaartal van het jaar waarin het schip gebouwd is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="brutoInhoud" type="tia:Inhoud" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Inhoud in kubieke meters (B-schepen) .
+Bij een (Zee)visserijschip of een Zeeschip wordt als inhoud opgegeven de bruto inhoud of het tonnage, bij een binnenvaartschip wordt als inhoud opgegeven de verplaatsing of het laadvermogen. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="beschrijvingVoortstuwingswerktuigen" type="tia:Voortstuwing" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Omschrijving van de werktuigen waarmee een schip voortgestuwd wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="BAG_Woonplaats" type="tia:BAG_Woonplaats"/>
+	<xs:complexType name="BAG_Woonplaats">
+		<xs:annotation>
+			<xs:documentation>Een WOONPLAATS is een door de gemeenteraad als
+zodanig aangewezen gedeelte van het gemeentelijk
+grondgebied.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="woonplaatsNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaatsen worden vastgesteld door de gemeenten.
+De vastgestelde woonplaatsen worden door een
+beheerder van een landelijke woonplaatsentabel voorzien
+van een unieke aanduiding, te vergelijken met de
+gemeentecode volgens GBA tabel 33.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_WoonlocatiePersoon" type="tia:IMKAD_WoonlocatiePersoon"/>
+	<xs:complexType name="IMKAD_WoonlocatiePersoon">
+		<xs:annotation>
+			<xs:documentation>Locatie waar een natuurlijk persoon woonachtig is of waar een niet natuurlijk persoon is gevestigd.
+
+
+Indien de adresgegevens in de akte afwijken van de BAG gegevens, dan worden zowel de BAG gegevens als de gegevens volgens de akte, de Kadaster gegevens, bij de woonlocatie opgenomen. In dat geval komt het attribuut adres 2 maal voor.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="tia:IMKAD_AdreskeuzeWl" minOccurs="1" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>De woonlocatie kan een binnenlandse (BAG_BinnenlandsAdres of IMKAD_KadBinnenlandsAdres) of een buitenlandse (IMKAD_BuitenlandsAdres) locatie zijn.
+
+IMKAD_KadBinnenlandsAdres komt alleen voor in combinatie met BAG_BinnenlandsAdres.
+
+Andere combinaties dan deze zijn niet toegestaan</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Recht" type="tia:IMKAD_Recht" abstract="true"/>
+	<xs:complexType name="IMKAD_Recht" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Recht is een abstrakte klasse waarvan zakelijk recht, hypotheek en beslag zijn afgeleid. 
+
+Rechten worden beschouwd vanuit één onroerende zaak. Recht vormt de relatie tussen één onroerende zaak en één persoon en heeft betrekking op het eigendom van die persoon van één onroerende zaak of op een beperkt recht van die persoon op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, ed. bedoeld. 
+
+Als meerdere personen gezamelijk een recht hebben op een onroerende zaak, wordt er voor elk persoon een recht opgevoerd. Op dezelfde wijze wordt voor elk recht dat een persoon op een onroerende zaak heeft, een recht opgevoerd. 
+
+Meerdere rechten kunnen zijn ontstaan uit hetzelfde stukdeel. Als twee personen bijvoorbeeld een recht hebben op twee onroerende zaken, zijn er vier rechten, die alle vier ontstaan zijn uit hetzelfde stukdeel.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="tia:KadastraalObject" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>In het geval van rangwisseling wiorden bij het zakelijk recht geen objecten vermeld. Multiplicity is dus 0..1</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="rechthebbende" type="tia:IMKAD_Persoon" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De rechthebbende wordt alleen opgenomen in het geval van beslagen waar de beslagene een ander persoon is dan de rechthebbende van het recht waarop beslag wordt genomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_NietIngezetene" type="tia:IMKAD_NietIngezetene"/>
+	<xs:complexType name="IMKAD_NietIngezetene">
+		<xs:annotation>
+			<xs:documentation>Een natuurlijk persoon die geen ingezetene in Nederland is. 
+
+Binnen het programma stroomlijning basisgegevens wordt onderzocht of het mogelijk is een basisregistratie voor niet ingezetenen (RNI) toe te voegen aan het stelsel. Het is momenteel nog niet duidelijk of en wanneer deze registratie beschikbaar komt.
+
+In afwachting van de mogelijke komst van het RNI wordt binnen Imkad de klasse NietIngezetene in een eigen namespace gezet. In de toekomst kan deze vervangen worden door de RNI namespace. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geslachtsnaam" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De achternaam, exclusief voorvoegsels.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RNIIdentificatie" type="xs:integer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Identificatiecode van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorvoegsels" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels bij de achternaam.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voornamen" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voornamen van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslacht" type="tia:AanduidingGeslacht" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon (Man of Vrouw).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboortedatum" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De geboortedatum.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteplaats" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van de plaats waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteland" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van het land waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Betreft de titel die vóór de naam wordt vermeld. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel2" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Betreft de titel die achter de naam wordt vermeld. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die vóór de voornamen wordt vermeld. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel2" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die na de voornamen, maar vóór de achternaam wordt vermeld. Omdat dit een buitenlandse titel kan zijn is hier geen waardelijst gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Stukdeel" type="tia:IMKAD_Stukdeel" abstract="true"/>
+	<xs:complexType name="IMKAD_Stukdeel" abstract="true">
+		<xs:annotation>
+			<xs:documentation> In een stuk kunnen verschillende transacties (juridische handelingen) zijn vermeld. De gegevens van 1 transactie worden in 1 stukdeel weergegeven.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_ZakelijkRecht" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="tia_Volgnummer" type="alg:alg-N3" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een oplopend nummer per stukdeel wanneer het noodzakelijk is om de stukdelen binnen één aangeboden stuk te kunnen onderscheiden van elkaar.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_AantekeningKadastraalObject" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="vervreemderRechtRef" type="tia:Partij" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar de partij die in de akte afstand doet van een recht:
+- vervreemder
+- hypotheekgever
+- beslagene
+- volmachtgever (doorhaling hypotheek)
+- beslaglegger (doorhaling beslag)
+- verkoper</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="verkrijgerRechtRef" type="tia:Partij" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar de partij die in de akte een recht verkrijgt:
+- verkrijger
+- hypotheeknemer
+- beslaglegger
+- rechthebbende (doorhaling hypotheek)
+- beslagene  (doorhaling beslag)
+- koper</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="belanghebbendeRef" type="tia:Partij" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar een partij die een rol speelt bij een rechtsfeit maar die geen vervreemder of verkrijger is. Bijvoorbeeld een belanghebbende bij een kwalitatieve verplichting die wordt opgevoerd in een akte van levering.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistergoedRef" type="tia:IMKAD_ZakelijkRecht" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Gevolmachtigde" type="tia:Gevolmachtigde"/>
+	<xs:complexType name="Gevolmachtigde">
+		<xs:sequence minOccurs="0">
+			<xs:element name="gegevens" type="tia:GegevensGevolmachtigde" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van de persoon die namens de vervreemder(s) verschijnt
+.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="burgerlijkeStaatTekst" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="burgerlijkeStaatLand" type="alg:alg-AN80" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="gegevensOndertekening" type="tia:GegevensOndertekening" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van de ondertekening</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partnerGegevens" type="alg:alg-AN70" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="tia:GerelateerdPersoon" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="vertegenwoordigtRef" type="tia:Hoedanigheid" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="optional" type="xs:ID">
+			<xs:annotation>
+				<xs:documentation>Technisch ID voor verwijzing naar een Gevolmachtigde.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<xs:element name="TekstKeuze" type="tia:TekstKeuze"/>
+	<xs:complexType name="TekstKeuze">
+		<xs:annotation>
+			<xs:documentation>In een stylesheet komen variabele teksten voor. Tekstkeuze is de tekst die door een aanbieder gekozen wordt bij het opstellen van een document.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tagNaam" type="alg:alg-AN50V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de tekst waarvoor een keuze gemaakt kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekst" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De tekst die gekozen is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelLevering" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelLevering"/>
+	<xs:complexType name="StukdeelLevering">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende de  levering.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_Aantekening" type="tia:IMKAD_Aantekening" abstract="true"/>
+	<xs:complexType name="IMKAD_Aantekening" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Een aantekening heeft betrekking op een bij het Kadaster ingeschreven recht of onroerende zaak en kan gevolgen hebben voor de uitoefening van het recht. De aantekening geeft extra informatie over dit recht of deze onroerende zaak . </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tenLasteVan" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De onroerende zaak ten laste waarvan een erfdienstbaarheid of kwalitatieve verplichting geldt.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="tia:IMKAD_OnroerendeZaak"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="tenBehoeveVan" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>De onroerende zaak ten behoeve waarvan de erfdienstbaarheid geldt.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="tia:IMKAD_OnroerendeZaak"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Partij" type="tia:Partij"/>
+	<xs:complexType name="Partij">
+		<xs:sequence minOccurs="0">
+			<xs:element name="aanduidingPartij" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De aanduiding van de partij in de akte. Bij de opsomming van de partijen staat deze aanduiding achter 'hierna te noemen', verderop in de akte wordt de aanduiding gebruikt bij verwijzing naar de partij.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:Hoedanigheid" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="tia:Gevolmachtigde" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="tia:IMKAD_Persoon" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="tekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IndRegistergoedBewonen" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie die aangeeft of de perso(o)n(en) van een partij het registergoed, dat wordt overgedragen in een leveringsakte, gaan bewonen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="vofCvMs" type="tia:IMKAD_Persoon" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Vennootschap onder firma
+of
+Commanditaire Vennootschap
+of
+Maatschap</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aandeelInRechten" type="tia:Aandeel" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Dit is het aandeel waarvoor de partij deelneemt in het recht. Het aandeel kan omvatten de bevoegdheid tot het uitsluitend gebruik van bepaalde gedeelten van een gebouw en van de bij het gebouw behorende grond.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:Partij" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Partijen kunnen door ze binnen elkaar op te nemen worden gegroepeerd zoals wordt gedaan in Doorhaling Hypotheken. Er zijn dan twee partijen Gevolmachtigden en Rechthebbenden en daarbinnen een partij voor elke persoon die in een stukdeel een rol speelt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partijPersoonRef" type="tia:IMKAD_Persoon" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar de persoon die tot de subpartij behoort.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" use="optional" type="xs:ID">
+			<xs:annotation>
+				<xs:documentation>Technisch ID voor verwijzing naar een partij.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<xs:element name="GBA_Geboorte" type="tia:GBA_Geboorte"/>
+	<xs:complexType name="GBA_Geboorte">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de geboorte van de persoon</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geboortedatum" type="xs:date" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De geboortedatum.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteplaatsOmschrijving" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De plaatsnaam van de plaats waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteland" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van het land waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_ZakelijkRecht" substitutionGroup="tia:IMKAD_Recht" type="tia:IMKAD_ZakelijkRecht"/>
+	<xs:complexType name="IMKAD_ZakelijkRecht">
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Recht">
+				<xs:sequence minOccurs="0">
+					<xs:element name="aardVerkregen" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Aard zakelijk recht die binnen een akte gehanteerd mag worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aardVerkregenVariant" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Aard zakelijk recht keuzeblokvariant die binnen een akte gehanteerd mag worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_Aantal_BP_Rechten" type="alg:alg-0N2" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal zakelijke rechten als bedoeld in de Belemmeringenwet Privaatrecht.
+Vermeld in akte van levering.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_Aantal_Rechten" type="alg:alg-0N2" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal zakelijke rechten.  wanneer aardVerkregen Eigendom belast met Opstal, Erfpacht of BP recht betreft.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_Aantal_RechtenVariant" type="alg:alg-0N2" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal zakelijke rechten variant, wanneer aardVerkregenVariant Opstal, Erfpacht of BP recht betreft.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_TekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_BreukdeelOnverdeeldAandeel" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Breukdeel waarmee het aandeel per rechthebbende wordt aangegeven.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aandeelInRecht" type="tia:Aandeel" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Dit is het aandeel waarvoor de gerechtigde deelneemt in het recht. Het aandeel kan omvatten de bevoegdheid tot het uitsluitend gebruik van bepaalde gedeelten van een gebouw en van de bij het gebouw behorende grond. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_BedragKoopprijs" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="2">
+						<xs:annotation>
+							<xs:documentation>De koopprijs die voor het registergoed betaald moet worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_KoopprijsSpecificatie" type="tia:KoopprijsSpecificatie" minOccurs="0" maxOccurs="2">
+						<xs:annotation>
+							<xs:documentation>Nadere specificatie van de koopprijs van het registergoed.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="verkrijgerRechtRef" type="tia:Partij" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Verwijzing naar de partij die in de akte het betreffende zakelijk recht verkrijgt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="tia:Toedeling" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:attribute name="id" use="optional" type="xs:ID">
+					<xs:annotation>
+						<xs:documentation>Technisch ID voor verwijzing naar een ZakelijkRecht.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attributeGroup ref="xlink:simpleLink"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="NHR_Rechtspersoon" type="tia:NHR_Rechtspersoon"/>
+	<xs:complexType name="NHR_Rechtspersoon">
+		<xs:annotation>
+			<xs:documentation>Een RECHTSPERSOON is een groep van personen en vormt een juridische constructie waardoor de rechtspersoon, die rechten en plichten heeft, georganiseerd (als rechtssubject binnen de organisatie) of zelfstandig deel kan nemen aan het rechtsverkeer.
+
+De authentieke gegevens over rechtspersonen (niet natuurlijke personen: bedrijven en instellingen) worden opgenomen in het nieuwe handelsregister (NHR). In afwachting van de komst van het NHR worden deze niet natuurlijke personen al onderscheiden van KADNietNatuurlijkPersoon: dat zijn alleen de niet natuurlijke personen die niet in het NHR komen te staan, dwz. buitenlandse bedrijven etc. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FINummer" type="alg:KvkNummer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Elke onderneming of maatschappelijke activiteit  heeft in het Handelsregister één KvK-nummer. Dit KvK-nummer bestaat altijd uit 8 cijfers.
+
+Nota bene: hier wordt dus, in tegenstelling tot wat de naam van dit attribuut kan doen vermoeden, het KvK-nummer verwachte en niet het FINummer (tegenwoordig RSIN) verwacht.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="rechtsvormSub" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De juridische vorm waarin de onderneming is gegoten .</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="statutaireNaam" type="alg:alg-AN200" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van de rechtspersoon. Het betreft de naam die is opgenomen in de oprichtingsakte.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="statutaireZetel" type="alg:alg-AN40V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De statutaire plaats van vestiging. Als dit geen Nederlandse woonplaats uit "woonplaatsen.xml" is, moet tia_LandStatutaireZetel ook zijn ingevuld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_LandStatutaireZetel" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van het land waar de statutaire zetel gevestigd is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_PlaatsKvK" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Plaatsnaam van de Kamer van Koophandel waar de rechtspersoon is geregistreerd.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_HandelendOnderNaam" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam waaronder de hypotheeknemer de hypotheek verstrekt wanneer deze afwijkend is van de statutaire naam.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GBA_Geslacht" type="tia:GBA_Geslacht"/>
+	<xs:complexType name="GBA_Geslacht">
+		<xs:annotation>
+			<xs:documentation>De aanduiding van het geslacht van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geslachtsaanduiding" type="tia:AanduidingGeslacht" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon (Man of Vrouw).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Bedrag" type="tia:IMKAD_Bedrag"/>
+	<xs:complexType name="IMKAD_Bedrag">
+		<xs:annotation>
+			<xs:documentation>Bestaat uit een bedrag, een aanduiding van de valutasoort, en eventueel een aanduiding van de versie van de lijst met mogelijke valuta die is gebruikt. Bovendien wordt de aard van het bedrag vastgelegd, waarin is aangegeven of het bedrag een deel van een totaal, een totaal van opgetelde bedragen, of een ongedeeld bedrag is. 
+
+De attributen currencyID, amount, en codeListVersionID zijn ontleend aan het type AmountType uit UBL CoreComponentTypes.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="som" type="alg:alg-D20" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="valuta" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de valutasoort. Hiervoor wordt de codelijst ISO 4217 gebruikt. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Voortstuwing" type="tia:Voortstuwing"/>
+	<xs:complexType name="Voortstuwing">
+		<xs:annotation>
+			<xs:documentation>Gegevens betreffende de het voorstuwingsmechanisme van een schip of luchtvaartuig.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="merk" type="alg:alg-AN100" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het merk van het voorstuwingswerktuig.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="motornummer" type="alg:alg-AN100" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het motornummer van het voorstuwingswerktuig.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="plaatsMotor" type="alg:alg-AN100" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De plaats van de motor kan worden ingevuld bij schepen. Bij luchtvaartuigen is het niet van toepassing.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sterkte" type="alg:alg-D9" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De motorsterkte in aantal PK (maximaal drie cijfers achter de punt).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AkteOpzeggingsbevoegdheid" type="tia:AkteOpzeggingsbevoegdheid"/>
+	<xs:complexType name="AkteOpzeggingsbevoegdheid">
+		<xs:sequence>
+			<xs:element name="aanvaarding" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de soort aanvaarding/volmacht waarmee afstand van een recht wordt genomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:choice minOccurs="1" maxOccurs="1">
+				<xs:element ref="tia:AantalOnderhandseAkten" minOccurs="1" maxOccurs="1"/>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AantalOnderhandseAkten" type="tia:AantalOnderhandseAkten"/>
+	<xs:complexType name="AantalOnderhandseAkten">
+		<xs:sequence>
+			<xs:element name="aantalOnderhandseAkten" type="alg:alg-N3" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het aantal onderhandse akten dat ten grondslag ligt aan de volmacht.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_AdreskeuzeWl" type="tia:IMKAD_AdreskeuzeWl"/>
+	<xs:complexType name="IMKAD_AdreskeuzeWl">
+		<xs:annotation>
+			<xs:documentation>Een PersoonsLocatie (waar een persoon woont/gevestigd is of post ontvangt) kan een binnenlandse locatie, een buitenlandse locatie of een postadres zijn.
+
+Indien het een binnenlandse locatie is, waarvan de gegevens niet overeenkomen met de BAG gegevens, dan worden deze in kadBinnenlandsAdres opgenomen. De BAG gegevens worden dan tevens opgenomen, in BAG_BinnenlandsAdres. Andere combinaties dan deze zijn niet mogelijk.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element name="binnenlandsAdres" type="tia:BAG_BinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>In de kadastrale registratie bestaat een woonlocatie in Nederland uit een woonplaatsnaam, een straatnaam, postcode, huisnummer en eventueel een huisnummertoevoeging. Om alvast aan te sluiten bij de komst van BAG wordt zoveel mogelijk het informatiemodel van BAG gevolgd, waar veel meer gegevens in opgenomen zijn. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="buitenlandsAdres" type="tia:IMKAD_BuitenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een woonlocatie in het buitenland bestaat uit een aantal adresregels, te weten: Plaatsnaam en postcode, Regio, Straatnaam en huisnummer, en Landnaam. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadBinnenlandsAdres" type="tia:IMKAD_KadBinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adresgegevens indien deze afwijken van BAG_BinnenlandsAdres. Wordt altijd in combinatie met BAG_BinnenlandsAdres gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="BAG_OpenbareRuimte" type="tia:BAG_OpenbareRuimte"/>
+	<xs:complexType name="BAG_OpenbareRuimte">
+		<xs:annotation>
+			<xs:documentation>Een OPENBARE RUIMTE is een door de gemeenteraad als
+zodanig aangewezen benaming van een binnen 1 woonplaats
+gelegen buitenruimte.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="openbareRuimteNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_DeelEnNummer" type="tia:IMKAD_DeelEnNummer"/>
+	<xs:complexType name="IMKAD_DeelEnNummer">
+		<xs:annotation>
+			<xs:documentation>Bevat de door het Kadaster vastgestelde unieke identificatie van alle ter inschrijving aangeboden stukken.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="soortRegister" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Omschrijving van het register waarin het stuk opgenomen is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="deel" type="alg:LettersCijfers5" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Identificatie van het stuk binnen zijn soort.
+
+Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domeintype Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="nummer" type="alg:CijfersZonder2Voorloopnullen" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Volgnummer van het stuk.
+
+In de landelijke stukkenregistratie is dit nummer niet uniek identificerend binnen een register, omdat tijdig ingediende verbeteringen hetzelfde volgnummer krijgen als het oorspronkelijke stuk.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="reeks" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar de oorspronkelijke (mogelijk tussentijds vervallen) Kadastervestiging waar het stuk oorspronkelijk is ingeschreven.
+Is verplicht bij stukken met deel &lt;= 50000.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="KadastraalObject" type="tia:KadastraalObject" abstract="true"/>
+	<xs:complexType name="KadastraalObject" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Een kadastraal object is een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist. Een kadastraal object bestaat uit Onroerende zaak en Teboekgestelde zaak.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:element name="StukdeelHypotheek" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelHypotheek"/>
+	<xs:complexType name="StukdeelHypotheek">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende een hypotheekakte.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="hoofdsom" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het bedrag waarvoor hypothecaire zekerheid is gegeven. De vermelde hoofdsom is het bedrag waarvoor het recht van Hypotheek is gevestigd (dus niet het bedrag van de geldlening).
+
+Indien bij een hypotheek verschillende hoofdsommen voorkomen, dan worden deze bedragen getotaliseerd. Dit wordt aangegeven in de aard van het bedrag.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragLening" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Bedrag met betrekking tot de lening, exclusief renten, boeten en kosten.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragOverbruggingslening" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Bedrag met betrekking tot de overbruggingslening.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragRente" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Bedrag met betrekking tot renten, boeten en kosten.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="soortHypotheek" type="alg:alg-AN20" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het soort hypotheek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aanduidingHypotheek" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Aanduiding van de hypotheek, wordt gebruikt om aan te geven op wat voor soort hypotheek het stukdeel hypotheek betrekking heeft.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="rangordeHypotheek" type="alg:alg-N9" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De rangorde geeft aan het hoeveelste recht van hypotheek het betreft.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="leningnummer" type="alg:alg-N9" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Het nummer waaronder de lening bij de bank bekend is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragTotaal" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="datumOfferte" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Datum van de offerte van de hypothecaire geldlening.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="PersoonKeuze" type="tia:PersoonKeuze"/>
+	<xs:complexType name="PersoonKeuze">
+		<xs:annotation>
+			<xs:documentation>PersoonKeuze is een keuze tussen de soorten personen (GBA_Ingezetene, IMKAD_NietIngezetene en NHR_Rechtspersoon) die in de interface voor de akte gehanteerd mogen worden.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element ref="tia:NHR_Rechtspersoon" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="tia:IMKAD_NietIngezetene" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="tia:GBA_Ingezetene" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="tia:IMKAD_KadNatuurlijkPersoon" minOccurs="1" maxOccurs="1"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="IMKAD_Domiciliekeuze" type="tia:IMKAD_Domiciliekeuze"/>
+	<xs:complexType name="IMKAD_Domiciliekeuze">
+		<xs:annotation>
+			<xs:documentation>Locatie die een persoon als woonplaats heeft gekozen. 
+
+Personen kunnen domicilie kiezen; dit moet een woonplaats zijn binnen Nederland. Wanneer een persoon geen feitelijke woonplaats in Nederland heeft, kiest zij ter zake van de inschrijving domicilie in Nederland.  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="aard" type="alg:alg-AN50V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Domiciliekeuze die geldt voor het stuk. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adres" type="tia:BAG_BinnenlandsAdres" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gedetailleerde specificatie van de locatie die een persoon als woonplaats heeft gekozen. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Advocaat" type="tia:GBA_Ingezetene" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Persoonsgegevens van de persoon ten kantore waarvan woonplaats wordt gekozen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Luchtvaartuig" substitutionGroup="tia:TeboekgesteldeZaak" type="tia:Luchtvaartuig"/>
+	<xs:complexType name="Luchtvaartuig">
+		<xs:annotation>
+			<xs:documentation>Een luchtvaartuig is een Teboekgestelde zaak, gekenmerkt als een toestel dat in de dampkring kan worden gehouden tengevolge van de krachten welke de lucht daarop uitoefent.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:TeboekgesteldeZaak">
+				<xs:sequence>
+					<xs:element name="inschrijvingskenmerk" type="alg:alg-AN4V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het Nationaliteits- en inschrijvingskenmerk is een kenmerk, uitgegeven door de Rijksluchtvaartdienst, dat luchtvaartuigen uniek identificeert.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="startmassa" type="alg:alg-D8" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het maximale startgewicht in kilogram.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="beschrijvingVoortstuwingswerktuigen" type="tia:Voortstuwing" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Omschrijving van de werktuigen waarmee een luchtvaartuig voortgestuwd wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelPR_Beperking" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelPR_Beperking"/>
+	<xs:complexType name="StukdeelPR_Beperking">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende de  belemmering.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="depotnummer" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Depotnummer van de tekening.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="wetBeperking" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Wet op grond waarvan de publiekrechterlijke beperking opgevoerd / doorgehaald wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="Aandeel" type="tia:Aandeel"/>
+	<xs:complexType name="Aandeel">
+		<xs:annotation>
+			<xs:documentation>Het aandeel in een recht, bestaande uit een teller (deel) en noemer (geheel). De teller is altijd lager dan de noemer.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="teller" type="alg:alg-N8" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het aantal delen. De teller is altijd lager dan de noemer. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="noemer" type="alg:alg-N8" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van het deel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelKoop" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelKoop"/>
+	<xs:complexType name="StukdeelKoop">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende de koop.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="koopovereenkomst" type="tia:Koopovereenkomst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Gegevens betreffende de koop.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="transactiesom" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De koopprijs die voor het registergoed betaald moet worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bestaand" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de koopovereenkomst waar het stukdeel over gaat al bestaat of niet. Zo niet, dan wordt de overeenkomst ingeschreven.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="vervallen" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de koopovereenkomst moet komen te vervallen; in de akte komt dan te staan "welke inschrijving door de inschrijving van een afschrift van deze akte waardeloos zal worden" en de koopovereenkomst komt te vervallen in de registratie.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="koopprijsSpecificatie" type="tia:KoopprijsSpecificatie" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Nadere specificatie van de koopprijs.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelDoorhalingPR_Beperking" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelDoorhalingPR_Beperking"/>
+	<xs:complexType name="StukdeelDoorhalingPR_Beperking">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende  doorhaling van stukken of van beperkingen.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="doorTeHalenStuk" type="tia:IMKAD_DeelEnNummer" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Identificatie van het stuk dat doorgehaald moet worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="depotnummer" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Depotnummer van de tekening.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="wetBeperking" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Wet op grond waarvan de publiekrechterlijke beperking opgevoerd / doorgehaald wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aardDoorhalingPB" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Indicatie van de soort doorhaling met betrekking tot publiekrechterlijke beperkingen.
+Mogelijke waarden:
+stuk: stuk mb.t. PB moet doorgehaald worden
+onttrekking: onttrekking van een PB</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelWijzigingPR_Beperking" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelWijzigingPR_Beperking"/>
+	<xs:complexType name="StukdeelWijzigingPR_Beperking">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende  het opvoeren van belemmeringen en het doorhalen van eerdere inschrijvingen.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="depotnummer" type="alg:alg-AN14V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Depotnummer van de tekening.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="wetBeperking" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Wet op grond waarvan de publiekrechterlijke beperking opgevoerd worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="vervallenInschrijving" type="tia:IMKAD_DeelEnNummer" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Identificatie van het stuk waarin de beperking(en) eerder is ingeschreven.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelHandhavingPR_Beperking" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelHandhavingPR_Beperking"/>
+	<xs:complexType name="StukdeelHandhavingPR_Beperking">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel waarin aangegeven wordt dat belemmeringen van voor de invoering van de WKPB gehandhaafd moet blijven onder de nieuwe wet.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="stukTeHandhavenBeperking" type="tia:IMKAD_DeelEnNummer" minOccurs="1" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Identificatie van het stuk waarin de beperking(en) vermeld is, die gehandhaafd moeten blijven.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="InformatiePB" type="tia:InformatiePB"/>
+	<xs:complexType name="InformatiePB">
+		<xs:annotation>
+			<xs:documentation>Instantie en adres waar verkrijgers van grondstukken informatie kunnen krijgen over publiek rechterlijke beperkingen. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="aardPubliekrechtelijkeRechtspersoon" type="tia:AardPubliekrechtelijkeRechtspersoon" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De aard van de publiekrechtelijke rechtspersoon waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamGemeente" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de gemeente waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamWaterschap" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van het waterschap waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamProvincie" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de provincie waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamMinisterie" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van het ministerie waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamAfdeling" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de afdeling waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adres" type="tia:BAG_BinnenlandsAdres" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adres van de afdeling waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="telefoonnummer" type="alg:alg-AN20" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Telefoonnummer waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="e-mailadres" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>E-mailadres waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="algemeneVoorwaarden" type="tia:IMKAD_DeelEnNummer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Deel en nummer van het stuk waarin de algemene voorwaarden zijn vastgelegd.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamBestuursorgaanInfo" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van het bestuursorgaan waar informatie omtrent publiekrechtelijke beperkingen verkregen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VerklaringBestuursorgaan" type="tia:VerklaringBestuursorgaan"/>
+	<xs:complexType name="VerklaringBestuursorgaan">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een verklaring t.b.v. bestuursorganen.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="naamBestuursorgaan" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van het bestuursorgaan waarvoor de verklaarder handelt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="informatiePB" type="tia:InformatiePB" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Instantie en adres waar verkrijgers van grondstukken informatie kunnen krijgen over publiek rechterlijke beperkingen. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamUitvoerendeOrganisatie" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van de uitvoerende organisatie welke is gevolmachtigd door het bestuursorgaan.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="plaatsUitvoerendeOrganisatie" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De vestigingsplaats van de uitvoerende organisatie.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelKoopoptie" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelKoopoptie"/>
+	<xs:complexType name="StukdeelKoopoptie">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende de koopoptie.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="aantalJaarRechtKoop" type="alg:alg-N2" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal jaar vanaf heden dat het recht geldt om het verkochte te kopen onder bepaalde vermelde voorwaarden en bedingen.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragRechtKoop" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het bedrag waarvoor het recht geldt om het verkochte te kopen onder bepaalde vermelde voorwaarden en bedingen.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="GBA_Naam" type="tia:GBA_Naam"/>
+	<xs:complexType name="GBA_Naam">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de naam van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="voornamen" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voornamen van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Legitimatiebewijs" type="tia:Legitimatiebewijs"/>
+	<xs:complexType name="Legitimatiebewijs">
+		<xs:annotation>
+			<xs:documentation>Gegevens met betrekking tot het legitimatiebewijs van een persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="soort" type="alg:alg-AN100" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van het soort bewijs (bijvoorbeeld paspoort) waarmee de persoon zich gelegitimeerd heeft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kenmerk" type="alg:alg-AN100" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Unieke identificatie van het legitimatiebewijs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="plaatsUitgegeven" type="alg:alg-AN80V" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de plaats waar het legitimatiebewijs is uitgegeven.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="landUitgegeven" type="alg:alg-AN50" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van het land waar het legitimatiebewijs is uitgegeven.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumUitgegeven" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop het legitimatiebewijs is uitgegeven.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumGeldigTot" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum tot welke het legitimatiebewijs nog geldig is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="instantieUitgegeven" type="alg:alg-AN100" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de instantie die het legitimatiebewijs heeft uitgegeven.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Persoon" type="tia:IMKAD_Persoon"/>
+	<xs:complexType name="IMKAD_Persoon">
+		<xs:sequence minOccurs="0">
+			<xs:element name="tia_Gegevens" type="tia:PersoonKeuze" minOccurs="1" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>De gegevens die over een persoon worden opgenomen hangen af van de soort persoon. PersoonKeuze is een keuze tussen de soorten personen GBA_Ingezetene, Imkad_NietIngezetene, NHR_Rechtspersoon en
+IMKAD_KadNatuurlijkPersoon.
+
+IMKAD_KadNatuurlijkPersoon komt alleen voor in combinatie met GBA_Ingezetene.
+
+Andere combinaties dan deze zijn niet toegestaan.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_BurgerlijkeStaatTekst" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De formele positie van een mens in de zin en betekenis van het burgerlijk wetboek zoals huwelijkse staat, geregistreerd partnerschap e.d.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_BurgerlijkeStaatLand" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Burgerlijke staat volgens verklaring van de persoon naar het recht van het land.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Legitimatiebewijs" type="tia:Legitimatiebewijs" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens met betrekking tot het legitimatiebewijs van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AandeelInRechten" type="tia:Aandeel" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Dit is het aandeel waarvoor de persoon deelneemt in de gezamenlijke rechten van het stuk(deel).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_PartijOnderdeel" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van het partijonderdeel waar de persoon (samen met eventuele andere personen) in de akte bij hoort.
+Bv. 'de Schuldenaar' of 'de Hypotheekgever'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_PartnerGegevens" type="alg:alg-AN70" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Vrij tekstveld voor de gegevens van de partner van de persoon</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_GegevensOndertekening" type="tia:GegevensOndertekening" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="tia_IndGerechtigde" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie die aangeeft of een persoon gerechtigde is (deel uitmaakt van het rechtsfeit). 
+
+Als de indicatie op true staat, is de persoon gerechtigde.
+
+Als de indicatie op false staat, dan vertegenwoordigt de persoon alleen andere (gerechtigde) personen zonder zelf gerechtigde te zijn.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AanduidingPersoon" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De aanduiding van de persoon in de akte. Bij de opsomming van de personen staat deze aanduiding achter 'hierna te noemen', verderop in de akte wordt de aanduiding gebruikt bij verwijzing naar de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AanduidingRechtsvorm" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De aanduiding van de persoon in de akte. Bij de opsomming van de personen staat deze aanduiding achter 'hierna te noemen', verderop in de akte wordt de aanduiding gebruikt bij verwijzing naar de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:GerelateerdPersoon" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="tia:IMKAD_WoonlocatiePersoon" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="toekomstigAdres" type="tia:IMKAD_WoonlocatiePersoon" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Toekomstig adres van een partij die in de akte een rol speelt. Bij akten van levering kan dit worden opgenomen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_PostlocatiePersoon" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="tia:VoormaligeRechtspersoon" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="vertegenwoordigtRef" type="tia:Hoedanigheid" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="optional" type="xs:ID">
+			<xs:annotation>
+				<xs:documentation>Technisch ID voor verwijzing naar een persoon.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<xs:element name="IMKAD_AantekeningKadastraalObject" substitutionGroup="tia:IMKAD_Aantekening" type="tia:IMKAD_AantekeningKadastraalObject"/>
+	<xs:complexType name="IMKAD_AantekeningKadastraalObject">
+		<xs:annotation>
+			<xs:documentation>Een aantekening kadastraal object geeft aanvullende informatie over een bestaand feit, genoemd in een stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Aantekening">
+				<xs:sequence>
+					<xs:element name="tekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aard" type="alg:alg-AN20" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Een aard aantekening kadastraal object geeft aan welk feit er bestaat, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak.
+Het betreft bijvoorbeeld publiekrechtelijke eigendoms- en gebruiksbeperkingen, gedoogverplichtingen, aantekening in het kader van de monumentenwet, e.d. 
+Ook wordt een aantekening vermeld als gegevens van een kadastraal object 'In onderzoek' worden genomen, naar aanleiding van een terugmelding.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="GerelateerdPersoon" type="tia:GerelateerdPersoon"/>
+	<xs:complexType name="GerelateerdPersoon">
+		<xs:annotation>
+			<xs:documentation>Relatie naar een gerelateerde persoon. De relatie wordt onder andere ondersteund voor personen die bestuurder/vertegenwoordiger zijn van een rechtspartij, of personen die partner (echtgenoot of geregistreerd partner) zijn van een persoon die partij is in de akte. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="rol" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De rol gerelateerd persoon geeft aan wat de relatie is van de eerste persoon met de gerelateerde persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IndGezamenlijkeWoonlocatie" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie die aangeeft of twee gerelateerde personen dezelfde woonlocatie hebben.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IndGezamenlijkeToekomstigeWoonlocatie" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie die aangeeft of twee gerelateerde personen dezelfde toekomstige woonlocatie hebben.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_Persoon" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AantalBeperkteRechten" type="tia:AantalBeperkteRechten"/>
+	<xs:complexType name="AantalBeperkteRechten">
+		<xs:annotation>
+			<xs:documentation>Aantal; BP-rechten.
+Gebruikt in akte van levering.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tia_Aantal_BP_Rechten" type="alg:alg-N2" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het aantal BP-rechten  waarmee een eigendom is belast</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelKwalitatieveVerplichting" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelKwalitatieveVerplichting"/>
+	<xs:complexType name="StukdeelKwalitatieveVerplichting">
+		<xs:annotation>
+			<xs:documentation>De gegevens van een stukdeel betreffende een kwalitatieve verplichting.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="omschrijving" type="xs:string" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De tekstuele omschrijving van de kwalitatieve verplichting.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bestaand" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de kwalitatieve verplichting waar het stukdeel over gaat al bestaat of niet. Aan de hand van dit attribuut wordt de kwalitatieve verplichting al dan niet geregistreerd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="vervallen" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de kwalitatieve verplichting moet komen te vervallen.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="AardPubliekrechtelijkeRechtspersoon">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="gemeente"/>
+			<xs:enumeration value="ministerie"/>
+			<xs:enumeration value="provincie"/>
+			<xs:enumeration value="waterschap"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="StukdeelNotarieleVerklaring" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelNotarieleVerklaring"/>
+	<xs:complexType name="StukdeelNotarieleVerklaring">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende de  notariële verklaring.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="soortOvereenkomst" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De soort overeenkomst waarop de notariële verklaring betrekking heeft.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumOnderhandseOvereenkomst" type="xs:date" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop de onderhandse overeenkomst is ondertekend.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedragKoopprijs" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De koopprijs die voor de gezamenlijke registergoederen betaald moet worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumLevering" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop het verkochte door de verkoper aan de koper geleverd zal worden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="SoortOvereenkomst">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="koop"/>
+			<xs:enumeration value="optie"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="StukdeelMandeligheid" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelMandeligheid"/>
+	<xs:complexType name="StukdeelMandeligheid">
+		<xs:annotation>
+			<xs:documentation>De gegevens van een stukdeel betreffende een mandeligheid.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="omschrijving" type="xs:string" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De tekstuele omschrijving van de mandeligheid.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bestaand" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de mandeligheid waar het stukdeel over gaat al bestaat of niet. Aan de hand van dit attribuut wordt de mandeligheid al dan niet geregistreerd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="vervallen" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de mandeligheid moet komen te vervallen.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_KadNatuurlijkPersoon" type="tia:IMKAD_KadNatuurlijkPersoon"/>
+	<xs:complexType name="IMKAD_KadNatuurlijkPersoon">
+		<xs:annotation>
+			<xs:documentation>Een natuurlijk persoon die geen bij GBA geregistreerde ingezetene en geen buitenlands persoon is.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adellijkeTitelOfPredikaat" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een aanduiding, voorkomend in BRP-tabel 38 Tabel Adellijke titel/predikaat, die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bi predikaat voornaam).
+
+Voorbeelden zijn BS, BArones (Adellijke titel) en JH, Jonkheer (predikaat).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslachtsnaam" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naamgegevens van een natuurlijk persoon, met uitzondering van de voornamen en eventuele voorvoegsels. Afgeleid van NEN 1888 (het significante deel van de achternaam)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voornamen" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De verzameling van een of meer voorzetsels en/of lidwoorden die aan de geslachtsnaam vooraf gaat en daarmee de gezamenlijk de achternaam vormt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorvoegselsgeslachtsnaam" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels bij achternaam.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Betreft de titel die vóór de naam wordt vermeld. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Titel2" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een niet ingezetene. Betreft de titel die achter de naam wordt vermeld. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AdellijkeTitel2" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die na de voornamen, maar vóór de achternaam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_OnroerendeZaak" substitutionGroup="tia:KadastraalObject" abstract="true" type="tia:IMKAD_OnroerendeZaak"/>
+	<xs:complexType name="IMKAD_OnroerendeZaak" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Een Onroerende zaak is een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist.
+
+Binnen dit model is een Onroerende zaak is een perceel, een appartementsrecht (Een leidingnetwerk wordt (nog) niet ondersteund). 
+
+OnroerendeZaak is zelf een abstrakte klasse en tevens een specialisatie van nen3610:Geo-object.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:KadastraalObject">
+				<xs:sequence>
+					<xs:element name="kadastraleAanduiding" type="tia:IMKAD_KadastraleAanduiding" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Kadastrale aanduiding is de unieke aanduiding van een onroerende zaak, die door het kadaster wordt vastgesteld.
+
+Percelen worden kadastraal aangeduid door vermelding van achtereenvolgens de kadastrale gemeente en sectie, waarin de percelen en  gedeelten van percelen zijn gelegen waarvan het grondgebied tot die zaak behoort, alsmede de nummers van die percelen. Voor een onroerende zaak die zich krachtens een opstalrecht op, in of boven de grond van een ander bevindt, geldt dezelfde kadastrale aanduiding als van de onroerende zaak die met dat opstalrecht is bezwaard. Dit is van overeenkomstige toepassing op een onroerende zaak die zich op, in of boven de grond van een ander bevindt krachtens een recht als bedoeld in het vóór 1 januari 1992 geldende artikel 5, derde lid, onder b, laatste zinsnede, van de Belemmeringenwet Privaatrecht. 
+
+Appartementsrechten worden kadastraal aangeduid door de vermelding van 
+achtereenvolgens de kadastrale gemeente en sectie, waarin de in de splitsing betrokken percelen zijn gelegen, de complexaanduiding en de appartementsindex. De complexaanduiding bestaat uit het voor de in de splitsing betrokken percelen vastgestelde complexnummer, gevolgd door de hoofdletter A. Onze Minister stelt regelen vast omtrent de vaststelling van het complexnummer. Ingeval de in de splitsing in appartementsrechten betrokken percelen in verschillende burgerlijke gemeenten zijn gelegen is het tweede lid van overeenkomstige toepassing met dien verstande, dat in dat geval de bewaarder bepaalt van welke van de betrokken kadastrale gemeenten de naam wordt vermeld in de vast te stellen kadastrale aanduiding van de appartementsrechten waarin die percelen worden gesplitst. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_OmschrijvingEigendom" type="alg:alg-AN250V" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De feitelijke omschrijving van de onroerende zaak.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_Tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element ref="tia:IMKAD_OZLocatie" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="BAG_BinnenlandsAdres" type="tia:BAG_BinnenlandsAdres"/>
+	<xs:complexType name="BAG_BinnenlandsAdres">
+		<xs:annotation>
+			<xs:documentation>Voor de registratie van adressen en gebouwen wordt binnen het stelsel een basisregistratie Adressen (BRA) en Gebouwen (BGR) voorzien. Een wettelijke basis voor BRA en BGR wordt pas vanaf 2009 verwacht. 
+
+In afwachting van de komst van het BRA en BGR worden binnenlandse adressen al wel gemodelleerd voor zover bekend is hoe het binnen BRA zal gebeuren. 
+
+Een klasse BinnenlandsAdres is toegevoegd t.b.v. de koppeling van personen en onroerende zaken. Dit is een keuze tussen NummerAanduiding, Woonplaats en OpenbareRuimte. Zo kunnen ook voor onroerende zaken, waarvan geen nummer beschikbaar is maar wel een straatnaam en plaats, de gegevens zoveel mogelijk volgens BAG vastgelegd worden. 
+
+Als een nummer beschikbaar is, wordt de NummerAanduiding klasse gebruikt, en worden de OpenbareRuimte en Woonplaats via de relatie attributen vastgelegd. Als er een straatnaam beschikbaar is, wordt OpenbareRuimte gekozen en wordt via het relatie attribuut de woonplaats vastgelegd. Als alleen een woonplaats beschikbaar is, wordt de Woonplaats klasse gebruikt en wordt verder niets vastgelegd.
+
+IMKAD bevat eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in BRA zullen komen. 
+
+Om het onderscheid duidelijk te maken zijn binnenlandse adressen in een aparte namespace onder Imkad opgenomen. In de toekomst zal hier de BRA/BGR namespace voor in de plaats komen.  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="tia:BAG_NummerAanduiding" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="tia:BAG_OpenbareRuimte" minOccurs="0" maxOccurs="1"/>
+			<xs:element ref="tia:BAG_Woonplaats" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Koopovereenkomst" type="tia:Koopovereenkomst"/>
+	<xs:complexType name="Koopovereenkomst">
+		<xs:annotation>
+			<xs:documentation>Gegevens van de koopovereenkomst op grond waarvan de objecten geleverd worden.
+Gebruikt in akte van levering.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datumOndertekening" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop de koopovereenkomst is aangegaan.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="gegevensInschrijving" type="tia:IMKAD_DeelEnNummer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De door het Kadaster vastgestelde unieke identificatie van de ingeschreven koopovereenkomst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumInschrijving" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop de koopoverovereenkomst is ingeschreven bij het Kadaster</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_OZLocatie" type="tia:IMKAD_OZLocatie"/>
+	<xs:complexType name="IMKAD_OZLocatie">
+		<xs:annotation>
+			<xs:documentation>De locatie van een onroerende zaak. 
+
+De Locatie aanduiding van een Onroerende zaak wordt bepaald aan de hand van gegevens die:
+- de gemeente verstrekt of;
+- de landmeter van het Kadaster vaststelt of;
+- door de TPG worden verstrekt zolang BRA nog niet operationeel is, zoals wijzigingen  in straatnamen, postcodes, e.d..
+
+De locatie wordt met behulp van adresgegevens aangeduid. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="tia:BAG_BinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een adres (binnenlandsadres, conform BAG) bestaat uit een woonplaatsnaam, een straatnaam, postcode en huisnummer (eventueel met een huisnummertoevoeging en/of een huisletter).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadBinnenlandsAdres" type="tia:IMKAD_KadBinnenlandsAdres" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adresgegevens indien deze afwijken van BAG_BinnenlandsAdres. Wordt altijd in combinatie met BAG_BinnenlandsAdres gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ligging" type="tia:Ligging" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Aanduiding van de ligging van een perceel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Inhoud" type="tia:Inhoud"/>
+	<xs:complexType name="Inhoud">
+		<xs:annotation>
+			<xs:documentation>De inhoud van het schip. Het is afhankelijk van het soort schip hoe deze gegevens worden ingevuld. 
+Bij een (Zee)visserijschip of een Zeeschip wordt als inhoud opgegeven de bruto inhoud of het tonnage, bij een binnenvaartschip wordt als inhoud opgegeven de verplaatsing of het laadvermogen. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="soortInhoud" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bruto inhoud, brutotonnage, laadvermogen of verplaatsing. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="getal" type="alg:alg-D9" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De inhoud (maximaal drie cijfers achter de punt).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="eenheid" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De eenheid: kubieke meter of ton. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelRangwisseling" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelRangwisseling"/>
+	<xs:complexType name="StukdeelRangwisseling">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende een rangwisseling.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="hypotheekRecht" type="tia:VerledenAkte" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Gegevens van de hypotheekakte die in rangorde achtergesteld wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="VerledenAkte" type="tia:VerledenAkte"/>
+	<xs:complexType name="VerledenAkte">
+		<xs:annotation>
+			<xs:documentation>Gegevens van de akte die bij rangwisseling achtergesteld wordt.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datumVerlijden" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop de akte verleden is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamNotaris" type="tia:GBA_Ingezetene" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de notaris waarvoor de akte verleden is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="plaatsNotaris" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Plaats van vestiging van de notaris voor wie de akte is verleden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumInschrijving" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop de akte is ingeschreven bij het Kadaster.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="deelEnNummer" type="tia:IMKAD_DeelEnNummer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Unieke identificatie van het Kadaster van de inschreven akte.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelErfdienstbaarheid" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelErfdienstbaarheid"/>
+	<xs:complexType name="StukdeelErfdienstbaarheid">
+		<xs:annotation>
+			<xs:documentation>Gegevens betreffende een erfdienstbaarheid stukdeel.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="omschrijving" type="xs:string" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De tekstuele omschrijving van de erfdienstbaarheid.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bestaand" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de erfdienstbaarheid waar het stukdeel over gaat al bestaat of niet. De erfdienstbaarheid wordt aan de hand van dit attribuut al dan niet geregistreerd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="vervallen" type="xs:boolean" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft aan of de erfdienstbaarheid waar dit stukdeel over gaat moet komen te vervallen.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_KadBinnenlandsAdres" type="tia:IMKAD_KadBinnenlandsAdres"/>
+	<xs:complexType name="IMKAD_KadBinnenlandsAdres">
+		<xs:sequence>
+			<xs:element name="huisLetter" type="alg:Huisletter" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisNummer" type="alg:alg-AN5" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nummering.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisNummerToevoeging" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="openbareRuimteNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaatsNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaatsen worden vastgesteld door de gemeenten. De vastgestelde woonplaatsen worden door een beheerder van een landelijke woonplaatsentabel voorzien van een unieke aanduiding, te vergelijken met de gemeentecode volgens GBA tabel 33.
+
+Conform GBA </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postcode" type="alg:Postcode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De door TNT Post vastgelegde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer.
+
+Conform GBA.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="KoopprijsSpecificatie" type="tia:KoopprijsSpecificatie"/>
+	<xs:complexType name="KoopprijsSpecificatie">
+		<xs:annotation>
+			<xs:documentation>Geeft aan of er sprake is van een bedrag voor omzetbelasting en/of roerende zaken en of dit bedrag is opgenomen in de transactiesom.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="omzetbelasting" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag van de omzetbelasting behorend bij de koop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="omzetbelastingInclusief" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie de aangeeft of het bedrag van de omzetbelasting inbegrepen is in de koopprijs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="roerendezakenWaarde" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag van de roerende zaken behorend bij de koop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="roerendezakenInclusief" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicatie de aangeeft of het bedrag van de roerende zaken inbegrepen is in de koopprijs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aanneemsom" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag van de aanneemsom behorend bij de koop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="koopprijsTotaal" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De koopprijs inclusief extra bedragen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="vveReservefondssom" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het bedrag dat door de vervreemder is opgebouwd in het reservefonds van de Vereniging van Eigenaren en is inbegrepen in de koopprijs.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelVerdelingHuwelijk" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelVerdelingHuwelijk"/>
+	<xs:complexType name="StukdeelVerdelingHuwelijk">
+		<xs:annotation>
+			<xs:documentation>Gegevens over het huwelijk en de echtscheiding.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="datumHuwelijk" type="xs:date" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="gemeenteHuwelijk" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente waar het huwelijk is gesloten.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeenteOntbinding" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente van de burgerlijke stand waar de echtscheiding is aangetekend.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumOntbinding" type="xs:date" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop de echtscheiding is aangetekend in de burgerlijke stand.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="plaatsRechtbank" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De plaats van de rechtbank waar de beschikking tot echtscheiding is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeenteRechtbank" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente van de rechtbank waar de beschikking tot echtscheiding is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumUitspraakRechtbank" type="xs:date" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop de beschikking tot echtscheiding is uitgesproken door de rechtbank.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="naamRechtbank" type="alg:alg-AN35" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="BinnenlandsAdresKeuze" type="tia:BinnenlandsAdresKeuze"/>
+	<xs:complexType name="BinnenlandsAdresKeuze">
+		<xs:annotation>
+			<xs:documentation>Een binnenlands adres bestaat uit een BAG_BinnenlandsAdres, eventueel aangevuld met een IMKAD_KadBinnenlandsAdres.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="binnenlandsAdres" type="tia:BAG_BinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>In de kadastrale registratie bestaat een woonlocatie in Nederland uit een woonplaatsnaam, een straatnaam, postcode, huisnummer en eventueel een huisnummertoevoeging. Om alvast aan te sluiten bij de komst van BAG wordt zoveel mogelijk het informatiemodel van BAG gevolgd, waar veel meer gegevens in opgenomen zijn. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadBinnenlandsAdres" type="tia:IMKAD_KadBinnenlandsAdres" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adresgegevens indien deze afwijken van BAG_BinnenlandsAdres. Wordt altijd in combinatie met BAG_BinnenlandsAdres gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelVerdelingVennootschap" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelVerdelingVennootschap"/>
+	<xs:complexType name="StukdeelVerdelingVennootschap">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de vennootschap.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="naam" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De naam van de vennootschap.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeente" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente waar de vennootschap gevestigd is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="plaats" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De plaats waar de vennootschap gevestigd is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="FINummer" type="alg:KvkNummer" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Een door de overheid aan een niet natuurlijk persoon toegekende identificator (bedrijvennummer).</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelVerdelingPartnerschap" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelVerdelingPartnerschap"/>
+	<xs:complexType name="StukdeelVerdelingPartnerschap">
+		<xs:annotation>
+			<xs:documentation>Gegevens over het partnerschap</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="datumRegistratie" type="xs:date" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop het geregistreerd partnerschap is aangegaan.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeenteRegistratie" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente waar het geregistreerd partnerschap is aangegaan.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeenteOntbinding" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Gemeente van de Burgerlijke Stand waar het geregistreerd partnerschap is ontbonden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumOntbinding" type="xs:date" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop het geregistreerd partnerschap is ontbonden.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="plaatsRechtbank" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De plaats van de rechtbank waar de beschikking tot ontbinding van het geregistreerd partnerschap is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeenteRechtbank" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente van de rechtbank waar de beschikking tot ontbinding van het geregistreerd partnerschap is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumUitspraakRechtbank" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop de beschikking tot ontbinding van het geregistreerd partnerschap is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="naamRechtbank" type="alg:alg-AN35" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De naam van de rechtbank waar de beschikking tot ontbinding van het geregistreerd partnerschap is uitgesproken.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="Toedeling" type="tia:Toedeling"/>
+	<xs:complexType name="Toedeling">
+		<xs:annotation>
+			<xs:documentation>Geeft aan welke persoon van de verkrijgende partij welk (aandeel in welk) zakelijk recht verkrijgt.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="aandeel" type="tia:Aandeel" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Dit is het aandeel waarvoor de persoon deelneemt in het betreffende zakelijk recht.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="verkrijgerRechtRef" type="tia:IMKAD_Persoon" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelVerdelingGemeenschap" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelVerdelingGemeenschap"/>
+	<xs:complexType name="StukdeelVerdelingGemeenschap">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de verdeling van een gemeenschap (samenwoners)</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelErfpachtcanon" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelErfpachtcanon"/>
+	<xs:complexType name="StukdeelErfpachtcanon">
+		<xs:annotation>
+			<xs:documentation>Stukdeel waarin de betaling van de erfpachtcanon wordt vastgelegd</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="bedrag" type="tia:IMKAD_Bedrag" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Bedrag van de erfpachtcanon</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="betaling" type="tia:Betaling" minOccurs="0" maxOccurs="2">
+						<xs:annotation>
+							<xs:documentation>Informatie m.b.t. het moment van betalen van de erfpachtcanon</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="startBetaling" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De datum waarop de betaling van de erfpachtcanon moet starten.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="Betaling" type="tia:Betaling"/>
+	<xs:complexType name="Betaling">
+		<xs:annotation>
+			<xs:documentation>Bevat combinaties van dag en maand waarop betaling Erfpachtcanon moet plaatsvinden.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="betaalDag" type="alg:alg-0N2" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De dag waarop de betaling moet worden gedaan.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="betaalMaand" type="alg:alg-0N2" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De maand waarin de betaling moet zijn gedaan.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelErfpachtcanonTijdelijkAfgekocht" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelErfpachtcanonTijdelijkAfgekocht"/>
+	<xs:complexType name="StukdeelErfpachtcanonTijdelijkAfgekocht">
+		<xs:annotation>
+			<xs:documentation>Stukdeel waarin de betaling van de erfpachtcanon wordt vastgelegd (tijdelijke afkoping)</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="aantalJaar" type="alg:alg-N3" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal jaren waarvoor de erfpachtcanon is afgekocht</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="afgekochtVanaf" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Datum vanaf welke de erfpachtcanon is afgekocht</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="bedrag" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het bedrag waarvoor de erfpachtcanon is afgekocht</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="aantalMaand" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het aantal maanden waarvoor de erfpachtcanon is afgekocht</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="afgekochtTot" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Einddatum van de erfpachtcanon</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="StukdeelErfpachtcanonEeuwigAfgekocht" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelErfpachtcanonEeuwigAfgekocht"/>
+	<xs:complexType name="StukdeelErfpachtcanonEeuwigAfgekocht">
+		<xs:annotation>
+			<xs:documentation>Stukdeel waarin de betaling van de erfpachtcanon wordt vastgelegd
+(eeuwig afgekocht)</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="bedrag" type="tia:IMKAD_Bedrag" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Het bedrag van erfpachtcanon</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="VoormaligeRechtspersoon" type="tia:VoormaligeRechtspersoon"/>
+	<xs:complexType name="VoormaligeRechtspersoon">
+		<xs:sequence minOccurs="0">
+			<xs:element name="rechtsvormSub" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="statutaireNaam" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="optional" type="xs:ID">
+			<xs:annotation>
+				<xs:documentation>Technisch ID voor verwijzing naar een VoormaligeRechtspersoon.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<xs:element name="GegevensOndertekening" type="tia:GegevensOndertekening"/>
+	<xs:complexType name="GegevensOndertekening">
+		<xs:annotation>
+			<xs:documentation>Gegevens betreffende het besluit van het Collega van Burgermeester en Wethouders</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="soortOndertekening" type="alg:alg-AN50V" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="naamGemeente" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de gemeente</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop het besluit is genomen</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelVerdelingUittredingVennoten" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelVerdelingUittredingVennoten"/>
+	<xs:complexType name="StukdeelVerdelingUittredingVennoten">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de vennootschap.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="naam" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De naam van de vennootschap.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="gemeente" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gemeente waar de vennootschap gevestigd is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="plaats" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De plaats waar de vennootschap gevestigd is.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="FINummer" type="alg:KvkNummer" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Een door de overheid aan een niet natuurlijk persoon toegekende identificator (bedrijvennummer).</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="datumUittreding" type="xs:date" minOccurs="1" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_AangebodenStuk" type="tia:IMKAD_AangebodenStuk"/>
+	<xs:complexType name="IMKAD_AangebodenStuk">
+		<xs:annotation>
+			<xs:documentation>Een ter inschrijving aangeboden stuk is een stuk dat ter inschrijving in de Openbare registers is aangeboden. Deze stukken worden aangeboden door het notariaat, deurwaarders, (lagere) overheden. etc.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ondertekenaar" type="tia:IMKAD_Ondertekenaar" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De NAW gegevens van degene die het stuk als / namens de aanbieder heeft ondertekend.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Verklaarder" type="tia:Verklaarder" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van de persoon die de equivalentieverklaring heeft ondertekend.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_DatumOndertekening" type="alg:Datum" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop een ter inschrijving aangeboden stuk is ondertekend door de opsteller van het stuk.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TijdOndertekening" type="xs:time" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Tijdstip waarop een ter inschrijving aangeboden stuk is ondertekend door de opsteller van het stuk.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_OmschrijvingKenmerk" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De identificatie van het aangeboden stuk bij de aanbieder. In het geval van een hypotheek betreft dit het offertenummer (van de bank).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_OmschrijvingAnnexen" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Verwijzing naar de bijlagen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_TekstTweedeDeel" type="xs:anyType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Vrije tekst, die na de registratieclausule in de akte ogenomen kan worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:Gevolmachtigde" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="tia:Partij" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="tia_TekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_AantalOnderhandseAktenVolmacht" type="alg:alg-N3" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het aantal akten van volmacht die aan de akte worden gehecht. Wordt vermeld in de akte bij doorhaling hypotheken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_PlaatsOndertekening" type="tia:BAG_Woonplaats" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Plaats waar de akte ondertekend is. Dit kan een andere plaats zijn dan de locatie waar het notariskantoor gevestigd is. Wordt vermeld in de akte bij doorhaling hypotheken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_StukVariant" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Wanneer binnen een stuk meerdere varianten kunnen voorkomen wordt hier de gekozen variant opgenomen. Bijvoorbeeld:
+de gekozen koop-levering variant binnen de akte van levering.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_OmschrijvingZaak" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De identificatie van het dossier waartoe een stuk behoort bij de aanbieder. (Veelal gebruik bij hypotheken, omdat het kenmerk dan een identificatie van de bank bevat).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_DepotnummerTekening" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het depotnummer van de tekening, die vooraf in depot is gegeven en waar in het stuk naar wordt verwezen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_Stukdeel" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element ref="tia:Hoedanigheid" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="heeftVerklaarder" type="tia:Notaris" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="heeftOndertekenaar" type="tia:Notaris" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BAG_NummerAanduiding" type="tia:BAG_NummerAanduiding"/>
+	<xs:complexType name="BAG_NummerAanduiding">
+		<xs:annotation>
+			<xs:documentation>Een NUMMERAANDUIDING is een door de gemeenteraad als
+zodanig toegekende aanduiding van een adresseerbaar object.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="huisnummer" type="alg:alg-N5" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nummering.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisletter" type="alg:Huisletter" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende toevoeging
+aan een huisnummer in de vorm van een alfanumeriek
+teken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisnummertoevoeging" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nadere
+toevoeging aan een huisnummer of een combinatie van
+huisnummer en huisletter.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postcode" type="alg:Postcode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De door TNT Post vastgestelde code behorende bij een
+bepaalde combinatie van een straatnaam en een
+huisnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_PostlocatiePersoon" type="tia:IMKAD_PostlocatiePersoon"/>
+	<xs:complexType name="IMKAD_PostlocatiePersoon">
+		<xs:annotation>
+			<xs:documentation>Een Postlocatie (waar een persoon post ontvangt) kan een binnenlandse locatie, een buitenlandse locatie of een postbusadres zijn. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="tia_label" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Organisatie-onderdeel dat de correspondentie van de betrokken (rechts)persoon verzorgt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_afdeling" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Afdeling binnen het organisatie-onderdeel dat de correspondentie van de betrokken (rechts)persoon verzorgt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adres" type="tia:Imkad_AdreskeuzePl" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Keuze tussen PostbusAdres, BinnenlandsAdres en BuitenlandsAdres.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="TeboekgesteldeZaak" substitutionGroup="tia:KadastraalObject" abstract="true" type="tia:TeboekgesteldeZaak"/>
+	<xs:complexType name="TeboekgesteldeZaak" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Een teboekgestelde zaak is een Kadastraal object dat bestaat uit een Luchtvaartuig of een Schip.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:KadastraalObject">
+				<xs:sequence/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_Appartementsrecht" substitutionGroup="tia:IMKAD_OnroerendeZaak" type="tia:IMKAD_Appartementsrecht"/>
+	<xs:complexType name="IMKAD_Appartementsrecht">
+		<xs:annotation>
+			<xs:documentation>Een appartementsrecht is onroerende zaak dat kadastraal is aangeduid, bestaande uit een aandeel in recht(en) op de onroerende zaak/zaken die in de splitsing is/zijn betrokken en dat de bevoegdheid bevat tot het uitsluitend gebruik van bepaalde gedeelten van een onroerende zaak, die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden gebruikt. Het aandeel kan omvatten de bevoegdheid tot het uitsluitend gebruik van bepaalde gedeelten van een gebouw en van de bij het gebouw behorende grond (definitie is ontleend aan art 2, Kadasterbesluit).</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_OnroerendeZaak">
+				<xs:sequence>
+					<xs:element ref="tia:Aandeel" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Aandeel in de omschreven gemeenschap.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IMKAD_KadastraleAanduiding" type="tia:IMKAD_KadastraleAanduiding"/>
+	<xs:complexType name="IMKAD_KadastraleAanduiding">
+		<xs:annotation>
+			<xs:documentation>Kadastrale aanduiding is de unieke aanduiding van een onroerende zaak, die door het kadaster wordt vastgesteld.
+
+Voor netwerken wordt deze als volgt gevuld:
+Kadastrale gmeente = NWKxx waarbij xx het nummer van de dabase van het Kadaster is  (dus 01-16)
+Sectie = T, E, W, G, D (diversen) of O. (zie ook  tabel aard LeidingNetwerk.
+
+Percelen worden kadastraal aangeduid door vermelding van achtereenvolgens de kadastrale gemeente en sectie, waarin de percelen en  gedeelten van percelen zijn gelegen waarvan het grondgebied tot die zaak behoort, alsmede de nummers van die percelen. Voor een onroerende zaak die zich krachtens een opstalrecht op, in of boven de grond van een ander bevindt, geldt dezelfde kadastrale aanduiding als van de onroerende zaak die met dat opstalrecht is bezwaard. Dit is van overeenkomstige toepassing op een onroerende zaak die zich op, in of boven de grond van een ander bevindt krachtens een recht als bedoeld in het voor 1 januari 1992 geldende artikel 5, derde lid, onder b, laatste zinsnede, van de Belemmeringenwet Privaatrecht. 
+
+Appartementsrechten worden kadastraal aangeduid door de vermelding van achtereenvolgens de kadastrale gemeente en sectie, waarin de in de splitsing betrokken percelen zijn gelegen, de complexaanduiding en de appartementsindex. De complexaanduiding bestaat uit het voor de in de splitsing betrokken percelen vastgestelde complexnummer, gevolgd door de hoofdletter A. Onze Minister stelt regelen vast omtrent de vaststelling van het complexnummer. Ingeval de in de splitsing in appartementsrechten betrokken percelen in verschillende burgerlijke gemeenten zijn gelegen is het tweede lid van overeenkomstige toepassing met dien verstande, dat in dat geval de bewaarder bepaalt van welke van de betrokken kadastrale gemeenten de naam wordt vermeld in de vast te stellen kadastrale aanduiding van de appartementsrechten waarin die percelen worden gesplitst. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="gemeente" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De kadastrale gemeente, deel van de kadastrale aanduiding van de onroerende zaak. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sectie" type="alg:alg-AN2V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De sectie die de sectie binnen de kadastrale gemeente uniek identificeert.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="perceelnummer" type="alg:alg-N5" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="appartementsindex" type="alg:alg-N4" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GegevensGevolmachtigde" type="tia:GegevensGevolmachtigde"/>
+	<xs:complexType name="GegevensGevolmachtigde">
+		<xs:annotation>
+			<xs:documentation>Gegevens van de persoon die namens de vervreemder(s) of de verkrijger(s) optreedt.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="persoonGegevens" type="tia:GBA_Ingezetene" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Persoonlijke gegevens van de gevolmachtigde.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adresKantoor" type="tia:BAG_BinnenlandsAdres" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adres van het kantoor of van de notarissen waar de gevolmachtigde werkzaam is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adresPersoon" type="tia:IMKAD_AdreskeuzeWl" minOccurs="0" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>Persoonlijk woonadres van de gevolmachtigde.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="legitimatiebewijs" type="tia:Legitimatiebewijs" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Legitimatiegegevens van de gevolmachtigde.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadGegevensPersoon" type="tia:IMKAD_KadNatuurlijkPersoon" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Persoongegevens van de gevolmachtigde indien deze afwijken van de GBA gegevens.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StukdeelDoorhalingHypotheek" substitutionGroup="tia:IMKAD_Stukdeel" type="tia:StukdeelDoorhalingHypotheek"/>
+	<xs:complexType name="StukdeelDoorhalingHypotheek">
+		<xs:annotation>
+			<xs:documentation>Gegevens van een stukdeel betreffende een doorhaling van een hypotheek.
+Uitganspunt voor de structuur van de XSD en de opzet van het automatisch verwerken, is dat ieder stukdeel slechts 1 rechtsfeit betreft. Dit houdt bij doorhalingen in dat in een stuk, met meerdere doorhalingen, iedere doorhaling resulteert in 1 stukdeel.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_Stukdeel">
+				<xs:sequence>
+					<xs:element name="doorTeHalenStuk" type="tia:DoorTeHalenStuk" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>De gegevens van het stuk betreffende de hypotheek die doorgehaald wordt.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="soortDoorhaling" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Geeft de soort doorhaling aan: afstand hypotheekrecht, opzegging hypotheektrecht e.d. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="akteOpzeggingsBevoegdheid" type="tia:AkteOpzeggingsbevoegdheid" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Gegevens van de akte waarin de afstand al is aangenomen, en waarnaar verwezen wordt bij de aanvaarding van afstand.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="volmachtverleningAfstand" type="tia:VolmachtverleningAfstand" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Gegevens van de akte waarin de afstand al is aangenomen, en waarnaar verwezen wordt bij de aanvaarding van afstand.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="debiteurAkteHypotheekrecht" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Namen van een debiteur die genoemd wordt in de akte waarbij het hypotheekrecht gevestigd werd. </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="voormaligeRechtspersoonRef" type="tia:VoormaligeRechtspersoon" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Per StukdeelDoorhalingHypotheek wordt aangegeven welke voormalige rechtspersoon bij het stukdeel hoort. De bijbehorende IMKAD_Persoon moet tot het zelfde Stukdeel behoren.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="DoorTeHalenStuk" type="tia:DoorTeHalenStuk"/>
+	<xs:complexType name="DoorTeHalenStuk">
+		<xs:annotation>
+			<xs:documentation>Gegevens van het stuk dat doorgehaald moet worden.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="deelEnNummer" type="tia:IMKAD_DeelEnNummer" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Identificatie van het stuk dat doorgehaald moet worden.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumInschrijving" type="xs:date" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het tijdstip waarop een ter inschrijving aangeboden stuk is ontvangen met in achtneming van de openingstijden en -dagen van het Kadaster. Als tijdstip van inschrijving geldt het tijdstip van aanbieding van de voor de inschrijving vereiste stukken. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Hoedanigheid" type="tia:Hoedanigheid"/>
+	<xs:complexType name="Hoedanigheid">
+		<xs:sequence minOccurs="0">
+			<xs:element name="tekstKeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="wordtVertegenwoordigdRef" type="tia:IMKAD_Persoon" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="optional" type="xs:ID">
+			<xs:annotation>
+				<xs:documentation>Technisch ID voor verwijzing naar een Hoedanigheid</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<xs:element name="Notaris" type="tia:Notaris"/>
+	<xs:complexType name="Notaris">
+		<xs:annotation>
+			<xs:documentation>De gegevens van de notaris die de akte heeft ondertekend (ondertekenaar) of equivalent verklaard (verklaarder). Eventueel als (vacature) waarnemer van een andere notaris.  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="persoonsgegevens" type="tia:GBA_Ingezetene" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De persoonsgegevens van de notaris.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorletters" type="alg:alg-AN50" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voorletters van de notaris die de akte passeert.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="standplaats" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De vestigingsplaats van het notariskantoor. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="gemeente" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De gemeente waar het notariskantoor gevestigd is. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstkeuze" type="tia:TekstKeuze" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="isWaarnemerVoor" type="tia:Notaris" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="isVacatureWaarnemerVoor" type="tia:Notaris" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Softwareleverancier" type="tia:Softwareleverancier"/>
+	<xs:complexType name="Softwareleverancier">
+		<xs:annotation>
+			<xs:documentation>Gegevens softwareleverancier. Wordt niet voor de registratie gebruikt. Wordt gebruikt om in de aangeleverde XML te kunnen achterhalen met welke software deze is gemaakt.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="bedrijfsnaam" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de softwareleverancier.
+
+Indien dit gegeven constant gehouden wordt dan kan op dit gegeven gefilterd worden t.b.v. analyses e.d.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naam" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van het softwarepakket.
+
+Indien dit gegeven constant gehouden wordt dan kan op dit gegeven gefilterd worden t.b.v. analyses e.d.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="versie" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Versienummer van de notarissoftware.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="VolmachtverleningAfstand" type="tia:VolmachtverleningAfstand"/>
+	<xs:complexType name="VolmachtverleningAfstand">
+		<xs:annotation>
+			<xs:documentation>Gegevens van de akte waarin de afstand al is aangenomen, en waarnaar verwezen wordt bij de aanvaarding van afstand.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="aantalOnderhandseAkten" type="alg:alg-N3" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het aantal onderhandse akten dat ten grondslag ligt aan de volmacht voor het doen van afstand van het hypotheekrecht.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datumOndertekening" type="xs:date" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De datum van ondertekening van de akte van volmacht voor het doen van afstand van het hypotheekrecht.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamNotaris" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van de notaris door wie de akte van volmacht voor het doen van afstand van het hypotheekrecht ondertekend is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="plaatsNotarisKantoor" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaats waar het notaris kantoor, van de notaris door wie de akte van volmacht voor het doen van afstand van het hypotheekrecht ondertekend is, gevestigd is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Bericht_TIA_Stuk" type="tia:Bericht_TIA_Stuk"/>
+	<xs:complexType name="Bericht_TIA_Stuk">
+		<xs:annotation>
+			<xs:documentation>Definitie van het bericht dat gebruikt wordt in combinatie met stylesheets voor TIA-stukken.
+
+Definition of the message that is used in combination with stylesheets for documents that are to be entered in the Registry.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="nummerStylesheet" type="alg:alg-AN14V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Unieke identificatie van een stylesheet.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="implementatienummer" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Optioneel attribuut om een keuze voor een specifieke implementatie te maken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="softwareleverancier" type="tia:Softwareleverancier" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens softwareleverancier</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="tia:IMKAD_AangebodenStuk" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="partnerSpecifiek" type="xs:anyType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Specifieke gegevens van de partner, die niet nodig zijn voor acceptatie en/of registratie van het stuk, maar alleen nodig zijn voor de opmaak van de akte.
+De context van de gegevens is afhankelijk van het gebruik binnen een modeldocument en kan daardoor voor verschillende banken op verschillende wijzen gebruikt worden.
+Dit element bevat de gegevens die gebruikt worden in de stylesheet en gebaseerd zijn op een XSD die door de partner is vastgesteld. De structuur hiervan is dus niet vastgelegd in deze XSD.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="AanduidingGeslacht">
+		<xs:annotation>
+			<xs:documentation>Het geslacht van een natuurlijk persoon. </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Man"/>
+			<xs:enumeration value="Vrouw"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="IMKAD_Ondertekenaar" type="tia:IMKAD_Ondertekenaar"/>
+	<xs:complexType name="IMKAD_Ondertekenaar">
+		<xs:annotation>
+			<xs:documentation>De gegevens van de persoon die de minuut heeft ondertekend.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="standplaats" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adres of standplaats/plaats van vestiging van de ondertekenaar. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Ondertekenaar" type="tia:GBA_Ingezetene" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De gegevens van de persoon die de minuut heeft ondertekend.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_WaarnemerVoor" type="tia:GBA_Ingezetene" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De gegevens van de persoon voor wie de ondertekenaar waargenomen heeft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Initialen" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Initialen van de persoon die de equivalentieverklaring heeft ondertekend.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tia_Gemeente" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gemeente waar de notaris gevestigd is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Verklaarder" type="tia:Verklaarder"/>
+	<xs:complexType name="Verklaarder">
+		<xs:annotation>
+			<xs:documentation>Gegevens van de equivalentieverklaring en van de persoon die de equivalentieverklaring heeft ondertekend.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="verklaarder" type="tia:GBA_Ingezetene" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van de persoon die de equivalentieverklaring heeft ondertekend.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="waarnemerVoor" type="tia:GBA_Ingezetene" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van de persoon voor wie door de verklaarder waargenomen heeft.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="standplaats" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Standplaats van de persoon die de equivalentieverklaring heeft ondertekend. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="verklaringBestuursorgaan" type="tia:VerklaringBestuursorgaan" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens van een verklaring t.b.v. bestuursorganen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="gemeente" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gemeente waar de notaris gevestigd is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadGegevensVerklaarder" type="tia:IMKAD_KadNatuurlijkPersoon" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Persoongegevens van de verklaarder indien deze afwijken van de GBA gegevens.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_Perceel" substitutionGroup="tia:IMKAD_OnroerendeZaak" type="tia:IMKAD_Perceel"/>
+	<xs:complexType name="IMKAD_Perceel">
+		<xs:annotation>
+			<xs:documentation>Een perceel is Onroerende zaak, onderkend als een deel van het Nederlands grondgebied van welk deel de Dienst de begrenzing met behulp van landmeetkundige gegevens heeft vastgelegd op grond van gegevens betreffende de rechtstoestand, bestemming en het gebruik en dat door zijn kadastrale aanduiding is gekenmerkt. (Definitie is ontleend aan art 1, Kadasterwet). </xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_OnroerendeZaak">
+				<xs:sequence>
+					<xs:element name="grootte" type="alg:alg-D8" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel. Uitgedrukt in centiares.
+De grootte van een perceel geeft de waarde van de oppervlakte aan en is dus per definitie positief. Door afrondingen is de grootte altijd groter dan of gelijk aan 0,5 ca.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_aantalTekeningen" type="alg:alg-N3" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Aantal  tekeningen  waarop de grens van het perceel is afgebeeld en dat aan de akte gehecht is.
+Gebruikt in akte van levering.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="tia_SplitsingsverzoekOrdernummer" type="alg:alg-AN50N" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Unieke identificatie van het splitsingsverzoek</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="stukVerificatiekosten" type="tia:IMKAD_DeelEnNummer" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="Ligging">
+		<xs:annotation>
+			<xs:documentation>Mogelijke waarden voor de ligging van een perceel.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="nabij"/>
+			<xs:enumeration value="te"/>
+			<xs:enumeration value="tegenover"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="IMKAD_Leidingnetwerk" substitutionGroup="tia:IMKAD_OnroerendeZaak" type="tia:IMKAD_Leidingnetwerk"/>
+	<xs:complexType name="IMKAD_Leidingnetwerk">
+		<xs:annotation>
+			<xs:documentation>Een leidingnetwerk is een onroerende zaak, welke bestemd is voor transport van telecommunicatie, olie, gas, elektra en water, dat kadastraal is aangeduid en waarvan de begrenzing cartografisch is of kan worden vastgelegd (definitie is ontleend aan art 1, Kadasterbesluit).</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="tia:IMKAD_OnroerendeZaak">
+				<xs:sequence>
+					<xs:element name="tia_Typering" type="alg:alg-AN250V" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Typerende omschrijving van het netwerk.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="Brandmerk" type="tia:Brandmerk"/>
+	<xs:complexType name="Brandmerk">
+		<xs:annotation>
+			<xs:documentation>Een unieke door het Kadaster toegekende identificatie van een schip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="getal" type="alg:alg-AN6V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Volgnummer van inschrijving </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="rubriek" type="alg:Waardenlijst" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Letter als aanduiding van het soort schip.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aanduidingKadastervestiging" type="alg:alg-AN8" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Reekscode van de Kadastervestiging waar het schip geregistreerd is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="jaar" type="alg:alg-N4" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het jaar van registratie </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
