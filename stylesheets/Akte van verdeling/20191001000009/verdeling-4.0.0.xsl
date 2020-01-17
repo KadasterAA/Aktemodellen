@@ -7,6 +7,8 @@ AA-4512 - Verdeling - bijwerken naar nieuwste versies tekstblokken
 AA-4221 - Akte van Verdeling -  Stylesheet aanpassen naar algemene waardelijst met nnp-kodes
 AA-4468 - Tekstuele wijzigingen modeldocument Akte van Verdeling
 AA-2505 - levering aan één of meer personen binnen één partij met toedeling werd niet goed getoond
+AA-4573 Verdeling: parnterschap i.p.v. partnerschap bij Beëindiging geregistreerd partnerschap
+AA-4600 - Tekst werd niet goed getoond onder paragraaf A.
 *********************************************************
 Description:
 Deed of distribution.
@@ -1097,7 +1099,7 @@ Private:
 				<xsl:text> een geregistreerd partnerschap aangegaan. Hun geregistreerd partnerschap is ontbonden door het inschrijven van de </xsl:text>
 				<xsl:choose>
 					<xsl:when test="tia:StukdeelVerdelingPartnerschap/tia:plaatsRechtbank or tia:StukdeelVerdelingPartnerschap/tia:gemeenteRechtbank">
-						<xsl:text>beschikking tot ontbinding van het geregistreerd parnterschap, uitgesproken door de Rechtbank </xsl:text>
+						<xsl:text>beschikking tot ontbinding van het geregistreerd partnerschap, uitgesproken door de Rechtbank </xsl:text>
 						<xsl:choose>
 							<xsl:when test="tia:StukdeelVerdelingPartnerschap/tia:plaatsRechtbank">
 								<xsl:text> te </xsl:text>
@@ -1366,7 +1368,7 @@ Private:
 							<xsl:text>het hierna te noemen registergoed te doen plaatsvinden.</xsl:text>
 						</xsl:when>
 						<xsl:when test="$eenOfMeer = 'registergoederen'">
-							<xsl:text>de hierna te noemen registergoederen bij deze akte te doen plaatsvinden.</xsl:text>
+							<xsl:text>de hierna te noemen registergoederen te doen plaatsvinden.</xsl:text>
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:text/>

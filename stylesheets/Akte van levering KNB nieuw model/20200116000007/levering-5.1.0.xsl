@@ -4378,6 +4378,7 @@ Private:
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="tia:IMKAD_ZakelijkRecht[1]" mode="do-registered-object"/>
+
 					<xsl:text>,</xsl:text>
 					<xsl:if test="translate(tia:IMKAD_ZakelijkRecht/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_registergoedvolgnummer']/tia:tekst, $upper, $lower) = 'true'">
 						<br/>
