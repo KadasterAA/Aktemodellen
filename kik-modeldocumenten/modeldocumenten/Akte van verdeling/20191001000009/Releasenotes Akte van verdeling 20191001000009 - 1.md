@@ -1,9 +1,17 @@
 # Release notes
 Product|Akte van verdeling stylesheetnummer 20191001000009 implementatienummer 1|
 |---|---|
-|**Release**|**13 december 2019**|
+|**Release**|**17 januari 2020**|
 ## Wijzigingen
-### MD Verdelingk
+### MD Verdeling
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4600 | Bug opgelost in de tekst beschreven in paragraaf 2.5 van de toelichting. | Stylesheet | 
+
+
+## 13 december 2019 
+## Wijzigingen
+### MD Verdeling
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4561 | Tekstuele aanpassing onder keuzeblok soort verdeling variant D (Beëindiging geregistreerd partnerschap), punt 1.| Stylesheet, Modeldocument, Toelichting, XSD|
