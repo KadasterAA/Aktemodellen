@@ -88,8 +88,9 @@ Hypotheek ING|20160101000004|4|hypotheek_ing-3.4.0
  “ | “ |3|hypotheek_ing-3.3.0
  “ | “ |2|hypotheek_ing-3.2.0
  “ | “ |1|hypotheek_ing-2.0.1
-Hypotheek Munt|20190617000018|1|hypotheek_munt-2.0.0
- “ |20180501000018|2|hypotheek_munt-1.5.1
+Hypotheek Munt|20200211000018|1|hypotheek_munt-2.1.0
+ “ |20190617000018|1|hypotheek_munt-2.0.0
+Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1
  “ | “ |1|hypotheek_munt-1.5.0
 Hypotheek Munt|20161001000018|5|hypotheek_munt-1.4.0
  “ | “ |4|hypotheek_munt-1.3.0
@@ -131,7 +132,8 @@ Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
 Hypotheek Syntrus Achmea|20190701000022|4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
-Notariële verklaring|20191201000008|1|notariele_verklaring-3.0.0
+Notariële verklaring|20191201000008|2|notariele_verklaring-3.1.0
+ “ | “ |1|notariele_verklaring-3.0.0
  “ |20180501000008|2|notariele_verklaring-2.12.1
  “ | “ |1|notariele_verklaring-2.12.0
 Notariële verklaring|20140830000008|10|notariele_verklaring-2.11.0
