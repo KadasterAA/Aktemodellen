@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 13 maart 2020
+- In deze release hebben we een nieuw stylesheet opgeleverd voor Syntrus Achmea. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%201.md) vindt u de details van de wijzigingen.
+- Er is een nieuw implementatienummer voor de Munt opgeleverd. Hierin zat een bug waardoor bij gebruik van de WordML tekst niet getoond werd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%202.md) vind u de details.
+-  Voor de Notariele Verklaring is ook een nieuw implementatienummer opgeleverd. Hiermee hebben we een bug opgelost waardoor het groeperen van percelen nu wel goed gaat. Details van deze wijzigingen zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%203.md).
+
 ## 17 februari 2020
 - In deze release hebben we een bug opgelost in de Notariele Verklaring. De details zijn te vinden in de [releasenotes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%202.md).
 - Voor de Munt hebben we een aantal tekstuele wijzigingen door gevoerd. Voor deze wijziging is een nieuw stylesheetnummer aangemaakt. In de [releasenotes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%201.md) van de Munt zijn de details opgenomen.
