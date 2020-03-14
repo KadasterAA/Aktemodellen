@@ -8,9 +8,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 ## 13 maart 2020
-- In deze release hebben we een nieuw stylesheet opgeleverd voor Syntrus Achmea. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%201.md) vindt u de details van de wijzigingen.
-- Er is een nieuw implementatienummer voor de Munt opgeleverd. Hierin zat een bug waardoor bij gebruik van de WordML tekst niet getoond werd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%202.md) vind u de details.
+- In deze release hebben we een nieuw stylesheet opgeleverd voor Syntrus Achmea op basis van hun bankmodel. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%201.md) vindt u de details van de wijzigingen.
+- Er is een nieuw implementatienummer voor de Munt opgeleverd. Hierin zat een bug waardoor bij gebruik van de WordML tekst niet getoond werd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%202.md) vindt u de details.
 -  Voor de Notariele Verklaring is ook een nieuw implementatienummer opgeleverd. Hiermee hebben we een bug opgelost waardoor het groeperen van percelen nu wel goed gaat. Details van deze wijzigingen zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%203.md).
+
+Daarnaast nog een opmerking over tekstblok Burgerlijke Staat: De burgerlijkestaattekst van de partner zou in de XML leeg moeten zijn in het geval van een aanwezige burgerlijkestaattekst partners: in dat geval is de burgerlijke staat van de hoofdpersoon namelijk ook de burgerlijke staat van de partner. 
+Nu krijgen we soms akten binnen waarbij de burgerlijkestaattekst van de partner ook gevuld is in de XML, deze kunnen wij niet automatisch verwerken in onze registratie. Hier gaan we binnenkort een controle opzetten en zullen deze akten uit gaan vallen. Het verzoek is dan ook dit in uw software aan te passen zodat het op deze manier niet meer wordt aangeboden.
+
 
 ## 17 februari 2020
 - In deze release hebben we een bug opgelost in de Notariele Verklaring. De details zijn te vinden in de [releasenotes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%202.md).
