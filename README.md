@@ -11,12 +11,6 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 Zoals eerder in de release notes van 13 maart 2020 is aangekondigd is de volgende controle aangezet: De burgerlijkestaattekst van de partner in de XML mag niet aanwezig zijn als BurgerlijkeStaatTekstPartners bij de hoofdpersoon al aanwezig is. 
 
 
-
-## 24 april 2020
-- Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen. Voor deze akte hebben we een nieuwe versie van het [XSD van StukAlgemeen](/schema/stuk%20algemeen/10.0.0/StukAlgemeen-10.0.0.xsd) opgeleverd. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
-
-Deze release is voor de Nationale-Nederlanden een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
-
 ## 13 maart 2020
 - In deze release hebben we een nieuw stylesheet opgeleverd voor Syntrus Achmea op basis van hun bankmodel. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%201.md) vindt u de details van de wijzigingen.
 - Er is een nieuw implementatienummer voor de Munt opgeleverd. Hierin zat een bug waardoor bij gebruik van de WordML tekst niet getoond werd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%202.md) vindt u de details.
