@@ -7,6 +7,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 5 juni 2020
+We hebben een nieuwe versie van het XSD gepubliceerd. De nieuwe versie maakt het mogelijk om de XML gesigned aan te leveren via SYVAS in het kader van het project VAST. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
 ## 22 mei 2020
 Zoals eerder in de release notes van 13 maart 2020 is aangekondigd is de volgende controle aangezet: De burgerlijkestaattekst van de partner in de XML mag niet aanwezig zijn als BurgerlijkeStaatTekstPartners bij de hoofdpersoon al aanwezig is. 
 
