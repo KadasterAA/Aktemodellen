@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "xlinks", "EARoot/EA1/EA2/EA185.htm", "175.png", "110", "0", "", "Logical diagram0","{BDB8F36F-4194-4499-BE62-DD7AB483333C}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "«enumeration» actuateValue", "EARoot/EA1/EA2/EA188.htm", "5.png", "E2539", "0", "", "Class0","{3733CB07-96EB-4b63-98F6-D4E4177122B4}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "«enumeration» showValue", "EARoot/EA1/EA2/EA189.htm", "5.png", "E2540", "0", "", "Class0","{733A39AC-0BF1-4b4c-AFD1-F429511A9E5E}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "«XSDattributeGroup» simpleLink", "EARoot/EA1/EA2/EA190.htm", "5.png", "E2541", "0", "", "Class0","{A9A90973-C8CF-4ec2-B98E-7E96B7F83CCD}");

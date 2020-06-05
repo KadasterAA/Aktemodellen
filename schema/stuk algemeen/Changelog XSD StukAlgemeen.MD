@@ -1,5 +1,15 @@
 # Changelog XSD StukAlgemeen
 
+## CHANGES XSD StukAlgemeen-11.0.0 DATUM 05 juni 2020
+o.b.v. AA-4666 
+- xmldsign.xsd toegevoegd
+- Bericht_TIA_Stuk uitgebreid met ds:Signature (referentie naar xmldsign.xsd)
+
+## CHANGES XSD StukAlgemeen-10.0.0 DATUM 23 april 2020
+o.b.v. AA-4428 
+- IMKAD_AangebodenStuk uitgebreid met optioneel veld tia_WoonplaatskeuzePlaatsnaam
+- Stukdeelhypotheek uitgebreid met optioneel veld naamHypotheekhouder
+
 ## CHANGES XSD StukAlgemeen-9.1.0 DATUM 05 december 2019
 o.b.v. AA-4557 
 - IMKAD_AangebodenStuk uitgebreid met optioneel veld tia_OmschrijvingAnnexen
