@@ -7,6 +7,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 12 juni 2020
+- In deze release is een nieuwe stylesheet van de Munt opgeleverd. Hierin hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%203.md) vindt u de details van de aanpassing.
+
+
 ## 5 juni 2020
 We hebben een nieuwe versie van het XSD gepubliceerd. De nieuwe versie maakt het mogelijk om de XML gesigned aan te leveren via SYVAS in het kader van het project VAST. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
 
