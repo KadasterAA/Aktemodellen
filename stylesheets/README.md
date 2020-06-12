@@ -89,7 +89,8 @@ Hypotheek ING|20160101000004|4|hypotheek_ing-3.4.0
  “ | “ |3|hypotheek_ing-3.3.0
  “ | “ |2|hypotheek_ing-3.2.0
  “ | “ |1|hypotheek_ing-2.0.1
-Hypotheek Munt|20200211000018|2|hypotheek_munt-2.1.1
+Hypotheek Munt|20200211000018|3|hypotheek_munt-2.1.2
+ “ | “ |2|hypotheek_munt-2.1.1
  “ | “ |1|hypotheek_munt-2.1.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1
