@@ -7,6 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 6 juli 2020
+- Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen. Voor deze akte hebben we een nieuwe versie van het [XSD van StukAlgemeen](/schema/stuk%20algemeen/11.0.0/StukAlgemeen-11.0.0.xsd) opgeleverd. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
+Deze release is voor de Nationale-Nederlanden een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+
 ## 12 juni 2020
 - In deze release is een nieuwe stylesheet van de Munt opgeleverd. Hierin hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%203.md) vindt u de details van de aanpassing.
 

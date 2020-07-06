@@ -7,7 +7,7 @@ o.b.v. AA-4666
 
 ## CHANGES XSD StukAlgemeen-10.0.0 DATUM 23 april 2020
 o.b.v. AA-4428 
-- IMKAD_AangebodenStuk uitgebreid met optioneel veld tia_WoonplaatskeuzePlaatsnaam
+- IMKAD_AangebodenStuk uitgebreid met optioneel veld tia_WoonplaatskeuzePlaatsnaam (vervallen)
 - Stukdeelhypotheek uitgebreid met optioneel veld naamHypotheekhouder
 
 ## CHANGES XSD StukAlgemeen-9.1.0 DATUM 05 december 2019
