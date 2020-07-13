@@ -1,7 +1,7 @@
 # Release notes
 Product|Nationale-Nederlanden stylesheetnummer 20200415000023 implementatienummer 1|
 |---|---|
-|**Release**|**6 juli 2020**|
+|**Release**|**13 juli 2020**|
 ## Wijzigingen
 
 
