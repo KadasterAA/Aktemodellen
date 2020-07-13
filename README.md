@@ -7,8 +7,39 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 6 juli 2020
+- Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen. Voor deze akte hebben we een nieuwe versie van het [XSD van StukAlgemeen](/schema/stuk%20algemeen/11.0.0/StukAlgemeen-11.0.0.xsd) opgeleverd. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
+Deze release is voor de Nationale-Nederlanden een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+
+## 12 juni 2020
+- In deze release is een nieuwe stylesheet van de Munt opgeleverd. Hierin hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%203.md) vindt u de details van de aanpassing.
+
+
+## 5 juni 2020
+We hebben een nieuwe versie van het XSD gepubliceerd. De nieuwe versie maakt het mogelijk om de XML gesigned aan te leveren via SYVAS in het kader van het project VAST. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
+## 22 mei 2020
+Zoals eerder in de release notes van 13 maart 2020 is aangekondigd is de volgende controle aangezet: De burgerlijkestaattekst van de partner in de XML mag niet aanwezig zijn als BurgerlijkeStaatTekstPartners bij de hoofdpersoon al aanwezig is. 
+
+
+## 13 maart 2020
+- In deze release hebben we een nieuw stylesheet opgeleverd voor Syntrus Achmea op basis van hun bankmodel. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%201.md) vindt u de details van de wijzigingen.
+- Er is een nieuw implementatienummer voor de Munt opgeleverd. Hierin zat een bug waardoor bij gebruik van de WordML tekst niet getoond werd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%202.md) vindt u de details.
+-  Voor de Notariele Verklaring is ook een nieuw implementatienummer opgeleverd. Hiermee hebben we een bug opgelost waardoor het groeperen van percelen nu wel goed gaat. Details van deze wijzigingen zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%203.md).
+
+Daarnaast nog een opmerking over tekstblok Burgerlijke Staat: De burgerlijkestaattekst van de partner zou in de XML leeg moeten zijn in het geval van een aanwezige burgerlijkestaattekst partners: in dat geval is de burgerlijke staat van de hoofdpersoon namelijk ook de burgerlijke staat van de partner. 
+Nu krijgen we soms akten binnen waarbij de burgerlijkestaattekst van de partner ook gevuld is in de XML, deze kunnen wij niet automatisch verwerken in onze registratie. Hier gaan we binnenkort een controle opzetten en zullen deze akten uit gaan vallen. Het verzoek is dan ook dit in uw software aan te passen zodat het op deze manier niet meer wordt aangeboden.
+
+
+## 17 februari 2020
+- In deze release hebben we een bug opgelost in de Notariele Verklaring. De details zijn te vinden in de [releasenotes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%202.md).
+- Voor de Munt hebben we een aantal tekstuele wijzigingen door gevoerd. Voor deze wijziging is een nieuw stylesheetnummer aangemaakt. In de [releasenotes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200211000018/Releasenotes%20Munt%2020200211000018%20-%201.md) van de Munt zijn de details opgenomen.
+
+
 ## 17 januari 2020 
-- In deze release hebben we voor de levering een nieuw depotnummer opgeleverd met daarin een nieuwe versie van het tekstblok Erfpachtcanon. Deze wijziging was op 13 december 2019 gepubliceerd als implementatienummer 2 van depotnummer 20190301000007. Dit implementatienummer is vanaf heden verwijderd. De wijzigigen van TB Erfpachtcanon voor de Akte van Levering zijn nu te vinden in deze [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20200116000007/Releasenotes%20Akte%20van%20Levering%2020200116000007%20-%201.md) van de levering. 
+- In deze release hebben we voor de levering een nieuw depotnummer opgeleverd met daarin een nieuwe versie van het tekstblok Erfpachtcanon. Deze wijziging was op 13 december 2019 gepubliceerd als implementatienummer 2 van depotnummer 20190301000007. Dit implementatienummer is vanaf heden verwijderd. De wijzigingen van TB Erfpachtcanon voor de Akte van Levering zijn nu te vinden in deze [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20200116000007/Releasenotes%20Akte%20van%20Levering%2020200116000007%20-%201.md) van de levering. 
 - Nieuw depotnummer voor de Notariele Verklaring met daarin de nieuwste tekstblokken. Tevens hebben we een tweetal wensen opgenomen. In de [release notes](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20191201000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020191201000008%20-%201.md) zijn de details opgenomen.
 - Voor de verdeling hebben we twee bugs opgelost. Details zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20verdeling/20191001000009/Releasenotes%20Akte%20van%20verdeling%2020191001000009%20-%201.md).
 Tevens is hiermee de release voor de verdeling definitief gemaakt. Vanaf nu resulteren wijzigingen aan de akte van Verdeling in een nieuw stylesheetnummer of een nieuw implementatienummer.
