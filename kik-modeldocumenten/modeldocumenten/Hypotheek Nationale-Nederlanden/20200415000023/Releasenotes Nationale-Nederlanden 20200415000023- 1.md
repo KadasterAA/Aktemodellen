@@ -1,14 +1,14 @@
 # Release notes
 Product|Nationale-Nederlanden stylesheetnummer 20200415000023 implementatienummer 1|
 |---|---|
-|**Release**|**13 juli 2020**|
+|**Release**|**10 juli 2020**|
 ## Wijzigingen
 
 
 ### MD Nationale-Nederlanden
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4428 | Nieuw modeldocument Nationale Nederlanden |Modeldocument, Toelichting, XSD, Stylesheet en backend controles| 
+AA-4428 | Nieuw modeldocument Nationale Nederlanden |Modeldocument, Toelichting, Stylesheet en backend controles| 
 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
