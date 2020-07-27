@@ -1,11 +1,16 @@
 # Release notes
 Product|Nationale-Nederlanden stylesheetnummer 20200415000023 implementatienummer 1|
 |---|---|
-|**Release**|**10 juli 2020**|
+|**Release**|**27 juli 2020**|
 ## Wijzigingen
 
-
 ### MD Nationale-Nederlanden
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4765 |Voor Nationale Nederlanden hebben we de keuzeteksten_hypotheek_nationale-nederlanden-1.0.0.xml aangepast: tekstkeuze k_Woonplaatskeuze is verwijderd, de betreffende tekst wordt vanuit de stylesheet gezet. | Stylesheet |
+
+**Release 10 juli 2020**
+
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4428 | Nieuw modeldocument Nationale Nederlanden |Modeldocument, Toelichting, Stylesheet en backend controles| 
