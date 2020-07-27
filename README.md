@@ -7,6 +7,16 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 27 juli 2020
+- Er zijn 2 nieuwe implementatienummers voor Syntrus Achmea opgeleverd. Hierin zat een bug in de overbruggingshypotheek. In de [release notes van depotnummer 20200301000022](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%202.md) en [2019070100002](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%2020190701000022%20-%205.md) vindt u de details van de wijzigingen.
+
+-   In de Nationale Nederlanden hebben we een bug opgelost. Omdat Nationale Nederlanden nog een bèta versie is hebben we de huidige versie aangepast, dus geen nieuw implementatienummer. Details van deze bug zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md).
+
+- Voor Vista hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Toelichting%20modeldocument%20Vista%201.0%20-%20v0.1.docx) hebben we de details opgenomen.
+Voor deze wijziging hebben we het [XSD van StukAlgemeen](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd) aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
+Deze release is voor de Vista akte een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
 ## 13 juli 2020
 - Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen.
 
