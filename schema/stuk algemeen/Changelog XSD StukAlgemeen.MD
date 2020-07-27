@@ -1,6 +1,6 @@
 # Changelog XSD StukAlgemeen
 
-# CHANGES XSD StukAlgemeen-12.0.0 DATUM 27 juli 2020
+## CHANGES XSD StukAlgemeen-12.0.0 DATUM 27 juli 2020
 o.b.v. AA-4740
 - Stukdeelhypotheek uitgebreid met optioneel veld datumLeningOntvangen
 
