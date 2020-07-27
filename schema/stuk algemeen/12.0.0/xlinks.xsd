@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0">
+	<xs:simpleType name="actuateValue">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="onLoad"/>
+			<xs:enumeration value="onRequest"/>
+			<xs:enumeration value="other"/>
+			<xs:enumeration value="none"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="showValue">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="new"/>
+			<xs:enumeration value="replace"/>
+			<xs:enumeration value="embed"/>
+			<xs:enumeration value="other"/>
+			<xs:enumeration value="none"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:attributeGroup name="simpleLink">
+		<xs:attribute name="type" use="optional" type="xs:string"/>
+		<xs:attribute name="href" use="optional" type="xs:anyURI"/>
+		<xs:attribute name="role" use="optional" type="xs:anyURI"/>
+		<xs:attribute name="arcrole" use="optional" type="xs:anyURI"/>
+		<xs:attribute name="title" use="optional" type="xs:string"/>
+		<xs:attribute name="show" use="optional" type="xlink:showValue"/>
+		<xs:attribute name="actuate" use="optional" type="xlink:actuateValue"/>
+	</xs:attributeGroup>
+</xs:schema>
