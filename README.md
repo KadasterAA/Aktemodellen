@@ -12,7 +12,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 -   In de Nationale Nederlanden hebben we een bug opgelost. Omdat Nationale Nederlanden nog een bèta versie is hebben we de huidige versie aangepast, dus geen nieuw implementatienummer. Details van deze bug zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md).
 
-- Voor Vista hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Toelichting%20modeldocument%20Vista%201.0%20-%20v0.1.docx) hebben we de details opgenomen.
+- Voor Vista hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Toelichting%20modeldocument%20Vista%201.0%20-%20v1.0.docx) hebben we de details opgenomen.
 Voor deze wijziging hebben we het [XSD van StukAlgemeen](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd) aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
 
 Deze release is voor de Vista akte een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
