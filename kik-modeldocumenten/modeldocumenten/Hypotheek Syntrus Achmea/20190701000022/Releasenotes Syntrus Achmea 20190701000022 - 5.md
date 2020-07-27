@@ -2,7 +2,11 @@
 
 Product|Syntrus Achmea stylesheetnummer 20190701000022 implementatienummer 5|
 |---|---|
+<<<<<<< HEAD
 |**Release**|**27 juli 2020**|
+=======
+|**Release**|**20 juli 2020**|
+>>>>>>> d5377163b0e0c59f1964bea7682fa884c0ceaddd
 
 ## Wijzigingen
 
@@ -19,7 +23,11 @@ AA-4758   |Er zat een bug bij het aanmaken van de PDF wanneer overbrugging meer 
 
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
+<<<<<<< HEAD
 Modeldocument Syntrus Achmea|[1.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Modeldocument%20Syntrus%20Achmea%20v1.2.docx)|[1.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.2%20-%20v1.2.docx)|  |
+=======
+Modeldocument Syntrus Achmea|**[1.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Modeldocument%20Syntrus%20Achmea%20v1.2.docx)**|**[1.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.2%20-%20v1.2.docx)**| X |
+>>>>>>> d5377163b0e0c59f1964bea7682fa884c0ceaddd
 XSD StukAlgemeen|**[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)**||X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

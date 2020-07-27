@@ -133,10 +133,13 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1
  “ | “ |1|hypotheek_sns-2.4.0
-Hypotheek Syntrus Achmea|20200301000022|1|hypotheek_syntrus_achmea-2.0.0
- “ |20190701000022|4|hypotheek_syntrus_achmea-1.0.3
+Hypotheek Syntrus Achmea|20200301000022|2|hypotheek_syntrus_achmea-2.1.0
+ “ | “ |1|hypotheek_syntrus_achmea-2.0.0
+ “ |20190701000022|5|hypotheek_syntrus_achmea-1.0.4
+ “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
+Hypotheek Vista|20200602500024|1|hypotheek_vista-1.0.0
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
  “ | “ |1|notariele_verklaring-3.0.0
