@@ -1,11 +1,7 @@
 # Release notes
 Product|Vista stylesheetnummer 20200602500024 implementatienummer 1|
 |---|---|
-<<<<<<< HEAD
-|**Release**|**24 juli 2020**|
-=======
-|**Release**|**20 juli 2020**|
->>>>>>> d5377163b0e0c59f1964bea7682fa884c0ceaddd
+|**Release**|**27 juli 2020**|
 ## Wijzigingen
 
 
@@ -17,13 +13,8 @@ AA-4740 | Nieuw modeldocument Vista |Modeldocument, Toelichting, XSD, Stylesheet
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-<<<<<<< HEAD
 Modeldocument Vista|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Modeldocument%20Hypotheekakte%20Vista%20v1.0.docx)|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Toelichting%20modeldocument%20Vista%201.0%20-%20v1.0.docx)|  |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)||  |
-=======
-Modeldocument Vista|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Modeldocument%20Hypotheekakte%20Vista%20v1.0.docx)|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Toelichting%20modeldocument%20Vista%201.0%20-%20v1.0.docx)| X |
-XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| X |
->>>>>>> d5377163b0e0c59f1964bea7682fa884c0ceaddd
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef Notariele verklaring|[2.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20Notariele%20verklaring%20v2.0.docx)|[2.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%20Notariele%20verklaring%202.0%20-%20v2.0.docx)|  |
