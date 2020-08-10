@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
+	<!-- 
+	Optional text choices for ING bank mortgage deed
+	Version: 3.3.0 (AA-3748)
+	Date: 2018-04-06	
+	-->
 	<!-- Begin common optional text choices -->
 	<tia:TekstKeuze>
 		<tia:tagNaam>margin-top</tia:tagNaam>
@@ -66,7 +71,7 @@
 	<tia:TekstKeuze>
 		<tia:tagNaam>k_Scheepstoebehoren</tia:tagNaam>
 		<tia:tekst>alsmede alle scheepstoebehoren in de zin van artikel 8:1 Burgerlijk Wetboek, aan partijen genoegzaam bekend</tia:tekst>
-	</tia:TekstKeuze>	
+	</tia:TekstKeuze>
     <tia:TekstKeuze>
     	<tia:tagNaam>k_Eigendom</tia:tagNaam>
         <tia:tekst>het recht van eigendom met betrekking tot</tia:tekst>
@@ -264,6 +269,7 @@
 	<!-- Begin mortgage deed common optional text choices -->
 	<tia:TekstKeuze>
 		<tia:tagNaam>k_TitelHypotheek</tia:tagNaam>
+		<tia:tekst>Hypotheek LEVERING {street name house number huisletter toevoeging} te {town}</tia:tekst>
 		<tia:tekst>Hypotheek</tia:tekst>
 		<tia:tekst>Hypotheekstelling</tia:tekst>
 		<tia:tekst>Vestigen recht van hypotheek</tia:tekst>

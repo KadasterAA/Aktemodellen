@@ -73,6 +73,7 @@ Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
 Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
+Hypotheek Argenta|20200701000025|1|hypotheek_argenta-1.0.0
 Hypotheek ASR|20191015000020|1|hypotheek_asr-2.0.0
  “ |20190401000020|5|hypotheek_asr-1.2.1
  “ | “ |4|hypotheek_asr-1.2.0

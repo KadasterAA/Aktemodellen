@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 *********************************************************
-Stylesheet: hypotheek_vista.xsl
-Version: 1.0.0
-AA-4740 - Vista (initiele versie)
+AA-4744 Argenta
 *********************************************************
-Description:
-Hypotheek Vista Modeldocument versie 1.0.0
-
 -->
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia kef xsl xlink gc" version="1.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia xsl exslt xlink gc" version="1.0">
 	<xsl:include href="generiek-1.08.xsl"/>
-	<xsl:include href="keuzeblok_partijnamen_hypotheekakte_vista-1.0.0.xsl"/>
+	<xsl:include href="keuzeblok_partijnamen_hypotheekakte_argenta-1.0.0.xsl"/>
 	<xsl:include href="tekstblok_aanhef-1.20.xsl"/>
 	<xsl:include href="tekstblok_burgerlijke_staat-1.03.xsl"/>
 	<xsl:include href="tekstblok_equivalentieverklaring-1.28.xsl"/>
@@ -27,8 +22,8 @@ Hypotheek Vista Modeldocument versie 1.0.0
 	<xsl:include href="tekstblok_titel_hypotheekakten-1.01.xsl"/>
 	<xsl:include href="tekstblok_woonadres-1.05.xsl"/>
 	<xsl:include href="tweededeel-1.05.xsl"/>
-	<!-- Rabobank specific global variables -->
-	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_vista-1.0.0.xml')"/>
+	<!-- ING specific global variables -->
+	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_argenta-1.0.0.xml')"/>
 	<xsl:variable name="keuzetekstenTbBurgelijkeStaat" select="document('keuzeteksten-tb-burgerlijkestaat-1.1.0.xml')"/>
 	<xsl:variable name="legalPersonNames" select="document('nnp-kodes.xml')/gc:CodeList/SimpleCodeList/Row"/>
 	<xsl:variable name="RegistergoedTonenPerPerceel">
@@ -40,6 +35,16 @@ Hypotheek Vista Modeldocument versie 1.0.0
 			<xsl:otherwise>false</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
+	<xsl:variable name="partijVerzekeraarAanwezig">
+		<xsl:choose>
+			<xsl:when test="count(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:Partij/tia:Partij) = 2">
+				<xsl:text>true</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>false</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 	<!--
 	*********************************************************
 	Mode: do-deed
@@ -48,7 +53,7 @@ Hypotheek Vista Modeldocument versie 1.0.0
 
 	Identity transform: no
 
-	Description: Vista mortgage deed.
+	Description: Hypotheek Argenta
 
 	Input: tia:Bericht_TIA_Stuk
 
@@ -61,16 +66,12 @@ Hypotheek Vista Modeldocument versie 1.0.0
 	(mode) do-mortgage-deed-title
 	(mode) do-header
 	(mode) do-comparitie
-	(mode) do-natural-person-rabo
-	(mode) do-address-rabo
 	(mode) do-right
 	(mode) do-registered-object
 	(mode) do-bridging-mortgage
 	(mode) do-free-text
 	(name) amountText
 	(name) amountNumber
-	(name) percentText
-	(name) percentNumber
 	(name) processRights
 
 	Called by:
@@ -97,16 +98,123 @@ Hypotheek Vista Modeldocument versie 1.0.0
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk" mode="do-mortgage-deed-title"/>
 		<!-- Text block Header -->
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk" mode="do-header"/>
-		<!-- Comparitie -->
-		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:Partij" mode="do-comparitie"/>
-		<xsl:call-template name="lening"/>
-		<xsl:call-template name="hypotheekPandrechten"/>
-		<xsl:call-template name="overeenkomst"/>
-		<xsl:call-template name="hypotheekverlening"/>	
-		<xsl:call-template name="onderpand"/>
-		<xsl:call-template name="opzegging"/>
-		<xsl:call-template name="woonplaatskeuze"/>
-
+		<xsl:variable name="_partyRestructured">
+			<xsl:apply-templates select="tia:IMKAD_AangebodenStuk" mode="do-copy"/>
+		</xsl:variable>
+		<xsl:variable name="partyRestructured" select="exslt:node-set($_partyRestructured)"/>
+		<xsl:variable name="parties" select="tia:IMKAD_AangebodenStuk/tia:Partij"/>
+		<xsl:for-each select="$partyRestructured/tia:IMKAD_AangebodenStuk/tia:Partij">
+			<xsl:variable name="position" select="position()"/>
+			<xsl:variable name="numberOfPersonsInFirstNestedParty" select="count($parties[$position]/tia:Partij[1]/tia:IMKAD_Persoon)"/>
+			<xsl:variable name="numberOfPersonsInSecondNestedParty" select="count($parties[$position]/tia:Partij[2]/tia:IMKAD_Persoon)"/>
+			<xsl:variable name="numberOfPersonsWithIndGerechtigdeInFirstNestedParty" select="count($parties[$position]/tia:Partij[1]/tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])"/>
+			<xsl:variable name="numberOfPersonsWithIndGerechtigdeInSecondNestedParty" select="count($parties[$position]/tia:Partij[2]/tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])"/>
+			<xsl:apply-templates select="." mode="do-comparitie">
+				<xsl:with-param name="numberOfPersonsInFirstNestedParty" select="$numberOfPersonsInFirstNestedParty"/>
+				<xsl:with-param name="numberOfPersonsInSecondNestedParty" select="$numberOfPersonsInSecondNestedParty"/>
+				<xsl:with-param name="numberOfPersonsWithIndGerechtigdeInFirstNestedParty" select="$numberOfPersonsWithIndGerechtigdeInFirstNestedParty"/>
+				<xsl:with-param name="numberOfPersonsWithIndGerechtigdeInSecondNestedParty" select="$numberOfPersonsWithIndGerechtigdeInSecondNestedParty"/>
+			</xsl:apply-templates>
+		</xsl:for-each>
+		<p>
+			<xsl:text>Van het bestaan van de mondelinge volmacht is mij, notaris, genoegzaam gebleken.</xsl:text>
+		</p>
+		<p>
+			<xsl:text>De verschenen personen verklaarden:</xsl:text>
+		</p>
+		<p>
+			<xsl:text>Wegens door geldnemer op grond van een aangegane overeenkomst heden ter leen ontvangen gelden is geldnemer (zo de geldnemer uit meer personen bestaat hoofdelijk) schuldig aan de geldverstrekker, die wegens ter leen verstrekte gelden te vorderen heeft van geldnemer, de som van </xsl:text>
+			<xsl:call-template name="amountText">
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:valuta"/>
+			</xsl:call-template>
+			<xsl:text> </xsl:text>
+			<xsl:call-template name="amountNumber">
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:valuta"/>
+			</xsl:call-template>
+			<xsl:text>; deze som hierna te noemen: "de hoofdsom".</xsl:text>
+		</p>
+		<p>
+			<xsl:text>Geldnemer heeft zich voorafgaand aan de verstrekking door geldverstrekker van de hoofdsom verplicht om tot zekerheid voor de terugbetaling van de hoofdsom en de betaling van het verder op grond van de geldlening als gedefinieerd in de algemene voorwaarden verschuldigde, ten behoeve van de geldverstrekker een recht van hypotheek respectievelijk pandrecht te vestigen, hetgeen in deze akte zal geschieden.</xsl:text>
+		</p>
+		<h3>
+			<xsl:text>A.1. Hypotheekstelling</xsl:text>
+		</h3>
+		<p>
+			<xsl:text>Ter uitvoering van het bedongen hypotheekrecht verklaarde de geldnemer tot meerdere zekerheid voor de betaling van:</xsl:text>
+		</p>
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>1.</xsl:text>
+					</td>
+					<td valign="top">
+						<xsl:text>de hoofdsom;</xsl:text>
+					</td>
+				</tr>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>2.</xsl:text>
+					</td>
+					<td valign="top">
+						<xsl:text>voorts al het overige geldverstrekker van geldnemer uit hoofde van de geldlening, zoals gedefinieerd in de hierna te definiëren algemene voorwaarden, te vorderen heeft of te enige tijd te vorderen zal hebben, waaronder is begrepen de (restant) (deel)lening met de renten en kosten, boeten en vergoedingen waartoe de geldlening aanleiding mocht geven alsmede de door de geldverstrekker voor de geldnemer gedane betalingen;</xsl:text>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<xsl:text>tezamen: "het verschuldigde",</xsl:text>
+		</p>
+		<p>
+			<xsl:text>een en ander tot een totaalbedrag ter grootte van </xsl:text>
+			<xsl:call-template name="amountText">
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:valuta"/>
+			</xsl:call-template>
+			<xsl:text> </xsl:text>
+			<xsl:call-template name="amountNumber">
+				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:som"/>
+				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:valuta"/>
+			</xsl:call-template>
+			<xsl:text> hierbij aan geldverstrekker te verlenen, die van geldnemer aanvaardt, het recht van hypotheek op elk van de hierna onder A.2. vermelde registergoederen.</xsl:text>
+		</p>
+		<h3>
+			<xsl:text>A.2. Registergoed(eren)</xsl:text>
+		</h3>
+		<a name="hyp3.rights" class="location">&#160;</a>
+		<xsl:apply-templates select="." mode="do-rights">
+			<xsl:with-param name="stukdeel" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek"/>
+			<xsl:with-param name="colspan" select="'2'"/>
+			<xsl:with-param name="endMark" select="','"/>
+		</xsl:apply-templates>
+		<p>
+			<xsl:choose>
+				<xsl:when test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[tia:tagNaam='k_BenamingRegistergoed']/tia:tekst,$upper, $lower)='registergoed'">
+					<xsl:text>welk registergoed hierna zal</xsl:text>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:text>welke registergoederen hierna zullen</xsl:text>
+				</xsl:otherwise>
+			</xsl:choose>
+			<xsl:text> worden aangeduid als "het onderpand".</xsl:text>
+		</p>
+		<h3>
+			<xsl:text>A.3. Aanvaarding</xsl:text>
+		</h3>
+		<p>
+			<xsl:text>De comparant sub 2, handelend als gemeld, verklaarde, voor zover nodig bij voorbaat, de hiervoor gedane schuldbekentenis, het verleende hypotheekrecht en de verdere verbintenissen en verpandingen, cessie(s), de eventuele borgstelling en alle verdere rechten voortvloeiende uit deze akte en/of de hierna te vermelden algemene voorwaarden namens de geldverstrekker (daaronder begrepen diens (opvolgende) rechtsopvolgers onder algemene of bijzondere titel) te aanvaarden.</xsl:text>
+		</p>
+		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) != ''">
+			<h3>
+				<xsl:text>A.4. Woonplaats</xsl:text>
+			</h3>
+			<p>
+				<xsl:value-of select="normalize-space(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst[translate(normalize-space(.), $upper, $lower)])"/>
+				<xsl:text>.</xsl:text>
+			</p>
+		</xsl:if>
 		<h3>
 			<xsl:text>EINDE KADASTERDEEL</xsl:text>
 		</h3>
@@ -122,11 +230,16 @@ Hypotheek Vista Modeldocument versie 1.0.0
 
 	Identity transform: no
 
-	Description: Vista mortgage deed parties.
+	Description: ING mortgage deed parties.
 
 	Input: tia:Partij
 
-	Params: none
+	Params: numberOfPersonsInFirstNestedParty - number of persons in first nested party
+			numberOfPersonsInSecondNestedParty - number of persons in second nested party
+			numberOfPersonsInThirdNestedParty - number of persons in third nested party
+			numberOfPersonsWithIndGerechtigdeInFirstNestedParty - number of persons with IndGerechtigde in first nested party
+			numberOfPersonsWithIndGerechtigdeInSecondNestedParty - number of persons with IndGerechtigde in second nested party
+			numberOfPersonsWithIndGerechtigdeInThirdNestedParty - number of persons with IndGerechtigde in third nested party
 
 	Output: XHTML structure
 
@@ -142,8 +255,18 @@ Hypotheek Vista Modeldocument versie 1.0.0
 	**** matching template ********************************************************************************
 	-->
 	<xsl:template match="tia:Partij" mode="do-comparitie">
-		<xsl:variable name="numberOfLegalPersonPairs" select="count(tia:IMKAD_Persoon[tia:tia_Gegevens/tia:NHR_Rechtspersoon and tia:GerelateerdPersoon[tia:rol = 'volmachtgever']])"/>
-		<xsl:variable name="hoedanigheidId" select="substring-after(tia:Gevolmachtigde/tia:vertegenwoordigtRef/@xlink:href, '#')"/>
+		<xsl:param name="numberOfPersonsInFirstNestedParty" select="number('0')"/>
+		<xsl:param name="numberOfPersonsInSecondNestedParty" select="number('0')"/>
+		<xsl:param name="numberOfPersonsWithIndGerechtigdeInFirstNestedParty" select="number('0')"/>
+		<xsl:param name="numberOfPersonsWithIndGerechtigdeInSecondNestedParty" select="number('0')"/>
+		<xsl:variable name="numberOfPersons" select="count(tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
+					+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
+					+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])"/>
+		<xsl:variable name="anchorName">
+			<xsl:text>party.</xsl:text>
+			<xsl:value-of select="count(preceding-sibling::tia:Partij) + 1"/>
+		</xsl:variable>
+		<xsl:variable name="hoedanigheidId" select="substring-after(tia:Gevolmachtigde/tia:vertegenwoordigtRef/@*[translate(local-name(), $upper, $lower) = 'href'], '#')"/>
 		<table cellspacing="0" cellpadding="0">
 			<tbody>
 				<xsl:if test="tia:Gevolmachtigde and count(tia:Hoedanigheid[@id = $hoedanigheidId]/tia:wordtVertegenwoordigdRef) = 0">
@@ -154,7 +277,7 @@ Hypotheek Vista Modeldocument versie 1.0.0
 									<tr>
 										<td class="number" valign="top">
 											<a name="{@id}" class="location" style="_position: relative;">&#xFEFF;</a>
-											<xsl:value-of select="count(preceding-sibling::tia:Partij) + 1"/>
+											<xsl:number value="count(preceding-sibling::tia:Partij) + 1" format="1"/>
 											<xsl:text>.</xsl:text>
 										</td>
 										<td>
@@ -168,66 +291,120 @@ Hypotheek Vista Modeldocument versie 1.0.0
 					</tr>
 				</xsl:if>
 				<xsl:choose>
-					<xsl:when test="@id = substring-after(../tia:StukdeelHypotheek/tia:vervreemderRechtRef/@xlink:href, '#')">
-						<!-- Hypotheekgever -->
-						<xsl:choose>
-							<!-- If only one person pair, or legal person with warrantors is present - do not create list -->
-							<xsl:when test="(tia:IMKAD_Persoon[(tia:tia_Gegevens/tia:GBA_Ingezetene or tia:tia_Gegevens/tia:IMKAD_NietIngezetene) and tia:GerelateerdPersoon[tia:rol]]
-								or $numberOfLegalPersonPairs > 0) and not(count(tia:IMKAD_Persoon) > 1)">
-								<xsl:apply-templates select="tia:IMKAD_Persoon" mode="do-party-person"/>
-							</xsl:when>
-							<xsl:when test="count(tia:IMKAD_Persoon) = 1">
-								<xsl:apply-templates select="tia:IMKAD_Persoon" mode="do-party-person"/>
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:for-each select="tia:IMKAD_Persoon">
-									<xsl:apply-templates select="." mode="do-party-person"/>
-								</xsl:for-each>
-							</xsl:otherwise>
-						</xsl:choose>
+					<!-- If only one person pair is present do not create list -->
+					<xsl:when test="tia:IMKAD_Persoon[(tia:tia_Gegevens/tia:GBA_Ingezetene or tia:tia_Gegevens/tia:IMKAD_NietIngezetene)
+								and tia:GerelateerdPersoon[tia:rol]]
+							and not(count(tia:IMKAD_Persoon) > 1)">
+						<xsl:call-template name="tekstblokPartijOfRechtspersoon">
+							<xsl:with-param name="anchorName" select="$anchorName"/>
+							<xsl:with-param name="persoon" select="tia:IMKAD_Persoon"/>
+							<xsl:with-param name="partij" select="@id"/>
+						</xsl:call-template>
+					</xsl:when>
+					<xsl:when test="count(tia:IMKAD_Persoon) = 1">
+						<xsl:call-template name="tekstblokPartijOfRechtspersoon">
+							<xsl:with-param name="anchorName" select="$anchorName"/>
+							<xsl:with-param name="persoon" select="tia:IMKAD_Persoon"/>
+							<xsl:with-param name="partij" select="@id"/>
+						</xsl:call-template>
 					</xsl:when>
 					<xsl:otherwise>
-						<!-- Hypotheeknemer -->
-						<tr>
-							<td>
-								<table>
-									<tbody>
-											<tr>
-												<td class="number" valign="top">
-													<xsl:text>&#xFEFF;</xsl:text>
-												</td>
-												<td>
-													<xsl:apply-templates select="tia:IMKAD_Persoon[tia:tia_Gegevens/tia:NHR_Rechtspersoon]" mode="do-legal-person"/>
-													<xsl:if test="tia:IMKAD_Persoon[tia:tia_Gegevens/tia:NHR_Rechtspersoon]/tia:IMKAD_PostlocatiePersoon">
-														<xsl:text> (correspondentieadres voor alle aangelegenheden betreffende de hierna te vermelden rechtshandelingen: </xsl:text>
-														<xsl:apply-templates select="tia:IMKAD_Persoon[tia:tia_Gegevens/tia:NHR_Rechtspersoon]/tia:IMKAD_PostlocatiePersoon" mode="do-vista-correspondant-address"/>
-														<xsl:text>)</xsl:text>
-													</xsl:if>
-													<xsl:text>;</xsl:text>
-												</td>
-											</tr>
-									</tbody>
-								</table>
-							</td>
-						</tr>
+						<xsl:for-each select="tia:IMKAD_Persoon">
+							<xsl:variable name="anchorNameParty">
+								<xsl:choose>
+									<xsl:when test="($numberOfPersonsInFirstNestedParty + $numberOfPersonsInSecondNestedParty) > 0">
+										<xsl:choose>
+											<xsl:when test="$numberOfPersonsInFirstNestedParty >= position()">
+												<xsl:text>party.2</xsl:text>
+											</xsl:when>
+											<xsl:when test="($numberOfPersonsInFirstNestedParty + $numberOfPersonsInSecondNestedParty) >= position()">
+												<xsl:text>hyp3.insurerPersons</xsl:text>
+											</xsl:when>
+										</xsl:choose>
+									</xsl:when>
+									<xsl:otherwise>
+										<xsl:value-of select="$anchorName"/>
+									</xsl:otherwise>
+								</xsl:choose>
+							</xsl:variable>
+							<xsl:call-template name="tekstblokPartijOfRechtspersoon">
+								<xsl:with-param name="anchorName" select="$anchorNameParty"/>
+								<xsl:with-param name="persoon" select="."/>
+								<xsl:with-param name="partij" select="ancestor::tia:Partij/@id"/>
+							</xsl:call-template>
+							<xsl:if test="($numberOfPersonsInFirstNestedParty + $numberOfPersonsInSecondNestedParty > 0)">
+								<xsl:choose>
+									<xsl:when test="$numberOfPersonsInFirstNestedParty = position()">
+										<tr>
+											<td>
+												<table>
+													<tbody>
+														<tr>
+															<td class="number" valign="top">
+																<xsl:text>&#xFEFF;</xsl:text>
+															</td>
+															<td>
+																<xsl:text>hierna te noemen: de "geldverstrekker"</xsl:text>
+																<xsl:choose>
+																	<xsl:when test="$partijVerzekeraarAanwezig='true'">
+																		<xsl:text>;</xsl:text>
+																	</xsl:when>
+																	<xsl:otherwise>
+																		<xsl:text>.</xsl:text>
+																	</xsl:otherwise>
+																</xsl:choose>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</xsl:when>
+									<xsl:when test="($numberOfPersonsInFirstNestedParty + $numberOfPersonsInSecondNestedParty) = position()">
+										<tr>
+											<td>
+												<table>
+													<tbody>
+														<tr>
+															<td class="number" valign="top">
+																<xsl:text>&#xFEFF;</xsl:text>
+															</td>
+															<td>
+																<xsl:text>Laatstgenoemde vennootschap hierna te noemen: "de verzekeraar".</xsl:text>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</xsl:when>
+								</xsl:choose>
+							</xsl:if>
+						</xsl:for-each>
 					</xsl:otherwise>
 				</xsl:choose>
 			</tbody>
 		</table>
-		<xsl:choose>
-			<xsl:when test="position() = 1">
-				<p style="margin-left:30px">
-					<xsl:apply-templates select="." mode="do-keuzeblok-partijnamen-hypotheekakte"/>
-					<xsl:text>;</xsl:text>
-				</p>
-			</xsl:when>
-			<xsl:otherwise>
-				<p style="margin-left:30px">
-					<xsl:text>hierna te noemen: de geldverstrekker.</xsl:text><br/>
-					<xsl:text>Van het bestaan van de volmacht aan de comparant onder 2. genoemd is mij, notaris, genoegzaam gebleken.</xsl:text>
-				</p>
-			</xsl:otherwise>
-		</xsl:choose>
+		<xsl:if test="($numberOfPersonsInFirstNestedParty + $numberOfPersonsInSecondNestedParty) = 0">
+			<p style="margin-left:30px">
+				<xsl:choose>
+					<xsl:when test="@id = substring-after(../tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:vervreemderRechtRef/@*[translate(local-name(), $upper, $lower) = 'href'], '#')">
+						<xsl:apply-templates select="." mode="do-keuzeblok-partijnamen-hypotheekakte"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>hierna te noemen: de "geldverstrekker"</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:choose>
+					<xsl:when test="$partijVerzekeraarAanwezig='true' or @id = substring-after(../tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:vervreemderRechtRef/@*[translate(local-name(), $upper, $lower) = 'href'], '#')">
+						<xsl:text>;</xsl:text>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>.</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+			</p>
+		</xsl:if>
 	</xsl:template>
 	<!--
 	*********************************************************
@@ -237,11 +414,12 @@ Hypotheek Vista Modeldocument versie 1.0.0
 
 	Identity transform: no
 
-	Description: Rabobank mortgage deed party persons.
+	Description: ING mortgage deed party persons.
 
 	Input: tia:IMKAD_Persoon
 
-	Params: none
+	Params: start - order number of person in nested party
+			anchorName - name of the anchor that will be positioned in first <td> element
 
 	Output: XHTML structure
 
@@ -257,169 +435,150 @@ Hypotheek Vista Modeldocument versie 1.0.0
 	**** NATURAL PERSON    ********************************************************************************
 	-->
 	<xsl:template match="tia:IMKAD_Persoon[(tia:tia_Gegevens/tia:GBA_Ingezetene or tia:tia_Gegevens/tia:IMKAD_NietIngezetene) and not(tia:GerelateerdPersoon)]" mode="do-party-person">
-		<xsl:apply-templates select="." mode="do-party-natural-person"/>
+		<xsl:param name="start" select="number('0')"/>
+		<xsl:param name="anchorName" select="''"/>
+		<xsl:apply-templates select="." mode="do-party-natural-person">
+			<xsl:with-param name="start" select="$start"/>
+			<xsl:with-param name="anchorName" select="$anchorName"/>
+		</xsl:apply-templates>
 	</xsl:template>
 	<!--
 	**** matching template   ******************************************************************************
 	**** NATURAL PERSON PAIR ******************************************************************************
 	-->
 	<xsl:template match="tia:IMKAD_Persoon[(tia:tia_Gegevens/tia:GBA_Ingezetene or tia:tia_Gegevens/tia:IMKAD_NietIngezetene) and tia:GerelateerdPersoon]" mode="do-party-person">
-		<xsl:apply-templates select="." mode="do-party-natural-person"/>
+		<xsl:param name="start" select="number('0')"/>
+		<xsl:param name="anchorName" select="''"/>
+		<xsl:apply-templates select="." mode="do-party-natural-person">
+			<xsl:with-param name="start" select="$start"/>
+			<xsl:with-param name="anchorName" select="$anchorName"/>
+		</xsl:apply-templates>
 	</xsl:template>
 	<!--
 	**** matching template ********************************************************************************
 	**** LEGAL PERSON      ********************************************************************************
 	-->
 	<xsl:template match="tia:IMKAD_Persoon[tia:tia_Gegevens/tia:NHR_Rechtspersoon]" mode="do-party-person">
-		<xsl:apply-templates select="." mode="do-party-legal-person"/>
+		<xsl:param name="start" select="number('0')"/>
+		<xsl:param name="anchorName" select="''"/>
+		<xsl:apply-templates select="." mode="do-party-legal-person">
+			<xsl:with-param name="start" select="$start"/>
+			<xsl:with-param name="anchorName" select="$anchorName"/>
+		</xsl:apply-templates>
 	</xsl:template>
-	<!-- ************* -->
-	<xsl:template match="tia:IMKAD_PostlocatiePersoon" mode="do-vista-correspondant-address">
-		<xsl:if test="tia:tia_label and normalize-space(tia:tia_label) != ''">
-			<xsl:value-of select="tia:tia_label"/>
-			<xsl:text>, </xsl:text>
-		</xsl:if>
-		<xsl:if test="tia:tia_afdeling and normalize-space(tia:tia_afdeling) != ''">
-			<xsl:value-of select="tia:tia_afdeling"/>
-			<xsl:text>, </xsl:text>
-		</xsl:if>
-		<xsl:apply-templates select="tia:adres/tia:postbusAdres" mode="do-vista-correspondant-address"/>
-		<xsl:apply-templates select="tia:adres/tia:binnenlandsAdres
-			| tia:adres/tia:buitenlandsAdres" mode="do-correspondant-address"/>
+	<!--
+	*********************************************************
+	Mode: do-copy
+	*********************************************************
+	Public: no
+
+	Identity transform: no
+
+	Description: Recursive template used for creation/copy of structure that is exactly the same as matched one, except for the nested party structures specific for ING deed.
+				 Nested parties wrapper element (tia:Partij) is not copied into new structure, in order to create usual party-person XML structure that can be used in any following logic.
+
+	Input: @*|node()
+
+	Params: none
+
+	Output: XHTML structure
+
+	Calls:
+	(mode) do-copy
+
+	Called by:
+	(mode) do-deed
+	-->
+	<!--
+	**** matching template     ****************************************************************************
+	**** ATTRIBUTES/NODES/TEXT ****************************************************************************
+	-->
+	<xsl:template match="@*|node()" mode="do-copy">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()" mode="do-copy"/>
+		</xsl:copy>
 	</xsl:template>
 	<!--
 	**** matching template ********************************************************************************
+	**** NESTED PARTY      ********************************************************************************
 	-->
-	<xsl:template match="tia:postbusAdres" mode="do-vista-correspondant-address">
-		<xsl:text>postbus </xsl:text>
-		<xsl:value-of select="tia:postbusnummer"/>
-		<xsl:text>, </xsl:text>
-		<!-- Insert space between numbers and letters of post code -->
-		<xsl:value-of select="concat(normalize-space(substring(tia:postcode, 1, 4)), ' ',
-			normalize-space(substring(tia:postcode, 5)))"/>
-		<xsl:text> </xsl:text>
-		<xsl:value-of select="tia:woonplaatsnaam"/>
+	<xsl:template match="tia:Partij[parent::tia:Partij]" mode="do-copy">
+		<xsl:apply-templates select="tia:Hoedanigheid" mode="do-copy"/>
+		<xsl:apply-templates select="tia:IMKAD_Persoon" mode="do-copy"/>
 	</xsl:template>
-<!-- ************************************* -->
-	<xsl:template name="lening">
-		<xsl:variable name="Datum_DATE" select="substring(string(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:datumLeningOntvangen), 0, 11)"/>
-		<xsl:variable name="Datum_STRING">
-			<xsl:value-of select="kef:convertDateToText($Datum_DATE)"/>
-		</xsl:variable>		
-		<h2 class="header">
-			<xsl:text>Lening</xsl:text>
-		</h2>
-		<p>
-			<xsl:text>Geldnemer heeft </xsl:text>
-			<xsl:value-of select="$Datum_STRING"/>
-			<xsl:text> een bedrag van </xsl:text>
-			<xsl:call-template name="amountText">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> </xsl:text>
-			<xsl:call-template name="amountNumber">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragLening/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> ontvangen en is dit bedrag schuldig aan de geldverstrekker.</xsl:text>
-		</p>			
-	</xsl:template>
-<!-- ************************************* -->
-	<xsl:template name="hypotheekPandrechten">
-	<h2 class="header">
-			<xsl:text>Hypotheek- en pandrechten</xsl:text>
-		</h2>
-		<p>
-			<xsl:text>Hypotheek- en pandrechten zijn zekerheden voor de geldverstrekker. In deze akte en de algemene voorwaarden die van toepassing zijn op deze akte, staan regels waaraan de geldverstrekker en de hypotheekgever zich moeten houden.</xsl:text>
-			<br/>
-			<xsl:text>Hypotheek- en pandrechten geven de geldverstrekker het recht het onderpand te executeren. Executeren betekent dat de geldverstrekker het onderpand mag verkopen. En de opbrengst mag gebruiken voor wat de debiteur aan de geldverstrekker moet betalen. Executeren mag alleen in de gevallen die zijn of worden afgesproken tussen de geldverstrekker en de hypotheekgever of de debiteur. In deze akte en de algemene voorwaarden die van toepassing zijn wordt dit verder uitgewerkt.</xsl:text>
-		</p>	
-	</xsl:template>
-<!-- ************************************* -->
-	<xsl:template name="overeenkomst">
-		<h2 class="header">
-			<xsl:text>Overeenkomst tot het vestigen van hypotheek- en pandrechten</xsl:text>
-		</h2>
-		<p>
-			<xsl:text>De hypotheekgever en de geldverstrekker hebben afgesproken dan wel spreken voor zover nodig hierbij af dat de hypotheekgever het hypotheekrecht en pandrechten aan de geldverstrekker geeft op de goederen die worden omschreven in deze akte en in de Algemene voorwaarden Vista Hypotheken die van toepassing zijn. Hierna staat waarvoor het hypotheekrecht en de pandrechten als zekerheid gelden.</xsl:text>
-		</p>	
-	</xsl:template>
-<!-- ************************************* -->
-	<xsl:template name="hypotheekverlening">
-		<a name="hyp3.vistaMortgageProvision" class="location">&#160;</a>
-		<h2 class="header">
-			<xsl:text>Hypotheekverlening</xsl:text>
-		</h2>
-		<p>
-			<xsl:text>Ter uitvoering van de afspraak om een hypotheekrecht te geven geeft de hypotheekgever een hypotheekrecht aan de geldverstrekker. Dit hypotheekrecht wordt gevestigd tot het bedrag dat hierna onder ‘Hypotheekbedrag’ staat op het onderpand dat hierna onder ‘Onderpand’ staat en indien daar meerdere onderpanden staan, op elk van de onderpanden voor het bedrag dat hierna onder 'Hypotheekbedrag' staat. Dit hypotheekrecht geldt als zekerheid voor alle schulden van de debiteur aan de geldverstrekker. Wie de debiteur is, staat hierna. Zijn er meer debiteuren? Dan geldt het hypotheekrecht als zekerheid voor de schulden van de debiteuren samen. Maar ook voor de schulden van iedere debiteur apart. Het kunnen schulden zijn die de debiteur nu al heeft en schulden die de debiteur later krijgt aan de geldverstrekker. Een schuld kan ontstaan uit elke rechtsverhouding tussen de debiteur en de geldverstrekker. Bijvoorbeeld uit geldleningen en kredieten, borgtochten of regresrechten.</xsl:text>
-		</p>
-		<p><xsl:text>De hypotheekgever geeft het hypotheekrecht tot:</xsl:text></p>
-		<table>
-			<tbody>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>1.</xsl:text>
-					</td>
-					<td>
-						<xsl:text>een bedrag van </xsl:text>
-						<xsl:call-template name="amountText">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text> </xsl:text>
-						<xsl:call-template name="amountNumber">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:hoofdsom/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text> plus</xsl:text>
-					</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>2.</xsl:text>
-					</td>
-					<td>
-						<xsl:text>renten, vergoedingen, boeten en kosten, samen begroot op vijftig procent (50%) van het bedrag hiervoor onder 1., dat is </xsl:text>
-						<xsl:call-template name="amountText">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragRente/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragRente/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text> </xsl:text>
-						<xsl:call-template name="amountNumber">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragRente/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragRente/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text>,</xsl:text>					
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<xsl:text>dus tot een totaalbedrag van </xsl:text>
-						<xsl:call-template name="amountText">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragTotaal/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragTotaal/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text> </xsl:text>
-						<xsl:call-template name="amountNumber">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragTotaal/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:bedragTotaal/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text>, op:</xsl:text>					
-					</td>
-				</tr>
-			</tbody>
-		</table>	
-	</xsl:template>	
-<!-- ************************************* -->
-	<xsl:template name="onderpand">
-		<xsl:variable name="allProcessedRights" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek/tia:IMKAD_ZakelijkRecht"/>
-		<a name="hyp3.rights" class="location">&#160;</a>
-		<h2 class="header">
-			<xsl:text>Onderpand</xsl:text>
-		</h2>
+	<!-- *********************** -->
+	<xsl:template name="tekstblokPartijOfRechtspersoon">
+		<xsl:param name="anchorName"/>
+		<xsl:param name="persoon"/>
+		<xsl:param name="partij"/>
 		<xsl:choose>
-			<!-- Only one registered object -->
+			<xsl:when test="$partij = substring-after(ancestor::tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:vervreemderRechtRef/@*[translate(local-name(), $upper, $lower) = 'href'], '#')">
+				<xsl:apply-templates select="$persoon" mode="do-party-person">
+					<xsl:with-param name="anchorName" select="$anchorName"/>
+				</xsl:apply-templates>
+			</xsl:when>
+			<xsl:otherwise>
+				<tr>
+					<td>
+						<table>
+							<tbody>
+								<tr>
+									<td class="number"/>
+									<xsl:if test="$partijVerzekeraarAanwezig='true'">
+										<td class="number">
+											<xsl:number value="position()" format="a"/>
+											<xsl:text>.</xsl:text>
+										</td>
+									</xsl:if>
+									<td>
+										<xsl:apply-templates select="$persoon" mode="do-legal-person"/>
+										<xsl:if test="$persoon/tia:IMKAD_PostlocatiePersoon">
+											<xsl:text> (correspondentieadres voor alle aangelegenheden betreffende de hierna te vermelden rechtshandelingen: </xsl:text>
+											<xsl:apply-templates select="$persoon/tia:IMKAD_PostlocatiePersoon" mode="do-correspondant-address"/>
+											<xsl:text>)</xsl:text>
+										</xsl:if>
+										<xsl:text>;</xsl:text>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<!--
+	*********************************************************
+	Mode: do-rights
+	*********************************************************
+	Public: yes
+
+	Identity transform: no
+
+	Description: blg mortgage deed rights.
+
+	Input: tia:Bericht_TIA_Stuk
+
+	Params: none
+
+	Output: XHTML structure
+
+	Calls:
+	(mode) do-right
+	(mode) do-registered-object
+	(name) processRights
+
+	Called by:
+	(mode) do-deed
+	-->
+	<!--
+	**** matching template ********************************************************************************
+	-->
+	<xsl:template match="tia:Bericht_TIA_Stuk" mode="do-rights">
+		<xsl:param name="stukdeel"/>
+		<xsl:param name="endMark"/>
+		<xsl:variable name="allProcessedRights" select="$stukdeel/tia:IMKAD_ZakelijkRecht"/>
+		<xsl:choose>
 			<xsl:when test="count($allProcessedRights) = 1">
 				<p>
 					<xsl:variable name="rightText">
@@ -430,7 +589,7 @@ Hypotheek Vista Modeldocument versie 1.0.0
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="$allProcessedRights" mode="do-registered-object"/>
-					<xsl:text>;</xsl:text>
+					<xsl:text>,</xsl:text>
 				</p>
 			</xsl:when>
 			<!-- Multiple registered objects, all parcels with same data -->
@@ -600,7 +759,7 @@ Hypotheek Vista Modeldocument versie 1.0.0
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="$allProcessedRights[1]" mode="do-registered-object"/>
-					<xsl:text>;</xsl:text>
+					<xsl:text>,</xsl:text>
 				</p>
 			</xsl:when>
 			<xsl:otherwise>
@@ -609,45 +768,14 @@ Hypotheek Vista Modeldocument versie 1.0.0
 						<xsl:call-template name="processRights">
 							<xsl:with-param name="positionOfProcessedRight" select="1"/>
 							<xsl:with-param name="position" select="1"/>
-							<xsl:with-param name="haveAdditionalText" select="'true'"/>
-							<!-- forceer de ; na elke aanroep recht/registergoed -->
-							<xsl:with-param name="registeredObjects" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek"/>
+							<xsl:with-param name="registeredObjects" select="$stukdeel"/>
+							<xsl:with-param name="haveAdditionalText" select="'false'"/>
+							<xsl:with-param name="endMark" select="$endMark"/>
 							<xsl:with-param name="colspan" select="'2'"/>
 						</xsl:call-template>
 					</tbody>
 				</table>
 			</xsl:otherwise>
 		</xsl:choose>
-			<p>
-					<xsl:text>hierna</xsl:text>
-			<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_registergoederentezamen']/tia:tekst, $upper, $lower) = 'true'">
-						<xsl:text> (zowel samen als ieder apart)</xsl:text>
-					</xsl:if>
-					<xsl:text> te noemen: onderpand.</xsl:text>
-				</p>		
-	</xsl:template>
-<!-- ************************** -->
-	<xsl:template name="opzegging">
-		<h2 class="header">
-			<xsl:text>Opzegging</xsl:text>
-		</h2>
-		<p>
-			<xsl:text>De geldverstrekker mag het hypotheekrecht en de pandrechten helemaal of voor een deel opzeggen. De hypotheekgever mag dit niet.</xsl:text>
-		</p>	
-	</xsl:template>
-<!-- ************************************* -->
-	<xsl:template name="woonplaatskeuze">
-		<a name="hyp3.electionOfDomicile" class="location">&#160;</a>
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) != ''">	
-			<p>
-				<h2 class="header">
-					<xsl:text>Woonplaatskeuze</xsl:text>
-				</h2>			
-			</p>
-			<p>
-				<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst[translate(normalize-space(.), $upper, $lower)]"/>
-				<xsl:text>.</xsl:text>
-			</p>
-		</xsl:if>	
 	</xsl:template>
 </xsl:stylesheet>

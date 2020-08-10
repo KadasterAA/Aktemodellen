@@ -5,7 +5,7 @@ Stylesheet: tekstblok_registergoed.xsl
 Version: 1.30 (AA-4758)
 Change: Deze versie is aangepast t.b.v de Hypotheek Syntrus Achmea, er is een parameter "colspan" toegevoegd, deze staat default op '1' zodat alle andere depotnummers hier geen 
 		last van hebben, deze depotnummers gebruiken deze parameter niet zodat de colspan op '1' staat. Syntrus Achmea roept dit tekstblok aan met 'colspan=2'  bij de overbruggingshypotheek.
-		De andere depotnummers gebruiken nog versie 1.29, bij een wijziging kan het beste deze versie 1.30 gebruikt worden. 
+		De andere depotnummers gebruiken nog versie 1.29, als deze versie gebruikt gaat worden moet de parameter colspan='2'toegevoegd worden aan 'xsl:call-template name="processRights"'
 *********************************************************
 Description:
 Registered object text block.
