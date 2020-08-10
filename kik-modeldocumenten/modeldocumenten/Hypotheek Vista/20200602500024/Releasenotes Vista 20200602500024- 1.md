@@ -1,7 +1,7 @@
 # Release notes
 Product|Vista stylesheetnummer 20200602500024 implementatienummer 1|
 |---|---|
-|**Release**|**7 augustus 2020**|
+|**Release**|**10 augustus 2020**|
 ## Wijzigingen
 
 
