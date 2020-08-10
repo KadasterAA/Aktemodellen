@@ -1,28 +1,19 @@
 # Release notes
-Product|Vista stylesheetnummer 20200602500024 implementatienummer 1|
+Product|Argenta stylesheetnummer 20200701000025 implementatienummer 1|
 |---|---|
-|**Release**|**7 augustus 2020**|
+|**Release**|**10 augustus 2020**|
 ## Wijzigingen
 
 
-### MD Vista
+### MD Argenta
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4776 | In de vaste tekst onder het kopje "Opzeggingen" stond een verkeerde tekst  | Stylesheet | 
-AA-4777 | In de PDF werd bij de registergoederen de waarde van k_Voortstuwing niet getoond | Stylesheet |
-
-
-**Release 27 juli 2020**
-
-### MD Vista
-|Wijziging|Omschrijving|Oplossing|
-|---|---|---|
-AA-4740 | Nieuw modeldocument Vista |Modeldocument, Toelichting, XSD, Stylesheet en backend controles| 
+AA-4744 | Nieuw modeldocument Argenta |Modeldocument, Toelichting, XSD, Stylesheet en backend controles| 
 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Vista|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Modeldocument%20Hypotheekakte%20Vista%20v1.0.docx)|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/Toelichting%20modeldocument%20Vista%201.0%20-%20v1.0.docx)|  |
+Modeldocument Argenta|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20200701000025/Modeldocument%20Argenta%20v1.0.docx)|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20200701000025/Toelichting%20modeldocument%20Argenta%201.0%20-%20v1.0.docx)|  |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
