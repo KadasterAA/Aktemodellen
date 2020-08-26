@@ -7,10 +7,38 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
-## 13 juli 2020
-- Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen. Voor deze akte hebben we een nieuwe versie van het [XSD van StukAlgemeen](/schema/stuk%20algemeen/11.0.0/StukAlgemeen-11.0.0.xsd) opgeleverd. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+## 13 augustus 2020
+-	Met deze release wordt de bèta release betreffende de hypotheekakte van Nationale Nederlanden definitief gemaakt. Vanaf nu resulteren wijzigingen aan deze akte in een nieuw stylesheetnummer of een nieuw implementatienummer
+-	De volgende stylesheetnummers worden met ingang van 1 maart 2021 uitgezet en kunnen dan niet meer worden aangeboden:
 
-Deze release is voor de Nationale-Nederlanden een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+| Nummer | Model |
+| --- | --- |
+|20191201000008-1| Notariële verklaring |
+|20160401000010	 | Doorhaling hypotheek |
+
+
+
+## 10 augustus 2020
+- Er zijn 2 bugs opgelost in de Vista. Hiervoor hebben we de huidige versie aangepast en niet het implementatienummer opgehoogd. De details van deze bugs zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md). 
+
+- Voor Argenta hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20200701000025/Releasenotes%20Argenta%2020200701000025-%201.md) zijn de details opgenomen.
+
+Deze release is voor Argenta een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk. 
+
+## 27 juli 2020
+- Er zijn 2 nieuwe implementatienummers voor Syntrus Achmea opgeleverd. Hierin zat een bug in de overbruggingshypotheek. In de [release notes van depotnummer 20200301000022](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200301000022/Releasenotes%20Syntrus%20Achmea%2020200301000022%20-%202.md) en [2019070100002](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%2020190701000022%20-%205.md) vindt u de details van de wijzigingen.
+
+-   In de Nationale Nederlanden hebben we een bug opgelost. Omdat Nationale Nederlanden nog een bèta versie is hebben we de huidige versie aangepast, dus geen nieuw implementatienummer. Details van deze bug zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md).
+
+- Voor Vista hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Toelichting%20modeldocument%20Vista%201.0%20-%20v1.0.docx) hebben we de details opgenomen.
+Voor deze wijziging hebben we het [XSD van StukAlgemeen](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd) aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+
+Deze release is voor de Vista akte een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+## 13 juli 2020
+- Voor de Nationale-Nederlanden hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Releasenotes%20Nationale-Nederlanden%2020200415000023-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20200415000023/Toelichting%20modeldocument%20Nationale-Nederlanden%201.0%20-%20v1.0.docx) hebben we de details opgenomen.
+
+Deze release is voor de Nationale-Nederlanden een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
 
 
 ## 12 juni 2020
@@ -75,7 +103,7 @@ Voor deze wijziging hebben we het [XSD van StukAlgemeen](/schema/stuk%20algemeen
 - Voor de wijzigingen van het TB Erfpachtcanon hebben we het schema moeten aanpassen. Ook hebben we van een aantal tags de reguliere expressie aangepast. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [XSD van StukAlgemeen](/schema/stuk%20algemeen/9.0.0/StukAlgemeen-9.0.0.xsd) en de [documentatie](/schema/stuk%20algemeen/9.0.0/HTML/index.htm).  
 - Per 1 november is de stylesheet van Syntrus Achmea met depotnummer 20190701000022 implementatienummer 1 uitgezet.
 
-Deze release is voor de Verdeling en tekstblok Erfpachtcanon een bèta release. De onvolkomendheden die we de komende 4 weken vinden in de Verdeling en tekstblok Erfpachtcanon, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+Deze release is voor de Verdeling en tekstblok Erfpachtcanon een bèta release. De onvolkomenheden die we de komende 4 weken vinden in de Verdeling en tekstblok Erfpachtcanon, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
 
 Met deze release wordt de bèta release betreffende de Doorhaling hypotheek definitief gemaakt. Vanaf nu resulteren wijzigingen aan deze Akte in een nieuw stylesheetnummer of een nieuw implementatienummer.
 
@@ -90,7 +118,7 @@ Met deze release wordt de bèta release betreffende de Doorhaling hypotheek defi
 - In de ASR hebben we een bug opgelost. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20190401000020/Releasenotes%20ASR%2020190401000020%20-%205.md) zijn de details opgenomen.
 - Het veld geboorteland en het veld land bij buitenlands adres in tekstblok natuurlijk persoon maken nu gebruik van de BRP-landenlijst zoals gepubliceerd in www.kadaster.nl/waardelijsten
 
-Deze release is voor de Doorhaling Hypotheek een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+Deze release is voor de Doorhaling Hypotheek een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
 
 Per 4 oktober 2019 worden de volgende stylesheets uitgezet:
 
@@ -144,7 +172,7 @@ De details van deze wijzigingen hebben we opgenomen in de volgende release notes
 
 ## 9 augustus 2019
 - Voor de Syntrus Achmea hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Releasenotes%20Syntrus%20Achmea%20%2020190701000022%20-%201.md) en de [toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20190701000022/Toelichting%20modeldocument%20Syntrus%20Achmea%201.0%20-%20v1.0.docx) hebben we de details opgenomen.  
-Deze release is voor de Syntrus Achmea hypotheek een bèta release. De onvolkomendheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+Deze release is voor de Syntrus Achmea hypotheek een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
 
 - Tevens hebben we een nieuwe stylesheet voor de Particuliere hypotheek opgeleverd met daarin de tekstblok aanpassingen die we eerder voor andere akten hebben opgeleverd. De details van deze wijzigingen hebben we opgenomen in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20190801000006/Releasenotes%20Hypotheek%20Particulier%2020190801000006%20-%201.md) van de Hypotheek Particulier.
 
@@ -180,7 +208,7 @@ Met deze release wordt de bèta release van 5 april 2019 definitief gemaakt. Van
 Voorbeelden van een aantal doorgevoerde wijzigingen hebben we opgenomen onder de FAQ map in [voorbeelden](/kik-modeldocumenten/FAQ/Voorbeelden).  
 Het schema hebben we ook aangepast voor deze release. De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD), [xsd van StukAlgemeen](/schema/stuk%20algemeen/8.1.0/StukAlgemeen-8.1.0.xsd) en de [documentatie](/schema/stuk%20algemeen/8.1.0/HTML/index.htm).  
 
-Deze release is een bèta release. De onvolkomendheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+Deze release is een bèta release. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
 
 ## 20 maart 2019
 - AA-4345: Bij bij de kadastrale gemeenten met de naam NES en NES (A) klopte de opgegeven kode niet. Dit hebben we gecorrigeerd in de waardelijst kadastralegemeente_backend.

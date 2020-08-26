@@ -73,6 +73,7 @@ Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
 Hypotheek Aegon|20170606000015|3|hypotheek_aegon-4.2.0
  “ | “ |2|hypotheek_aegon-4.1.0
  “ | “ |1|hypotheek_aegon-4.0.0
+Hypotheek Argenta|20200701000025|1|hypotheek_argenta-1.0.0
 Hypotheek ASR|20191015000020|1|hypotheek_asr-2.0.0
  “ |20190401000020|5|hypotheek_asr-1.2.1
  “ | “ |4|hypotheek_asr-1.2.0
@@ -100,6 +101,7 @@ Hypotheek Munt|20161001000018|5|hypotheek_munt-1.4.0
  “ | “ |3|hypotheek_munt-1.2.0
  “ | “ |2|hypotheek_munt-1.1.0
  “ | “ |1|hypotheek_munt-1.0.0
+Hypotheek Nationale Nederlanden|20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
  “ |20180501000012|2|hypotheek_obvion_abp-1.4.1
  “ | “ |1|hypotheek_obvion_abp-1.4.0
@@ -132,10 +134,13 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1
  “ | “ |1|hypotheek_sns-2.4.0
-Hypotheek Syntrus Achmea|20200301000022|1|hypotheek_syntrus_achmea-2.0.0
- “ |20190701000022|4|hypotheek_syntrus_achmea-1.0.3
+Hypotheek Syntrus Achmea|20200301000022|2|hypotheek_syntrus_achmea-2.1.0
+ “ | “ |1|hypotheek_syntrus_achmea-2.0.0
+ “ |20190701000022|5|hypotheek_syntrus_achmea-1.0.4
+ “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
+Hypotheek Vista|20200602500024|1|hypotheek_vista-1.0.0
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
  “ | “ |1|notariele_verklaring-3.0.0
