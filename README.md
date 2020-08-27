@@ -7,8 +7,19 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 13 augustus 2020
+-	Met deze release wordt de bèta release betreffende de hypotheekakte van Nationale Nederlanden definitief gemaakt. Vanaf nu resulteren wijzigingen aan deze akte in een nieuw stylesheetnummer of een nieuw implementatienummer
+-	De volgende stylesheetnummers worden met ingang van 1 maart 2021 uitgezet en kunnen dan niet meer worden aangeboden:
+
+| Nummer | Model |
+| --- | --- |
+|20191201000008-1| Notariële verklaring |
+|20160401000010	 | Doorhaling hypotheek |
+
+
+
 ## 10 augustus 2020
-- Er zijn 2 bugs opgelost in de Vista. Hiervoor hebben we de huidige versie aangepast en niet het implementatienummer opgehoogd. De details van deze bugs zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md) 
+- Er zijn 2 bugs opgelost in de Vista. Hiervoor hebben we de huidige versie aangepast en niet het implementatienummer opgehoogd. De details van deze bugs zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20200602500024/Releasenotes%20Vista%2020200602500024-%201.md). 
 
 - Voor Argenta hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20200701000025/Releasenotes%20Argenta%2020200701000025-%201.md) zijn de details opgenomen.
 
