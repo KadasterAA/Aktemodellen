@@ -344,7 +344,7 @@ AA-4744 Argenta
 																<xsl:text>&#xFEFF;</xsl:text>
 															</td>
 															<td>
-																<xsl:text>hierna te noemen: de "geldverstrekker"</xsl:text>
+																<xsl:text>hierna te noemen: "de geldverstrekker"</xsl:text>
 																<xsl:choose>
 																	<xsl:when test="$partijVerzekeraarAanwezig='true'">
 																		<xsl:text>;</xsl:text>
@@ -392,7 +392,7 @@ AA-4744 Argenta
 						<xsl:apply-templates select="." mode="do-keuzeblok-partijnamen-hypotheekakte"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:text>hierna te noemen: de "geldverstrekker"</xsl:text>
+						<xsl:text>hierna te noemen: "de geldverstrekker"</xsl:text>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:choose>

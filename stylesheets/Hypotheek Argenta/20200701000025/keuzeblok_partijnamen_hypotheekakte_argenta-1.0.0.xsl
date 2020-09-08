@@ -74,7 +74,7 @@ none
 						+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon/tia:GerelateerdPersoon[translate(tia:IMKAD_Persoon/tia:tia_IndGerechtigde, $upper, $lower) = 'true'])) > 1">
 					<xsl:text>(zowel gezamenlijk als ieder afzonderlijk) </xsl:text>
 				</xsl:if>
-				<xsl:text>te noemen: de  "geldnemer" of "schuldenaar"</xsl:text>
+				<xsl:text>te noemen: "de geldnemer" of "schuldenaar"</xsl:text>
 			</xsl:when>
 			<!-- Optie 2: Aanduiding per persoon -->
 			<xsl:when test="translate(tia:aanduidingPartij, $upper, $lower) = 'aanduiding per persoon'">
@@ -124,7 +124,7 @@ none
 					<xsl:if test="$numberOfDebtorPersons > 1">
 						<xsl:text>(zowel gezamenlijk als ieder afzonderlijk) </xsl:text>
 					</xsl:if>
-					<xsl:text>te noemen: de "geldnemer" en </xsl:text>
+					<xsl:text>te noemen: "de geldnemer" en </xsl:text>
 					<xsl:if test="$number">
 						<xsl:text>de verschenen </xsl:text>
 						<xsl:choose>
@@ -155,7 +155,7 @@ none
 					<xsl:if test="$numberOfMortgagerPersons > 1">
 						<xsl:text>(zowel gezamenlijk als ieder afzonderlijk) </xsl:text>
 					</xsl:if>
-					<xsl:text>te noemen: de "schuldenaar"</xsl:text>
+					<xsl:text>te noemen: "schuldenaar"</xsl:text>
 				</xsl:if>
 			</xsl:when>
 			<!-- Alle andere gevallen -->

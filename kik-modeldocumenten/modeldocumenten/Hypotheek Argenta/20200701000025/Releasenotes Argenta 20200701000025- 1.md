@@ -1,9 +1,15 @@
 # Release notes
 Product|Argenta stylesheetnummer 20200701000025 implementatienummer 1|
 |---|---|
-|**Release**|**10 augustus 2020**|
+**Release**|**08 september 2020**|
 ## Wijzigingen
 
+### MD Argenta
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-4803 | Het lidwoord bij de partij aanduiding stond niet binnen aanhalingstekens  | Stylesheet | 
+
+**Release 10 augustus 2020**
 
 ### MD Argenta
 |Wijziging|Omschrijving|Oplossing|
