@@ -1,7 +1,7 @@
 # Release notes
 Product|Munt stylesheetnummer 20200909000018 implementatienummer 1|
 |---|---|
-|**Release**|**09 september 2020**|
+|**Release**|**16 september 2020**|
 ## Wijzigingen
 
 

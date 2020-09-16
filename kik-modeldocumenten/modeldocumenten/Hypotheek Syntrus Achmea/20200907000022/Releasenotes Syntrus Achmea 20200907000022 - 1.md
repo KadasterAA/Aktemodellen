@@ -10,7 +10,7 @@ Product|Syntrus Achmea stylesheetnummer 20200907000022 implementatienummer 1|
 
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4805   |De woonplaatskeuze is gewijzigd en een tekstuele bug is opgelost. | Stylesheet   | 
+AA-4805   |Onder Lening het woord ‘de’ tussen haakjes geplaatst conform bankmodel, woonplaatskeuze aangepast i.v.m. gewijzigd adres | Stylesheet   | 
 
 
 
@@ -18,7 +18,7 @@ AA-4805   |De woonplaatskeuze is gewijzigd en een tekstuele bug is opgelost. | S
 
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Syntrus Achmea|[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Modeldocument%20Syntrus%20Achmea%20v3.0.docx)|[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Toelichting%20modeldocument%20Syntrus%20Achmea%203.0%20-%20v3.0.docx)|  |
+Modeldocument Syntrus Achmea|**[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Modeldocument%20Syntrus%20Achmea%20v3.0.docx)**|**[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Toelichting%20modeldocument%20Syntrus%20Achmea%203.0%20-%20v3.0.docx)**| X  |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

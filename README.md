@@ -7,6 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+
+## 16 september 2020
+- In deze release is een nieuwe stylesheet van de Munt opgeleverd. Hierin hebben we een tekstuele correctie gedaan zodat het modeldocument aansluit op het bankmodel. Dit heeft geresulteerd in een nieuw stylesheetnummer. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200909000018/Releasenotes%20Munt%2020200909000018%20-%201.md) vindt u de details van de aanpassing.
+- Voor de Syntrus Achmea hebben we de woonplaatskeuze aangepast i.v.m. een gewijzigd kantooradres van de bank en een tekstuele bug opgelost. Dit heeft geresulteerd in een nieuw stylesheetnummer. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Releasenotes%20Syntrus%20Achmea%2020200907000022%20-%201.md) vindt u de details van de aanpassing.
+
+
 ## 08 september 2020
 - Er is een kleine tekstuele aanpassing doorgevoerd in het hypotheekmodel van Argenta. Hiervoor hebben we de huidige versie aangepast en niet het implementatienummer opgehoogd. De details van deze bugs zijn te vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20200701000025/Releasenotes%20Argenta%2020200701000025-%201.md).
 
