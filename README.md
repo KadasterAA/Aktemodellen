@@ -7,6 +7,37 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 23 oktober 2020
+- In de release van 16 oktober 2020 is een nieuwe stylesheet van de Munt opgeleverd. Omdat in de oude versie een juridische onjuistheid zat en het modeldocument niet gelijk was aan het bankmodel verzoeken we om uiterlijk 15 november 2020 over te zijn op deze nieuwste versie.
+De onjuiste versie (stylesheet + bijbehorende implementaties) van de Munt zullen we versneld per 01-01-2021 uitfaseren:
+
+| Nummer | Model |
+| --- | --- |
+| 20200211000018 | Munt |
+
+- We zijn voornemens om alle stylesheetnummers (en bijbehorende implementaties) beginnend met ‘2018……….’ uit te faseren per 01-11-2021, deze kunnen dan niet meer aangeboden worden:
+
+| Nummer | Model |
+| --- | --- |
+| 20180501000001 | ABN AMRO AAB     |
+| 20180501000002 | ABN AMRO Florius |
+| 20180501000003 | ABN AMRO MoneYou |
+| 20180501000019 | ABP              |
+| 20180501000015 | Aegon            |
+| 20180501000014 | BLG              |
+| 20180501000004 | ING              |
+| 20180501000018 | Munt             |
+| 20180501000012 | Obvion           |
+| 20180501000006 | Particuliere hypotheek |
+| 20180801000005 | Rabobank         |
+| 20181015000005 | Rabobank         |
+| 20180501000016 | Regiobank        |
+| 20180501000013 | SNS              |
+| 20180501000010 | Doorhaling hypotheek |
+| 20180501000009 | Akte van verdeling |
+| 20180501000008 | Notariele verklaring |
+| 20180501000007 | Leveringsakte KNB |
+
 
 ## 16 september 2020
 - In deze release is een nieuwe stylesheet van de Munt opgeleverd. Hierin hebben we een tekstuele correctie gedaan zodat het modeldocument aansluit op het bankmodel. Dit heeft geresulteerd in een nieuw stylesheetnummer. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20200909000018/Releasenotes%20Munt%2020200909000018%20-%201.md) vindt u de details van de aanpassing.
