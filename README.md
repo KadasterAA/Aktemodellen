@@ -7,6 +7,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 19 november 2020
+Vista heeft een nieuw bankmodel opgeleverd. We hebben gezien dat het huidige bankmodel met stylesheetnummer 20200602500024 nog niet wordt aangeboden. Daarom zijn wij voornemens dit Vista model per 23 november 2020 uit te zetten. Het streven is om het nieuwe bankmodel van Vista rond 1 december op te leveren.
+
 ## 23 oktober 2020
 - In de release van 16 september 2020 is een nieuwe stylesheet van de Munt opgeleverd. Omdat in de oude versie een juridische onjuistheid zat en het modeldocument niet gelijk was aan het bankmodel verzoeken we om uiterlijk 15 november 2020 over te zijn op deze nieuwste versie.
 De onjuiste versie (stylesheet + bijbehorende implementaties) van de Munt zullen we versneld per 01-01-2021 uitfaseren:
