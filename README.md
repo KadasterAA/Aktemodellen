@@ -7,6 +7,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 17 december 2020
+Per 18 januari 2021 gaan we de waardelijst nnp-kodes aanpassen. De hoofdletter van de rechtsvorm, op een aantal na, wordt aangepast naar een kleine letter. Tevens wordt de waarde "Publiekrechtelijk rechtspersoon" gewijzigd naar "publiekrechtelijke rechtspersoon".
+
 ## 7 december 2020
 In deze release hebben we een nieuwe stylesheet voor Vista Hypotheken opgeleverd. Dit op verzoek van Vista. De details van de wijzigingen kunt u vinden in het [modeldocument](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20201201000024/Modeldocument%20Hypotheekakte%20Vista%20v2.0.docx)
 
