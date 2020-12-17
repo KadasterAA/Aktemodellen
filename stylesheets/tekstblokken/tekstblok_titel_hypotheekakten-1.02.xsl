@@ -2,7 +2,13 @@
 <!--
 *********************************************************
 Stylesheet: tekstblok_titel_hypotheekakten.xsl
-Version: 1.01
+Version: 1.02
+		Fix ivm Java11 
+<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)], '{street name house number huisletter toevoeging}'))"/>
+
+ vervangen in
+
+<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[1], '{street name house number huisletter toevoeging}'))"/>
 *********************************************************
 Description:
 Mortgage deed title text block.
@@ -30,7 +36,7 @@ none
 					<xsl:when test="number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)">
 						<xsl:choose>
 							<xsl:when test="tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = ''][1]/tia:IMKAD_ZakelijkRecht[1]/*/tia:IMKAD_OZLocatie">
-								<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)], '{street name house number huisletter toevoeging}'))"/>
+								<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[1], '{street name house number huisletter toevoeging}'))"/>
 								<xsl:text> </xsl:text>
 								<xsl:value-of select="tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = ''][1]/tia:IMKAD_ZakelijkRecht[1]/*/tia:IMKAD_OZLocatie/tia:adres/tia:BAG_OpenbareRuimte/tia:openbareRuimteNaam"/>
 								<xsl:if test="tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = ''][1]/tia:IMKAD_ZakelijkRecht[1]/*/tia:IMKAD_OZLocatie/tia:adres/tia:BAG_NummerAanduiding/tia:huisnummer
@@ -49,13 +55,13 @@ none
 									<xsl:value-of select="tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = ''][1]/tia:IMKAD_ZakelijkRecht[1]/*/tia:IMKAD_OZLocatie/tia:adres/tia:BAG_NummerAanduiding/tia:huisnummertoevoeging"/>
 								</xsl:if>
 								<xsl:text> </xsl:text>
-								<xsl:value-of select="normalize-space(substring-before(substring-after($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)], '{street name house number huisletter toevoeging}'), '{town}'))"/>
+								<xsl:value-of select="normalize-space(substring-before(substring-after($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[1], '{street name house number huisletter toevoeging}'), '{town}'))"/>
 								<xsl:text> </xsl:text>
 								<xsl:value-of select="tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = ''][1]/tia:IMKAD_ZakelijkRecht[1]/*/tia:IMKAD_OZLocatie/tia:adres/tia:BAG_Woonplaats/tia:woonplaatsNaam"/>
-								<xsl:value-of select="substring-after($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)], '{town}')"/>
+								<xsl:value-of select="substring-after($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[1], '{town}')"/>
 							</xsl:when>
 							<xsl:otherwise>
-								<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[number(tia:Bericht_TIA_Stuk/tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst)], '{street name house number huisletter toevoeging}'))"/>
+								<xsl:value-of select="normalize-space(substring-before($keuzeteksten/*/tia:TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_titelhypotheek']/tia:tekst[1], '{street name house number huisletter toevoeging}'))"/>
 							</xsl:otherwise>
 						</xsl:choose>
 					</xsl:when>
