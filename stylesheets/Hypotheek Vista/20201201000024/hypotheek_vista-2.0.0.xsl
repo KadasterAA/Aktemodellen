@@ -429,7 +429,7 @@ AA-4887 - aanpassingen in modeltekst Vista o.b.v. van nieuw bankmodel
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="$allProcessedRights" mode="do-registered-object"/>
-					<xsl:text>;</xsl:text>
+					<xsl:text>,</xsl:text>
 				</p>
 			</xsl:when>
 			<!-- Multiple registered objects, all parcels with same data -->
@@ -599,7 +599,7 @@ AA-4887 - aanpassingen in modeltekst Vista o.b.v. van nieuw bankmodel
 						<xsl:text> </xsl:text>
 					</xsl:if>
 					<xsl:apply-templates select="$allProcessedRights[1]" mode="do-registered-object"/>
-					<xsl:text>;</xsl:text>
+					<xsl:text>,</xsl:text>
 				</p>
 			</xsl:when>
 			<xsl:otherwise>
@@ -608,9 +608,8 @@ AA-4887 - aanpassingen in modeltekst Vista o.b.v. van nieuw bankmodel
 						<xsl:call-template name="processRights">
 							<xsl:with-param name="positionOfProcessedRight" select="1"/>
 							<xsl:with-param name="position" select="1"/>
-							<xsl:with-param name="haveAdditionalText" select="'true'"/>
-							<!-- forceer de ; na elke aanroep recht/registergoed -->
 							<xsl:with-param name="registeredObjects" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek"/>
+							<xsl:with-param name="endMark" select="','"/>
 							<xsl:with-param name="colspan" select="'2'"/>
 						</xsl:call-template>
 					</tbody>
