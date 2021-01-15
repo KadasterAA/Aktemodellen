@@ -71,6 +71,7 @@ Hypotheek ING|20190601000004|2|hypotheek_ing-4.1.0
  “ |20180501000004|3|hypotheek_ing-3.5.2
  “ | “ |2|hypotheek_ing-3.5.1
  “ | “ |1|hypotheek_ing-3.5.0
+Hypotheek Lloyds|20190501000021|1|hypotheek_lloyds-1.0.0
 Hypotheek Munt|20200909000018|2|hypotheek_munt-3.1
  “ | “ |1|hypotheek_munt-3.0
  “ |20200211000018|4|hypotheek_munt-2.1.3
