@@ -13,7 +13,7 @@ AA-4919 | Nieuw modeldocument Lloyds. | Modeldocument, Toelichting, Stylesheet e
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Lloyds|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Modeldocument%20Lloyds%20bank%20GmbH%20v1.0.docx)**|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Toelichting%20modeldocument%20Lloyds%201.0%20-%20v1.0.docx)**| X |
+Modeldocument Lloyds|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Modeldocument%20Lloyds%20Bank%20Gmbh%20v1.0.docx)**|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Toelichting%20modeldocument%20Lloyds%201.0%20-%20v1.0.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
