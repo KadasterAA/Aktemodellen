@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 15 januari 2021
+Voor de Lloyds Bank hebben we een aktemodel ontwikkeld. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Releasenotes%20Lloyds%2020190501000021%20-%201.md) zijn de details opgenomen.
+
+Deze release is voor de Lloyds akte een bèta release. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
 ## 8 januari 2021
 In deze release hebben we twee bevindingen opgelost in het Vista model. We hebben ervoor gekozen om hier geen nieuw stylesheetnummer of implementatienummer aan toe te kennen. Het Modeldocument en de Toelichting hebben wel een nieuw versienummer gekregen. Verdere details staan vermeld in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20201201000024/Releasenotes%20Vista%2020201201000024-%201a.md)
 
