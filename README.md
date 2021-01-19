@@ -7,6 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 19 januari 2021
+
+Helaas blijkt er in het tekstblok Rechtspersoon een afhankelijkheid te zitten met de waarde publiekrechtelijke rechtspersoon. 
+We hebben geconstateerd dat akten uitvallen als gevolg van deze wijziging. Hierdoor zijn we genoodzaakt de release voor dit moment terug te draaien.
+
+
 ## 18 januari 2021
 
 Met deze release hebben we een aantal aanpassing gedaan in de waardelijst nnp-kodes:
