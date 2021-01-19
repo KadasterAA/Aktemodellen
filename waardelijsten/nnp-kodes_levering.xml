@@ -1,1 +1,370 @@
-<?xml version="1.0" encoding="UTF-8"?><ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"><Identification><ShortName>nnp-kodes_levering</ShortName><Version>v20160627_121323</Version><CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes_levering</CanonicalUri><CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes_levering/v20160627_121323</CanonicalVersionUri></Identification><ColumnSet><Column Use="required" Id="A"><ShortName>datum vanaf</ShortName><Data Type="xs:date"/></Column><Column Use="optional" Id="B"><ShortName>datum tot</ShortName><Data Type="xs:date"/></Column><Column Use="required" Id="C"><ShortName>omschrijving</ShortName><Data Type="xs:string"/></Column><Column Use="required" Id="D"><ShortName>kode</ShortName><Data Type="xs:string"/></Column><Column Use="required" Id="E"><ShortName>mannelijk of vrouwelijk (M/V)</ShortName><Data Type="xs:string"/></Column><Key Id="geldigVanKey"><ShortName>key for column 'datum vanaf'</ShortName><ColumnRef Ref="A"/></Key><Key Id="geldigTotKey"><ShortName>key for column 'datum tot'</ShortName><ColumnRef Ref="B"/></Key><Key Id="omschrijvingKey"><ShortName>key for column 'omschrijving'</ShortName><ColumnRef Ref="C"/></Key><Key Id="kodeKey"><ShortName>key for column 'kode'</ShortName><ColumnRef Ref="D"/></Key><Key Id="mannelijk of vrouwelijk (M/V)Key"><ShortName>key for column 'mannelijk of vrouwelijk (M/V)'</ShortName><ColumnRef Ref="E"/></Key></ColumnSet><SimpleCodeList><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Rechtspersoon naar buitenlands recht</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>BR</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>M</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Besloten Vennootschap met beperkte aansprakelijkheid</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>BV</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Coöperatie</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>CO</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2012-05-18</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Commanditaire Vennootschap</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>CV</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="B"><SimpleValue>2014-05-25</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>De Staat</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>DS</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>M</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2014-05-25</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Europese coöperatieve vennootschap</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>EC</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2014-05-25</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Europees economisch samenwerkingsverband</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>ES</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>O</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2014-05-25</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Europese naamloze vennootschap</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>EV</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Kerkgenootschap alsmede haar zelfstandige onderdelen</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>KR</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2013-02-26</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Rechtspersoon naar kerkelijk recht</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>KR</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>M</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2012-05-18</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Maatschap</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>MS</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Naamloze Vennootschap</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>NV</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2014-05-25</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Onderlinge waarborgmaatschappij</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>OW</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Publiekrechtelijk rechtspersoon</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>PR</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>M</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Stichting</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>ST</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Vereniging van Eigenaren</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>VE</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2012-05-18</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Vennootschap onder firma</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>VF</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row><Row><Value ColumnRef="A"><SimpleValue>2000-01-01</SimpleValue></Value><Value ColumnRef="C"><SimpleValue>Vereniging met volledige rechtsbevoegdheid</SimpleValue></Value><Value ColumnRef="D"><SimpleValue>VR</SimpleValue></Value><Value ColumnRef="E"><SimpleValue>V</SimpleValue></Value></Row></SimpleCodeList></ns2:CodeList>
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<ShortName>nnp-kodes</ShortName>
+		<Version>v20201210</Version>
+		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes</CanonicalUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes/v20201210</CanonicalVersionUri>
+	</Identification>
+	<ColumnSet>
+		<Column Use="required" Id="A">
+			<ShortName>datum vanaf</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="optional" Id="B">
+			<ShortName>datum tot</ShortName>
+			<Data Type="xs:date"/>
+		</Column>
+		<Column Use="required" Id="C">
+			<ShortName>omschrijving</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="D">
+			<ShortName>kode</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="E">
+			<ShortName>mannelijk of vrouwelijk (M/V)</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Column Use="required" Id="F">
+			<ShortName>code rechtsvorm</ShortName>
+			<Data Type="xs:string"/>
+		</Column>
+		<Key Id="geldigVanKey">
+			<ShortName>key for column 'datum vanaf'</ShortName>
+			<ColumnRef Ref="A"/>
+		</Key>
+		<Key Id="geldigTotKey">
+			<ShortName>key for column 'datum tot'</ShortName>
+			<ColumnRef Ref="B"/>
+		</Key>
+		<Key Id="omschrijvingKey">
+			<ShortName>key for column 'omschrijving'</ShortName>
+			<ColumnRef Ref="C"/>
+		</Key>
+		<Key Id="kodeKey">
+			<ShortName>key for column 'kode'</ShortName>
+			<ColumnRef Ref="D"/>
+		</Key>
+		<Key Id="mannelijk of vrouwelijk (M/V)Key">
+			<ShortName>key for column 'mannelijk of vrouwelijk (M/V)'</ShortName>
+			<ColumnRef Ref="E"/>
+		</Key>
+		<Key Id="code rechtsvormkey">
+			<ShortName>key for column 'key for column 'code rechtsvorm'</ShortName>
+			<ColumnRef Ref="F"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>rechtspersoon naar buitenlands recht</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BR</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>M</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>28</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>besloten vennootschap met beperkte aansprakelijkheid</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>BV</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>coöperatie</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CO</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>19</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>commanditaire Vennootschap</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>CV</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>4</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="B">
+				<SimpleValue>2014-05-25</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>de Staat</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>DS</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>M</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>5</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-05-25</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Europese coöperatieve vennootschap</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EC</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>22</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-05-25</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Europees economisch samenwerkingsverband</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ES</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>O</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>23</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-05-25</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Europese naamloze vennootschap</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>EV</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>24</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>Kerkgenootschap alsmede haar zelfstandige onderdelen</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KR</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>20</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2013-02-26</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>rechtspersoon naar kerkelijk recht</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>KR</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>M</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>20</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>maatschap</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>MS</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>17</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>naamloze vennootschap</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>NV</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>8</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2014-05-25</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>onderlinge waarborgmaatschappij</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>OW</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>25</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>publiekrechtelijke rechtspersoon</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>PR</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>M</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>10</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>stichting</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>ST</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>11</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>vereniging van eigenaren</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VE</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>21</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2012-05-18</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>vennootschap onder firma</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VF</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>14</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="A">
+				<SimpleValue>2000-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="C">
+				<SimpleValue>vereniging met volledige rechtsbevoegdheid</SimpleValue>
+			</Value>
+			<Value ColumnRef="D">
+				<SimpleValue>VR</SimpleValue>
+			</Value>
+			<Value ColumnRef="E">
+				<SimpleValue>V</SimpleValue>
+			</Value>
+			<Value ColumnRef="F">
+				<SimpleValue>12</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</ns2:CodeList>
