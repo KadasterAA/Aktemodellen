@@ -2,9 +2,9 @@
 <ns2:CodeList xmlns:ns2="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
 	<Identification>
 		<ShortName>nnp-kodes</ShortName>
-		<Version>v20201210</Version>
+		<Version>v20181001</Version>
 		<CanonicalUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes</CanonicalUri>
-		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes/v20201210</CanonicalVersionUri>
+		<CanonicalVersionUri>http://www.kadaster.nl/schemas/IMKAD/waardelijst/nnp-kodes/v20181001</CanonicalVersionUri>
 	</Identification>
 	<ColumnSet>
 		<Column Use="required" Id="A">
@@ -62,7 +62,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>rechtspersoon naar buitenlands recht</SimpleValue>
+				<SimpleValue>Rechtspersoon naar buitenlands recht</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>BR</SimpleValue>
@@ -79,7 +79,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>besloten vennootschap met beperkte aansprakelijkheid</SimpleValue>
+				<SimpleValue>Besloten Vennootschap met beperkte aansprakelijkheid</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>BV</SimpleValue>
@@ -96,7 +96,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>coöperatie</SimpleValue>
+				<SimpleValue>Coöperatie</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>CO</SimpleValue>
@@ -113,7 +113,7 @@
 				<SimpleValue>2012-05-18</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>commanditaire Vennootschap</SimpleValue>
+				<SimpleValue>Commanditaire Vennootschap</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>CV</SimpleValue>
@@ -133,7 +133,7 @@
 				<SimpleValue>2014-05-25</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>de Staat</SimpleValue>
+				<SimpleValue>De Staat</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>DS</SimpleValue>
@@ -218,7 +218,7 @@
 				<SimpleValue>2013-02-26</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>rechtspersoon naar kerkelijk recht</SimpleValue>
+				<SimpleValue>Rechtspersoon naar kerkelijk recht</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>KR</SimpleValue>
@@ -235,7 +235,7 @@
 				<SimpleValue>2012-05-18</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>maatschap</SimpleValue>
+				<SimpleValue>Maatschap</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>MS</SimpleValue>
@@ -252,7 +252,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>naamloze vennootschap</SimpleValue>
+				<SimpleValue>Naamloze Vennootschap</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>NV</SimpleValue>
@@ -269,7 +269,7 @@
 				<SimpleValue>2014-05-25</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>onderlinge waarborgmaatschappij</SimpleValue>
+				<SimpleValue>Onderlinge waarborgmaatschappij</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>OW</SimpleValue>
@@ -286,7 +286,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>publiekrechtelijke rechtspersoon</SimpleValue>
+				<SimpleValue>Publiekrechtelijk rechtspersoon</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>PR</SimpleValue>
@@ -303,7 +303,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>stichting</SimpleValue>
+				<SimpleValue>Stichting</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>ST</SimpleValue>
@@ -320,7 +320,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>vereniging van eigenaren</SimpleValue>
+				<SimpleValue>Vereniging van Eigenaren</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>VE</SimpleValue>
@@ -337,7 +337,7 @@
 				<SimpleValue>2012-05-18</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>vennootschap onder firma</SimpleValue>
+				<SimpleValue>Vennootschap onder firma</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>VF</SimpleValue>
@@ -354,7 +354,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>vereniging met volledige rechtsbevoegdheid</SimpleValue>
+				<SimpleValue>Vereniging met volledige rechtsbevoegdheid</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>VR</SimpleValue>
