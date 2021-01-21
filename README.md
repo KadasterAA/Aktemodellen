@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 ## 19 januari 2021
 
 Helaas blijkt er in het tekstblok Rechtspersoon een afhankelijkheid te zitten met de waarde publiekrechtelijke rechtspersoon. 
-We hebben geconstateerd dat akten uitvallen als gevolg van deze wijziging. Hierdoor zijn we genoodzaakt de release voor dit moment terug te draaien .
+We hebben geconstateerd dat akten uitvallen als gevolg van deze wijziging. Hierdoor zijn we genoodzaakt de release voor dit moment terug te draaien.
 
 
 ## 18 januari 2021
