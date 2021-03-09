@@ -7,6 +7,18 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 9 maart 2021
+- Met deze release is de bèta release betreffende de hypotheekakte van Lloyds definitief gemaakt. 
+
+- De volgende stylesheetnummers hebben we uitgezet:
+  | Nummer | Implementatienr |Model | zie releasenotes van:|
+  | --- | --- | --- |--- |
+  |20200211000018 | alle | Munt                 | 23 oktober 2020|
+  |20191201000008 | 1| Notariële verklaring | 13 augustus 2020|
+  |20160401000010	| alle | Doorhaling hypotheek | 13 augustus 2020|
+
+- Binnenkort zullen we een nieuwe versie van de Argenta opleveren. Het dringende verzoek is dan ook om stylesheetnummer 20200701000025 niet meer op te nemen in de notaris software, omdat dit model niet aansluit op het bankmodel.
+
 ## 19 januari 2021
 
 Helaas blijkt er in het tekstblok Rechtspersoon een afhankelijkheid te zitten met de waarde publiekrechtelijke rechtspersoon. 
