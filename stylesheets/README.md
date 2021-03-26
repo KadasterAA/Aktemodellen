@@ -83,7 +83,8 @@ Hypotheek Munt|20190617000018|2|hypotheek_munt-2.0.1
 Hypotheek Munt|20180501000018|3|hypotheek_munt-1.5.2
  “ | “ |2|hypotheek_munt-1.5.1
  “ | “ |1|hypotheek_munt-1.5.0
-Hypotheek Nationale Nederlanden|20200415000023|2|hypotheek_nationale-nederlanden-1.1.0
+Hypotheek Nationale Nederlanden|20210318000023|1|hypotheek_nationale-nederlanden-2.0.0
+ “ |20200415000023|2|hypotheek_nationale-nederlanden-1.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-1.0.0
 Hypotheek Obvion|20190624000012|2|hypotheek_obvion-4.1.0
  “ | “ |1|hypotheek_obvion-4.0.0

@@ -1,10 +1,16 @@
 # Release notes
 Product|Lloyds stylesheetnummer 20190501000021 implementatienummer 1|
 |---|---|
-|**Release**|**15 januari 2021**|
+|**Release**|**26 maart 2021**|
 ## Wijzigingen
 
 ### MD Lloyds
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-5039 | Tekstuele aanpassingen in de toelichting. Van 'Woonplaatskeuze' bevatte de mapping een verkeerde waarde en in de toelichting van de mapping onder Overbruggingshypotheek moet achter het Tekstblok Registergoed, na de laatste vermelding, geen komma maar een punt.  | Toelichting| 
+
+
+**Release 15 januari 2021**
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-4919 | Nieuw modeldocument Lloyds. | Modeldocument, Toelichting, Stylesheet en backend controles| 
@@ -13,7 +19,7 @@ AA-4919 | Nieuw modeldocument Lloyds. | Modeldocument, Toelichting, Stylesheet e
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Lloyds|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Modeldocument%20Lloyds%20Bank%20Gmbh%20v1.0.docx)**|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Toelichting%20modeldocument%20Lloyds%201.0%20-%20v1.0.docx)**| X |
+Modeldocument Lloyds|[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Modeldocument%20Lloyds%20bank%20GmbH%20v1.0.docx)|**[1.1]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Toelichting%20modeldocument%20Lloyds%201.0%20-%20v1.1.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
