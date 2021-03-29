@@ -9,7 +9,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 26 maart 2021
 - Met deze release hebben we een nieuw stylesheetnummer voor de Nationale Nederlanden opgeleverd. In de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20210318000023/Releasenotes%20Nationale-Nederlanden%2020210318000023-1.md) zijn de details opgenomen.
-- In de toelichting van de Lloyds zaten een tweetal tekstuele fouten. De details van deze aanpassingen vindt u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Releasenotes%20Lloyds%2020190501000021%20-%201.md) 
+- In de toelichting van de Lloyds zat een tweetal tekstuele fouten. De details van deze aanpassingen vindt u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20190501000021/Releasenotes%20Lloyds%2020190501000021%20-%201.md) 
 
 ## 9 maart 2021
 - Met deze release is de bèta release betreffende de hypotheekakte van Lloyds definitief gemaakt. 
