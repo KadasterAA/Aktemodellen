@@ -69,10 +69,6 @@
 		<tia:tekst>alsmede alle scheepstoebehoren in de zin van artikel 8:1 Burgerlijk Wetboek, aan partijen genoegzaam bekend</tia:tekst>
 	</tia:TekstKeuze>
     <tia:TekstKeuze>
-        <tia:tagNaam>k_Woonplaatskeuze</tia:tagNaam>
-        <tia:tekst>De comparanten verklaren voor de uitvoering en alle gevolgen van het bij deze akte overeengekomen woonplaats te kiezen ten kantore van de bewaarder van deze akte en geldgeefster voorts nog te haren hoofdkantore te 's-Gravenhage</tia:tekst>
-    </tia:TekstKeuze>
-    <tia:TekstKeuze>
     	<tia:tagNaam>k_Eigendom</tia:tagNaam>
         <tia:tekst>het recht van eigendom met betrekking tot</tia:tekst>
         <tia:tekst>het onbekende onverdeeld aandeel in</tia:tekst>
@@ -304,6 +300,9 @@
 		<tia:tekst>Van de toestemming van de echtgenoot van de schuldenaar, als vereist in artikel 88 Boek 1 Burgerlijk Wetboek, blijkt uit aangehechte verklaring</tia:tekst>
 		<tia:tekst>De comparanten sub 1 verklaarden elkaar toestemming als vereist in artikel 88 Boek 1 Burgerlijk Wetboek te hebben verleend</tia:tekst>
 	</tia:TekstKeuze>
-
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Rangtelwoord</tia:tagNaam>
+		<tia:tekst>{k_Rangtelwoord}</tia:tekst>
+	</tia:TekstKeuze>
 	<!-- End deed specific optional text choices -->
 </tia:Keuzeteksten>

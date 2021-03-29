@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-*********************************************************
-AA-4739
-*********************************************************
--->
+*************************************************************
+Stylesheet: hypotheek_nationale-nederlanden.xsl
+Version: 2.0.0 
+(tekstblok titel_hypotheekakten)
+*************************************************************-->
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia xsl exslt xlink gc" version="1.0">
 	<xsl:include href="generiek-1.08.xsl"/>
 	<xsl:include href="keuzeblok_partijnamen_hypotheekakte_nationale-nederlanden-1.0.0.xsl"/>
@@ -19,11 +20,11 @@ AA-4739
 	<xsl:include href="tekstblok_recht-1.17.xsl"/>
 	<xsl:include href="tekstblok_rechtspersoon-1.15.0.xsl"/>
 	<xsl:include href="tekstblok_registergoed-1.29.xsl"/>
-	<xsl:include href="tekstblok_titel_hypotheekakten-1.01.xsl"/>
+	<xsl:include href="tekstblok_titel_hypotheekakten-1.02.xsl"/>
 	<xsl:include href="tekstblok_woonadres-1.05.xsl"/>
 	<xsl:include href="tweededeel-1.05.xsl"/>
 	<!-- ING specific global variables -->
-	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_nationale-nederlanden-1.0.0.xml')"/>
+	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_nationale-nederlanden-2.0.0.xml')"/>
 	<xsl:variable name="keuzetekstenTbBurgelijkeStaat" select="document('keuzeteksten-tb-burgerlijkestaat-1.1.0.xml')"/>
 	<xsl:variable name="legalPersonNames" select="document('nnp-kodes.xml')/gc:CodeList/SimpleCodeList/Row"/>
 	<xsl:variable name="RegistergoedTonenPerPerceel">
@@ -173,7 +174,7 @@ AA-4739
 		</p>
 		<p>
 			<xsl:text>De schuldenaar verklaart ermee bekend te zijn dat schuldeiseres gerechtigd is de vordering, inclusief de daarmee verbonden afhankelijke rechten en nevenrechten, waaronder uitdrukkelijk begrepen het recht tot renteherziening en pand- en/of hypotheekrechten, uit hoofde van de in deze akte geconstateerde geldlening en/of overbruggingslening geheel of gedeeltelijk aan een derde over te dragen. Bovendien is schuldeiseres gerechtigd haar rechtsverhouding, inclusief alle afhankelijke rechten en nevenrechten, waaronder uitdrukkelijk begrepen panden/of hypotheekrechten, uit deze overeenkomst geheel of gedeeltelijk aan een derde over te dragen conform artikel 6:159 Burgerlijk Wetboek, waarvoor schuldenaar reeds nu, bij voorbaat, haar medewerking verleent. Van een eventuele overdracht zal mededeling worden gedaan aan de schuldenaar.</xsl:text>
-		</p>		
+		</p>
 		<xsl:if test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek'] or
 		translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_bouwdepot']/tia:tekst, $upper, $lower) = 'true' or
 		translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_lastendepot']/tia:tekst, $upper, $lower) = 'true'">
@@ -207,7 +208,7 @@ AA-4739
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr>
-						<td colspan="2">														
+						<td colspan="2">
 							<xsl:text>Ieder van de onder hypotheekgever begrepen personen, die desbetreffende zekerheden aan schuldeiseres heeft verstrekt staat er jegens schuldeiseres voor in dat:</xsl:text>
 						</td>
 					</tr>
@@ -217,7 +218,7 @@ AA-4739
 						</td>
 						<td valign="top">
 							<xsl:text>hij over het laatst genoemde registergoed en de verpande thans aanwezige goederen de volle onvoorwaardelijke beschikking heeft en dat daarop geen beperkt recht noch beslag rust anders dan het recht van </xsl:text>
-							<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:rangordeHypotheek)"/>
+							<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:tekstkeuze[translate(tia:tagNaam, $upper, $lower) = 'k_rangtelwoord']/tia:tekst)"/>
 							<xsl:text> hypotheek gevestigd ten behoeve van </xsl:text>
 							<xsl:choose>
 								<xsl:when test="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']/tia:naamHypotheekhouder">
@@ -234,24 +235,24 @@ AA-4739
 						<td class="number" valign="top">
 							<xsl:text>b.</xsl:text>
 						</td>
-						<td valign="top">	
+						<td valign="top">
 							<xsl:text>het laatst genoemde registergoed met geen andere hypotheek is of kan worden belast, welke gelijk in rang is of zal zijn aan de hypotheek te vestigen krachtens deze akte;</xsl:text>
 						</td>
-					</tr>				
+					</tr>
 					<tr>
 						<td class="number" valign="top">
 							<xsl:text>c.</xsl:text>
 						</td>
-						<td valign="top">	
+						<td valign="top">
 							<xsl:text>hij het laatst genoemde registergoed geheel voor zelfbewoning gebruikt en dat het laatst genoemde registergoed derhalve niet is of wordt verhuurd, verpacht of anderszins in gebruik is bij derden.</xsl:text>
 						</td>
-					</tr>				
+					</tr>
 				</tbody>
 			</table>
 			<p>
 				<h3>
 					<xsl:text>Verpanding recht op kooppenningen</xsl:text>
-				</h3>			
+				</h3>
 			</p>
 			<p>
 				<xsl:text>Voor zover schuldenaar het hiervoor onder Overbruggingshypotheek omschreven registergoed heeft verkocht en deze koop is ingeschreven in de openbare registers zoals bedoeld in artikel 7:3 Burgerlijk Wetboek, geeft schuldenaar hierbij, tot meerdere zekerheid als hiervoor onder Hypotheekstelling en verpanding van goederen omschreven, in pand aan schuldeiseres, die dit pandrecht aanvaardt, alle rechten, aanspraken en vorderingen die schuldenaar heeft of te eniger tijd zal verkrijgen jegens de koper van bedoeld registergoed of de betrokken notaris tot betaling van de koopprijs van bedoeld registergoed. Schuldenaar is tot deze verpanding bevoegd en op de vordering tot betaling van de koopprijs rust geen beperkt recht noch beslag. Zonder schriftelijke toestemming van schuldeiseres is schuldenaar niet bevoegd zijn genoemde bestaande of toekomstige vorderingen ter zake de verkoop aan derden over te dragen respectievelijk te leveren of hierop een beperkt recht ten behoeve van een ander dan schuldeiseres te vestigen.</xsl:text>
@@ -260,49 +261,49 @@ AA-4739
 				<xsl:text>Schuldenaar verplicht zich hierbij jegens schuldeiseres aan de koper van bedoeld registergoed of de betrokken notaris mededeling te doen van voormelde verpanding. Schuldeiseres blijft te allen tijde bevoegd deze mededeling ook zelf te doen.</xsl:text>
 			</p>
 		</xsl:if>
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_bouwdepot']/tia:tekst, $upper, $lower) = 'true'">	
+		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_bouwdepot']/tia:tekst, $upper, $lower) = 'true'">
 			<p>
 				<h3>
 					<xsl:text>VERPANDING BOUWDEPOT</xsl:text>
-				</h3>			
+				</h3>
 			</p>
-			<p>	
+			<p>
 				<xsl:text>Schuldenaar heeft heden een bedrag, overeenkomstig de door schuldeiseres opgemaakte afsluitnota, bij schuldeiseres in depot gestort, welk bedrag dient ter betaling van de kosten van de bouw casu quo verbouwing van het hiervoor onder Hypotheekstelling en verpanding van goederen omschreven onderpand. Uitkering van dit depotbedrag geschiedt met inachtneming van de op deze lening van toepassing zijnde Voorwaarden. Tot meerdere zekerheid als hiervoor onder Hypotheekstelling en verpanding van goederen omschreven geeft schuldenaar hierbij in pand aan schuldeiseres, die in pand aanvaardt, alle aanspraken en vorderingen op schuldeiseres uit hoofde van dit depot. Schuldenaar is tot deze verpanding bevoegd en op de vorderingen uit hoofde van dit depot rust geen beperkt recht noch beslag.</xsl:text>
-			</p>	
+			</p>
 		</xsl:if>
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_lastendepot']/tia:tekst, $upper, $lower) = 'true'">	
+		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_lastendepot']/tia:tekst, $upper, $lower) = 'true'">
 			<p>
 				<h3>
 					<xsl:text>VERPANDING LASTENDEPOT</xsl:text>
-				</h3>			
+				</h3>
 			</p>
-			<p>	
+			<p>
 				<xsl:text>Schuldenaar heeft heden een bedrag, overeenkomstig de door schuldeiseres opgemaakte afsluitnota, bij schuldeiseres in depot gestort, welk bedrag dient ter betaling van de rente en/of aflossing van de hiervoor vermelde geldlening. Uitkering van dit depotbedrag geschiedt met inachtneming van de op deze lening van toepassing zijnde Voorwaarden. Tot meerdere zekerheid als hiervoor onder Hypotheekstelling en verpanding van goederen omschreven geeft schuldenaar hierbij in pand aan schuldeiseres, die in pand aanvaardt, alle aanspraken en vorderingen op schuldeiseres uit hoofde van dit depot. Schuldenaar is tot deze verpanding bevoegd en op de vorderingen uit hoofde van dit depot rust geen beperkt recht noch beslag.</xsl:text>
-			</p>	
+			</p>
 		</xsl:if>
 		<p>
-				<h3>
-					<xsl:text>AANVAARDING ZEKERHEDEN EN HYPOTHEEKSTELLING</xsl:text>
-				</h3>			
-			</p>
-			<p>	
-				<xsl:text>Schuldeiseres verklaart de hiervoor vermelde hypotheekstelling(en), de hierna vermelde (verpande) rechten, alle aangegane verbintenissen en alle verleende volmachten te aanvaarden.</xsl:text>
-			</p>	
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) != ''">	
+			<h3>
+				<xsl:text>AANVAARDING ZEKERHEDEN EN HYPOTHEEKSTELLING</xsl:text>
+			</h3>
+		</p>
+		<p>
+			<xsl:text>Schuldeiseres verklaart de hiervoor vermelde hypotheekstelling(en), de hierna vermelde (verpande) rechten, alle aangegane verbintenissen en alle verleende volmachten te aanvaarden.</xsl:text>
+		</p>
+		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) != ''">
 			<p>
 				<h3>
 					<xsl:text>DOMICILIEKEUZE</xsl:text>
-				</h3>			
+				</h3>
 			</p>
-			<p>				
+			<p>
 				<xsl:value-of select="tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst[translate(normalize-space(.), $upper, $lower)]"/>
 				<xsl:text>.</xsl:text>
 			</p>
-		</xsl:if>				
+		</xsl:if>
 		<p>
-		<h3>
-			<xsl:text>EINDE KADASTERDEEL</xsl:text>
-		</h3>
+			<h3>
+				<xsl:text>EINDE KADASTERDEEL</xsl:text>
+			</h3>
 		</p>
 		<a name="hyp3.part2" class="location">&#160;</a>
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:tia_TekstTweedeDeel" mode="do-free-text"/>
@@ -388,44 +389,19 @@ AA-4739
 						<td>
 							<table>
 								<tbody>
-									<xsl:choose>
-										<xsl:when test="count(tia:IMKAD_Persoon) = 1">
-											<tr>
-												<td class="number"/>
-												<td>
-													<xsl:apply-templates select="tia:IMKAD_Persoon" mode="do-legal-person"/>
-													<xsl:if test="tia:IMKAD_Persoon/tia:IMKAD_PostlocatiePersoon">
-														<xsl:text> (correspondentieadres voor alle aangelegenheden betreffende de hierna te vermelden rechtshandelingen: </xsl:text>
-														<xsl:apply-templates select="tia:IMKAD_Persoon/tia:IMKAD_PostlocatiePersoon" mode="do-correspondant-address"/>
-														<!-- Tekstblok PNNP -->
-														<xsl:text>)</xsl:text>
-													</xsl:if>
-													<xsl:text>;</xsl:text>
-												</td>
-											</tr>
-										</xsl:when>
-										<xsl:otherwise>
-											<xsl:for-each select="tia:IMKAD_Persoon">
-												<tr>
-													<td class="number"/>
-													<td class="number">
-														<xsl:number value="position()" format="a"/>
-														<xsl:text>.</xsl:text>
-													</td>
-													<td>
-														<xsl:apply-templates select="." mode="do-legal-person"/>
-														<xsl:if test="tia:IMKAD_PostlocatiePersoon">
-															<xsl:text> (correspondentieadres voor alle aangelegenheden betreffende de hierna te vermelden rechtshandelingen: </xsl:text>
-															<xsl:apply-templates select="tia:IMKAD_PostlocatiePersoon" mode="do-correspondant-address"/>
-															<!-- Tekstblok PNNP -->
-															<xsl:text>)</xsl:text>
-														</xsl:if>
-														<xsl:text>;</xsl:text>
-													</td>
-												</tr>
-											</xsl:for-each>
-										</xsl:otherwise>
-									</xsl:choose>
+									<tr>
+										<td class="number"/>
+										<td>
+											<xsl:apply-templates select="tia:IMKAD_Persoon" mode="do-legal-person"/>
+											<xsl:if test="tia:IMKAD_Persoon/tia:IMKAD_PostlocatiePersoon">
+												<xsl:text> (correspondentieadres voor alle aangelegenheden betreffende de hierna te vermelden rechtshandelingen: </xsl:text>
+												<xsl:apply-templates select="tia:IMKAD_Persoon/tia:IMKAD_PostlocatiePersoon" mode="do-correspondant-address"/>
+												<!-- Tekstblok PNNP -->
+												<xsl:text>)</xsl:text>
+											</xsl:if>
+											<xsl:text>;</xsl:text>
+										</td>
+									</tr>
 								</tbody>
 							</table>
 						</td>
