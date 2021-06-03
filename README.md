@@ -7,6 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 3 juni 2021
+Met deze release hebben we het bankmodel van Lot Hypotheken en het gewijzigde bankmodel van ASR opgeleverd.
+- Het modeldocument en de toelichting van Lot Hypotheken vind u in de [documentatiemap](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20210501000026).
+- De details van de wijziging van ASR vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20210511000020/Releasenotes%20ASR%2020210511000020%20-%201.md).
+
+
 ## 7 mei 2021
 Met deze release hebben we een nieuw stylesheet voor de Argenta opgeleverd. Deze versie van de Argenta is een Beta versie. In de [Toelichting](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20210215000025/Toelichting%20modeldocument%20Argenta%202.0%20-%20v2.0.docx) vindt u de wijzigingen.
 
