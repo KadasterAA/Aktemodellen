@@ -164,7 +164,7 @@
 						<xsl:text>2.</xsl:text>
 					</td>
 					<td>
-						<xsl:text>voorts al het overige geldverstrekker van geldnemer uit hoofde van de geldlening, zoals gedefinieerd in de hierna te definiëren algemene voorwaarden, te vorderen heeft of te enige tijd te vorderen zal hebben, waaronder is begrepen de (restant) (deel)lening met de renten en kosten, boeten en vergoedingen waartoe de geldlening aanleiding mocht geven alsmede de door de geldverstrekker voor de geldnemer gedane betalingen;</xsl:text>
+						<xsl:text>voorts al het overige geldverstrekker van geldnemer uit hoofde van de geldlening, zoals gedefinieerd in de hierna te definiëren algemene voorwaarden, te vorderen heeft of te eniger tijd te vorderen zal hebben, waaronder is begrepen de (restant) (deel)lening met de renten en kosten, boeten en vergoedingen waartoe de geldlening aanleiding mocht geven alsmede de door de geldverstrekker voor de geldnemer gedane betalingen;</xsl:text>
 					</td>
 				</tr>
 				<tr>

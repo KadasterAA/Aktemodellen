@@ -32,10 +32,11 @@ Hypotheek ABP|20170727000019|4|hypotheek_obvion_abp-1.3.0
 Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
  “ |20180501000015|2|hypotheek_aegon-4.3.1|2021-11-08
  “ | “ |1|hypotheek_aegon-4.3.0|2021-11-08
-Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0| |Beta
+Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0
  “ |20200701000025|1|hypotheek_argenta-1.0.0
-Hypotheek ASR|20191015000020|1|hypotheek_asr-2.0.0
- “ |20190401000020|5|hypotheek_asr-1.2.1
+Hypotheek ASR|20210511000020|1|hypotheek_asr-3.0.0
+ “ |20191015000020|1|hypotheek_asr-2.0.0
+Hypotheek ASR|20190401000020|5|hypotheek_asr-1.2.1
  “ | “ |4|hypotheek_asr-1.2.0
  “ | “ |3|hypotheek_asr-1.1.1
  “ | “ |2|hypotheek_asr-1.1.0
@@ -47,6 +48,7 @@ Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ |20180501000004|2|hypotheek_ing-3.5.1|2021-11-08
  “ | “ |1|hypotheek_ing-3.5.0|2021-11-08
 Hypotheek Lloyds|20190501000021|1|hypotheek_lloyds-1.0.0
+Hypotheek Lot|20210501000026|1|hypotheek_lot-1.0.0
 Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2021-11-08
@@ -82,7 +84,7 @@ Hypotheek Syntrus Achmea|20190701000022|5|hypotheek_syntrus_achmea-1.0.4
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
 Hypotheek Vista|20201201000024|1|hypotheek_vista-2.0.0
- “ |20200602500024|1|hypotheek_vista-1.0.0
+ “ |20200602500024|1|hypotheek_vista-1.0.0|2021-07-01
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
  “ |20180501000008|2|notariele_verklaring-2.12.1|2021-11-08
