@@ -1,10 +1,19 @@
 # Release notes
 Product|Argenta stylesheetnummer 20210215000025 implementatienummer 1|
 |---|---|
-**Release**|7 mei 2021**|
+**Release**|**4 juni 2021**|
 ## Wijzigingen
 
+
+
 ### MD Argenta
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-5077 | Onder het kopje 'A.1. Hypotheekstelling' alinea 2.,  de tekst 'te enige tijd' aangepast in 'te eniger tijd' |Stylesheet |
+
+
+
+**release 7 mei 2021**
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-5026 | Nieuwe versie van Argenta Spaarbank   |Modeldocument, Toelichting, Stylesheet en backend controles | 
