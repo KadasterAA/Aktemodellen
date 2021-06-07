@@ -84,7 +84,7 @@ Hypotheek Syntrus Achmea|20190701000022|5|hypotheek_syntrus_achmea-1.0.4
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
 Hypotheek Vista|20201201000024|1|hypotheek_vista-2.0.0
- “ |20200602500024|1|hypotheek_vista-1.0.0|2021-07-01
+ “ |20200602500024|1|hypotheek_vista-1.0.0|**2021-07-01**
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
  “ |20180501000008|2|notariele_verklaring-2.12.1|2021-11-08
