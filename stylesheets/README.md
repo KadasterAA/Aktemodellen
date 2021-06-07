@@ -48,7 +48,7 @@ Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ |20180501000004|2|hypotheek_ing-3.5.1|2021-11-08
  “ | “ |1|hypotheek_ing-3.5.0|2021-11-08
 Hypotheek Lloyds|20190501000021|1|hypotheek_lloyds-1.0.0
-Hypotheek Lot|20210501000026|1|hypotheek_lot-1.0.0| |Beta
+**Hypotheek Lot**|**20210501000026**|**1**|**hypotheek_lot-1.0.0**| |**Beta**
 Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2021-11-08
