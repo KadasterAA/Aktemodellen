@@ -1,24 +1,19 @@
 # Release notes
-Product|Lot stylesheetnummer 20210501000026 implementatienummer 1|
+Product|NIBC stylesheetnummer 20210601000027 implementatienummer 1|
 |---|---|
 
 **Release 2 juli 2021**
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4919 | De zin **'hierna, zowel tezamen als ieder afzonderlijk, te noemen: de "Hypotheekgever" en "Schuldenaar".'** is nu vaste tekst gecombineerd met afleidbare tekst, conform alle andere akten. | Modeldocument, Toelichting, Stylesheet|
-
-**Release 4 juni 2021**
-|Wijziging|Omschrijving|Oplossing|
-|---|---|---|
-AA-4919 | Oplevering nieuw bankmodel Lot. | Modeldocument, Toelichting, Stylesheet en backend controles|
+AA-5100 | Oplevering nieuw bankmodel NIBC. | Modeldocument, Toelichting, Stylesheet en backend controles| 
 
 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Lot|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20210501000026/Modeldocument%20Lot%20v1.0.docx)**|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20210501000026/Toelichting%20modeldocument%20Lot%201.0%20-%20v1.0.docx)**| X |
+Modeldocument NIBC|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20210601000027/Modeldocument%20NIBC%20Direct%20v1.0.docx)**|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20210601000027/Toelichting%20modeldocument%20NIBC%20Direct%20V1.0.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
-Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  |
+Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef|[2.13](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20v2.13.docx)|[3.7](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.12%20-%20v3.7.docx)| |
 Tekstblok - Burgerlijke staat|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Burgerlijke%20staat%20v1.1.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.4.docx)|   |
@@ -31,7 +26,7 @@ Tekstblok - Partij niet natuurlijk persoon|[3.3.0](/kik-modeldocumenten/tekstblo
 Tekstblok - Personalia van Natuurlijk persoon|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%20v1.0.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%201.0%20-%20v1.4.docx)|   |
 Tekstblok - Recht|[2.7](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Recht%20v2.7.docx)|[2.9](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Recht%202.7%20-%20v2.9.docx)|  |
 Tekstblok - Rechtspersoon|[2.8.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Rechtspersoon%20v2.8.0.docx)|[2.11.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Rechtspersoon%202.8.0%20-%20v2.11.0.docx)|   |
-Tekstblok - Registergoed|[2.8.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Registergoed%20v2.8.1.docx)|[2.13.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Registergoed%202.8.1%20-%20v2.13.0.docx)| |
+Tekstblok - Registergoed|[2.8.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Registergoed%20v2.8.1.docx)|[2.13.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Registergoed%202.8.1%20-%20v2.13.0.docx)| | 
 Tekstblok - Titel hypotheek|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Titel%20hypotheek%20v1.1.docx)|[1.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Titel%20hypotheek%201.1%20-%20v1.0.docx)|   |  
 Tekstblok - Woonadres|[2.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Woonadres%20v2.1.docx)|[2.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Woonadres%202.1%20-%20v2.4.docx)|   |
 X = nieuw of gewijzigd voor dit stylesheet- en implementatienummer, vetgedrukte versienummers zijn gewijzigd.

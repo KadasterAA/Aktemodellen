@@ -1,27 +1,29 @@
 # Release notes
-Product|Lot stylesheetnummer 20210501000026 implementatienummer 1|
+
+Product|Syntrus Achmea stylesheetnummer 20200907000022 implementatienummer 2|
 |---|---|
+|**Release**|**2 juli 2021**|
+## Wijzigingen
 
-**Release 2 juli 2021**
+
+### MD Syntrus Achmea
+
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
-AA-4919 | De zin **'hierna, zowel tezamen als ieder afzonderlijk, te noemen: de "Hypotheekgever" en "Schuldenaar".'** is nu vaste tekst gecombineerd met afleidbare tekst, conform alle andere akten. | Modeldocument, Toelichting, Stylesheet|
+AA-5101   | De registergoederen van de overbruggingshypotheek werden niet meegenomen in het meervoud tonen van de tekst "registergoederen". Tekst in de toelichting op 2 plekken verduidelijkt. | Stylesheet, Toelichting   | 
 
-**Release 4 juni 2021**
-|Wijziging|Omschrijving|Oplossing|
-|---|---|---|
-AA-4919 | Oplevering nieuw bankmodel Lot. | Modeldocument, Toelichting, Stylesheet en backend controles|
 
 
 ### Specificaties
+
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Lot|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20210501000026/Modeldocument%20Lot%20v1.0.docx)**|**[1.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20210501000026/Toelichting%20modeldocument%20Lot%201.0%20-%20v1.0.docx)**| X |
+Modeldocument Syntrus Achmea|[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Modeldocument%20Syntrus%20Achmea%20v3.0.docx)|**[3.1](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Toelichting%20modeldocument%20Syntrus%20Achmea%203.0%20-%20v3.1.docx)**| X  |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  |
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
 Tekstblok - Aanhef|[2.13](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20v2.13.docx)|[3.7](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Aanhef%202.12%20-%20v3.7.docx)| |
-Tekstblok - Burgerlijke staat|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Burgerlijke%20staat%20v1.1.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.4.docx)|   |
+Tekstblok - Burgerlijke staat|[1.1](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Burgerlijke%20staat%20v1.1.docx)|[1.5](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Burgerlijke%20staat%201.1%20-%20v1.5.docx)|   |
 Tekstblok - Equivalentieverklaring|[3.3](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.3.docx)|[3.9](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.2%20-%20v3.9.docx)| |
 Tekstblok - Gevolmachtigde|[2.7](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Gevolmachtigde%20v2.7.docx)|[2.8.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Gevolmachtigde%202.7%20-%20v2.8.0.docx)|   |
 Tekstblok - Legitimatie|[3.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Legitimatie%20v3.0.docx)|[3.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Legitimatie%203.0%20-%20v3.0.docx)| |

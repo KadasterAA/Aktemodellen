@@ -32,7 +32,7 @@ Hypotheek ABP|20170727000019|4|hypotheek_obvion_abp-1.3.0
 Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
  “ |20180501000015|2|hypotheek_aegon-4.3.1|2021-11-08
  “ | “ |1|hypotheek_aegon-4.3.0|2021-11-08
-Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0
+Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0| |Beta
  “ |20200701000025|1|hypotheek_argenta-1.0.0
 Hypotheek ASR|20210511000020|1|hypotheek_asr-3.0.0
  “ |20191015000020|1|hypotheek_asr-2.0.0
@@ -48,13 +48,14 @@ Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ |20180501000004|2|hypotheek_ing-3.5.1|2021-11-08
  “ | “ |1|hypotheek_ing-3.5.0|2021-11-08
 Hypotheek Lloyds|20190501000021|1|hypotheek_lloyds-1.0.0
-Hypotheek Lot|20210501000026|1|hypotheek_lot-1.0.0| |Beta
+Hypotheek Lot|20210501000026|1|hypotheek_lot-1.0.0
 Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2021-11-08
  “ | “ |1|hypotheek_munt-1.5.0|2021-11-08
 Hypotheek Nationale Nederlanden|20210318000023|1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
+Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0| |Beta
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
  “ |20180501000012|2|hypotheek_obvion_abp-1.4.1|2021-11-08
  “ | “ |1|hypotheek_obvion_abp-1.4.0|2021-11-08
@@ -76,7 +77,8 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1|2021-11-08
  “ | “ |1|hypotheek_sns-2.4.0|2021-11-08
-Hypotheek Syntrus Achmea|20200907000022|1|hypotheek_syntrus_achmea-3.0.0
+Hypotheek Syntrus Achmea|20200907000022|2|hypotheek_syntrus_achmea-3.1.0
+ “ | “ |1|hypotheek_syntrus_achmea-3.0.0
  “ |20200301000022|2|hypotheek_syntrus_achmea-2.1.0
  “ | “ |1|hypotheek_syntrus_achmea-2.0.0
 Hypotheek Syntrus Achmea|20190701000022|5|hypotheek_syntrus_achmea-1.0.4

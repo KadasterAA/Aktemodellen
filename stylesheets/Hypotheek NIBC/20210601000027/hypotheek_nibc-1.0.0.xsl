@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 *************************************************************
-Stylesheet: hypotheek_lot.xsl
+Stylesheet: hypotheek_nibc.xsl
 Version: 1.0.0
 *************************************************************
 Public:
@@ -24,7 +24,7 @@ Public:
 	<xsl:include href="tekstblok_titel_hypotheekakten-1.02.xsl"/>
 	<xsl:include href="tekstblok_woonadres-1.05.xsl"/>
 	<xsl:include href="tweededeel-1.05.xsl"/>
-	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_lot-1.0.0.xml')"/>
+	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_nibc-1.0.0.xml')"/>
 	<xsl:variable name="keuzetekstenTbBurgelijkeStaat" select="document('keuzeteksten-tb-burgerlijkestaat-1.1.0.xml')"/>
 	<xsl:variable name="legalPersonNames" select="document('nnp-kodes.xml')/gc:CodeList/SimpleCodeList/Row"/>
 	<xsl:variable name="RegistergoedTonenPerPerceel">
@@ -89,36 +89,13 @@ Public:
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk" mode="do-header"/>
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:Partij" mode="do-comparitie"/>		
 		<p>
-			<xsl:text>De comparanten verklaarden als volgt:</xsl:text>
-		</p>
-		<table cellspacing="0" cellpadding="0">
-			<tbody>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>-</xsl:text>
-					</td>
-					<td>Lot Hypotheken en de Schuldenaar zijn een leningsovereenkomst aangegaan, hierna te noemen: de "<b>Leningsovereenkomst</b>", van welke overeenkomst blijkt uit een door Lot Hypotheken uitgebracht en door de Schuldenaar geaccepteerd hypotheekaanbod. Een afschrift van het door Lot Hypotheken en Schuldenaar ondertekend hypotheekaanbod wordt aan deze akte gehecht.</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>-</xsl:text>
-					</td>
-					<td>Blijkens de Leningsovereenkomst verstrekt Lot Hypotheken aan de Schuldenaar een geldlening voor het hierna te noemen bedrag en is de Schuldenaar verplicht aan Lot Hypotheken de in deze akte omschreven rechten van hypotheek en pand te (doen) verlenen op de wijze en onder de bepalingen en voorwaarden als uiteengezet in deze akte.</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>-</xsl:text>
-					</td>
-					<td>Partijen zijn derhalve het navolgende overeengekomen.</td>
-				</tr>				
-			</tbody>
-		</table>
-		<p>		
-			<xsl:text>A. LENING</xsl:text>
+			<xsl:text>De comparanten verklaarden dat tussen NIBC Direct Hypotheken en de schuldenaar is overeengekomen een geldlening met hypotheekstelling en inpandgeving aan te gaan, van welke overeenkomst blijkt uit een aan deze akte gehechte, door de schuldenaar ondertekende offerte, ter uitvoering waarvan zij het volgende zijn overeengekomen.</xsl:text>
 		</p>
 		<p>
-			<xsl:text>Lening</xsl:text><br />
-			<xsl:text>De Schuldenaar verklaarde wegens van Lot Hypotheken ter leen ontvangen gelden hoofdelijk schuldig te zijn aan Lot Hypotheken een bedrag van: </xsl:text>		
+			<u><xsl:text>LENING</xsl:text></u>
+		</p>
+		<p>
+			<xsl:text>De schuldenaar verklaarde wegens van NIBC Direct Hypotheken ter leen ontvangen gelden hoofdelijk schuldig te zijn aan NIBC Direct Hypotheken een bedrag van </xsl:text>
 			<xsl:call-template name="amountText">
 				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
 				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
@@ -128,72 +105,52 @@ Public:
 				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
 				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
 			</xsl:call-template>
-			<xsl:text> (hierna te noemen: de "</xsl:text>
-			<b><xsl:text>Lening</xsl:text></b>
-			<xsl:text>").</xsl:text>
-			<br/>
-			<xsl:text>Lot Hypotheken verklaarde de hiervoor vermelde schuldbekentenis te aanvaarden.</xsl:text>
-			<br/>
-			<xsl:text>Tot zekerheid voor de betaling van de Schuld is de Schuldenaar met Lot Hypotheken overeengekomen en heeft zich jegens Lot Hypotheken verbonden en, voor zover nodig verklaart hierbij met Lot Hypotheken overeen te komen en zich te verbinden, tot het vestigen en tot het bij voorbaat vestigen van het recht van hypotheek casu quo recht van pand zoals hierna wordt omschreven, ten behoeve van Lot Hypotheken.</xsl:text>
+			<xsl:text>. NIBC Direct Hypotheken verklaarde de hiervoor vermelde schuldbekentenis te aanvaarden.</xsl:text><br />
+			<xsl:text>Tot zekerheid voor de terugbetaling van de hoofdsom en de betaling van het verdere verschuldigde zal ten behoeve van NIBC Direct Hypotheken recht van hypotheek casu quo pand worden gevestigd zoals hierna wordt omschreven.</xsl:text><br />
+			<xsl:text>Met betrekking tot deze lening hebben de comparanten verklaard dat NIBC Direct Hypotheken en de schuldenaar het volgende zijn overeengekomen.</xsl:text>
+		</p>
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>I.</xsl:text>
+					</td>
+					<td><u><xsl:text>Looptijd en aflossing</xsl:text></u><br />
+						<xsl:text>De lening heeft een looptijd zoals in de offerte is overeengekomen. De aflossing van de lening vindt plaats op de wijze zoals in de offerte is overeengekomen, resp. zoals eventueel nader tussen partijen zal worden overeengekomen.</xsl:text>
+					</td>
+				</tr>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>II.</xsl:text>
+					</td>
+					<td><u><xsl:text>Rente</xsl:text></u><br />
+						<xsl:text>De schuldenaar is voor het eerst vanaf de datum omschreven in de toelichting bij de offerte tot het einde van de desbetreffende maand naar het overeengekomen percentage rente verschuldigd, berekend over de schuld. De rente wordt voor iedere volgende maand naar het overeengekomen percentage berekend over de schuld per het einde van de daaraan voorafgaande maand. Bij de saldobepaling van de schuld zullen eventueel verschuldigde maar niet betaalde rente, kosten en andere bedragen bij de schuld worden geteld.</xsl:text>
+					</td>
+				</tr>
+				<tr>
+					<td class="number" valign="top">
+						<xsl:text>III.</xsl:text>
+					</td>
+					<td><u><xsl:text>Overige bepalingen</xsl:text></u><br />
+						<xsl:text>Verder zijn op voormelde lening van toepassing, de Algemene Voorwaarden voor een NIBC Direct Hypotheek, hierna te noemen de ‘Algemene Voorwaarden’.</xsl:text>
+					</td>
+				</tr>
+				<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_svnstarterslening']/tia:tekst, $upper, $lower) = 'true'">
+					<tr>
+						<td class="number" valign="top">IV.</td>
+						<td><u><xsl:text>SVn Starterslening</xsl:text></u><br />
+							<xsl:text>In verband met de door de Stichting Stimuleringsfonds Volkshuisvesting Nederlandse Gemeenten (SVn) te verstrekken Starterslening, heeft NIBC Direct Hypotheken zich jegens SVn en Stichting Waarborgfonds Eigen Woningen (WEW) verplicht, na het ingaan van de lening geen gelden meer onder verband van de eerste hypotheekstelling ter leen te verstrekken aan de schuldenaar. Tevens heeft NIBC Direct Hypotheken zich jegens SVn en WEW verplicht reeds afgeloste bedragen op de lening, onder verband van de eerste hypotheekstelling, niet opnieuw te laten opnemen door de schuldenaar. Voormelde verplichtingen rusten op NIBC Direct Hypotheken uitsluitend zolang de bij SVn aangegane Starterslening niet volledig is afgelost.</xsl:text>
+						</td>
+					</tr>
+				</xsl:if>
+			</tbody>
+		</table>
+		<p>		
+			<u><xsl:text>HYPOTHEEKSTELLING EN VERPANDING</xsl:text></u>
 		</p>
 		<p>
-			<xsl:text>Gegevens van de lening</xsl:text>
-		</p>
-		<p>
-			<u>
-				<xsl:text>Looptijd en aflossing</xsl:text>
-			</u>
-		</p>
-		<p>
-			<xsl:text>De Lening heeft een looptijd zoals in de Leningsovereenkomst is overeengekomen, dan wel eventueel nader tussen partijen (zal worden) overeengekomen. De aflossing van de Lening vindt plaats op de wijze als bepaald in de aan deze akte gehechte Leningsovereenkomst, de algemene voorwaarden van geldlening en zekerheidsstelling van Lot Hypotheken (hierna te noemen: de "</xsl:text>
-			<b><xsl:text>Algemene Voorwaarden</xsl:text></b>
-			<xsl:text>") welke zijn gehecht aan de Leningsovereenkomst, en / of op een nader door partijen overeen te komen wijze.</xsl:text>
-		</p>	
-		<p>
-			<u>
-				<xsl:text>Rente</xsl:text>
-			</u>
-		</p>
-		<p>
-			<xsl:text>De Schuldenaar is rente over de Lening tegen het overeengekomen rentepercentage verschuldigd. De voor het eerst te betalen rente wordt berekend vanaf de datum waarop Lot Hypotheken het bedrag van de Lening heeft overgeboekt naar de rekening van de notaris en / of naar de Bouwdepotrekening tot de laatste dag van de desbetreffende maand. Voor iedere volgende maand wordt de door de Schuldenaar te betalen rente berekend over het Uitstaande Bedrag per het einde van de daaraan voorafgaande maand.</xsl:text>
-		</p>	
-		<p>
-			<u>
-				<xsl:text>Algemene Voorwaarden</xsl:text>
-			</u>
-		</p>
-		<p>
-			<xsl:text>Op de Leningsovereenkomst en op deze akte en de daarbij te verstrekken rechten van hypotheek en pand zijn van toepassing de Algemene Voorwaarden. De Algemene Voorwaarden worden geacht een onderdeel te zijn van de Leningsovereenkomst en deze akte als waren zij in de Leningsovereenkomst en deze akte woordelijk opgenomen. De Hypotheekgever verklaart een exemplaar van de Algemene Voorwaarden te hebben ontvangen, daarvan kennis te hebben genomen en daarmee in te stemmen.</xsl:text>
-		</p>
-		<p>
-			<u>
-				<xsl:text>Begrippen</xsl:text>
-			</u>
-		</p>
-		<p>
-			<xsl:text>Begrippen die in deze akte worden gebruikt, hebben de betekenis die daaraan is toegekend in de Algemene Voorwaarden, tenzij in deze akte anders is bepaald of uit de strekking van deze akte het tegendeel voortvloeit.</xsl:text>
-		</p>
-		<p>
-			<xsl:text>Onder het begrip "</xsl:text>
-			<b><xsl:text>Schuld</xsl:text></b>
-			<xsl:text>" wordt in deze akte verstaan: de schulden en verplichtingen tot zekerheid voor de betaling waarvan de Schuldenaar blijkens deze akte aan Lot Hypotheken het recht van hypotheek op het in deze akte genoemde Onderpand verleent of behoort te verlenen.</xsl:text>
-		</p>			
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_svnstarterslening']/tia:tekst, $upper, $lower) = 'true'">
-		<p>
-			<u>
-				<xsl:text>SVn Starterslening</xsl:text>
-			</u>
-		</p>
-		<p>
-			<xsl:text>In verband met de door de Stichting Stimuleringsfonds Volkshuisvesting Nederlandse Gemeenten (SVn) te verstrekken Starterslening, heeft Lot Hypotheken zich jegens SVn en Stichting Waarborgfonds Eigen Woningen (WEW) verplicht, na het ingaan van de lening geen gelden meer onder verband van de eerste hypotheekstelling ter leen te verstrekken aan de Schuldenaar. Tevens heeft Lot Hypotheken zich jegens SVn en WEW verplicht reeds afgeloste bedragen op de lening, onder verband van de eerste hypotheekstelling, niet opnieuw te laten opnemen door de Schuldenaar. Voormelde verplichtingen rusten op Lot Hypotheken uitsluitend zolang de bij SVn aangegane Starterslening niet volledig is afgelost.</xsl:text>
-		</p>
-		</xsl:if>		
-		<p>			
-			<xsl:text>B. HYPOTHEEKRECHT</xsl:text>			
-		</p>
-		<p>
-			<xsl:text>Hypotheekstelling</xsl:text><br />
-			<xsl:text>Tot zekerheid voor:</xsl:text>
+			<u><xsl:text>Tot meerdere zekerheid voor</xsl:text></u>
+			<xsl:text>:</xsl:text>
 		</p>
 		<table cellspacing="0" cellpadding="0">
 			<tbody>
@@ -202,17 +159,7 @@ Public:
 						<xsl:text>a.</xsl:text>
 					</td>
 					<td valign="top">
-						<xsl:text>de terugbetaling van de hoofdsom van de Lening </xsl:text>
-						<xsl:call-template name="amountText">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text> </xsl:text>
-						<xsl:call-template name="amountNumber">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragLening/tia:valuta"/>
-						</xsl:call-template>
-						<xsl:text>, (daaronder begrepen de eventueel aan de Schuldenaar terugbetaalde aflossingsbedragen) en voorts de betaling van al hetgeen de Schuldenaar nu of op enig tijdstip in de toekomst al dan niet opeisbaar, voorwaardelijk of onder tijdsbepaling aan Lot Hypotheken verschuldigd is of zal worden uit hoofde van de Leningsovereenkomst, deze akte, de Algemene Voorwaarden, eerdere met betrekking tot het hierna te noemen Onderpand verstrekte geldleningen, dan wel uit welke hoofde dan ook, tot een bedrag van </xsl:text>
+						<xsl:text>de betaling van de schuld ad </xsl:text>
 						<xsl:call-template name="amountText">
 							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
 							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
@@ -222,7 +169,7 @@ Public:
 							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:som"/>
 							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:hoofdsom/tia:valuta"/>
 						</xsl:call-template>
-						<xsl:text>, en</xsl:text>					
+						<xsl:text>, waaronder begrepen de eventueel aan de schuldenaar terugbetaalde aflossingsbedragen en waaronder voorts wordt begrepen al hetgeen aan NIBC Direct Hypotheken verschuldigd is en zal zijn uit hoofde van eventueel in deze akte genoemde eerder verleden akte(n) van geldlening met hypotheekstelling aangaande het hierna onder I. genoemde onderpand, danwel uit hoofde van nog te verstrekken geldleningen, kredieten in rekening-courant danwel uit welke hoofde ook;</xsl:text>
 					</td>
 				</tr>
 				<tr>
@@ -230,79 +177,69 @@ Public:
 						<xsl:text>b.</xsl:text>
 					</td>
 					<td valign="top">
-						<xsl:text>de betaling van de rente (inclusief overeen te komen verhogingen), vertragingsrente, kosten, schadevergoedingen en/of andere vergoedingen nu of in de toekomst aan Lot Hypotheken verschuldigd uit hoofde van de Leningsovereenkomst en de betaling van al hetgeen Lot Hypotheken overigens uit hoofde van de Leningsovereenkomst, deze akte of de Algemene Voorwaarden van de Schuldenaar te vorderen mocht hebben, welke in deze paragraaf b bedoelde bedragen gezamenlijk worden begroot op een bedrag van </xsl:text>
+						<table cellspacing="0" cellpadding="0">
+							<tbody>
+								<tr>
+									<td class="number" valign="top">
+										<xsl:text>1.</xsl:text>
+									</td>
+									<td valign="top">
+										<xsl:text>voldoening van de bedongen rente alsmede de eventueel later overeen te komen verhoging daarvan;</xsl:text>
+									</td>
+								</tr>
+								<tr>
+									<td class="number" valign="top">
+										<xsl:text>2.</xsl:text>
+									</td>
+									<td valign="top">
+										<xsl:text>voldoening van alle boeten, kosten en rechten, schadevergoedingen en al hetgeen NIBC Direct Hypotheken verder uit hoofde van de lening van de schuldenaar te vorderen mocht hebben, welke onder 1 en 2 bedoelde bedragen worden begroot op een totaal bedrag ad </xsl:text>
+										<xsl:call-template name="amountText">
+											<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
+											<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+										</xsl:call-template>
+										<xsl:text> </xsl:text>
+										<xsl:call-template name="amountNumber">
+											<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
+											<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+										</xsl:call-template>
+										<xsl:text>;</xsl:text>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr><tr>
+					<td class="number" valign="top"><xsl:text> </xsl:text></td>
+					<td valign="top">
+						<xsl:text>derhalve tot een totaalbedrag ad </xsl:text>
 						<xsl:call-template name="amountText">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
 						</xsl:call-template>
 						<xsl:text> </xsl:text>
 						<xsl:call-template name="amountNumber">
-							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
-							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
+							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
+							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
 						</xsl:call-template>
-						<xsl:text>, zijnde 40% van het laatst genoemde bedrag;</xsl:text>					
-					</td>
-				</tr>
+						<xsl:text>,</xsl:text>
+				</td>
+			</tr><tr>
+				<td class="number" valign="top">
+					<xsl:text>I.</xsl:text>
+				</td>
+				<td valign="top">
+					<xsl:text>verleent de schuldenaar bij deze aan NIBC Direct Hypotheken, die van de schuldenaar aanvaardt, het recht van </xsl:text>
+					<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:rangordeHypotheek)"/>
+					<xsl:text> hypotheek op het hierna te omschrijven onderpand:</xsl:text>
+				</td>
+			</tr>
 			</tbody>
 		</table>
-		<p>
-			<xsl:text>derhalve tot een totaalbedrag ad </xsl:text>
-			<xsl:call-template name="amountText">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text> </xsl:text>
-			<xsl:call-template name="amountNumber">
-				<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:som"/>
-				<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragTotaal/tia:valuta"/>
-			</xsl:call-template>
-			<xsl:text>, verleent de Hypotheekgever bij deze aan Lot Hypotheken die van de Hypotheekgever aanvaardt, het recht van </xsl:text>
-			<xsl:value-of select="kef:convertOrdinalToText(tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:rangordeHypotheek)"/>
-			<xsl:text> hypotheek op het hierna te omschrijven registergoed (hierna te noemen het "</xsl:text>
-			<b><xsl:text>Onderpand</xsl:text></b>
-			<xsl:text>"):</xsl:text>
-		</p>		
 		<!-- Registered objects -->
 		<a name="hyp3.rights" class="location">&#160;</a>
 		<xsl:apply-templates select="." mode="do-rights">
 			<xsl:with-param name="stukdeel" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']"/>
 		</xsl:apply-templates>
-		<p>
-			<xsl:text>Hierna wordt onder Onderpand tevens verstaan ieder ander registergoed waarop hypothecaire zekerheid is gevestigd ten behoeve van Lot Hypotheken in verband met de Lening.</xsl:text>
-			<br />
-			<xsl:text>De Hypotheekgever staat er voorts jegens Lot Hypotheken voor in:</xsl:text>
-		</p>
-		<table cellspacing="0" cellpadding="0">
-			<tbody>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>a.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het voormelde Onderpand hem in volle en onbezwaarde eigendom toebehoort, behoudens het (de) eventuele ten behoeve van Lot Hypotheken eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever, en dat hij daarover de onvoorwaardelijke beschikking heeft;</xsl:text>
-					</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>b.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het voormelde Onderpand niet is belast met beslagen of met een recht van vruchtgebruik en niet is verhuurd noch anderszins in gebruik of genot is afgestaan aan derden; en</xsl:text>
-					</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>c.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het voormelde Onderpand niet anders met recht van hypotheek is of met een tweede recht van hypotheek zal worden bezwaard dan krachtens deze akte, behoudens het (de) eventuele ten behoeve van Lot Hypotheken eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever.</xsl:text>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<p>
-			<xsl:text>De Hypotheekgever en Lot Hypotheken komen hierbij overeen dat, indien Lot Hypotheken (een deel van) haar vordering(en) tot zekerheid waarvan onderhavig hypotheekrecht wordt gevestigd, overdraagt aan een derde, op deze derde tevens een met (het overgedragen deel van) deze vordering(en) evenredig deel van het hiervoor bedoelde hypotheekrecht als nevenrecht zal overgaan.</xsl:text>
-		</p>
 		<!-- Overbrugginshypotheek -->
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']" mode="do-overbruggingshypotheek"/>
 		<xsl:apply-templates select="." mode="do-election-of-domicile"/>
@@ -712,9 +649,7 @@ Public:
 		<xsl:choose>
 			<xsl:when test="position() = 1">
 				<p style="margin-left:30px">
-					<xsl:text>hierna te noemen: "</xsl:text>
-					<b><xsl:text>Lot Hypotheken</xsl:text></b>
-					<xsl:text>";</xsl:text>
+					<xsl:text>hierna te noemen: 'NIBC Direct Hypotheken';</xsl:text>
 				</p>
 			</xsl:when>
 			<xsl:when test="position() = 2">
@@ -723,13 +658,9 @@ Public:
 					<xsl:if test="$numberOfPersons > 1">
 						<xsl:text>, zowel tezamen als ieder afzonderlijk,</xsl:text>
 					</xsl:if>
-					<xsl:text> te noemen:</xsl:text>
-					<br />
-					<xsl:text>de "</xsl:text>
-					<b><xsl:text>Hypotheekgever</xsl:text></b>
-					<xsl:text>" en "</xsl:text>
-					<b><xsl:text>Schuldenaar</xsl:text></b>
-					<xsl:text>".</xsl:text>
+					<xsl:text> te noemen: de </xsl:text>
+					<u><xsl:text>'schuldenaar'</xsl:text></u>
+					<xsl:text>.</xsl:text>
 				</p>
 			</xsl:when>
 		</xsl:choose>
@@ -790,9 +721,9 @@ Public:
 			</u>
 		</p>
 		<p>
-			<xsl:text>Voorts verleent de Hypotheekgever tot zekerheid voor de betaling van de Schuld als hiervoor omschreven, bij deze aan Lot Hypotheken, die van de Hypotheekgever aanvaardt, het recht van </xsl:text>
+			<xsl:text>Voorts verleent de schuldenaar tot zekerheid voor de betaling van de schuld als hierboven vermeld bij deze aan NIBC Direct Hypotheken, die van de schuldenaar aanvaardt, het recht van </xsl:text>
 			<xsl:value-of select="kef:convertOrdinalToText(tia:rangordeHypotheek)"/>
-			<xsl:text> hypotheek op het hierna te omschrijven Onderpand:</xsl:text>
+			<xsl:text> hypotheek op het hierna te omschrijven onderpand:</xsl:text>
 		</p>
 		<xsl:choose>
 			<xsl:when test="count(tia:IMKAD_ZakelijkRecht) = 1">
@@ -908,34 +839,5 @@ Public:
 				</table>
 			</xsl:otherwise>
 		</xsl:choose>
-		<p><xsl:text>De Hypotheekgever staat er voorts jegens Lot Hypotheken voor in:</xsl:text></p>
-		<table cellspacing="0" cellpadding="0">
-			<tbody>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>a.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het onder Overbruggingshypotheek vermelde onderpand hem in volle en onbezwaarde eigendom toebehoort, behoudens het (de) ten behoeve van Lot Hypotheken of andere hypotheekhouders eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever, en dat hij daarover de onvoorwaardelijke beschikking heeft;</xsl:text>
-					</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>b.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het onder Overbruggingshypotheek vermelde onderpand niet is belast met beslagen of met een recht van vruchtgebruik en niet is verhuurd noch anderszins in gebruik of genot is afgestaan aan derden; en</xsl:text>
-					</td>
-				</tr>
-				<tr>
-					<td class="number" valign="top">
-						<xsl:text>c.</xsl:text>
-					</td>
-					<td valign="top">
-						<xsl:text>dat het onder Overbruggingshypotheek vermelde onderpand niet anders met recht van hypotheek is of met een tweede recht van hypotheek zal worden bezwaard dan krachtens deze akte, behoudens het (de) ten behoeve van Lot Hypotheken of andere hypotheekhouders eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever.</xsl:text>
-					</td>
-				</tr>
-			</tbody>
-		</table>
 	</xsl:template>
 </xsl:stylesheet>
