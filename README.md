@@ -7,8 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 19 juli 2021
+Voor Syntrus Achmea, met stylesheetnummer 20200907000022, hebben we een nieuw implementatienummer opgeleverd. Met de release van 2 juli hebben we helaas een bug geintroduceerd. De details staan vermeld in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Releasenotes%20Syntrus%20Achmea%2020200907000022%20-%203.md).
+Het is de bedoeling dat het implementatienummer 2, gereleased op 2 juli j.l., per 1 augustus 2021 wordt uitgezet.
+
+
 ## 2 juli 2021
-In deze release:
 1. Bèta versie nieuw bankmodel van NIBC Direct;
     - Het modeldocument en de toelichting van NIBC Direct staan in de [documentatiemap](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20210601000027).
 
