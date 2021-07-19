@@ -77,7 +77,7 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1|2021-11-08
  “ | “ |1|hypotheek_sns-2.4.0|2021-11-08
-Hypotheek Syntrus Achmea|20200907000022|3|**hypotheek_syntrus_achmea-3.1.1**
+Hypotheek Syntrus Achmea|20200907000022|**3**|**hypotheek_syntrus_achmea-3.1.1**
  “ | “ |2|hypotheek_syntrus_achmea-3.1.0|2021-08-01
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
  “ |20200301000022|2|hypotheek_syntrus_achmea-2.1.0
