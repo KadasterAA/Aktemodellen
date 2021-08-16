@@ -53,7 +53,8 @@ Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2021-11-08
  “ | “ |1|hypotheek_munt-1.5.0|2021-11-08
-Hypotheek Nationale Nederlanden|20210318000023|1|hypotheek_nationale-nederlanden-2.0.0
+Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
+ “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
 Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0| |Beta
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
@@ -77,8 +78,13 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1|2021-11-08
  “ | “ |1|hypotheek_sns-2.4.0|2021-11-08
+<<<<<<< HEAD
+Hypotheek Syntrus Achmea|20200907000022|3|hypotheek_syntrus_achmea-3.1.1
+ “ | “ |2|hypotheek_syntrus_achmea-3.1.0
+=======
 Hypotheek Syntrus Achmea|20200907000022|**3**|**hypotheek_syntrus_achmea-3.1.1**
  “ | “ |2|hypotheek_syntrus_achmea-3.1.0|2021-08-01
+>>>>>>> b0b94fe6b4d35c9b2807e3fb2bda8d4d614dce5f
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
  “ |20200301000022|2|hypotheek_syntrus_achmea-2.1.0
  “ | “ |1|hypotheek_syntrus_achmea-2.0.0
