@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 13 augustus 2021
+Voor Nationale Nederlanden, met stylesheetnummer 20210318000023, hebben we een nieuw implementatienummer opgeleverd. Hierin is een bug opgelost die alleen van toepassing is voor Softwareleveranciers die .wml bestanden gebruiken om de PDF te genereren.
+De details van deze bug vindt u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20210318000023/Releasenotes%20Nationale-Nederlanden%2020210318000023-2.md)
+
+
 ## 19 juli 2021
 Voor Syntrus Achmea, met stylesheetnummer 20200907000022, hebben we een nieuw implementatienummer opgeleverd. Met de release van 2 juli hebben we helaas een bug geintroduceerd. De details staan vermeld in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Releasenotes%20Syntrus%20Achmea%2020200907000022%20-%203.md).
 Het is de bedoeling dat het implementatienummer 2, gereleased op 2 juli j.l., per 1 augustus 2021 wordt uitgezet.
