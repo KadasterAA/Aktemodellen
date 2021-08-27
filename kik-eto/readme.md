@@ -41,7 +41,7 @@ Web service: https://service10.kadaster.nl/kik/testenessentialia/
 WSDL: https://service10.kadaster.nl/kik/testenessentialia/ws.wsdl
 
 ## Eisen voor het gebruik van de ETO
-- Gebruik een 32 bits (X86) versie van JAVA 8.
+- Gebruik een 32 bits (X86) versie van JAVA 8. De subversie mag niet hoger zijn dan Update 291.
 - Zorg dat de JAVA_HOME variabele naar de locale geïnstalleerde versie van de Java JDK verwijst.
 - Neem de username en password, horende  bij uw account, op in het bestand pref.propties.
 
