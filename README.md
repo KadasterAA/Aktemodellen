@@ -7,6 +7,20 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 3 november 2021
+In deze release:
+1. Er is een nieuw stylesheetnummer voor de ASR opgeleverd.
+    - De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20211015000020/Releasenotes%20ASR%2020211015000020%20-%201.md)
+
+2. Er is een nieuw stylesheetnummer voor de Lloyds opgeleverd.
+    - De details van de wijzigingen kunt u vinden in de [releasenotes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20211015000021/Releasenotes%20Lloyds%2020211015000021%20-%201.md)
+
+3. Het stylesheetnummer 20200907000022 met implementatienummer 2 van Syntrus Achmea is per 1-11-2021 verwijderd.
+
+4. Vanaf 1-3-2022 kunnen de stylesheetnummers die beginnen met 2018 niet meer aangeboden worden. Dit is een reminder van een eerdere aankondiging (zie releasenotes van 23-10-2020) dat deze akten worden verwijderd. 
+
+5. Vanaf nu zullen we ook de versie van het bankmodel in de releasenotes van de betreffende akten vermelden. Zo is het beter te zien op welke versie van het bankmodel wij aanpassingen hebben gedaan. 
+
 ## 13 augustus 2021
 Voor Nationale Nederlanden, met stylesheetnummer 20210318000023, hebben we een nieuw implementatienummer opgeleverd. Hierin is een bug opgelost die alleen van toepassing is voor Softwareleveranciers die .wml bestanden gebruiken om de PDF te genereren.
 De details van deze bug vindt u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20210318000023/Releasenotes%20Nationale-Nederlanden%2020210318000023-2.md)
