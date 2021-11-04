@@ -34,7 +34,7 @@ Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
  “ | “ |1|hypotheek_aegon-4.3.0|2021-11-08
 Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0| |Beta
  “ |20200701000025|1|hypotheek_argenta-1.0.0
-Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0| |Beta
+Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0
  “ |20210511000020|1|hypotheek_asr-3.0.0
 Hypotheek ASR|20191015000020|1|hypotheek_asr-2.0.0
 Hypotheek ASR|20190401000020|5|hypotheek_asr-1.2.1
