@@ -7,6 +7,20 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 10 december 2021
+In deze release:
+1. Nieuw bankmodel Quion generiek, deze versie van de Quion generiek is een Beta versie. Onder dit generieke model vallen op dit moment de labels van Allianz, Medirect en Achmea Bank N.V.:
+   - Het modeldocument en de toelichting van Quion generiek staan in de [documentatiemap](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028); 
+
+2. Nieuw implementatienummer voor de Vista:
+   - Hierin is een bug opgelost die alleen van toepassing is voor Softwareleveranciers die .wml bestanden gebruiken om de PDF te genereren. De details vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20201201000024/Releasenotes%20Vista%2020201201000024-%202.md);
+
+3. Nieuw implementatienummer voor Syntrus Achmea:
+   - Hierin is een bug opgelost die alleen van toepassing is voor Softwareleveranciers die .wml bestanden gebruiken om de PDF te genereren. De details vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Syntrus%20Achmea/20200907000022/Releasenotes%20Syntrus%20Achmea%2020200907000022%20-%204.md)
+
+4. **Reminder:** *Vanaf 1-3-2022 kunnen de stylesheetnummers die beginnen met 2018 niet meer aangeboden worden.*
+   
+
 ## 3 november 2021
 In deze release:
 1. Er is een nieuw stylesheetnummer voor de ASR opgeleverd.

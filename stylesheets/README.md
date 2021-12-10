@@ -66,6 +66,7 @@ Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
  “ |20180501000006|3|hypotheek_particulier-2.12.1|2022-03-01
  “ | “ |2|hypotheek_particulier-2.12.0|2022-03-01
  “ | “ |1|hypotheek_particulier-2.11.0|2022-03-01
+Hypotheek Quion generiek|20210801000028|1|hypotheek_quion_generiek-1.0| |Beta
 Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
  “ |20181015000005|2|hypotheek_rabobank-4.0.4|2022-03-01
@@ -80,7 +81,8 @@ Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
  “ |20180501000013|2|hypotheek_sns-2.4.1|2022-03-01
  “ | “ |1|hypotheek_sns-2.4.0|2022-03-01
-Hypotheek Syntrus Achmea|20200907000022|3|hypotheek_syntrus_achmea-3.1.1
+Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
+ “ | “ |3|hypotheek_syntrus_achmea-3.1.1
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
  “ |20200301000022|2|hypotheek_syntrus_achmea-2.1.0
  “ | “ |1|hypotheek_syntrus_achmea-2.0.0
@@ -88,7 +90,8 @@ Hypotheek Syntrus Achmea|20190701000022|5|hypotheek_syntrus_achmea-1.0.4
  “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
-Hypotheek Vista|20201201000024|1|hypotheek_vista-2.0.0
+Hypotheek Vista|20201201000024|2|hypotheek_vista-2.0.1
+ “ | “ |1|hypotheek_vista-2.0.0
  “ |20200602500024|1|hypotheek_vista-1.0.0|2021-07-01
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
