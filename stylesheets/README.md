@@ -9,7 +9,8 @@ Akte van levering KNB nieuw model|20180501000007|2|levering-4.5.1|2022-03-01
 Akte van verdeling|20191001000009|1|verdeling-4.0.0
  “ |20180501000009|2|verdeling-3.11.1|2022-03-01
  “ | “ |1|verdeling-3.11.0|2022-03-01
-Doorhaling hypotheek|20190826000010|2|doorhaling_hypotheek-3.1.0
+Doorhaling hypotheek|20190826000010|3|doorhaling_hypotheek-3.1.1
+ “ | “ |2|doorhaling_hypotheek-3.1.0
  “ | “ |1|doorhaling_hypotheek-3.0.0
  “ |20180501000010|2|doorhaling_hypotheek-2.2.1|2022-03-01
  “ | “ |1|doorhaling_hypotheek-2.2.0|2022-03-01
@@ -50,7 +51,8 @@ Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ | “ |1|hypotheek_ing-3.5.0|2022-03-01
 Hypotheek Lloyds|20211015000021|1|hypotheek_lloyds-2.0.0
  “ |20190501000021|1|hypotheek_lloyds-1.0.0
-Hypotheek Lot|20210501000026|1|hypotheek_lot-1.0.0
+Hypotheek Lot|20211015000026|1|hypotheek_lot-2.0.0
+ “ |20210501000026|1|hypotheek_lot-1.0.0
 Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
  “ |20190617000018|1|hypotheek_munt-2.0.0
 Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2022-03-01
