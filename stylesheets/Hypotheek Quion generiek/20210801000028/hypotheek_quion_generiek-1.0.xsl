@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
+AA-5240 - Quion - 2 bugs oplossen
+AA-5241 - Quion- hypotheekbedrag volgnummer registergoed
 -->
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" exclude-result-prefixes="tia xsl exslt xlink kef gc" version="1.0">
 	<xsl:include href="generiek-1.08.xsl"/>
@@ -229,9 +231,7 @@
 							</u>
 						</p>
 						<p>
-							<xsl:text>De hypotheekgever geeft op het hierna te omschrijven registergoed genoemd onder 5. Onderpand Registergoed </xsl:text>
-							<xsl:value-of select="$hypotheekStelling1/tia:rangordeHypotheek"/>
-							<xsl:text> het recht van </xsl:text>
+							<xsl:text>De hypotheekgever geeft op het hierna te omschrijven registergoed genoemd onder 5. Onderpand Registergoed 1 het recht van </xsl:text>
 							<xsl:value-of select="kef:convertOrdinalToText($hypotheekStelling1/tia:rangordeHypotheek)"/>
 							<xsl:text> hypotheek tot:</xsl:text>
 						</p>
@@ -302,9 +302,7 @@
 						</table>
 						<xsl:if test="string-length($hypotheekStelling2) != 0">
 							<p>
-								<xsl:text>de hypotheekgever geeft op het hierna te omschrijven registergoed genoemd onder 5. Onderpand Registergoed </xsl:text>
-								<xsl:value-of select="$hypotheekStelling2/tia:rangordeHypotheek"/>
-								<xsl:text> het recht van </xsl:text>
+								<xsl:text>de hypotheekgever geeft op het hierna te omschrijven registergoed genoemd onder 5. Onderpand Registergoed 2 het recht van </xsl:text>
 								<xsl:value-of select="kef:convertOrdinalToText($hypotheekStelling2/tia:rangordeHypotheek)"/>
 								<xsl:text> hypotheek tot:</xsl:text>
 							</p>
@@ -666,7 +664,7 @@
 						<xsl:apply-templates select="." mode="do-keuzeblok-partijnamen-hypotheekakte"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:text>hierna te noemen: "de geldverstrekker"</xsl:text>
+						<xsl:text>hierna te noemen: "geldverstrekker"</xsl:text>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:choose>
