@@ -2,8 +2,9 @@ Per implementatienummer vindt u hier de versie van het stylesheet
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Beta
 :---:|:---:|---|---|:---:|:---:
-Akte van levering KNB nieuw model|20200116000007|1|levering-5.1.0
- “ |20190301000007|1|levering-5.0.0
+Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0| |Beta
+ “ |20200116000007|1|levering-5.1.0
+Akte van levering KNB nieuw model|20190301000007|1|levering-5.0.0
 Akte van levering KNB nieuw model|20180501000007|2|levering-4.5.1|2022-03-01
  “ | “ |1|levering-4.5.0|2022-03-01
 Akte van verdeling|20191001000009|1|verdeling-4.0.0
@@ -33,7 +34,7 @@ Hypotheek ABP|20170727000019|4|hypotheek_obvion_abp-1.3.0
 Hypotheek Aegon|20190801000015|1|hypotheek_aegon-5.0.0
  “ |20180501000015|2|hypotheek_aegon-4.3.1|2022-03-01
  “ | “ |1|hypotheek_aegon-4.3.0|2022-03-01
-Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0| |Beta
+Hypotheek Argenta|20210215000025|1|hypotheek_argenta-2.0
  “ |20200701000025|1|hypotheek_argenta-1.0.0
 Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0
  “ |20210511000020|1|hypotheek_asr-3.0.0
@@ -60,7 +61,7 @@ Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2022-03-01
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
-Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0| |Beta
+Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
  “ |20180501000012|2|hypotheek_obvion_abp-1.4.1|2022-03-01
  “ | “ |1|hypotheek_obvion_abp-1.4.0|2022-03-01
@@ -68,7 +69,7 @@ Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
  “ |20180501000006|3|hypotheek_particulier-2.12.1|2022-03-01
  “ | “ |2|hypotheek_particulier-2.12.0|2022-03-01
  “ | “ |1|hypotheek_particulier-2.11.0|2022-03-01
-Hypotheek Quion generiek|20210801000028|1|hypotheek_quion_generiek-1.0| |Beta
+Hypotheek Quion generiek|20210801000028|1|hypotheek_quion_generiek-1.0
 Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
  “ |20181015000005|2|hypotheek_rabobank-4.0.4|2022-03-01
