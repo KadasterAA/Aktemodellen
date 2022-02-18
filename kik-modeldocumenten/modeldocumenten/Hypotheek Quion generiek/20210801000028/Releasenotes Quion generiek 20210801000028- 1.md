@@ -3,7 +3,7 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41**|
 **Stylesheetnummer**|**20210801000028 implementatienummer 1**|
-**Release**|**18 februarie 2022**|
+**Release**|**18 februari 2022**|
 
 ## Wijzigingen
 
