@@ -2,12 +2,18 @@
 Product|Omschrijving| 
 |---|---|
 **Stylesheetnummer**|**20211201000007 implementatienummer 1**|
-**Release**|**18 februari 2022**|
+**Release**|**6 mei 2022**|
 
 ## Wijzigingen
 
 ### Modeldocument
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-5305 | Er is een bug opgelost bij het samenvoegen van twee percelen. Indien er op dat moment geen andere percelen aanwezig waren dan werd ten onrechte een opsommingsteken getoond. Aangezien het nog een beta versie betreft is er geen nieuw stylesheetnr of implementatienummer aangemaakt. | Stylesheet |
 
+
+
+## 18 februari 2022
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-5239 | De volgende zaken zijn aangepast: Partijaanduiding is een vrij veld geworden, de benaming van de koopovereenkomst is een vrij veld geworden en het is mogelijk om bij een publiekrechtspersoon een besluitnummer toe te voegen. Voor het toevoegen van het besluitnummer hebben we het TB Rechtspersoon moeten aanpassen. | Tekstblok, Toelichting, Stylesheet |
