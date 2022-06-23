@@ -121,9 +121,7 @@ none
 						<xsl:text> voornoemd,</xsl:text>
 					</xsl:if>
 					<xsl:text> hierna ook te noemen: </xsl:text>
-					<xsl:if test="(count(tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
-						+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon[translate(tia:IMKAD_Persoon/tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
-						+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon/tia:GerelateerdPersoon[translate(tia:IMKAD_Persoon/tia:tia_IndGerechtigde, $upper, $lower) = 'true'])) > 1">
+					<xsl:if test="$numberOfDebtorPersons > 1">
 						<xsl:text>(tezamen en waar van toepassing ook ieder afzonderlijk)</xsl:text>
 					</xsl:if>
 					<xsl:text> "geldnemer" dan wel "schuldenaar" en </xsl:text>
@@ -154,9 +152,7 @@ none
 						<xsl:text> voornoemd,</xsl:text>
 					</xsl:if>
 					<xsl:text> hierna ook te noemen: </xsl:text>
-					<xsl:if test="(count(tia:IMKAD_Persoon[translate(tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
-						+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon[translate(tia:IMKAD_Persoon/tia:tia_IndGerechtigde, $upper, $lower) = 'true'])
-						+ count(tia:IMKAD_Persoon/tia:GerelateerdPersoon/tia:IMKAD_Persoon/tia:GerelateerdPersoon[translate(tia:IMKAD_Persoon/tia:tia_IndGerechtigde, $upper, $lower) = 'true'])) > 1">
+					<xsl:if test="$numberOfMortgagerPersons > 1">
 						<xsl:text>(tezamen en waar van toepassing ook ieder afzonderlijk)</xsl:text>
 					</xsl:if>
 					<xsl:text> "hypotheekgever"</xsl:text>

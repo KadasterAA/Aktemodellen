@@ -7,6 +7,35 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+
+## 6 mei 2022
+In deze release:
+- De Quion akte, met stylsheetnummer 20210801000028, is vanaf nu ook te gebruiken voor aanbieder WoonNu; 
+- In de leveringsakte is een bug opgelost. De details vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Releasenotes%20Akte%20van%20Levering%2020210104000011%20-%201.md).
+
+
+## 18 februari 2022
+In deze release:
+1. Nieuw stylesheetmnummer tbv de Akte van Levering. In deze stylesheet zijn wijzigingen opgenomen die gebruikt kunnen worden tbv Nieuwbouwprojecten. De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Releasenotes%20Akte%20van%20Levering%2020210104000011%20-%201.md);
+
+2. In de Quion zaten een 3-tal bugs. De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md).
+Met deze release is de Quion definitief gemaakt;
+
+3. **Reminder:** *Vanaf 1-3-2022 kunnen de stylesheetnummers die beginnen met 2018 niet meer aangeboden worden.* 
+
+
+
+## 14 januari 2022
+In deze release:
+1. Nieuw stylesheetnummer voor de Lot opgeleverd:
+   - De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20211015000026/Releasenotes%20Lot%2020211015000026%20-%201.md);
+
+2. Nieuw implementatienummer voor de Doorhaling Hypotheek:
+   - Dit is een technische aanpassing aan de stylesheet. De details vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20190826000010/Releasenotes%20Doorhaling%20hypotheek%2020190826000010%20-%203.md);
+
+3. **Reminder:** *Vanaf 1-3-2022 kunnen de stylesheetnummers die beginnen met 2018 niet meer aangeboden worden.*
+
+
 ## 10 december 2021
 In deze release:
 1. Nieuw bankmodel Quion generiek, deze versie van de Quion generiek is een Beta versie. Onder dit generieke model vallen op dit moment de labels van Allianz, Medirect en Achmea Bank N.V.:
