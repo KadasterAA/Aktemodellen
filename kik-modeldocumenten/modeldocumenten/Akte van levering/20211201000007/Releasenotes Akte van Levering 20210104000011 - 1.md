@@ -2,12 +2,18 @@
 Product|Omschrijving| 
 |---|---|
 **Stylesheetnummer**|**20211201000007 implementatienummer 1**|
-**Release**|**18 februari 2022**|
+**Release**|**6 mei 2022**|
 
 ## Wijzigingen
 
 ### Modeldocument
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-5305 | Er is een bug opgelost bij het samenvoegen van twee percelen. Indien er op dat moment geen andere percelen aanwezig waren dan werd ten onrechte een opsommingsteken getoond. Aangezien het nog een beta versie betreft is er geen nieuw stylesheetnr of implementatienummer aangemaakt. | Stylesheet |
 
+
+
+## 18 februari 2022
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-5239 | De volgende zaken zijn aangepast: Partijaanduiding is een vrij veld geworden, de benaming van de koopovereenkomst is een vrij veld geworden en het is mogelijk om bij een publiekrechtspersoon een besluitnummer toe te voegen. Voor het toevoegen van het besluitnummer hebben we het TB Rechtspersoon moeten aanpassen. | Tekstblok, Toelichting, Stylesheet |
@@ -16,7 +22,7 @@ AA-5239 | De volgende zaken zijn aangepast: Partijaanduiding is een vrij veld ge
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument|**[5.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Modeldocument%20Akte%20van%20Levering%20v5.0.docx)**|**[5.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Toelichting%20modeldocument%20Akte%20van%20Levering%205.0%20-%20v5.0.docx)**|X|
+Modeldocument|**[5.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Modeldocument%20Akte%20van%20Levering%20v5.0.docx)**|**[5.0](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Toelichting%20modeldocument%20Akte%20van%20Levering%20v5.0%20-%20v5.0.docx)**|X|
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/9.1.0/StukAlgemeen-12.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |

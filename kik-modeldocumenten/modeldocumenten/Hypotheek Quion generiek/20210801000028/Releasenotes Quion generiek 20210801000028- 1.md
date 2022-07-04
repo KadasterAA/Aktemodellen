@@ -1,20 +1,24 @@
 # Release notes
 Product|Omschrijving| 
 |---|---|
-**Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41**|
+**Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41, Model Quion - Woonnu 2020 versie 1.41**|
 **Stylesheetnummer**|**20210801000028 implementatienummer 1**|
-**Release**|**18 februarie 2022**|
+**Release**|**6 mei 2022**|
 
 ## Wijzigingen
 
 ### Modeldocument
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5272| Dit bankmodel kan nu ook gebruikt worden voor de aanbieder WoonNu. Er waren geen aanapssingen nodig voor dit model.
 
+## 18 februari 2022
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5241 | onder het kopje '4. Hypotheekverlening' werd bij de verwijzing naar de betreffende registergoederen naar een verkeerd veld gekeken.  | Stylesheet| 
 AA-5240 | Als er alleen een 'geldverstrekker werd opgevoerd dan werd er ten onrechte voor de partijaanduiding het lidwoord 'de' getoond. En er werd ten onrecht, als er maar 1 geldnemer/schuldenaar of hypotheekgever aanwezig was, het stukje tekst '(tezamen en waar van ..........)' getoond. | Stylesheet| 
 
-### 9 december 2022
+## 9 december 2022
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5215 | Oplevering nieuw bankmodel Quion generiek. Dit bankmodel kan gebruikt worden voor de hypotheek aanbieders Allianz, Achmea en Medirect | Modeldocument, Toelichting, Stylesheet en backend controles| 
