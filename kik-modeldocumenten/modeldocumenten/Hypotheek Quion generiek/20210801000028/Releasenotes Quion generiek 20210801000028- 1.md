@@ -1,16 +1,22 @@
 # Release notes
 Product|Omschrijving| 
 |---|---|
-**Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41, Model Quion - Woonnu 2020 versie 1.41**|
+**Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41, Model Quion - Woonnu 2020 versie 1.41, versie 1.41 (model 2020) - ROBUUST, Model Quion  versie 1.41 - IQWOON**|
 **Stylesheetnummer**|**20210801000028 implementatienummer 1**|
-**Release**|**6 mei 2022**|
+**Release**|**4 juli 2022**|
 
 ## Wijzigingen
 
 ### Modeldocument
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
-AA-5272| Dit bankmodel kan nu ook gebruikt worden voor de aanbieder WoonNu. Er waren geen aanapssingen nodig voor dit model.
+AA-5351| Dit bankmodel kan nu ook gebruikt worden voor de aanbieders Robuust en IQWOON. Er waren geen aanpassingen nodig voor dit model.
+
+
+## 6 mei 2022
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5272| Dit bankmodel kan nu ook gebruikt worden voor de aanbieder WoonNu. Er waren geen aanpassingen nodig voor dit model.
 
 ## 18 februari 2022
 |Issue nr.|Omschrijving|Oplossing|
