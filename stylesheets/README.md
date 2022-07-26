@@ -4,8 +4,8 @@ Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Be
 :---:|:---:|---|---|:---:|:---:
 Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0| |Beta
  “ |20200116000007|1|levering-5.1.0
-Akte van levering KNB nieuw model|20190301000007|1|levering-5.0.0
-Akte van levering KNB nieuw model|20180501000007|2|levering-4.5.1|2022-08-01
+ “|20190301000007|1|levering-5.0.0
+ “|20180501000007|2|levering-4.5.1|2022-08-01
  “ | “ |1|levering-4.5.0|2022-08-01
 Akte van verdeling|20191001000009|1|verdeling-4.0.0
  “ |20180501000009|2|verdeling-3.11.1|2022-08-01
@@ -89,13 +89,12 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
  “ |20200301000022|2|hypotheek_syntrus_achmea-2.1.0
  “ | “ |1|hypotheek_syntrus_achmea-2.0.0
-Hypotheek Syntrus Achmea|20190701000022|5|hypotheek_syntrus_achmea-1.0.4
+ “|20190701000022|5|hypotheek_syntrus_achmea-1.0.4
  “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
 Hypotheek Vista|20201201000024|2|hypotheek_vista-2.0.1
  “ | “ |1|hypotheek_vista-2.0.0
- “ |20200602500024|1|hypotheek_vista-1.0.0|2021-07-01
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
  “ |20180501000008|2|notariele_verklaring-2.12.1|2022-08-01
