@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 1 augustus 2022
+
+Vanaf vandaag is het niet meer mogelijk om stylesheets die beginnen met "2018" aan te bieden.
+
+
 ## 4 juli 2022
 Aan het generieke Quion model, met stylesheetnummer 2020210801000028, zijn 2 nieuwe labels toegevoegd: IQWOON en Robuust.
    - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md); 
