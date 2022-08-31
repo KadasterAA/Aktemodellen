@@ -7,6 +7,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 31 augustus 2022
+In de Toelichting modeldocument van de Rabobank versie 4.41 is het stukje betreffende de Overbruggingshypotheek verduidelijkt. Dit betreft alleen een tekstuele aanpassing, de stylesheet is hiervoor niet aangepast.
+
+
 ## 1 augustus 2022
 
 Vanaf vandaag is het niet meer mogelijk om stylesheets die beginnen met "2018" aan te bieden.

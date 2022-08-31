@@ -1,12 +1,17 @@
 # Release notes
 Product|Rabobank stylesheetnummer 20190610000005 implementatienummer 2|
 |---|---|
-|**Release**|**4 juli 2019**|
+|**Release**|**31 augustus 2022**|
 ## Wijzigingen
 
 
 ### MD Rabobank
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+| AA-XXXX | Tekstuele aanpassing op de Toelichting mbt de Overbruggingshypotheek. Tekst verduidelijkt   | Toelichting |
 
+
+**4 juli 2019**
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 | AA-4421 | In het keuzeblok "Vaste hypotheek teboekgesteld binnenschip" onder het kopje "Hypotheekverlening" werd, als er gekozen was voor beide keuzeteksten, de eerste keuzetekst afgesloten met een punt ipv een puntkomma.   | Stylesheet |
@@ -14,7 +19,7 @@ Product|Rabobank stylesheetnummer 20190610000005 implementatienummer 2|
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Rabobank|[4.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Modeldocument%20Rabobank%20v4.2.docx)|[4.4.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Toelichting%20modeldocument%20Rabobank%204.2%20-%20v4.4.0.docx)| |
+Modeldocument Rabobank|[4.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Modeldocument%20Rabobank%20v4.2.docx)|[4.4.1](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20190610000005/Toelichting%20modeldocument%20Rabobank%204.2%20-%20v4.4.1.docx)| |
 XSD RabobankHypotheekakte|[1.5.1](/schema/RabobankHypotheekakte/1.5.1/RabobankHypotheekakte-1.5.1.xsd)|| |
 XSD StukAlgemeen|[8.1.0](/schema/stuk%20algemeen/8.1.0/StukAlgemeen-8.1.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
