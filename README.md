@@ -7,6 +7,23 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+
+## 9 november 2022
+Aan het generieke Quion model, met stylesheetnummer 2020210801000028, zijn 2 nieuwe labels toegevoegd: Clarian Wonen en HOLLAND WOONT.
+Het Quion model is nu te gebruiken voor de volgende labels:
+|Label | Ingangsdatum |
+| --- | --- |
+| HOLLAND WOONT | 9-11-2022 |
+| Clarian Wonen | 9-11-2022 |
+| IQWOON        | 4-7-2022  |
+| Robuust       | 4-7-2022  |
+| WoonNu        | 6-5-2022  |
+| Medirect      | 9-12-2021 |
+| Achmea        | 9-12-2021 |
+| Allianz       | 9-12-2021 |
+
+   - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md); 
+
 ## 31 augustus 2022
 In de Toelichting modeldocument van de Rabobank versie 4.4.1 is het stukje betreffende de Overbruggingshypotheek verduidelijkt. Dit betreft alleen een tekstuele aanpassing, de stylesheet is hiervoor niet aangepast.
 
