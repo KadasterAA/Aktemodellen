@@ -22,7 +22,7 @@ Het Quion model is nu te gebruiken voor de volgende labels:
 | Achmea        | 9-12-2021 |
 | Allianz       | 9-12-2021 |
 
-   - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md); 
+   - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md).
 
 ## 31 augustus 2022
 In de Toelichting modeldocument van de Rabobank versie 4.4.1 is het stukje betreffende de Overbruggingshypotheek verduidelijkt. Dit betreft alleen een tekstuele aanpassing, de stylesheet is hiervoor niet aangepast.
