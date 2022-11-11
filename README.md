@@ -9,7 +9,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 
 ## 9 november 2022
-Aan het generieke Quion model, met stylesheetnummer 2020210801000028, zijn 2 nieuwe labels toegevoegd: Clarian Wonen en HOLLAND WOONT.
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: Clarian Wonen en HOLLAND WOONT.
 Het Quion model is nu te gebruiken voor de volgende labels:
 |Label | Ingangsdatum |
 | --- | --- |
@@ -34,7 +34,7 @@ Vanaf vandaag is het niet meer mogelijk om stylesheets die beginnen met "2018" a
 
 
 ## 4 juli 2022
-Aan het generieke Quion model, met stylesheetnummer 2020210801000028, zijn 2 nieuwe labels toegevoegd: IQWOON en Robuust.
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: IQWOON en Robuust.
    - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md); 
    
 
