@@ -8,6 +8,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 
+## 20 december 2022
+Nieuwe versie van de Toelichting Quinon gepubliceerd. Tekstuele aanpassing bij de mapping van de Woonplaatskeuze. Aan de stylesheet is niets gewijzigd.
+Zie de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md) voor verdere informatie.
+
+
 ## 9 november 2022
 Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: Clarian Wonen en HOLLAND WOONT.
 Het Quion model is nu te gebruiken voor de volgende labels:

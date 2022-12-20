@@ -3,11 +3,16 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Quion generiek**|**Achmea Bank NV/Achmea Hypotheken BV Model 2020 versie 1.41, Model Quion-Allianz 2020 versie 1.41, Model Quion Medirect versie 1.41, Model Quion - Woonnu 2020 versie 1.41, versie 1.41 (model 2020) - ROBUUST, Model Quion versie 1.41 - IQWOON, Model Quion versie 1.41 - HOLLAND WOONT, Model Quion versie 1.41 - Clarian Wonen**|
 **Stylesheetnummer**|**20210801000028 implementatienummer 1**|
-**Release**|**9 november 2022**|
+**Release**|*20 december 2022*|
 
 ## Wijzigingen
 
 ### Modeldocument
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-XXXX| Tekstuele aanpassing van de toelichting. Bij woonplaatskeuze was bij de mapping niet duidelijk opgenomen welke tekstkeuze bij welk label hoorde.| Toelichting|
+
+## 9 november 2022
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5366| Dit bankmodel kan nu ook gebruikt worden voor de aanbieders HOLLAND WOONT en Clarian Wonen. Er waren geen aanpassingen nodig voor dit model.
@@ -39,7 +44,7 @@ AA-5215 | Oplevering nieuw bankmodel Quion generiek. Dit bankmodel kan gebruikt 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Modeldocument%20Quion%20generiek%20model%20v1.0.docx)|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Toelichting%20modeldocument%20Quion%20generiek%20v1.0%20-%20v0.1.docx)|  |
+Modeldocument|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Modeldocument%20Quion%20generiek%20model%20v1.0.docx)|[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Toelichting%20modeldocument%20Quion%20generiek%20v1.0%20-%20v1.0.docx)|  |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
