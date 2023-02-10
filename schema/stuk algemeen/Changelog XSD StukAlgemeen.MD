@@ -1,5 +1,9 @@
 # Changelog XSD StukAlgemeen
 
+## CHANGES XSD StukAlgemeen-12.1.0 DATUM 10 februari 2022
+o.b.v. AA-5529
+- in huisnummerToevoeging (IMKAD_KadBinnenlandsAdres en BAG_NummerAanduiding) definitie HuisnummerToevoeging toegevoegd (alg-formaattypen-2.2.0.xsd) [0-9a-zA-Z]{1,4}; geen spatie meer toegestaan en maximaal 4 posities lang.
+
 ## CHANGES XSD StukAlgemeen-12.0.0 DATUM 27 juli 2020
 o.b.v. AA-4740
 - Stukdeelhypotheek uitgebreid met optioneel veld datumLeningOntvangen
