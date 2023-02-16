@@ -7,8 +7,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 16 februari 2023
+De hiervoor op 10 februari 2023 aangekomdigde wijziging op het XSD Algemeen is teruggedraaid. Versie 12.0.0 is nu weer aktief gemaakt. Het [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD) is hierop aangepast.
+
+
 ## 10 februari 2023
-Nieuwe versie van het XSD Algemeen opgeleverd. In versie 12.1.0 is het veld 'huisnummertoevoeging' (in BAG_NummerAanduiding en IMKAD_KadBinnenlandsAdres) aangepast. Er mag geen spatie meer worden opgenomen in dit veld.
+Nieuwe versie van het XSD Algemeen opgeleverd. In versie 12.1.0 is het veld 'BAG_NummerAanduiding/huisnummertoevoeging' aangepast. Er mag geen spatie meer worden opgenomen in dit.
 De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD)
 
 ## 20 december 2022
