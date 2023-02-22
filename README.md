@@ -7,6 +7,23 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 22 februari 2023
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: ELAN en BAWAG.
+Het Quion model is nu te gebruiken voor de volgende labels:
+|Label | Ingangsdatum |
+| --- | --- |
+| Medirect      | 9-12-2021 |
+| Achmea        | 9-12-2021 |
+| Allianz       | 9-12-2021 |
+| WoonNu        | 6-5-2022  |
+| IQWOON        | 4-7-2022  |
+| Robuust       | 4-7-2022  |
+| HOLLAND WOONT | 9-11-2022 |
+| Clarian Wonen | 9-11-2022 |
+| ELAN          | 22-02-2023|
+| BAWAG         | 22-02-2023|
+
+
 ## 16 februari 2023
 De release van 10 februari 2023 met daarin een wijziging op het XSD Algemeen is teruggedraaid. Versie 12.0.0 is nu weer aktief gemaakt. Het [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD) is hierop aangepast.
 
