@@ -7,6 +7,72 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 14 maart 2023
+In deze release hebben we een nieuw stylesheetnummer voor ABN AMRO - Moneyou opgeleverd. De details van de wijziging kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20MoneYou/20230301000003/Releasenotes%20ABN%20AMRO%20Moneyou%2020230301000003%20-%201.md).
+
+## 22 februari 2023
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: ELAN en BAWAG.
+Het Quion model is nu te gebruiken voor de volgende labels:
+|Label | Ingangsdatum |
+| --- | --- |
+| Medirect      | 9-12-2021 |
+| Achmea        | 9-12-2021 |
+| Allianz       | 9-12-2021 |
+| WoonNu        | 6-5-2022  |
+| IQWOON        | 4-7-2022  |
+| Robuust       | 4-7-2022  |
+| HOLLAND WOONT | 9-11-2022 |
+| Clarian Wonen | 9-11-2022 |
+| ELAN          | 22-02-2023|
+| BAWAG         | 22-02-2023|
+
+
+## 16 februari 2023
+De release van 10 februari 2023 met daarin een wijziging op het XSD Algemeen is teruggedraaid. Versie 12.0.0 is nu weer aktief gemaakt. Het [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD) is hierop aangepast.
+
+
+## 10 februari 2023
+Nieuwe versie van het XSD Algemeen opgeleverd. In versie 12.1.0 is het veld 'BAG_NummerAanduiding/huisnummertoevoeging' aangepast. Er mag geen spatie meer worden opgenomen in dit.
+De details hebben we beschreven in de [Changelog XSD StukAlgemeen](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD)
+
+## 20 december 2022
+Nieuwe versie van de Toelichting Quinon gepubliceerd. Tekstuele aanpassing bij de mapping van de Woonplaatskeuze. Aan de stylesheet is niets gewijzigd.
+Zie de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md) voor verdere informatie.
+
+
+## 9 november 2022
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: Clarian Wonen en HOLLAND WOONT.
+Het Quion model is nu te gebruiken voor de volgende labels:
+|Label | Ingangsdatum |
+| --- | --- |
+| HOLLAND WOONT | 9-11-2022 |
+| Clarian Wonen | 9-11-2022 |
+| IQWOON        | 4-7-2022  |
+| Robuust       | 4-7-2022  |
+| WoonNu        | 6-5-2022  |
+| Medirect      | 9-12-2021 |
+| Achmea        | 9-12-2021 |
+| Allianz       | 9-12-2021 |
+
+   - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md).
+
+## 31 augustus 2022
+In de Toelichting modeldocument van de Rabobank versie 4.4.1 is het stukje betreffende de Overbruggingshypotheek verduidelijkt. Dit betreft alleen een tekstuele aanpassing, de stylesheet is hiervoor niet aangepast.
+
+
+## 1 augustus 2022
+
+Vanaf vandaag is het niet meer mogelijk om stylesheets die beginnen met "2018" aan te bieden.
+
+
+## 4 juli 2022
+Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: IQWOON en Robuust.
+   - Verdere informatie vind u in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md); 
+   
+
+**Opgelet:** **Vanaf 1-8-2022 kunnen de stylesheetnummers die beginnen met 2018 niet meer aangeboden worden.**
+
+
 
 ## 6 mei 2022
 In deze release:
