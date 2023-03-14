@@ -8,7 +8,7 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 ## 14 maart 2023
-In deze release hebben we een nieuw stylesheetnummer voor ABN AMRO - Moneyou opgeleverd. De details van de wijziging kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20MoneYou/20230301000003/Releasenotes%20ABN%20AMRO%20Moneyou%2020230301000003%20-%201.md).
+In deze release hebben we een nieuw stylesheetnummer voor ABN AMRO - Moneyou opgeleverd. De details van de wijziging kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20230301000003/Releasenotes%20ABN%20AMRO%20Moneyou%2020230301000003%20-%201.md).
 
 ## 22 februari 2023
 Aan het generieke Quion model, met stylesheetnummer 20210801000028, zijn 2 nieuwe labels toegevoegd: ELAN en BAWAG.
