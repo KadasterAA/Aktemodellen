@@ -182,17 +182,19 @@ Change:
 					</xsl:if>
 					<xsl:text>hierna </xsl:text>
 					<xsl:text>te noemen: '</xsl:text>
-					<xsl:if test="translate($name-addition, $upper, $lower) = 'moneyou'">
-						<xsl:text>de </xsl:text>
-					</xsl:if>
-					<u><xsl:text>Bank</xsl:text></u>
+					<xsl:choose>
+						<xsl:when test="translate($name-addition, $upper, $lower) = 'florius'">
+							<u><xsl:text>Bank</xsl:text></u>
+						</xsl:when>
+						<xsl:when test="translate($name-addition, $upper, $lower) = 'aab'">
+							<u><xsl:text>Bank</xsl:text></u>
+						</xsl:when>
+						<xsl:when test="translate($name-addition, $upper, $lower) = 'moneyou'">
+							<xsl:text>Moneyou</xsl:text>
+						</xsl:when>
+					</xsl:choose>
 					<xsl:text>'</xsl:text>
 					<xsl:choose>
-						<xsl:when test="translate($name-addition, $upper, $lower) = 'moneyou'">
-							<xsl:text>,</xsl:text>
-							<br />
-							<xsl:text>de Bank hierna verder te noemen: 'Moneyou'</xsl:text>
-						</xsl:when>
 						<xsl:when test="translate($name-addition, $upper, $lower) = 'florius'">
 							<xsl:text>,</xsl:text>
 							<br />

@@ -18,7 +18,7 @@ Public:
 	exclude-result-prefixes="tia xsl kef"
 	version="1.0">
 
-	<xsl:include href="hypotheek_abn_amro_generiek-3.00.xsl" />
+	<xsl:include href="hypotheek_abn_amro_generiek-4.00.xsl" />
 
 	<xsl:variable name="keuzeteksten" select="document('keuzeteksten_hypotheek_abn_amro_moneyou-3.5.0.xml')"/>
 	<!--
