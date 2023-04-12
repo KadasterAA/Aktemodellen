@@ -4,13 +4,19 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Moneyou**|Model MY21.01|
 **Stylesheetnummer**|20230301000003 implementatienummer 1|
-**Release**|14 maart 2023|
+**Release**|4 april 2023|
 
 
 ## Wijzigingen
 
 
 ### MD Moneyou
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-5600 | In de eerdere release van de de toelichting van Moneyou is een verkeerde versie van de toelichting gepubliceerd. Met deze release is de toelichting vervangen door de juiste versie| Toelichting| 
+
+**14 maart 2023**
+
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
 AA-5600 | Oplevering nieuw bankmodel Moneyou. MoneYou is gewijzigd in Moneyou| Modeldocument, Toelichting, Stylesheet| 

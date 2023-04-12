@@ -7,6 +7,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 12 april 2023
+Op 4 april jongstleden is er een nieuwe toelichting van de Moneyou gepubliceerd. Helaas hebben we van deze wijziging geen releasenotes gepubliceerd. Tevens hebben wij niet gemeld dat het nieuwe stylesheetnummer van de Moneyou een bèta versie is. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk. Excuses voor het ongemak.
+
 ## 14 maart 2023
 In deze release hebben we een nieuw stylesheetnummer voor ABN AMRO - Moneyou opgeleverd. De details van de wijziging kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20230301000003/Releasenotes%20ABN%20AMRO%20Moneyou%2020230301000003%20-%201.md).
 
