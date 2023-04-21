@@ -94,6 +94,7 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
+Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0| |Beta
 Hypotheek Vista|20201201000024|2|hypotheek_vista-2.0.1
  “ | “ |1|hypotheek_vista-2.0.0
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
