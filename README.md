@@ -7,6 +7,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 20 april 2023
+In deze release hebben we een nieuw bankmodel opgeleverd ten behoeve van Triodos Bank N.V. De documentatie kunt u [hier](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20230401000030) vinden.
+
 ## 12 april 2023
 Op 4 april jongstleden is er een nieuwe toelichting van de Moneyou gepubliceerd. Helaas hebben we van deze wijziging geen releasenotes gepubliceerd. Tevens hebben wij niet gemeld dat het nieuwe stylesheetnummer van de Moneyou een bèta versie is. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk. Excuses voor het ongemak.
 
