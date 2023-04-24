@@ -3,10 +3,15 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Triodos**|Triodos hypotheekakte (Model Triodos 23.01)|
 **Stylesheetnummer**|20230401000030 implementatienummer 1|
-**Release**|20 april 2023|
+**Release**|24 april 2023|
 
 ## Wijzigingen
 
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5762 | Toelichting aangepast. De mapping van de partijaanduiding van partij 2 stond er 2x in met elk een andere waarde. Dit aangepast zodat er nog maar 1x mapping naar de partijaanduiding is vermeld met daarin de juiste waarde. Versie van de toelichting is niet aangepast.| Toelichting| 
+
+## 20 april 2023
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5762 | Oplevering nieuw bankmodel tbv van Triodos Bank. | Modeldocument, Toelichting, Stylesheet en backend controles| 
