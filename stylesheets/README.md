@@ -71,6 +71,7 @@ Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
  “ | “ |2|hypotheek_particulier-2.12.0|2022-08-01
  “ | “ |1|hypotheek_particulier-2.11.0|2022-08-01
 Hypotheek Quion generiek|20210801000028|1|hypotheek_quion_generiek-1.0
+ “ |20230501000028|1|hypotheek_quion_generiek-2.0 | |Beta
 Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
  “ |20181015000005|2|hypotheek_rabobank-4.0.4|2022-08-01
