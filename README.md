@@ -7,6 +7,15 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 4 mei 2023
+In deze release:
+
+**1.** Nieuw stylesheetnummer voor de **NIBC** opgeleverd:
+   - De details van de wijzigingen kunt u vinden in de [release notes](kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20230415000027/Releasenotes%20NIBC%20Direct%2020230415000027-%201.md).
+
+**2.** Nieuw stylesheetnummer voor de **Quion specifiek** opgeleverd:
+   - De details van de wijzigingen kunt u vinden in de [release notes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20230501000028/Releasenotes%20Quion%20generiek%2020230501000028-%201.md).
+
 ## 24 april 2023
 In deze release is een nieuwe versie van de toelichting van de Triodos gepubliceerd. In de [release notes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20230401000030/Releasenotes%20Triodos%2020230401000030-%201.md) kunt u zien wat er is gewijzigd.
 
