@@ -62,8 +62,8 @@ Hypotheek Munt|20180501000018|2|hypotheek_munt-1.5.1|2022-08-01
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
-Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0
-“ |20230415000027|1|hypotheek_nationale-nederlanden-2.0.0 | |Beta
+Hypotheek NIBC|20230415000027|1|hypotheek_nibc-2.0.0 | |Beta
+ “ |20210601000027|1|hypotheek_nibc-1.0.0
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
  “ |20180501000012|2|hypotheek_obvion_abp-1.4.1|2022-08-01
  “ | “ |1|hypotheek_obvion_abp-1.4.0|2022-08-01
@@ -71,8 +71,8 @@ Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
  “ |20180501000006|3|hypotheek_particulier-2.12.1|2022-08-01
  “ | “ |2|hypotheek_particulier-2.12.0|2022-08-01
  “ | “ |1|hypotheek_particulier-2.11.0|2022-08-01
-Hypotheek Quion generiek|20210801000028|1|hypotheek_quion_generiek-1.0
- “ |20230501000028|1|hypotheek_quion_generiek-2.0 | |Beta
+Hypotheek Quion generiek|20230501000028|1|hypotheek_quion_generiek-2.0| |Beta
+ “ |20210801000028|1|hypotheek_quion_generiek-1.0
 Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
  “ |20181015000005|2|hypotheek_rabobank-4.0.4|2022-08-01
