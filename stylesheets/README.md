@@ -63,6 +63,7 @@ Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
 Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0
+“ |20230415000027|1|hypotheek_nationale-nederlanden-2.0.0 | |Beta
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
  “ |20180501000012|2|hypotheek_obvion_abp-1.4.1|2022-08-01
  “ | “ |1|hypotheek_obvion_abp-1.4.0|2022-08-01
