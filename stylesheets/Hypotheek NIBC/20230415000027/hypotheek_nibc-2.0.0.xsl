@@ -219,7 +219,7 @@ Public:
 							<xsl:with-param name="amount" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:som"/>
 							<xsl:with-param name="valuta" select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[not(tia:aanduidingHypotheek) or normalize-space(tia:aanduidingHypotheek) = '']/tia:bedragRente/tia:valuta"/>
 						</xsl:call-template>
-						<xsl:text>, zijnde 40% van het laats genoemde bedrag;</xsl:text>
+						<xsl:text>, zijnde veertig procent (40%) van het laatst genoemde bedrag;</xsl:text>
 					</td>
 				</tr>
 			</tbody>
