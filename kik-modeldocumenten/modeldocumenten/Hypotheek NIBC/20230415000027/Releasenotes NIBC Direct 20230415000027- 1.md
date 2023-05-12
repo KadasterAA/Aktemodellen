@@ -20,7 +20,7 @@ AA-5690 | Oplevering van de stylesheet tbv nieuwe versie van het bankmodel NIBC 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument NIBC|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20230415000027/Modeldocument%20NIBC%20Direct%20v2.0.docx)**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20230415000027/Toelichting%20modeldocument%20NIBC%20Direct%20v2.0%20-%20v2.0)**| X |
+Modeldocument NIBC|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20230415000027/Modeldocument%20NIBC%20Direct%20v2.0.docx)**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20230415000027/Toelichting%20modeldocument%20NIBC%20Direct%20v2.0%20-%20v2.0.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
