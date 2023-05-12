@@ -3,10 +3,15 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel NIBC Direct**|NIBC Direct Hypotheken B.V. hypotheekakte (Model NIBC 23.01)|
 **Stylesheetnummer**|20230415000027 implementatienummer 1|
-**Release**|4 mei 2023|
+**Release**|12 mei 2023|
 
 ## Wijzigingen
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5813 | De mapping van de Woonplaatskeuze is aangepast. Dit vanwege een probleem in het interne akte verwerking proces. De versienummers van zowel de stylesheet als de toelichting zijn gelijk gebleven omdat dit een wijziging op de Beta versie betreft.| Toelichting, Stylesheet en backend controles| 
 
+
+## 4 mei 2023
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5690 | Oplevering van de stylesheet tbv nieuwe versie van het bankmodel NIBC Direct. In deze versie zijn diverse wijzigingen aangebracht in de vaste tekst.| Modeldocument, Toelichting, Stylesheet en backend controles| 

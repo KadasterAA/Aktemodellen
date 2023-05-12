@@ -3,10 +3,16 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Triodos**|Triodos hypotheekakte (Model Triodos 23.01)|
 **Stylesheetnummer**|20230401000030 implementatienummer 1|
-**Release**|24 april 2023|
+**Release**|12 mei 2023|
 
 ## Wijzigingen
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5813 | De mapping van de Woonplaatskeuze is aangepast. Dit vanwege een probleem in het interne akte verwerking proces. De versienummers van zowel de stylesheet als de toelichting zijn gelijk gebleven omdat dit een wijziging op de Beta versie betreft.| Toelichting, Stylesheet en backend controles| 
 
+
+
+## 24 april 2023
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5762 | Toelichting aangepast. De mapping van de partijaanduiding van partij 2 stond er 2x in met elk een andere waarde. Dit aangepast zodat er nog maar 1x mapping naar de partijaanduiding is vermeld met daarin de juiste waarde. Versie van de toelichting is niet aangepast.| Toelichting| 
