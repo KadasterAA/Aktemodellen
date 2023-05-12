@@ -9,6 +9,7 @@ Product|Omschrijving|
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-5813 | De mapping van de Woonplaatskeuze is aangepast. Dit vanwege een probleem in het interne akte verwerking proces. De versienummers van zowel de stylesheet als de toelichting zijn gelijk gebleven omdat dit een wijziging op de Beta versie betreft.| Toelichting, Stylesheet en backend controles| 
+AA-5815| Er zaten nog 2 foutjes in de vaste tekst onder "Hypotheekstelling": Het rentepercentage was niet uitgeschreven en er ontbrak een 't' achter 'laats'|Modeldocument, Toelichting, Stylesheet |
 
 
 ## 4 mei 2023

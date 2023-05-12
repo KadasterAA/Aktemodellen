@@ -8,7 +8,9 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 ## 11 mei 2023
-In deze release zijn de stylesheets Triodos en NIBC met respectievelijk stylesheetnummers 20230401000030 en 20230415000027 aangepast. Bij beide is de mapping van de Woonplaatskeuze aangepast. In de betreffende releasenotes vindt u verdere informatie. De versienummers van de stylesheets en de toelichting zijn niet aangepast omdat dit beide een bèta versie betreft.
+In deze release zijn de stylesheets Triodos en NIBC met respectievelijk stylesheetnummers 20230401000030 en 20230415000027 aangepast. Bij beide is de mapping van de Woonplaatskeuze aangepast. 
+Bij de NIBC zijn ook 2 fouten in de vaste tekst gecorrigeerd.
+In de betreffende releasenotes vindt u verdere informatie. De versienummers van de stylesheets en de toelichting zijn niet aangepast omdat dit beide een bèta versie betreft.
 
 
 ## 4 mei 2023
