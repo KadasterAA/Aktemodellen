@@ -281,14 +281,15 @@ Public:
 		</p>
 		<!-- Overbruggingshypotheek -->
 		<xsl:apply-templates select="tia:IMKAD_AangebodenStuk/tia:StukdeelHypotheek[translate(tia:aanduidingHypotheek, $upper, $lower) = 'overbruggingshypotheek']" mode="do-overbruggingshypotheek"/>
-		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) = 'true'">
+		<xsl:if test="translate(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst, $upper, $lower) != ''">
 			<p>
 				<u>
 					<xsl:text>Woonplaats</xsl:text>
 				</u>
 			</p>
 			<p>
-				<xsl:text>Partijen kiezen woonplaats ten kantore van de bewaarder van deze akte.</xsl:text>
+				<xsl:value-of select="normalize-space(tia:IMKAD_AangebodenStuk/tia:tia_TekstKeuze[translate(tia:tagNaam, $upper, $lower) = 'k_woonplaatskeuze']/tia:tekst[translate(normalize-space(.), $upper, $lower)])"/>
+				<xsl:text>.</xsl:text>
 			</p>
 		</xsl:if>
 		<p>
