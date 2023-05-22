@@ -2,7 +2,7 @@ Per implementatienummer vindt u hier de versie van het stylesheet
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Beta
 :---:|:---:|---|---|:---:|:---:
-Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0| |Beta
+Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0|
  “ |20200116000007|1|levering-5.1.0
  “|20190301000007|1|levering-5.0.0
  “|20180501000007|2|levering-4.5.1|2022-08-01
@@ -97,7 +97,8 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0| |Beta
-Hypotheek Vista|20201201000024|2|hypotheek_vista-2.0.1
+Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0 | |Beta
+ “ |20201201000024|2|hypotheek_vista-2.0.1
  “ | “ |1|hypotheek_vista-2.0.0
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
