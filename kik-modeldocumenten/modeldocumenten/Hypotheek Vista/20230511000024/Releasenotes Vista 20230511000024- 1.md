@@ -21,7 +21,7 @@ AA-4740 | Nieuwe versie van de stylesheet. Hierin is het postadres onder de woon
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Vista|[3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Modeldocument%20Hypotheekakte%20Vista%20v3.0.docx)|[3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Toelichting%20modeldocument%20Vista%203.0%20-%20v3.0.docx)| X |
+Modeldocument Vista|[3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Modeldocument%20Hypotheekakte%20Vista%20v3.0.docx)|[3.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Toelichting%20modeldocument%20Vista%20v3.0%20-%20v3.0.docx)| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
