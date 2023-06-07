@@ -7,6 +7,19 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 6 juni 2023
+In deze release:
+   - Argenta: nieuw stylesheetnummer opgeleverd. De details vind u [hier](kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20230524000025). Deze versie van de Argenta is een bèta versie.
+   - NIBC: In de toelichting ontbrak een haakje in de vaste tekst. Dit is alleen een tekstuele aanpassing. De stylesheet is niet aangepast.
+   - Vanaf nu zijn de NIBC, Quion generiek en Moneyou geen bèta versies meer. Als er vanaf nu wijzigingen zijn op deze stylesheetnummers dan zal dit resulteren in een nieuw stylesheetnummer of een nieuw implementatienummer.
+
+
+## 22 mei 2023
+In deze release is een nieuwe versie van de stylesheet t.b.v. Vista gepubliceerd. Deze versie van de Vista is een bèta versie.In de [release notes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Releasenotes%20Vista%2020230511000024-%201.md) kunt u zien wat er is gewijzigd.
+
+**Tevens is de stylesheet van de levering met stylesheetnummer 20211201000007 geen bèta versie meer. Als er vanaf nu wijzigingen zijn op het huidige stylesheetnummer dan zal dit resulteren in een nieuw stylesheetnummer of een nieuw implementatienummer.**
+
+
 ## 11 mei 2023
 In deze release zijn de stylesheets Triodos en NIBC met respectievelijk stylesheetnummers 20230401000030 en 20230415000027 aangepast. Bij beide is de mapping van de Woonplaatskeuze aangepast. 
 Bij de NIBC zijn ook 2 fouten in de vaste tekst gecorrigeerd.
@@ -106,7 +119,7 @@ In deze release:
 
 ## 18 februari 2022
 In deze release:
-1. Nieuw stylesheetmnummer tbv de Akte van Levering. In deze stylesheet zijn wijzigingen opgenomen die gebruikt kunnen worden tbv Nieuwbouwprojecten. De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Releasenotes%20Akte%20van%20Levering%2020210104000011%20-%201.md);
+1. Nieuw stylesheetmnummer tbv de Akte van Levering. In deze stylesheet zijn wijzigingen opgenomen die gebruikt kunnen worden tbv Nieuwbouwprojecten. De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20211201000007/Releasenotes%20Akte%20van%20Levering%20211201000007%20-%201.md);
 
 2. In de Quion zaten een 3-tal bugs. De details van de wijzigingen kunt u vinden in de [release notes](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20210801000028/Releasenotes%20Quion%20generiek%2020210801000028-%201.md).
 Met deze release is de Quion definitief gemaakt;
