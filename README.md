@@ -7,6 +7,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 6 juni 2023
+In deze release:
+   - Argenta: nieuw stylesheetnummer opgeleverd. De details vind u [hier](kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20230524000025). Deze versie van de Argenta is een bèta versie.
+   - NIBC: In de toelichting ontbrak een haakje in de vaste tekst. Dit is alleen een tekstuele aanpassing. De stylesheet is niet aangepast.
+   - Vanaf nu zijn de NIBC, Quion generiek en Moneyou geen bèta versies meer. Als er vanaf nu wijzigingen zijn op deze stylesheetnummers dan zal dit resulteren in een nieuw stylesheetnummer of een nieuw implementatienummer.
+
+
 ## 22 mei 2023
 In deze release is een nieuwe versie van de stylesheet t.b.v. Vista gepubliceerd. Deze versie van de Vista is een bèta versie.In de [release notes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20230511000024/Releasenotes%20Vista%2020230511000024-%201.md) kunt u zien wat er is gewijzigd.
 
