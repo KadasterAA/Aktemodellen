@@ -49,6 +49,7 @@ Hypotheek ASR|20190401000020|5|hypotheek_asr-1.2.1
 Hypotheek BLG|20190801000014|1|hypotheek_blg-3.0.0
  “ |20180501000014|2|hypotheek_blg-2.6.1|2022-08-01
  “ | “ |1|hypotheek_blg-2.6.0|2022-08-01
+Hypotheek Credo|20230605000031|1|hypotheek_credo-1.0.0| |Beta
 Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
  “ |20180501000004|2|hypotheek_ing-3.5.1|2022-08-01
  “ | “ |1|hypotheek_ing-3.5.0|2022-08-01
@@ -97,8 +98,8 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |4|hypotheek_syntrus_achmea-1.0.3
  “ | “ |3|hypotheek_syntrus_achmea-1.0.2
  “ | “ |2|hypotheek_syntrus_achmea-1.0.1
-Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0| |Beta
-Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0 | |Beta
+Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
+Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
  “ |20201201000024|2|hypotheek_vista-2.0.1
  “ | “ |1|hypotheek_vista-2.0.0
 Notariële verklaring|20191201000008|3|notariele_verklaring-3.1.1
