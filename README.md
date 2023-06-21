@@ -7,6 +7,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 21 juni 2023
+
+In deze release:
+- Nieuw bankmodel Credo Hypotheken opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Credo). Deze versie van Credo is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
+-  In de toelichting van Argenta hebben we nog een tekstuele aanpassing gedaan. In de [releasenotes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20230524000025/Releasenotes%20Argenta%2020230524000025-%201.md) vindt u verdere informatie hierover;
+- Vanaf nu is de Triodos geen bèta versie meer en vanaf 22 juni 2023 is de Vista geen bèta versie. Als er vanaf nu wijzigingen zijn op deze stylesheetnummers dan zal dit resulteren in een nieuw stylesheetnummer of een nieuw implementatienummer.
+
 ## 6 juni 2023
 In deze release:
    - Argenta: nieuw stylesheetnummer opgeleverd. De details vind u [hier](kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20230524000025). Deze versie van de Argenta is een bèta versie.
