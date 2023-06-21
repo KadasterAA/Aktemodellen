@@ -3,11 +3,16 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel NIBC Direct**|NIBC Direct Hypotheken B.V. hypotheekakte (Model NIBC 23.01)|
 **Stylesheetnummer**|20230415000027 implementatienummer 1|
-**Release**|6 juni 2023|
+**Release**|12 juni 2023|
 
 ## Wijzigingen
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5777| Er zat nog een tekstueel foutjes in de Toelichting: er ontbrak een 't' achter 'laats' |Toelichting|
 
 
+
+## 6 juni 2023
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-XXXX| Er zat nog een tekstueel foutjes in de Toelichting: in de vaste tekst onder het kopje "Lening" ontbrak een haakje achter de tekst '(hierna te noemen: de ”Lening”)' |Toelichting|
