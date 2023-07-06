@@ -269,7 +269,7 @@ Public:
 					<xsl:text>c.</xsl:text>
 				</td>
 				<td valign="top">
-					<xsl:text>dat het voormelde Onderpand niet anders met recht van hypotheek is of met een tweede recht van hypotheek zal worden bezwaard dan krachtens deze akte, behoudens het (de) eventuele ten behoeve van Credo Hypotheken eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever.</xsl:text>
+					<xsl:text>dat het voormelde Onderpand niet anders met recht van hypotheek is of kan worden bezwaard dan krachtens deze akte, behoudens het (de) eventuele ten behoeve van Credo Hypotheken eerder gevestigde hypotheekrecht(en) ten laste van de Hypotheekgever.</xsl:text>
 				</td>
 			</tr>
 			</tbody>

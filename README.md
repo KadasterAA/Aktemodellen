@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 6 juli 2023
+
+In deze release:
+- Credo: In de stylesheet van de vorige release stond tekst teveel. Verdere details vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Credo). Omdat het een beta akte betreft is het stylesheetnummer en implementatienummer ongewijzigd gebleven. De Toelichting en het Modeldocument zijn ook ongewijzigd gebleven.
+
 ## 21 juni 2023
 
 In deze release:

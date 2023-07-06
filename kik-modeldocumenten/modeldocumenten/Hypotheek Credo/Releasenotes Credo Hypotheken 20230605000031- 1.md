@@ -7,6 +7,13 @@ Product|Omschrijving|
 
 ## Wijzigingen
 
+## 6 juli 2023
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-5906| Tekstuele aanpassing van de stylesheet. Bij "Hypotheekstelling" is onder c. teveel tekst in de stylesheet, het stukje tekst "met een tweede recht van hypotheek zal" is verwijderd.| Stylesheet|
+
+
+## 21 juni 2023
 
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
