@@ -7,6 +7,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+
+## 2 augustus 2023
+De stylesheets van Credo (20230605000031) en Argenta (20230524000025) zijn vanaf heden geen bèta versie meer. Wijzigingen op beide stylesheets zullen vanaf nu resulteren in een nieuw stylesheetnummer of implementatienummer.
+
 ## 6 juli 2023
 
 In deze release:
