@@ -42,8 +42,9 @@ Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0
-Hypotheek NIBC|20230415000027|1|hypotheek_nibc-2.0.0
- “ |20210601000027|1|hypotheek_nibc-1.0.0
+Hypotheek NIBC|20231002000027|1|hypotheek_nibc-3.0.0| |Beta
+ “ |20230415000027|1|hypotheek_nibc-2.0.0
+Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0
 Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
 Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
 Hypotheek Quion generiek|20230501000028|1|hypotheek_quion_generiek-2.0
