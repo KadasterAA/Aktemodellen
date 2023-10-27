@@ -20,7 +20,7 @@ AA-6086 | Voor de wijziging naar de Omgevingswet is de tekst voor de WVG vervang
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Akte van Levering|**[4.7.0a]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20231016000007/Modeldocument%20Akte%20van%20Levering%20v4.7.0a.docx)**|**[4.6.0a]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20190301000007/Toelichting%20modeldocument%20Akte%20van%20Levering%204.7.0a%20-%20v4.6.0a.docx)**| X |
+Modeldocument Akte van Levering|**[4.7.0a]( /kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20231016000007%20pre%20nieuwbouw/Modeldocument%20Akte%20van%20Levering%20v4.7.0a.docx)**|**[4.6.0a]( /kik-modeldocumenten/mmodeldocumenten/Akte%20van%20levering/20231016000007%20pre%20nieuwbouw/Toelichting%20modeldocument%20Akte%20van%20Levering%204.7.0a%20-%20v4.6.0a.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
