@@ -7,6 +7,24 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+
+## 27 oktober 2023
+In deze release:
+
+In veband met de wijziging tbv de Omgevingswet hebben we 4 nieuwe stylesheetnummers opgeleverd. 
+   - Levering 20231016000007: Dit stylesheetnummer is gebasseerd op het stylesheetnummer 20200116000007. Hierin zitten nog niet de aanpassingen tbv de Nieuwbouw.
+   - Levering 20231020000007: Dit stylesheetnummer is gebasseerd op het stylesheetnummer 20211201000007. Dit betreft de akte met de Nieuwbouw opties.
+   - Verdeling 20231016000009
+   - Notariele Verklaring 20231016000008
+
+   De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten)
+
+   De oudere versies van deze akten zullen per 1-1-2024 niet meer geldig zijn en zullen dus uitvallen.
+
+   Bovenstaande stylesheetnummers zijn bèta versies. De onvolkomenheden die we de komende 4 weken vinden in deze akte, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren. Het stylesheetnummer en implementatienummer blijven dan dus gelijk.
+
+
+
 ## 4 oktober 2023
 In deze release:
    - NIBC: Nieuw bankmodel NIBC opgeleverd. Alleen vaste tekst is aangepast. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20231002000027). Deze versie van NIBC is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
@@ -15,17 +33,14 @@ In deze release:
    **!! Komend weekend wordt er een aanpassing gedaan aan waardelijst BRPLand. De waarde "Groot-Brittannië" wordt vervangen door de waarde "Verenigd Koninkrijk". De oude waarde is vanaf dat moment niet meer geldig.**
   
 
-
 ## 2 augustus 2023
 De stylesheets van Credo (20230605000031) en Argenta (20230524000025) zijn vanaf heden geen bèta versie meer. Wijzigingen op beide stylesheets zullen vanaf nu resulteren in een nieuw stylesheetnummer of implementatienummer.
 
 ## 6 juli 2023
-
 In deze release:
 - Credo: In de stylesheet van de vorige release stond tekst teveel. Verdere details vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Credo). Omdat het een beta akte betreft is het stylesheetnummer en implementatienummer ongewijzigd gebleven. De Toelichting en het Modeldocument zijn ook ongewijzigd gebleven.
 
 ## 21 juni 2023
-
 In deze release:
 - Nieuw bankmodel Credo Hypotheken opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Credo). Deze versie van Credo is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
 -  In de toelichting van Argenta hebben we nog een tekstuele aanpassing gedaan. In de [releasenotes](kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20230524000025/Releasenotes%20Argenta%2020230524000025-%201.md) vindt u verdere informatie hierover;
