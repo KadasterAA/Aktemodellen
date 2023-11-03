@@ -11,7 +11,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 ## 27 oktober 2023
 In deze release:
 
-In veband met de wijziging tbv de Omgevingswet hebben we 4 nieuwe stylesheetnummers opgeleverd. 
+In verband met de wijziging tbv de Omgevingswet hebben we 4 nieuwe stylesheetnummers opgeleverd. 
    - Levering 20231016000007: Dit stylesheetnummer is gebasseerd op het stylesheetnummer 20200116000007. Hierin zitten nog niet de aanpassingen tbv de Nieuwbouw.
    - Levering 20231020000007: Dit stylesheetnummer is gebasseerd op het stylesheetnummer 20211201000007. Dit betreft de akte met de Nieuwbouw opties.
    - Verdeling 20231016000009
