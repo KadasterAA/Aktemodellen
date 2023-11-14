@@ -20,7 +20,7 @@ AA-6054 | Nieuwe versie stylesheet 20231105000015 ivm wijzigingen bankmodel | Mo
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Aegon|**[5.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Modeldocument%20AEGON%20v5.0.0.docx)**|**[5.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Toelichting%20modeldocument%20AEGON%205.0.0%20-%20v5.0.0.docx)**| X |
+Modeldocument Aegon|**[5.0.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Modeldocument%20AEGON%20v5.0.0.docx)**|**[5.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Toelichting%20modeldocument%20AEGON%205.0.0%20-%20v5.0.0.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)||  |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
