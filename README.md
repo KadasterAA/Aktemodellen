@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 14 november 2023
+Nieuw bankmodel Aegon opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015). Deze versie van de Aegon is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
+
+
+
 ## 3 november 2023
 De stylesheet van de NIBC (20231002000027) is vanaf heden geen bèta versie meer. Wijzigingen op deze stylesheet zullen vanaf nu resulteren in een nieuw stylesheetnummer of implementatienummer.
 
