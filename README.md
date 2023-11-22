@@ -12,7 +12,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 
 ## 22 november 2023
-Voor de Argon is er een nieuwe versie van de Toelichting opgeleverd. Er ontbrak een zin in de tekst. Verder informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Releasenotes%20AEGON%2020231105000015-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
+Voor de Aegon is er een nieuwe versie van de Toelichting opgeleverd. Er ontbrak een zin in de tekst. Verder informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Releasenotes%20AEGON%2020231105000015-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
 
 
 ## 14 november 2023
