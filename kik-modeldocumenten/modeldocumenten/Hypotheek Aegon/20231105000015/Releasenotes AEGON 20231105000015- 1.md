@@ -3,9 +3,15 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Aegon**|HYAEG01 Model Aegon 2023|
 **Stylesheetnummer**|20231105000015 implementatienummer 1|
-**Release**|14 november 2023|
+**Release**|22 november 2023|
 
 ## Wijzigingen
+|Wijziging|Omschrijving|Oplossing|
+|---|---|---|
+AA-6143 | De volgende zin ontbrak in de toelichting van stylesheet 20231105000015: "Van de hier bedoelde volmacht is mij, notaris, genoegzaam gebleken". Deze is toegevoegd. Modeldocument en stylesheet zijn hiervoor niet aangepast.| Toelichting | 
+
+
+## Release 14 november 2023
 
 ### TB Equivalentieverklaring
 |Wijziging|Omschrijving|Oplossing|
