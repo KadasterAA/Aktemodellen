@@ -21,27 +21,26 @@ Per 1 juni 2024 kan alleen nog stylesheet 20231020000007 als leveringsakte (met 
 
 We hebben dit jaar ook een aantal nieuwe stylesheets voor diverse hypotheekverstrekkers opgeleverd. Hiervan zullen de oudere versies van de stylesheets ook per 1 juni 2024 worden uitgezet. 
 
- |Label    | stylesjeetnr | einddatum |
+ |Label    | stylesheetnr | einddatum |
 | --- | --- | --- |
 | Levering   | 20231016000007 | 1-6-2024 |
 | Moneyou    | 20190801000003 | 1-6-2024 |
 | Quion      | 20210801000028 | 1-6-2024 |
 | NIBC       | 20210601000027 | 1-6-2024 |
 | NIBC       | 20230415000027 | 1-6-2024 |
-| Vista      | 20200602500024 | 1-6-2024 |
 | Vista      | 20201201000024 | 1-6-2024 |
 | Argenta    | 20200701000025 | 1-6-2024 |
 | Argenta    | 20210215000025 | 1-6-2024 |
 | Aegon      | 20190801000015 | 1-6-2024 |
 
 Tevens ook oudere versies van de overige hypotheekakten worden uitgezet:
-|Label    | stylesjeetnr | einddatum |
+|Label    | stylesheetnr | einddatum |
 | --- | --- | --- |
 | ASR        | 20190401000020 | 1-6-2024|
 | ASR        | 20191015000020 | 1-6-2024|
 | ASR        | 20210511000020 | 1-6-2024|
 | Lloyds     | 20190501000021 | 1-6-2024|
-| Lot        | 20211015000026 | 1-6-2024|
+| Lot        | 20210501000026 | 1-6-2024|
 | Munt       | 20190617000018 | 1-6-2024|
 | Syntrus Achmea | 20200907000022 | 1-6-2024|
 | Syntrus Achmea | 20200301000022 | 1-6-2024|
@@ -50,7 +49,7 @@ Tevens ook oudere versies van de overige hypotheekakten worden uitgezet:
 **Nog even ter herinnering.**
 
 De volgende akten worden per **1 januari 2024 uitgezet**:
-|Label    | stylesjeetnr | 
+|Label    | stylesheetnr | 
 | --- | --- | 
 |Levering | 20190301000007 |
 |Levering | 20200116000007 |
