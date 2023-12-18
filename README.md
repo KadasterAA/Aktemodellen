@@ -7,6 +7,86 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 18 december 2023
+
+Vanaf vandaag zijn de volgende stylesheetnummers geen bèta versie meer:
+- Verdeling 20231016000009
+- Notariele Verklaring 20231016000008
+- Levering 20231016000007
+- Levering 20231020000007
+
+Vanaf 22 december is de Aegon, met stylesheetnummer 20231105000015, geen bèta versie meer.
+
+Wijzigingen op de genoemde stylesheetnumers zullen vanaf dan resulteren in een nieuw stylesheetnummer of implementatienummer. 
+
+
+**En nog even ter herinnering.**
+
+De volgende akten worden per **1 januari 2024 uitgezet**:
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20190301000007 |
+|Levering | 20200116000007 |
+|Levering | 20211201000007 |
+|Verdeling |20191001000009 |
+|Notariele Verklaring| 20191201000008| 
+
+## 29 november 2023
+
+**Aankondiging:**
+
+Voor de aanpassing van de WVG naar de Omgevingswet in de leveringsakte zijn recent twee nieuwe stylesheetsnummers opgeleverd te weten:
+
+1.  Levering 20231016000007: Dit stylesheetnummer is gebaseerd op het stylesheetnummer 20200116000007. Hierin zitten nog _**niet**_ de aanpassingen t.b.v. de betere ondersteuning van Nieuwbouw.
+2.  Levering 20231020000007: Dit stylesheetnummer is gebaseerd op het stylesheetnummer 20211201000007. Dit betreft de akte met de aanpassingen voor een betere ondersteuning van Nieuwbouw.
+
+Per 1 juni 2024 kan alleen nog stylesheet 20231020000007 als leveringsakte (met betere ondersteuning voor nieuwbouw) aangeboden worden. Dit betekent dat we leveringsakte 20231016000007 per 1 juni 2024 uitzetten. 
+
+
+We hebben dit jaar ook een aantal nieuwe stylesheets voor diverse hypotheekverstrekkers opgeleverd. Hiervan zullen de oudere versies van de stylesheets ook per 1 juni 2024 worden uitgezet. 
+
+ |Label    | stylesheetnr | einddatum |
+| --- | --- | --- |
+| Levering   | 20231016000007 | 1-6-2024 |
+| Moneyou    | 20190801000003 | 1-6-2024 |
+| Quion      | 20210801000028 | 1-6-2024 |
+| NIBC       | 20210601000027 | 1-6-2024 |
+| NIBC       | 20230415000027 | 1-6-2024 |
+| Vista      | 20201201000024 | 1-6-2024 |
+| Argenta    | 20200701000025 | 1-6-2024 |
+| Argenta    | 20210215000025 | 1-6-2024 |
+| Aegon      | 20190801000015 | 1-6-2024 |
+
+Tevens ook oudere versies van de overige hypotheekakten worden uitgezet:
+|Label    | stylesheetnr | einddatum |
+| --- | --- | --- |
+| ASR        | 20190401000020 | 1-6-2024|
+| ASR        | 20191015000020 | 1-6-2024|
+| ASR        | 20210511000020 | 1-6-2024|
+| Lloyds     | 20190501000021 | 1-6-2024|
+| Lot        | 20210501000026 | 1-6-2024|
+| Munt       | 20190617000018 | 1-6-2024|
+| Syntrus Achmea | 20200907000022 | 1-6-2024|
+| Syntrus Achmea | 20200301000022 | 1-6-2024|
+| Nationale Nederlanden | 20200415000023 | 1-6-2024|
+
+**Nog even ter herinnering.**
+
+De volgende akten worden per **1 januari 2024 uitgezet**:
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20190301000007 |
+|Levering | 20200116000007 |
+|Levering | 20211201000007 |
+|Verdeling |20191001000009 |
+|Notariele Verklaring| 20191201000008| 
+
+
+
+## 22 november 2023
+Voor de Aegon is er een nieuwe versie van de Toelichting opgeleverd. Er ontbrak een zin in de tekst. Verder informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015/Releasenotes%20AEGON%2020231105000015-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
+
+
 ## 14 november 2023
 Nieuw bankmodel Aegon opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20231105000015). Deze versie van de Aegon is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
 
