@@ -2,12 +2,12 @@ Per implementatienummer vindt u hier de versie van het stylesheet
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Beta
 :---:|:---:|---|---|:---:|:---:
-Akte van levering KNB nieuw model|20231020000007|1|levering-8.0.0
- “ |20231016000007|1|levering-7.0.0
+Akte van levering KNB nieuw model|20231020000007|1|levering-8.0.0| |Beta
+ “ |20231016000007|1|levering-7.0.0| |Beta
 Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0
 Akte van levering KNB nieuw model|20200116000007|1|levering-5.1.0
 Akte van levering KNB nieuw model|20190301000007|1|levering-5.0.0
-Akte van verdeling|20231016000009|1|verdeling-5.0.0
+Akte van verdeling|20231016000009|1|verdeling-5.0.0| |Beta
  “ |20191001000009|1|verdeling-4.0.0
 Doorhaling hypotheek|20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
@@ -17,7 +17,7 @@ Hypotheek ABN AMRO Florius|20190801000002|1|hypotheek_abn_amro_florius-4.0.0
 Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
  “ |20190801000003|1|hypotheek_abn_amro_moneyou-4.0.0
 Hypotheek ABP|20190801000019|1|hypotheek_abp-1.0.0
-Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
+Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0| |Beta
  “ |20190801000015|1|hypotheek_aegon-5.0.0
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0
  “ |20210215000025|1|hypotheek_argenta-2.0
@@ -45,7 +45,8 @@ Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden
 Hypotheek NIBC|20231002000027|1|hypotheek_nibc-3.0.0
  “ |20230415000027|1|hypotheek_nibc-2.0.0
 Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0
-Hypotheek Obvion|20190624000012|1|hypotheek_obvion-4.0.0
+Hypotheek Obvion|20240201000012|1|hypotheek_obvion-5.0.0| |Beta
+ “ |20190624000012|1|hypotheek_obvion-4.0.0
 Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
 Hypotheek Quion generiek|20230501000028|1|hypotheek_quion_generiek-2.0
  “ |20210801000028|1|hypotheek_quion_generiek-1.0
@@ -66,6 +67,6 @@ Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
 Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
  “ |20201201000024|2|hypotheek_vista-2.0.1
  “ | “ |1|hypotheek_vista-2.0.0
-Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
+Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0| |Beta
  “ |20191201000008|3|notariele_verklaring-3.1.1
  “ | “ |2|notariele_verklaring-3.1.0
