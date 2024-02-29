@@ -70,3 +70,4 @@ Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
 Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
  “ |20191201000008|3|notariele_verklaring-3.1.1|2024-06-01
  “ | “ |2|notariele_verklaring-3.1.0|2024-06-01
+VerklaringVanErfrecht|20240102000029|1|vve_wettelijkeverdeling-1.0| |Beta
