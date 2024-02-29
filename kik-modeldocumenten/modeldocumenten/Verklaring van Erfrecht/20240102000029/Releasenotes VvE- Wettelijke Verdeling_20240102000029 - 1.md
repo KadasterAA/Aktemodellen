@@ -46,9 +46,10 @@ Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
 Modeldocument Verklaring van erfrecht|[1.0]( /kik-modeldocumenten/modeldocumenten/Verklaring%20van%20erfrecht/20240102000029/Modeldocument%20Verklaring%20van%20Erfrecht%20v1.0.docx)|[1.0]( /kik-modeldocumenten/modeldocumenten/Verklaring%20van%20erfrecht/20240102000029/Toelichting%20modeldocument%20Verklaring%20van%20Erfrecht%20v1.0%20-%20v1.0.docx)| X |
 
-XSD StukAlgemeen|[1.0]( /aa-documentation/kik-xsd/Verklaring%20van%20erfrecht/VVE-WettelijkeVerdeling-1.0)| X|  
+XSD StukAlgemeen|[1.0]( /aa-documentation/kik-xsd/Verklaring%20van%20erfrecht/VVE-WettelijkeVerdeling-1.0)|| X|  
 
-Tekstblok - Aanhef Verklaring van Erfrecht|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20Verklaring%20van%20Erfrecht%20v1.0.docx)|[1.0](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Aanhef%20Verklaring%20van%20Erfrecht%20v1.0%20-%20v1.0.docx)| X |
+Tekstblok - Aanhef Verklaring van Erfrecht|
+[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanhef%20Verklaring%20van%20Erfrecht%20v1.0.docx)|[1.0](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Aanhef%20Verklaring%20van%20Erfrecht%20v1.0%20-%20v1.0.docx)| X |
 
 Tekstblok - Equivalentieverklaring|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Equivalentieverklaring-nieuw%20v1.0.docx)|[1.0](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%20v1.0%20-%20v1.0%20-%20nieuw.docx)| X|
 
@@ -56,7 +57,7 @@ Tekstblok - Natuurlijk persoon|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok
 
 Tekstblok - Personalia van Natuurlijk persoon|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon-nieuw%20v1.0.docx)|[1.0](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%20v1.0%20-%20v1.0%20-%20nieuw.docx)| X  |
 
-Tekstblok - Woonadres|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Woonadres%20v1.0-nieuw.docx)|[2.4](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Woonadres%201.0%20-%20v1.0%20-%20nieuw.docx)| X  |
+Tekstblok - Woonadres|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Woonadres%20v1.0-nieuw.docx)|[1.0](/kik-modeldocumenten/tekstblokken/tbv_Verklaring%20van%20erfrecht/Toelichting%20Tekstblok%20-%20Woonadres%201.0%20-%20v1.0%20-%20nieuw.docx)| X  |
 
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 
