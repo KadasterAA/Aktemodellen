@@ -9,7 +9,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 28 februari 2024
 Nieuwe akte Verklaring van Erfrecht - Wettelijke Verdeling is gepubliceerd. Hiervoor is ook een, voor deze akte, eigen XSD aangemaakt. In deze akte wordt er geen gebruik meer gemaakt van namespaces. Hiervoor moesten er ook een aantal Tekstblokken worden aangepast.
-De details van deze akte vindt u in de [**release notes**](kik-modeldocumenten/modeldocumenten/Verklaring%20van%20Erfrecht/20240102000029/Releasenotes%20VvE-%20Wettelijke%20Verdeling_20240102000029%20-%201.md). Deze versie van de Verklaring van Erfrecht is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
+De details van deze akte vindt u in de [**release notes**](kik-modeldocumenten/modeldocumenten/Verklaring%20van%20erfrecht/20240102000029/Releasenotes%20VvE-%20Wettelijke%20Verdeling_20240102000029%20-%201.md). Deze versie van de Verklaring van Erfrecht is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
 
 ## 6 februari 2024
 
