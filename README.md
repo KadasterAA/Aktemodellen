@@ -13,7 +13,7 @@ De details van deze akte vindt u in de [**release notes**](kik-modeldocumenten/m
 
 ## 6 februari 2024
 
-Nieuw bankmodel Obvion opgeleverd. De documentatie vindt u (kik-modeldocumenten/modeldocumenten/Verklaring%20van%20erfrecht/Releasenotes%20VvE-%20Wettelijke%20Verdeling_20240102000029%20-%201.md). Deze versie van de Obvion is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren.
+Nieuw bankmodel Obvion opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012). Deze versie van de Obvion is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren.
 
 Ter herinnering: per 1 juni 2024 wordt leveringsakte met het stylesheetnummer 20231016000007 uitgezet.
 
