@@ -28,7 +28,7 @@ AA-6057 | Voor deze versie van de Obvion moet de nieuwe versie van het Tekstblok
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Obvion|**[3.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20180501000012/Modeldocument%20Obvion%20v3.0.0.docx)**|**[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Toelichting%20modeldocument%20Obvion%203.0.0%20-%20v4.0.0.docx)**| X |
+Modeldocument Obvion|**[3.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Modeldocument%20Obvion%20v3.0.0.docx)**|**[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Toelichting%20modeldocument%20Obvion%203.0.0%20-%20v4.0.0.docx)**| X |
 XSD StukAlgemeen|**[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)**|| X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
