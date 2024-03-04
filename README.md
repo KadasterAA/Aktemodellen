@@ -7,6 +7,33 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 4 maart 2024
+Voor de Obvion is de Toelichting en de stylesheet aangepast bij de Overbruggingshypotheek. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
+
+**En nog even ter herinnering.**
+
+De volgende akten worden per **1 juni 2024 uitgezet**:
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20231016000007 |
+|ABN Amro MoneYou|20190801000003|
+|Aegon|20190801000015|
+|Argenta|20210215000025|
+|Argenta|20200701000025|
+|ASR|20210511000020|
+|ASR|20191015000020|
+|ASR|20190401000020|
+|Lloyds|20190501000021|
+|Lot|20210501000026|
+|Munt|20190617000018|
+|Nationale Nederlanden|20200415000023|
+|NIBC|20230415000027|
+|NIBC|20210601000027|
+|Quion|20210801000028|
+|Syntrus Achmea|20200301000022|
+|Syntrus Achmea|20190701000022|
+|Vista|20201201000024|
+
 ## 28 februari 2024
 Nieuwe akte Verklaring van Erfrecht - Wettelijke Verdeling is gepubliceerd. Hiervoor is ook een, voor deze akte, eigen XSD aangemaakt. In deze akte wordt er geen gebruik meer gemaakt van namespaces. Hiervoor moesten er ook een aantal Tekstblokken worden aangepast.
 De details van deze akte vindt u in de [**release notes**](kik-modeldocumenten/modeldocumenten/Verklaring%20van%20Erfrecht/20240102000029/Releasenotes%20VvE-%20Wettelijke%20Verdeling_20240102000029%20-%201.md). Deze versie van de Verklaring van Erfrecht is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden, zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren;
