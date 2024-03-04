@@ -4,11 +4,7 @@ Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Be
 :---:|:---:|---|---|:---:|:---:
 Akte van levering KNB nieuw model|20231020000007|1|levering-8.0.0
  “ |20231016000007|1|levering-7.0.0|2024-06-01
-Akte van levering KNB nieuw model|20211201000007|1|levering-6.0.0|2024-06-01
-Akte van levering KNB nieuw model|20200116000007|1|levering-5.1.0|2024-06-01
-Akte van levering KNB nieuw model|20190301000007|1|levering-5.0.0|2024-06-01
 Akte van verdeling|20231016000009|1|verdeling-5.0.0
- “ |20191001000009|1|verdeling-4.0.0|2024-06-01
 Doorhaling hypotheek|20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
  “ | “ |1|doorhaling_hypotheek-3.0.0
@@ -68,6 +64,4 @@ Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
  “ |20201201000024|2|hypotheek_vista-2.0.1|2024-06-01
  “ | “ |1|hypotheek_vista-2.0.0|2024-06-01
 Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
- “ |20191201000008|3|notariele_verklaring-3.1.1|2024-06-01
- “ | “ |2|notariele_verklaring-3.1.0|2024-06-01
 VerklaringVanErfrecht|20240102000029|1|vve_wettelijkeverdeling-1.0| |Beta

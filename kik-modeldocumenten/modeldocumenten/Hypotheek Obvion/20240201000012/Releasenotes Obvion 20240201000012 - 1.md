@@ -3,10 +3,15 @@ Product|Omschrijving|
 |---|---|
 **Versie Bankmodel Obvion**|MOD100_2301|
 **Stylesheetnummer**|20240201000012 implementatienummer 1|
-**Release**|6 februari 2024|
+**Release**|4 maart 2024|
 
 ## Wijzigingen
 
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-6297 | Nieuwe versie stylesheet en Toelichting. Bij de Overbruggingshypotheek is het afsluitende teken na het laatste Tekstblok Registergoed altijd een ';', hiervoor is de Toelichting aangepast. In de eerste zin van de Overbruggingshypotheek is de komma na "vermeld" verwijderd, hiervoor is de stylesheet aangepast. | Toelichting en Stylesheet| 
+
+## 6 februari 2024
 
 ### Tekstblok Equivalentieverklaring
 |Wijziging|Omschrijving|Oplossing|

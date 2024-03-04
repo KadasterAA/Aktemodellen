@@ -826,7 +826,7 @@ Public:
 			<xsl:text>&#xFEFF;</xsl:text>
 		</td>
 		<td class="number" valign="top">
-			<xsl:text>Voorts verleent geldnemer, tot zekerheid voor de betaling van de schuld als hierboven vermeld, bij deze aan geldgever, die van geldnemer aanvaardt, het recht van </xsl:text>
+			<xsl:text>Voorts verleent geldnemer, tot zekerheid voor de betaling van de schuld als hierboven vermeld bij deze aan geldgever, die van geldnemer aanvaardt, het recht van </xsl:text>
 			<xsl:value-of select="kef:convertOrdinalToText(tia:rangordeHypotheek)"/>
 			<xsl:text> hypotheek op het navolgende registergoed:</xsl:text>
 		</td>
