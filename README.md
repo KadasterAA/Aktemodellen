@@ -8,7 +8,7 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
 ## 4 maart 2024
-Voor de Obvion is de Toelichting en de stylesheet aangepast bij de Overbruggingshypotheek. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
+Voor de Obvion is de Toelichting en de stylesheet aangepast bij de Overbruggingshypotheek. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012%20-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
 
 **En nog even ter herinnering.**
 
