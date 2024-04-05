@@ -14,7 +14,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 - Vanaf heden is de Verklaring van Erfrecht en de Obvion met stylesheetnummer 20240201000012 geen Beta meer.
 
 ### In deze release:
-- Nieuw bankmodel Neo opgeleverd. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/Releasenotes%20Neo%20Hypotheken%2020230605000031-%201.md) vindt u hier. Deze versie van de Neo is een bèta versie. 
+- Nieuw bankmodel Neo opgeleverd. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20230605000031/Releasenotes%20Neo%20Hypotheken%2020230605000031-%201.md) vindt u hier. Deze versie van de Neo is een bèta versie. 
 
 - Nieuw stylesheetnummer voor de ABP opgeleverd. Deze versie van de ABP is een bèta versie. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20240321000019/Releasenotes%20ABP%2020240321000019-%201.md) vindt u hier.
 
