@@ -12,7 +12,8 @@ Hypotheek ABN AMRO AAB|20190801000001|1|hypotheek_abn_amro_aab-4.0.0
 Hypotheek ABN AMRO Florius|20190801000002|1|hypotheek_abn_amro_florius-4.0.0
 Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
  “ |20190801000003|1|hypotheek_abn_amro_moneyou-4.0.0|2024-06-01
-Hypotheek ABP|20190801000019|1|hypotheek_abp-1.0.0
+**Hypotheek ABP**|**20240321000019**|**1**|**hypotheek_abp-2.0.0**||**Beta**
+ “ |20190801000019|1|hypotheek_abp-1.0.0
 Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
  “ |20190801000015|1|hypotheek_aegon-5.0.0|2024-06-01
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0
@@ -38,10 +39,12 @@ Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0|2024-06-01
-Hypotheek NIBC|20231002000027|1|hypotheek_nibc-3.0.0
+**Hypotheek Neo**|**20240311000032**|**1**|**hypotheek_neo-1.0.0**||**Beta**
+**Hypotheek NIBC**|**20231002000027**|**2**|**hypotheek_nibc-3.0.1**
+ “ | “ |1|hypotheek_nibc-3.0.0
  “ |20230415000027|1|hypotheek_nibc-2.0.0|2024-06-01
-Hypotheek NIBC|20210601000027|1|hypotheek_nibc-1.0.0|2024-06-01
-Hypotheek Obvion|20240201000012|1|hypotheek_obvion-5.0.0| |Beta
+ “ |20210601000027|1|hypotheek_nibc-1.0.0|2024-06-01
+Hypotheek Obvion|20240201000012|1|hypotheek_obvion-5.0.0
  “ |20190624000012|1|hypotheek_obvion-4.0.0
 Hypotheek Particulier|20190801000006|1|hypotheek_particulier-3.0.0
 Hypotheek Quion generiek|20230501000028|1|hypotheek_quion_generiek-2.0
@@ -64,4 +67,4 @@ Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
  “ |20201201000024|2|hypotheek_vista-2.0.1|2024-06-01
  “ | “ |1|hypotheek_vista-2.0.0|2024-06-01
 Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
-VerklaringVanErfrecht|20240102000029|1|vve_wettelijkeverdeling-1.0| |Beta
+VerklaringVanErfrecht|20240102000029|1|vve_wettelijkeverdeling-1.0

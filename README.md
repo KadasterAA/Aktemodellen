@@ -7,6 +7,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 2 april 2024
+Nieuw bankmodel Neo opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/Releasenotes%20Neo%20Hypotheken%2020230605000031-%201.md). Deze versie van de Neo is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren.
+
+Voor de NIBC is een fout verholpen in de stylesheet. Verdere informatie vind u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20231002000027/Releasenotes%20NIBC%20Direct%2020231002000027-%202.md).
+
+Vanaf heden is de Verklaring van Erfrecht en de Obvion met stylesheetnummer 20240201000012 geen Beta meer.
+
+
 ## 4 maart 2024
 Voor de Obvion is de Toelichting en de stylesheet aangepast bij de Overbruggingshypotheek. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012%20-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
 
