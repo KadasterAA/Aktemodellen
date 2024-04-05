@@ -7,13 +7,43 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
-## 2 april 2024
-Nieuw bankmodel Neo opgeleverd. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/Releasenotes%20Neo%20Hypotheken%2020230605000031-%201.md). Deze versie van de Neo is een bèta versie. De onvolkomenheden die we de komende 4 weken vinden zullen we nog in deze versie oplossen en uiteindelijk definitief verklaren.
+## 5 april 2024
+### Mededelingen:
+- Vanaf nu worden bij onvolkomenheden bij een Beta versie, een nieuw implementatienummer of een nieuw stylesheetnummer opgeleverd.
 
-Voor de NIBC is een fout verholpen in de stylesheet. Verdere informatie vind u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20231002000027/Releasenotes%20NIBC%20Direct%2020231002000027-%202.md).
+- Vanaf heden is de Verklaring van Erfrecht en de Obvion met stylesheetnummer 20240201000012 geen Beta meer.
 
-Vanaf heden is de Verklaring van Erfrecht en de Obvion met stylesheetnummer 20240201000012 geen Beta meer.
+### In deze release:
+- Nieuw bankmodel Neo opgeleverd. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/Releasenotes%20Neo%20Hypotheken%2020230605000031-%201.md) vindt u hier. Deze versie van de Neo is een bèta versie. 
 
+- Nieuw stylesheetnummer voor de ABP opgeleverd. Deze versie van de ABP is een bèta versie. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20240321000019/Releasenotes%20ABP%2020240321000019-%201.md) vindt u hier.
+
+- Voor de NIBC is een fout verholpen in de stylesheet, hiervoor is een nieuw implementatienummer opgeleverd. Verdere informatie vind u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20231002000027/Releasenotes%20NIBC%20Direct%2020231002000027-%202.md).
+
+
+**En nog even ter herinnering.**
+
+De volgende akten worden per **1 juni 2024 uitgezet**:
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20231016000007 |
+|ABN Amro MoneYou|20190801000003|
+|Aegon|20190801000015|
+|Argenta|20210215000025|
+|Argenta|20200701000025|
+|ASR|20210511000020|
+|ASR|20191015000020|
+|ASR|20190401000020|
+|Lloyds|20190501000021|
+|Lot|20210501000026|
+|Munt|20190617000018|
+|Nationale Nederlanden|20200415000023|
+|NIBC|20230415000027|
+|NIBC|20210601000027|
+|Quion|20210801000028|
+|Syntrus Achmea|20200301000022|
+|Syntrus Achmea|20190701000022|
+|Vista|20201201000024|
 
 ## 4 maart 2024
 Voor de Obvion is de Toelichting en de stylesheet aangepast bij de Overbruggingshypotheek. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012%20-%201.md). Omdat het een bèta versie betreft is het versie nummer niet aangepast.
