@@ -7,6 +7,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 30 april 2024
+
+### Medelingen
+- In de Toelichting modeldocument Obvion 3.0.0 - v4.0.0 staat een verkeerde waarde bij de aanduidingpartij voor de verkrijger-partij. Hiervoor is alleen een nieuwe versie van de toelichting opgeleverd en niet van de stylesheet. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012%20-%201a.md).
+
+- Het komt geregeld voor dat in een binnenlandsadres een postbusadres wordt opgenomen. Dat is niet de bedoeling. Deze controle (083d) is nu aangescherpt.
+
+
 ## 5 april 2024
 ### Mededelingen:
 - Vanaf nu worden bij onvolkomenheden bij een Beta versie, een nieuw implementatienummer of een nieuw stylesheetnummer opgeleverd.
