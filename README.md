@@ -7,8 +7,38 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
-## 30 april 2024
+## 17 mei 2024
+In deze release:
+ - Er zijn een aantal bevindingen opgelost tbv [**Neo**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20230605000031/Releasenotes%20Neo%20Hypotheken%2020230605000031-%202.md) en [**ABP**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20240321000019/Releasenotes%20ABP%2020240321000019-%202.md). Hiervoor zijn, voor beide, nieuwe implementatienummers opgeleverd.
+ - Nieuwe versie van het Modelocument en Toelichting tekstblok Registergoed opgeleverd. Dit is alleen een tekstuele aanpassing van het Modeldocument. Hierin is tekst verwijderd die per ongeluk was meegekomen in een eerdere versie van dit TB.
 
+**En nog even ter herinnering.**
+
+De volgende akten worden per **1 juni 2024 uitgezet**:
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20231016000007 |
+|ABN Amro MoneYou|20190801000003|
+|Aegon|20190801000015|
+|Argenta|20210215000025|
+|Argenta|20200701000025|
+|ASR|20210511000020|
+|ASR|20191015000020|
+|ASR|20190401000020|
+|Lloyds|20190501000021|
+|Lot|20210501000026|
+|Munt|20190617000018|
+|Nationale Nederlanden|20200415000023|
+|NIBC|20230415000027|
+|NIBC|20210601000027|
+|Quion|20210801000028|
+|Syntrus Achmea|20200301000022|
+|Syntrus Achmea|20190701000022|
+|Vista|20201201000024|
+
+
+
+## 30 april 2024
 ### Medelingen
 - In de Toelichting modeldocument Obvion 3.0.0 - v4.0.0 staat een verkeerde waarde bij de aanduidingpartij voor de verkrijger-partij. Hiervoor is alleen een nieuwe versie van de toelichting opgeleverd en niet van de stylesheet. Verdere informatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Releasenotes%20Obvion%2020240201000012%20-%201a.md).
 
