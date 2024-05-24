@@ -14,7 +14,7 @@ In deze release:
 
 **En nog even ter herinnering.**
 
-De volgende akten worden per **1 juni 2024 uitgezet**:
+De volgende akten worden per **1 juli 2024 uitgezet (was 1-6-2024)**:
 |Label    | stylesheetnr | 
 | --- | --- | 
 |Levering | 20231016000007 |
