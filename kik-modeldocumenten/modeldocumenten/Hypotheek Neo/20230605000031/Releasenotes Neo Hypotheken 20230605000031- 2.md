@@ -3,7 +3,7 @@ Product|Omschrijving|
 |---|---| 
 **Versie Bankmodel Neo Hypotheken**|Neo Hypotheken(Model Neo 24.01) |
 **Stylesheetnummer**|20240311000032 implementatienummer 2|
-**Release**|17 mei 2024|
+**Release**|23 mei 2024|
 
 ## Wijzigingen
 |Issue nr.|Omschrijving|Oplossing|
