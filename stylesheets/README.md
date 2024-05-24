@@ -12,7 +12,7 @@ Hypotheek ABN AMRO AAB|20190801000001|1|hypotheek_abn_amro_aab-4.0.0
 Hypotheek ABN AMRO Florius|20190801000002|1|hypotheek_abn_amro_florius-4.0.0
 Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
  “ |20190801000003|1|hypotheek_abn_amro_moneyou-4.0.0|2024-06-01
-**Hypotheek ABP**|**20240321000019**|**2**|**hypotheek_abp-2.0.2**||**Beta tot 5 juni**
+**Hypotheek ABP**|**20240321000019**|**2**|**hypotheek_abp-2.0.1**||**Beta tot 5 juni**
  “ |20240321000019|1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
 Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
