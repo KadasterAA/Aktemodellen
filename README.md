@@ -7,6 +7,31 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 11 juni 2024
+In deze release:
+- Nieuw bankmodel ASN opgeleverd. De release notes vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ASN/20240601000033/Releasenotes%20ASN%2020240601000033%20-%201.md). Deze versie van de ASN is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
+- Het komt geregeld voor dat er in akten een hypotheekbedrag van nul euro wordt opgenomen. Dat is niet de bedoeling. Het hypotheekbedrag moet aanwezig zijn en groter zijn dan 0. Vanaf nu zal een akte die deze waarde bevat uitvallen.
+- Neo en ABP zijn, vanaf heden, geen bèta versie meer.
+- Voor de duidelijkheid hebben we de sublabels van Achmea, die ook kunnen worden aangeboden met de Quion generiek akte, opgenomen in het overzicht:
+|Label |Sublabels |Ingangsdatum |
+| --- | --- |--- |
+| Medirect     |                  | 9-12-2021 |
+| Achmea       | Centraal Beheer  | 9-12-2021 |
+|              | Woonfonds        | 9-12-2021 |
+|              | Syntrus          | 1-10-2022 |
+|              | Attens           | 1-6-2023  |
+|              | Tellius          | 1-6-2023  | 
+| Allianz      |                  | 9-12-2021 |
+| WoonNu       |                  | 6-5-2022  |
+| IQWOON       |                  | 4-7-2022  |
+| Robuust      |                  | 4-7-2022  |
+| HOLLAND WOONT|                  | 9-11-2022 |
+| Clarian Wonen|                  | 9-11-2022 |
+| ELAN         |                  | 22-02-2023|
+| BAWAG        |                  | 22-02-2023|
+
+
+
 ## 24 mei 2024
 In deze release:
  - Er zijn een aantal bevindingen opgelost tbv [**Neo**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20230605000031/Releasenotes%20Neo%20Hypotheken%2020230605000031-%202.md) en [**ABP**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20240321000019/Releasenotes%20ABP%2020240321000019-%202.md). Hiervoor zijn, voor beide, nieuwe implementatienummers opgeleverd.
@@ -14,7 +39,7 @@ In deze release:
 
 **En nog even ter herinnering.**
 
-De volgende akten worden per **1 juni 2024 uitgezet**:
+De volgende akten worden per **1 juli 2024 uitgezet (was 1-6-2024)**:
 |Label    | stylesheetnr | 
 | --- | --- | 
 |Levering | 20231016000007 |
@@ -871,12 +896,12 @@ Aanpassingen t.b.v. Volksbank. Ingetrokken op 27 maart.
 ## 23 februari 2018
 - De vaste tekst bij hypotheekrecht en overbrugging aangepast conform model MUNT 18.01. Daarnaast hebben we een voorbeeld en de toelichting verbeterd van dit modeldocument. Meer details staan beschreven in de [release notes voor de Munt hypotheek](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20161001000018/Releasenotes%20Munt%2020161001000018%20-%205.md).
 
-## 29 januari 2018 #
+## 29 januari 2018
 - Voor alle modeldocumenten is het nu mogelijk om de perceelgrootte in vierkante meters te tonen. Zie ook de release notes van de individuele modeldocumenten. Hiertoe hebben we de stylesheet, het [Tekstblok - Registergoed](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Registergoed%20v2.7.0.docx) en de bijbehorende [Toelichting](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Registergoed%202.7.0%20-%20v2.11.0.docx) aangepast.
 - De op [Github](https://github.com/KadasterAA/Aktemodellen) gepubliceerde informatie vervangt met ingang van deze release de informatie welke eerder gepubliceerd stond op de [kadaster-site](https://kik-aa.kadaster.nl/kik/aktemodellen/) en is op deze laatste locatie dan ook niet meer beschikbaar.
 
-## 15 december 2017 #
+## 15 december 2017
 - Aanpassing in de tekstblokken Aanhef, Aanhef Notariële Verklaring, Equivalentieverklaring. [Details staan in de release notes voor Akte van Levering](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20140830000007/Releasenotes%20Akte%20van%20Levering%2020140830000007%20-%2011.docx).
 
-## 17 november 2017 #
+## 17 november 2017
 - Aanpassing van een technische waardelijst. [Details staan in de release notes voor Abn Amro AAB](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20AAB/20140830000001/Releasenotes%20Modeldocumenten%202014083000000x%20-%208.doc).
