@@ -13,6 +13,7 @@ In deze release:
 - Het komt geregeld voor dat er in akten een hypotheekbedrag van nul euro wordt opgenomen. Dat is niet de bedoeling. Het hypotheekbedrag moet aanwezig zijn en groter zijn dan 0. Vanaf nu zal een akte die deze waarde bevat uitvallen.
 - Neo en ABP zijn, vanaf heden, geen bèta versie meer.
 - Voor de duidelijkheid hebben we de sublabels van Achmea, die ook kunnen worden aangeboden met de Quion generiek akte, opgenomen in het overzicht:
+
 |Label |Sublabels |Ingangsdatum |
 | --- | --- | --- |
 |Medirect     |                  | 9-12-2021 |
