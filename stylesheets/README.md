@@ -12,7 +12,7 @@ Hypotheek ABN AMRO AAB|20190801000001|1|hypotheek_abn_amro_aab-4.0.0
 Hypotheek ABN AMRO Florius|20190801000002|1|hypotheek_abn_amro_florius-4.0.0
 Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
  “ |20190801000003|1|hypotheek_abn_amro_moneyou-4.0.0|2024-07-01
-**Hypotheek ABP**|**20240321000019**|**2**|**hypotheek_abp-2.0.1**||**Beta tot 5 juni**
+Hypotheek ABP|20240321000019|2|hypotheek_abp-2.0.1
  “ |20240321000019|1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
 Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
@@ -20,6 +20,7 @@ Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0
  “ |20210215000025|1|hypotheek_argenta-2.0|2024-07-01
 Hypotheek Argenta|20200701000025|1|hypotheek_argenta-1.0.0|2024-07-01
+**Hypotheek ASN**|**20240601000033**|**1**|**hypotheek_asn-1.0.0**||**Beta tot 11 juli**
 Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0
  “ |20210511000020|1|hypotheek_asr-3.0.0|2024-07-01
 Hypotheek ASR|20191015000020|1|hypotheek_asr-2.0.0|2024-07-01
@@ -40,7 +41,7 @@ Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
  “ |20200415000023|1|hypotheek_nationale-nederlanden-1.0.0|2024-07-01
-**Hypotheek Neo**|**20240311000032**|**2**|**hypotheek_neo-1.0.1**||**Beta tot 5 juni**
+Hypotheek Neo|20240311000032|2|hypotheek_neo-1.0.1
  “ |20240311000032|1|hypotheek_neo-1.0.0
 Hypotheek NIBC|20231002000027|2|hypotheek_nibc-3.0.1
  “ | “ |1|hypotheek_nibc-3.0.0
