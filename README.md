@@ -14,7 +14,7 @@ In deze release:
 - Neo en ABP zijn, vanaf heden, geen bèta versie meer.
 - Voor de duidelijkheid hebben we de sublabels van Achmea, die ook kunnen worden aangeboden met de Quion generiek akte, opgenomen in het overzicht:
 |Label |Sublabels |Ingangsdatum |
-| --- | --- |--- |
+| --- | --- | --- |
 | Medirect     |                  | 9-12-2021 |
 | Achmea       | Centraal Beheer  | 9-12-2021 |
 |              | Woonfonds        | 9-12-2021 |
