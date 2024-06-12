@@ -15,20 +15,20 @@ In deze release:
 - Voor de duidelijkheid hebben we de sublabels van Achmea, die ook kunnen worden aangeboden met de Quion generiek akte, opgenomen in het overzicht:
 |Label |Sublabels |Ingangsdatum |
 | --- | --- | --- |
-| Medirect     |                  | 9-12-2021 |
-| Achmea       | Centraal Beheer  | 9-12-2021 |
-|              | Woonfonds        | 9-12-2021 |
-|              | Syntrus          | 1-10-2022 |
-|              | Attens           | 1-6-2023  |
-|              | Tellius          | 1-6-2023  | 
-| Allianz      |                  | 9-12-2021 |
-| WoonNu       |                  | 6-5-2022  |
-| IQWOON       |                  | 4-7-2022  |
-| Robuust      |                  | 4-7-2022  |
-| HOLLAND WOONT|                  | 9-11-2022 |
-| Clarian Wonen|                  | 9-11-2022 |
-| ELAN         |                  | 22-02-2023|
-| BAWAG        |                  | 22-02-2023|
+|Medirect     |                  | 9-12-2021 |
+|Achmea       |Centraal Beheer   | 9-12-2021 |
+|             |Woonfonds         | 9-12-2021 |
+|             |Syntrus           | 1-10-2022 |
+|             |Attens            | 1-6-2023  |
+|             |Tellius           | 1-6-2023  | 
+|Allianz      |                  | 9-12-2021 |
+|WoonNu       |                  | 6-5-2022  |
+|IQWOON       |                  | 4-7-2022  |
+|Robuust      |                  | 4-7-2022  |
+|HOLLAND WOONT|                  | 9-11-2022 |
+|Clarian Wonen|                  | 9-11-2022 |
+|ELAN         |                  | 22-02-2023|
+|BAWAG        |                  | 22-02-2023|
 
 
 
