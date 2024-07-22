@@ -7,29 +7,56 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 22 juli 2024
+In deze release:
+- De ASN, met stylesheetnummer 20240601000033, is vanaf heden geen Beta meer.
+- Er is een nieuwe controle op het BSN nummer en het RNI nummer. Deze nummers moeten 9 cijfers zijn.
+- Zoals eerder aangekondigd zijn per vandaag de volgende stylesheetnummers uitgezet:
+
+|Label    | stylesheetnr | 
+| --- | --- | 
+|Levering | 20231016000007 |
+|ABN Amro MoneYou|20190801000003|
+|Aegon|20190801000015|
+|Argenta|20210215000025|
+|Argenta|20200701000025|
+|ASR|20210511000020|
+|ASR|20191015000020|
+|ASR|20190401000020|
+|Lloyds|20190501000021|
+|Lot|20210501000026|
+|Munt|20190617000018|
+|Nationale Nederlanden|20200415000023|
+|NIBC|20230415000027|
+|NIBC|20210601000027|
+|Quion|20210801000028|
+|Syntrus Achmea|20200301000022|
+|Syntrus Achmea|20190701000022|
+|Vista|20201201000024|
+
+
 ## 11 juni 2024
 In deze release:
 - Nieuw bankmodel ASN opgeleverd. De release notes vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20ASN/20240601000033/Releasenotes%20ASN%2020240601000033%20-%201.md). Deze versie van de ASN is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
 - Het komt geregeld voor dat er in akten een hypotheekbedrag van nul euro wordt opgenomen. Dat is niet de bedoeling. Het hypotheekbedrag moet aanwezig zijn en groter zijn dan 0. Vanaf nu zal een akte die deze waarde bevat uitvallen.
 - Neo en ABP zijn, vanaf heden, geen bèta versie meer.
 - Voor de duidelijkheid hebben we de sublabels van Achmea, die ook kunnen worden aangeboden met de Quion generiek akte, opgenomen in het overzicht:
-
 |Label |Sublabels |Ingangsdatum |
-| --- | --- | --- |
-|Medirect     |                  | 9-12-2021 |
-|Achmea       |Centraal Beheer   | 9-12-2021 |
-|             |Woonfonds         | 9-12-2021 |
-|             |Syntrus           | 1-10-2022 |
-|             |Attens            | 1-6-2023  |
-|             |Tellius           | 1-6-2023  | 
-|Allianz      |                  | 9-12-2021 |
-|WoonNu       |                  | 6-5-2022  |
-|IQWOON       |                  | 4-7-2022  |
-|Robuust      |                  | 4-7-2022  |
-|HOLLAND WOONT|                  | 9-11-2022 |
-|Clarian Wonen|                  | 9-11-2022 |
-|ELAN         |                  | 22-02-2023|
-|BAWAG        |                  | 22-02-2023|
+| --- | --- |--- |
+| Medirect     |                  | 9-12-2021 |
+| Achmea       | Centraal Beheer  | 9-12-2021 |
+|              | Woonfonds        | 9-12-2021 |
+|              | Syntrus          | 1-10-2022 |
+|              | Attens           | 1-6-2023  |
+|              | Tellius          | 1-6-2023  | 
+| Allianz      |                  | 9-12-2021 |
+| WoonNu       |                  | 6-5-2022  |
+| IQWOON       |                  | 4-7-2022  |
+| Robuust      |                  | 4-7-2022  |
+| HOLLAND WOONT|                  | 9-11-2022 |
+| Clarian Wonen|                  | 9-11-2022 |
+| ELAN         |                  | 22-02-2023|
+| BAWAG        |                  | 22-02-2023|
 
 
 
