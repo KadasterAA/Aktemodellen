@@ -47,4 +47,3 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
 Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0 
 Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
-VerklaringVanErfrecht|20240102000029|1|vve_wettelijkeverdeling-1.0
