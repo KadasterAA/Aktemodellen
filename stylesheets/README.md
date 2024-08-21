@@ -17,10 +17,6 @@ Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0 
 Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
 Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0 
- “ | “ |4|hypotheek_asr-1.2.0|2024-07-01
- “ | “ |3|hypotheek_asr-1.1.1|2024-07-01
- “ | “ |2|hypotheek_asr-1.1.0|2024-07-01
- “ | “ |1|hypotheek_asr-1.0.0|2024-07-01
 Hypotheek BLG|20190801000014|1|hypotheek_blg-3.0.0
 Hypotheek Credo|20230605000031|1|hypotheek_credo-1.0.0
 Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
