@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:kef="nl.kadaster.xslt.XslExtensionFunctions" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="kef xsl" version="1.0">
+	<xsl:include href="vve-tekstblok_personalia_van_natuurlijk_persoon-1.00.xsl"/>
 	<xsl:template match="IMKAD_Persoon" mode="do-natural-person">
 		<xsl:apply-templates select="gegevens/GBA_Ingezetene" mode="do-gender-salutation"/>
 		<xsl:text> </xsl:text>
