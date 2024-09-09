@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ags="http://www.kadaster.nl/schemas/AA/AangebodenStuk" xmlns:com="http://www.kadaster.nl/schemas/AA/Common" xmlns:alg="http://www.kadaster.nl/schemas/KIK/Formaattypen" xmlns:gba="http://www.kadaster.nl/schemas/AA/GBA_Ingezetene" xmlns:adr="http://www.kadaster.nl/schemas/AA/Adres" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.kadaster.nl/schemas/AA/AangebodenStuk" elementFormDefault="unqualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/GBA_Ingezetene" schemaLocation="GBA_Ingezetene-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/Adres" schemaLocation="Adres-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/Common" schemaLocation="Common-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/Formaattypen" schemaLocation="alg-formaattypen-2.1.0.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlinks.xsd"/>
+	<xs:complexType name="SoftwareleverancierType">
+		<xs:annotation>
+			<xs:documentation>Gegevens softwareleverancier. Wordt niet voor de registratie gebruikt. Wordt gebruikt om in de aangeleverde XML te kunnen achterhalen met welke software deze is gemaakt.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="bedrijfsnaam" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de softwareleverancier.
+
+Indien dit gegeven constant gehouden wordt dan kan op dit gegeven gefilterd worden t.b.v. analyses e.d.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naam" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van het softwarepakket.
+
+Indien dit gegeven constant gehouden wordt dan kan op dit gegeven gefilterd worden t.b.v. analyses e.d.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="versie" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Versienummer van de notarissoftware.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NotarisType">
+		<xs:annotation>
+			<xs:documentation>De gegevens van de notaris die de akte heeft ondertekend (ondertekenaar) of equivalent verklaard (verklaarder). Eventueel als (vacature) waarnemer van een andere notaris.  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="persoonsgegevens" type="gba:GBA_IngezeteneType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De persoonsgegevens van de notaris.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorletters" type="alg:alg-AN50" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voorletters van de notaris die de akte passeert.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="standplaats" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De vestigingsplaats van het notariskantoor. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="gemeente" type="alg:alg-AN80zonderVoorloopspatie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De gemeente waar het notariskantoor gevestigd is. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="isWaarnemerVoor" type="ags:NotarisType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="isVacatureWaarnemerVoor" type="ags:NotarisType" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IMKAD_AangebodenStukType">
+		<xs:annotation>
+			<xs:documentation>Een ter inschrijving aangeboden stuk is een stuk dat ter inschrijving in de Openbare registers is aangeboden. Deze stukken worden aangeboden door het notariaat, deurwaarders, (lagere) overheden. etc.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datumOndertekening" type="alg:Datum" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datum waarop een ter inschrijving aangeboden stuk is ondertekend door de opsteller van het stuk.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tijdOndertekening" type="xs:time" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Tijdstip waarop een ter inschrijving aangeboden stuk is ondertekend door de opsteller van het stuk.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="omschrijvingKenmerk" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De identificatie van het aangeboden stuk bij de aanbieder. In het geval van een hypotheek betreft dit het offertenummer (van de bank).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="titelAkte" type="alg:alg-AN40" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="depotnummerTekening" type="alg:alg-AN14" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het depotnummer van de tekening, die vooraf in depot is gegeven en waar in het stuk naar wordt verwezen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="heeftVerklaarder" type="ags:NotarisType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="heeftOndertekenaar" type="ags:NotarisType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="opsommingPersonen" type="ags:opsommingPersonenType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="opsommingPersonenType">
+		<xs:sequence>
+			<xs:element name="IMKAD_Persoon" type="ags:IMKAD_PersoonType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IMKAD_PersoonType">
+		<xs:sequence>
+			<xs:element name="gegevens" type="ags:gegevensType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="IMKAD_WoonlocatiePersoon" type="adr:IMKAD_WoonlocatiePersoon" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="gegevensType">
+		<xs:sequence>
+			<xs:element name="GBA_Ingezetene" type="gba:GBA_IngezeteneType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

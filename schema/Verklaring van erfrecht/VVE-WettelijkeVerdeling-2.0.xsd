@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vve="http://www.kadaster.nl/schemas/AA/VVE-WettelijkeVerdeling/v20240801" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ags="http://www.kadaster.nl/schemas/AA/AangebodenStuk" xmlns:alg="http://www.kadaster.nl/schemas/KIK/Formaattypen" xmlns:com="http://www.kadaster.nl/schemas/AA/Common" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.kadaster.nl/schemas/AA/VVE-WettelijkeVerdeling/v20240801" elementFormDefault="unqualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/Formaattypen" schemaLocation="alg-formaattypen-2.1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/Common" schemaLocation="Common-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/AangebodenStuk" schemaLocation="AangebodenStuk-1.0.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlinks.xsd"/>
+	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsign.xsd"/>
+	<xs:element name="Bericht_TIA_Stuk" type="vve:Bericht_VVE_TIA_StukType">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="Bericht_VVE_TIA_StukType">
+		<xs:annotation>
+			<xs:documentation>Definitie van het bericht dat gebruikt wordt in combinatie met stylesheets voor TIA-stukken.
+
+Definition of the message that is used in combination with stylesheets for documents that are to be entered in the Registry.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="nummerStylesheet" type="alg:alg-AN14V">
+				<xs:annotation>
+					<xs:documentation>Unieke identificatie van een stylesheet.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="implementatienummer" type="alg:alg-AN14" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Optioneel attribuut om een keuze voor een specifieke implementatie te maken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="softwareleverancier" type="ags:SoftwareleverancierType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Gegevens softwareleverancier</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IMKAD_AangebodenStuk" type="vve:IMKAD_AangebodenStukVVEType"/>
+			<xs:element ref="ds:Signature" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IMKAD_AangebodenStukVVEType">
+		<xs:complexContent>
+			<xs:extension base="ags:IMKAD_AangebodenStukType">
+				<xs:sequence>
+					<xs:element name="stukdeelVVE" type="vve:stukdeelVVEType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="stukdeelVVE" type="vve:stukdeelVVEType"/>
+	<xs:complexType name="stukdeelVVEType">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="overlijden" type="vve:Overlijden"/>
+			<xs:element name="partners" type="vve:Partners"/>
+			<xs:element name="overigeAfstammelingen" type="vve:OverigeAfstammelingen" minOccurs="0"/>
+			<xs:element name="testamentUitersteWilsbeschikking" type="vve:TestamentUitersteWilsbeschikking"/>
+			<xs:choice>
+				<xs:element name="erfdelenGezamenlijk" type="vve:ErfdelenGezamenlijk"/>
+				<xs:element name="erfdelenPerPersoon" type="vve:ErfdelenPerPersoon"/>
+			</xs:choice>
+			<xs:element name="wettelijkeVerdeling" type="vve:WettelijkeVerdeling"/>
+			<xs:element name="aanvaardingen" type="vve:Aanvaardingen"/>
+			<xs:element name="executele" type="vve:Executele"/>
+			<xs:element name="uitInSluitingsClausule" type="vve:UitInSluitingsClausule" minOccurs="0"/>
+			<xs:element name="conclusie" type="vve:Conclusie"/>
+			<xs:element name="inschrijvingBoedelregister" type="vve:InschrijvingBoedelregister" minOccurs="0"/>
+			<xs:element name="woonplaatsKeuze" type="vve:WoonplaatsKeuze" minOccurs="0"/>
+			<xs:element name="opsommingBijlagen" type="vve:Bijlagen" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Overlijden">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="gemeenteOverlijden" type="alg:alg-AN80"/>
+			<xs:element name="datumOverlijden" type="alg:Datum"/>
+			<xs:element name="woonplaatsOverlijden" type="alg:alg-AN80" minOccurs="0"/>
+			<xs:element name="overledeneRef" type="vve:persoonRefType"/>
+			<xs:element name="woonplaatsLaatstelijk" type="alg:alg-AN80"/>
+			<xs:element name="nationaliteit" type="alg:alg-AN80" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Partners">
+		<xs:sequence>
+			<xs:element name="partnerOverledene" type="vve:PartnerOverledene"/>
+			<xs:element name="eerderePartner" type="vve:EerderePartner" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PartnerOverledene">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partnerRef" type="vve:persoonRefType"/>
+			<xs:element name="afstammelingen" type="vve:Afstammelingen" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EerderePartner">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partnerRef" type="vve:persoonRefType"/>
+			<xs:element name="datumOverlijden" type="alg:Datum" minOccurs="0"/>
+			<xs:element name="plaatsOverlijden" type="alg:alg-AN80" minOccurs="0"/>
+			<xs:element name="gemeenteBurgerlijkeStand" type="alg:alg-AN80" minOccurs="0"/>
+			<xs:element name="datumBurgerlijkeStand" type="alg:Datum" minOccurs="0"/>
+			<xs:element name="afstammelingen" type="vve:Afstammelingen" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Afstammelingen">
+		<xs:sequence>
+			<xs:element name="kindInLevenRef" type="vve:persoonRefType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="vooroverledenKind" type="vve:VooroverledenKind" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VooroverledenKind">
+		<xs:sequence>
+			<xs:element name="vooroverledenKindRef" type="vve:persoonRefType"/>
+			<xs:element name="afstammelingRef" type="vve:persoonRefType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OverigeAfstammelingen">
+		<xs:sequence>
+			<xs:element name="overigeAfstammelingRef" type="vve:persoonRefType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TestamentUitersteWilsbeschikking">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datum" type="alg:Datum" minOccurs="0"/>
+			<xs:element name="standplaats" type="alg:alg-AN80" minOccurs="0"/>
+			<xs:element name="notarisRef" type="vve:persoonRefType" minOccurs="0"/>
+			<xs:element name="aanvullend" type="vve:Aanvullend" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Aanvullend">
+		<xs:sequence>
+			<xs:element name="datum" type="alg:Datum"/>
+			<xs:element name="notarisRef" type="vve:persoonRefType" minOccurs="0"/>
+			<xs:element name="standplaats" type="alg:alg-AN80" minOccurs="0"/>
+			<xs:element name="aantal" minOccurs="0"/>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Erfdelen" abstract="true">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="stiefkinderen" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="stiefkindMetAandeel" type="vve:PersoonMetAandeel" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ErfdelenGezamenlijk">
+		<xs:complexContent>
+			<xs:extension base="vve:Erfdelen">
+				<xs:sequence>
+					<xs:element name="gezamenlijkAandeel" type="vve:Aandeel"/>
+					<xs:element name="gezamenlijkAandeelKleinkinderen" type="vve:Aandeel" minOccurs="0"/>
+					<xs:element name="aandeelPerKleinkind" type="vve:Aandeel" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ErfdelenPerPersoon">
+		<xs:complexContent>
+			<xs:extension base="vve:Erfdelen">
+				<xs:sequence>
+					<xs:element name="partnerMetAandeel" type="vve:PersoonMetAandeel"/>
+					<xs:element name="kinderen" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="kindMetAandeel" type="vve:PersoonMetAandeel" maxOccurs="unbounded"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="kleinkinderen" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="kleinkindMetAandeel" type="vve:PersoonMetAandeel"
+											maxOccurs="unbounded"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="PersoonMetAandeel">
+		<xs:sequence>
+			<xs:element name="persoonRef" type="vve:persoonRefType"/>
+			<xs:element name="aandeel" type="vve:Aandeel"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Aandeel">
+		<xs:annotation>
+			<xs:documentation>Het aandeel in een recht, bestaande uit een teller (deel) en noemer (geheel). De teller is
+				altijd lager dan de noemer.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="teller" type="alg:alg-N8">
+				<xs:annotation>
+					<xs:documentation>Het aantal delen. De teller is altijd lager dan de noemer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="noemer" type="alg:alg-N8">
+				<xs:annotation>
+					<xs:documentation>De naam van het deel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WettelijkeVerdeling">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partnerRef" type="vve:persoonRefType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Aanvaardingen">
+		<xs:sequence>
+			<xs:element name="zuivereAanvaarding" type="vve:ZuivereAanvaarding" minOccurs="0"/>
+			<xs:element name="zuivereAanvaardingMetOnderhandseVerklaring" type="vve:ZuivereAanvaardingMetOnderhandseVerklaring" minOccurs="0" />
+			<xs:element name="beneficiaireBoedelbeschrijving" type="vve:BeneficiaireBoedelbeschrijving" minOccurs="0" />
+			<xs:element name="beneficiaireMinderJarigKeuze1" type="vve:BeneficiaireMinderJarigKeuze1" minOccurs="0" />
+			<xs:element name="beneficiaireMinderJarigKeuze2" type="vve:BeneficiaireMinderJarigKeuze2" minOccurs="0" />
+			<xs:element name="beneficiaireCuratele" type="vve:BeneficiaireCuratele" minOccurs="0" />
+			<xs:element name="beneficiaireOnderBewind" type="vve:BeneficiaireOnderBewind" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Aanvaarding" abstract="true">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ZuivereAanvaarding">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="subs" type="vve:Subs" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ZuivereAanvaardingMetOnderhandseVerklaring">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="subs" type="vve:Subs" minOccurs="0"/>
+					<xs:element name="aantalVerklaringen" type="alg:alg-D2"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="BeneficiaireBoedelbeschrijving">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="subs" type="vve:Subs" minOccurs="0"/>
+					<xs:element name="datumAkte" type="alg:Datum"/>
+					<xs:element name="naamPlaatsRechtbank" type="alg:alg-AN80"/>
+					<xs:element name="registernummer" type="alg:alg-AN80"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="BeneficiaireMinderJarigKeuze1">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="datumAkte" type="alg:Datum"/>
+					<xs:element name="naamPlaatsRechtbank" type="alg:alg-AN80"/>
+					<xs:element name="registernummer" type="alg:alg-AN80"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="BeneficiaireMinderJarigKeuze2">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="datumVerklaring" type="alg:Datum"/>
+					<xs:element name="naamPlaatsRechtbank" type="alg:alg-AN80"/>
+					<xs:element name="zaaknummer" type="alg:alg-AN80"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="BeneficiaireCuratele">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="partnerRef" type="vve:persoonRefType"/>
+					<xs:element name="curatorRef" type="vve:persoonRefType"/>
+					<xs:element name="datumVerklaring" type="alg:Datum"/>
+					<xs:element name="naamPlaatsRechtbank" type="alg:alg-AN80"/>
+					<xs:element name="zaaknummer" type="alg:alg-AN80"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="BeneficiaireOnderBewind">
+		<xs:complexContent>
+			<xs:extension base="vve:Aanvaarding">
+				<xs:sequence>
+					<xs:element name="subs" type="vve:Subs"/>
+					<xs:element name="bewindvoerderRef" type="vve:persoonRefType"/>
+					<xs:element name="datumVerklaring" type="alg:Datum"/>
+					<xs:element name="naamPlaatsRechtbank" type="alg:alg-AN80"/>
+					<xs:element name="zaaknummer" type="alg:alg-AN80"/>
+					<xs:element name="aantalVerklaringen" type="alg:alg-D2"/>
+					<xs:element name="naamPlaatsRechtbankVerklaring" type="alg:alg-AN80"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="Subs">
+		<xs:sequence>
+			<xs:element name="persoonRef" type="vve:persoonRefType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Executele">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="datum" type="alg:Datum"/>
+			<xs:element name="persoonRef" type="vve:persoonRefType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="UitInSluitingsClausule">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="citaat" type="alg:alg-AN80"/>
+			<xs:element name="datum" type="alg:Datum"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Conclusie">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="persoonRef" type="vve:persoonRefType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InschrijvingBoedelregister">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="notarisRef" type="vve:persoonRefType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WoonplaatsKeuze">
+		<xs:sequence>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="persoonRef" type="vve:persoonRefType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Bijlagen">
+		<xs:sequence>
+			<xs:element name="bijlage" type="alg:alg-AN80" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="persoonRefType">
+		<xs:attribute name="type" type="xs:string" fixed="simple"/>
+		<xs:attribute ref="xlink:href" use="required"/>
+	</xs:complexType>
+</xs:schema>

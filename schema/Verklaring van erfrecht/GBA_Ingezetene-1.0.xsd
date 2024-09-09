@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gba="http://www.kadaster.nl/schemas/AA/GBA_Ingezetene" targetNamespace="http://www.kadaster.nl/schemas/AA/GBA_Ingezetene" xmlns:alg="http://www.kadaster.nl/schemas/KIK/Formaattypen" xmlns:com="http://www.kadaster.nl/schemas/AA/Common" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/Common" schemaLocation="Common-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/Formaattypen" schemaLocation="alg-formaattypen-2.1.0.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlinks.xsd"/>
+	<xs:element name="GBA_Ingezetene" type="gba:GBA_IngezeteneType"/>
+	<xs:complexType name="GBA_IngezeteneType">
+		<xs:annotation>
+			<xs:documentation>Een ingezetene is een natuurlijk persoon die is geregistreerd bij GBA en die een BSN heeft. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="BSN" type="alg:alg-0N9" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het BSN (Burger Service Nummer) is een uniek nummer dat gelijk is aan het sofi-nummer. Ieder  natuurlijk persoon die een relatie heeft met de Nederlandse overheid krijgt een BSN. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naam" type="gba:GBA_NaamType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Geslachtsnaam van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorte" type="gba:GBA_GeboorteType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gegevens over de geboorte van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geslacht" type="gba:GBA_GeslachtType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adellijkeTitel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die vóór de voornamen wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="adellijkeTitel2" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De titel van de persoon waar hij op grond van zijn (adellijke) afkomst recht op heeft. Betreft de adellijke titel die na de voornamen, maar vóór de achternaam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="titel" type="alg:alg-AN40" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. Betreft de titel die vóór de naam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="titel2" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Benaming waarmee de maatschappelijke positie of waardigheid wordt aangeduid van een ingezetene. Deze titel is vrij invulbaar. Betreft de titel die achter de naam wordt vermeld.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="voorvoegselsNaam" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Voorvoegsels van de ingezetene.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="naamZonderVoorvoegsels" type="alg:alg-AN200" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Naam van de ingezetene exclusief voorvoegsels.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="tekstkeuze" type="com:tekstkeuzeType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tekst die door een aanbieder gekozen is voor een variabele tekst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GBA_NaamType">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de naam van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="voornamen" type="alg:alg-AN200V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De voornamen van de persoon.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GBA_GeboorteType">
+		<xs:annotation>
+			<xs:documentation>Gegevens over de geboorte van de persoon</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geboortedatum" type="xs:date" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De geboortedatum.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteplaatsOmschrijving" type="alg:alg-AN80" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De plaatsnaam van de plaats waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="geboorteland" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De naam van het land waar de persoon geboren is.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GBA_GeslachtType">
+		<xs:annotation>
+			<xs:documentation>De aanduiding van het geslacht van de persoon.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="geslachtsaanduiding" type="gba:AanduidingGeslachtType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het geslacht van de persoon (Man of Vrouw).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="AanduidingGeslachtType">
+		<xs:annotation>
+			<xs:documentation>Het geslacht van een natuurlijk persoon. </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Man"/>
+			<xs:enumeration value="Vrouw"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

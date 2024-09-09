@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:adr="http://www.kadaster.nl/schemas/AA/Adres" targetNamespace="http://www.kadaster.nl/schemas/AA/Adres" xmlns:alg="http://www.kadaster.nl/schemas/KIK/Formaattypen" xmlns:com="http://www.kadaster.nl/schemas/AA/Common" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.kadaster.nl/schemas/AA/Common" schemaLocation="Common-1.0.xsd"/>
+	<xs:import namespace="http://www.kadaster.nl/schemas/KIK/Formaattypen" schemaLocation="alg-formaattypen-2.1.0.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlinks.xsd"/>
+	<xs:element name="IMKAD_WoonlocatiePersoon" type="adr:IMKAD_WoonlocatiePersoon"/>
+	<xs:complexType name="IMKAD_WoonlocatiePersoon">
+		<xs:annotation>
+			<xs:documentation>Locatie waar een natuurlijk persoon woonachtig is of waar een niet natuurlijk persoon is gevestigd.
+
+
+Indien de adresgegevens in de akte afwijken van de BAG gegevens, dan worden zowel de BAG gegevens als de gegevens volgens de akte, de Kadaster gegevens, bij de woonlocatie opgenomen. In dat geval komt het attribuut adres 2 maal voor.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="adr:IMKAD_AdreskeuzeWl" minOccurs="1" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>De woonlocatie kan een binnenlandse (BAG_BinnenlandsAdres of IMKAD_KadBinnenlandsAdres) of een buitenlandse (IMKAD_BuitenlandsAdres) locatie zijn.
+
+IMKAD_KadBinnenlandsAdres komt alleen voor in combinatie met BAG_BinnenlandsAdres.
+
+Andere combinaties dan deze zijn niet toegestaan</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_AdreskeuzeWl" type="adr:IMKAD_AdreskeuzeWl"/>
+	<xs:complexType name="IMKAD_AdreskeuzeWl">
+		<xs:annotation>
+			<xs:documentation>Een PersoonsLocatie (waar een persoon woont/gevestigd is of post ontvangt) kan een binnenlandse locatie, een buitenlandse locatie of een postadres zijn.
+
+Indien het een binnenlandse locatie is, waarvan de gegevens niet overeenkomen met de BAG gegevens, dan worden deze in kadBinnenlandsAdres opgenomen. De BAG gegevens worden dan tevens opgenomen, in BAG_BinnenlandsAdres. Andere combinaties dan deze zijn niet mogelijk.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element name="binnenlandsAdres" type="adr:BAG_BinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>In de kadastrale registratie bestaat een woonlocatie in Nederland uit een woonplaatsnaam, een straatnaam, postcode, huisnummer en eventueel een huisnummertoevoeging. Om alvast aan te sluiten bij de komst van BAG wordt zoveel mogelijk het informatiemodel van BAG gevolgd, waar veel meer gegevens in opgenomen zijn. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="buitenlandsAdres" type="adr:IMKAD_BuitenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een woonlocatie in het buitenland bestaat uit een aantal adresregels, te weten: Plaatsnaam en postcode, Regio, Straatnaam en huisnummer, en Landnaam. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="kadBinnenlandsAdres" type="adr:IMKAD_KadBinnenlandsAdres" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Adresgegevens indien deze afwijken van BAG_BinnenlandsAdres. Wordt altijd in combinatie met BAG_BinnenlandsAdres gebruikt.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="BAG_BinnenlandsAdres" type="adr:BAG_BinnenlandsAdres"/>
+	<xs:complexType name="BAG_BinnenlandsAdres">
+		<xs:annotation>
+			<xs:documentation>Voor de registratie van adressen en gebouwen wordt binnen het stelsel een basisregistratie Adressen (BRA) en Gebouwen (BGR) voorzien. Een wettelijke basis voor BRA en BGR wordt pas vanaf 2009 verwacht. 
+
+In afwachting van de komst van het BRA en BGR worden binnenlandse adressen al wel gemodelleerd voor zover bekend is hoe het binnen BRA zal gebeuren. 
+
+Een klasse BinnenlandsAdres is toegevoegd t.b.v. de koppeling van personen en onroerende zaken. Dit is een keuze tussen NummerAanduiding, Woonplaats en OpenbareRuimte. Zo kunnen ook voor onroerende zaken, waarvan geen nummer beschikbaar is maar wel een straatnaam en plaats, de gegevens zoveel mogelijk volgens BAG vastgelegd worden. 
+
+Als een nummer beschikbaar is, wordt de NummerAanduiding klasse gebruikt, en worden de OpenbareRuimte en Woonplaats via de relatie attributen vastgelegd. Als er een straatnaam beschikbaar is, wordt OpenbareRuimte gekozen en wordt via het relatie attribuut de woonplaats vastgelegd. Als alleen een woonplaats beschikbaar is, wordt de Woonplaats klasse gebruikt en wordt verder niets vastgelegd.
+
+IMKAD bevat eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in BRA zullen komen. 
+
+Om het onderscheid duidelijk te maken zijn binnenlandse adressen in een aparte namespace onder Imkad opgenomen. In de toekomst zal hier de BRA/BGR namespace voor in de plaats komen.  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="BAG_NummerAanduiding" type="adr:BAG_NummerAanduiding" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="BAG_OpenbareRuimte" type="adr:BAG_OpenbareRuimte" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="BAG_Woonplaats" type="adr:BAG_Woonplaats"  minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_BuitenlandsAdres" type="adr:IMKAD_BuitenlandsAdres"/>
+	<xs:complexType name="IMKAD_BuitenlandsAdres">
+		<xs:annotation>
+			<xs:documentation>Een locatie in het buitenland bestaat uit een aantal adresregels, te weten:
+- Plaatsnaam en postcode.
+- Regio.
+- Straatnaam en huisnummer;
+- Landnaam </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="adres" type="alg:alg-AN50V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat straatnaam en huisnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaats" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Bevat postcode en woonplaats.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="regio" type="alg:alg-AN39" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Gebied binnen een land.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="land" type="alg:Waardenlijst" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De mogelijke waarden zijn vastgelegd in een catalogus.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="IMKAD_KadBinnenlandsAdres" type="adr:IMKAD_KadBinnenlandsAdres"/>
+	<xs:complexType name="IMKAD_KadBinnenlandsAdres">
+		<xs:sequence>
+			<xs:element name="huisLetter" type="alg:Huisletter" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisNummer" type="alg:alg-AN5" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nummering.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisNummerToevoeging" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter.
+
+Conform BAG.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="openbareRuimteNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="woonplaatsNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaatsen worden vastgesteld door de gemeenten. De vastgestelde woonplaatsen worden door een beheerder van een landelijke woonplaatsentabel voorzien van een unieke aanduiding, te vergelijken met de gemeentecode volgens GBA tabel 33.
+
+Conform GBA </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postcode" type="alg:Postcode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De door TNT Post vastgelegde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer.
+
+Conform GBA.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BAG_NummerAanduiding" type="adr:BAG_NummerAanduiding"/>
+	<xs:complexType name="BAG_NummerAanduiding">
+		<xs:annotation>
+			<xs:documentation>Een NUMMERAANDUIDING is een door de gemeenteraad als
+zodanig toegekende aanduiding van een adresseerbaar object.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="huisnummer" type="alg:alg-N5" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nummering.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisletter" type="alg:Huisletter" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende toevoeging
+aan een huisnummer in de vorm van een alfanumeriek
+teken.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="huisnummertoevoeging" type="alg:alg-AN10" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een door of namens het gemeentebestuur ten aanzien
+van een adresseerbaar object toegekende nadere
+toevoeging aan een huisnummer of een combinatie van
+huisnummer en huisletter.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="postcode" type="alg:Postcode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De door TNT Post vastgestelde code behorende bij een
+bepaalde combinatie van een straatnaam en een
+huisnummer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BAG_OpenbareRuimte" type="adr:BAG_OpenbareRuimte"/>
+	<xs:complexType name="BAG_OpenbareRuimte">
+		<xs:annotation>
+			<xs:documentation>Een OPENBARE RUIMTE is een door de gemeenteraad als
+zodanig aangewezen benaming van een binnen 1 woonplaats
+gelegen buitenruimte.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="openbareRuimteNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een naam die aan een OPENBARE RUIMTE is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BAG_Woonplaats" type="adr:BAG_Woonplaats"/>
+	<xs:complexType name="BAG_Woonplaats">
+		<xs:annotation>
+			<xs:documentation>Een WOONPLAATS is een door de gemeenteraad als
+zodanig aangewezen gedeelte van het gemeentelijk
+grondgebied.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="woonplaatsNaam" type="alg:alg-AN80V" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De woonplaatsen worden vastgesteld door de gemeenten.
+De vastgestelde woonplaatsen worden door een
+beheerder van een landelijke woonplaatsentabel voorzien
+van een unieke aanduiding, te vergelijken met de
+gemeentecode volgens GBA tabel 33.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
