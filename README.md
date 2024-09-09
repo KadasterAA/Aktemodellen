@@ -7,6 +7,11 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 9 september 2024
+Voor de Verklaring van Erfrecht - Wettelijke Verdeling is een nieuw stylesheetnummer opgeleverd.
+In de [**release notes**](kik-modeldocumenten/modeldocumenten/Verklaring%20van%20Erfrecht/20240801000029/Releasenotes%20VvE-%20Wettelijke%20Verdeling_2024080100029%20-%201.md) vindt u meer informatie mbt de wijzigingen.
+
+
 ## 22 juli 2024
 In deze release:
 - De ASN, met stylesheetnummer 20240601000033, is vanaf heden geen Beta meer.
