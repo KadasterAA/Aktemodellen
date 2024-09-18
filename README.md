@@ -7,6 +7,17 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 18 september
+### Mededeling
+Bij de Neo was in de mapnaam en in de bestandsnaam van de releasenotes het verkeerde stylesheetnummer opgenomen. Dit is nu aangepast. Inhoudelijk is er niets gewijzigd.
+
+## 17 september 2024
+Met deze release hebben we een nieuw generiek model geintroduceerd: Stater generiek. Dit model kan vanaf nu alleen gebruikt worden voor het label 'Vandaag Hypotheken'. In de toekomst zullen hier meerdere labels aan toegevoegd gaan worden. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034)
+
+### Mededeling
+Per 18 juli 2024 heeft ING een nieuw model gedeponeerd (HYING01 versie juli 2024). De wijzigingen in dit model hebben betrekking op het tweede deel van de akte, waardoor het bestaande KIK-model hiervoor nog gewoon gebruikt kan worden. 
+
+
 ## 9 september 2024
 Voor de Verklaring van Erfrecht - Wettelijke Verdeling is een nieuw stylesheetnummer opgeleverd.
 In de [**release notes**](kik-modeldocumenten/modeldocumenten/Verklaring%20van%20Erfrecht/20240801000029/Releasenotes%20VvE-%20Wettelijke%20Verdeling_2024080100029%20-%201.md) vindt u meer informatie mbt de wijzigingen.
