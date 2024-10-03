@@ -37,6 +37,7 @@ Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
 Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
+Hypotheek Stater generiek|2024090100034|1|hypotheek_stater-1.0
 Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |3|hypotheek_syntrus_achmea-3.1.1
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
