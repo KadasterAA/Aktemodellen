@@ -7,6 +7,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 22 oktober 2024
+Voor de Aegon is een nieuwe stylesheet opgeleverd. Dit bankmodel is de Stater versie. In de loop van januari 2025 kan dit model te inschrijving worden aangeboden bij het Kadaster. Nadere info volgt. Deze versie van de Aegon is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
+De documentatie vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20241001000015)
+
 ## 3 oktober 2024
 Met deze release hebben we een nieuw generiek model geintroduceerd: Stater generiek. Dit model kan vanaf nu alleen gebruikt worden voor het label 'Vandaag Hypotheken'. In de toekomst zullen hier meerdere labels aan toegevoegd gaan worden. De documentatie vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034)
 
