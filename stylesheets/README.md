@@ -13,7 +13,8 @@ Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
 Hypotheek ABP|20240321000019|2|hypotheek_abp-2.0.1
  “ |20240321000019|1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
-Hypotheek Aegon|20231105000015|1|hypotheek_aegon-6.0.0
+Hypotheek Aegon|20241001000015|1|hypotheek_aegon-7.0||Beta
+ “ |20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0 
 Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
 Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0 
