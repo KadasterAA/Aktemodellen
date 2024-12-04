@@ -26,7 +26,8 @@ Hypotheek Lot|20211015000026|1|hypotheek_lot-2.0.0
 Hypotheek Munt|20200909000018|1|hypotheek_munt-3.0
 Hypotheek Nationale Nederlanden|20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
-Hypotheek Neo|20240311000032|2|hypotheek_neo-1.0.1
+Hypotheek Neo|20241201000032|2|hypotheek_neo-2.0.0
+ “ |20240311000032|2|hypotheek_neo-1.0.1
  “ |20240311000032|1|hypotheek_neo-1.0.0
 Hypotheek NIBC|20231002000027|2|hypotheek_nibc-3.0.1
  “ | “ |1|hypotheek_nibc-3.0.0
