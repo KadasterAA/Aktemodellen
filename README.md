@@ -7,12 +7,15 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 4 december 2024
+Voor de Neo is een nieuwe stylesheet opgeleverd. In deze versie van het model zijn er alleen wijzigingen in de vaste tekst. De releasenotes vindt u [**hier**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20241201000032/Releasenotes%20Neo%20Hypotheken%20241201000032-%201.md)
+
 ## 29 oktober 2024
 Met deze release is er een nieuw bankmodel geïntroduceerd: Svenska Handelsbanken. Deze versie van de stylesheet is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
 De documentatie vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20241025000035).
 
 ## 22 oktober 2024
-Voor de Aegon is een nieuwe stylesheet opgeleverd. Dit bankmodel is de Stater versie. In de loop van januari 2025 kan dit model te inschrijving worden aangeboden bij het Kadaster. Nadere info volgt. Deze versie van de Aegon is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
+Voor de Aegon is een nieuwe stylesheet opgeleverd. Dit bankmodel is de Stater versie. In de loop van januari 2025 kan dit model ter inschrijving worden aangeboden bij het Kadaster. Nadere info volgt. Deze versie van de Aegon is een bèta versie. Indien er bevindingen zijn op deze akte dan zal dit resulteren in een nieuw implementatienummer of een nieuw stylesheetnummer.
 De documentatie vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20241001000015).
 
 ## 3 oktober 2024
