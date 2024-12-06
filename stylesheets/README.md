@@ -13,7 +13,7 @@ Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
 Hypotheek ABP|20240321000019|2|hypotheek_abp-2.0.1
  “ |20240321000019|1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
-Hypotheek Aegon|20241001000015|1|hypotheek_aegon-7.0||Beta
+Hypotheek Aegon|20241001000015|1|hypotheek_aegon-7.0
  “ |20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0 
 Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
@@ -39,12 +39,12 @@ Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
 Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
-Hypotheek Stater generiek|2024090100034|1|hypotheek_stater-1.0||Beta
-Hypotheek Svenska Handelsbanken|20241025000035|1|hypotheek_svenska-1.0||Beta
+Hypotheek Stater generiek|2024090100034|1|hypotheek_stater-1.0
+Hypotheek Svenska Handelsbanken|20241025000035|1|hypotheek_svenska-1.0
 Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |3|hypotheek_syntrus_achmea-3.1.1
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
 Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0 
-Verklaring van Erfrecht|20240801000029|1|vve_wettelijkeverdeling-2.0||Beta
+Verklaring van Erfrecht|20240801000029|1|vve_wettelijkeverdeling-2.0
 Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
