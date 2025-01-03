@@ -3,9 +3,15 @@ Product|Omschrijving|
 |---|---| 
 **Versie model Stater generiek**|Stater generieke hypotheekakte (Model 2024.01)|
 **Stylesheetnummer**|20240901000034 implementatienummer 1|
-**Release**|3 otkober 2024|
+**Release**|3 januari 2025|
 
 ## Wijzigingen
+|Issue nr.|Omschrijving|Oplossing|
+|---|---|---|
+AA-XXXX| Tekstuele aanpassing op de toelichting: Achter het TB Registergoed bij de Overbruggingslening stond een puntkomma. Dit moet een punt zijn. In de stylesheet stond het al goed.  |Toelichting|
+
+
+### Release 17 september 2024:
 |Issue nr.|Omschrijving|Oplossing|
 |---|---|---|
 AA-6504| Oplevering nieuw bankmodel tbv van Stater generiek. Dit model kan nu nog alleen gebruikt worden voor het label 'Vandaag Hypotheken'.  |Toelichting, Modeldocument, stylesheets en backend controles|
@@ -21,7 +27,7 @@ AA-6057 | Nieuwste versie van dit tekstblok gebruiken. Het tekstblok is aangepas
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Stater generiek|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Modeldocument%20Stater%20generiek%20v1.0.docx)**|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Toelichting%20Modeldocument%20Stater%20generiek%20v1.0%20-%20v1.0.docx)**| X |
+Modeldocument Stater generiek|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Modeldocument%20Stater%20generiek%20v1.0.docx)**|**[1.2](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Toelichting%20Modeldocument%20Stater%20generiek%20v1.0%20-%20v1.2.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
