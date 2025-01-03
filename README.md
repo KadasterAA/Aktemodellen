@@ -7,16 +7,8 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
-## 6 december 2024
-Vanaf heden zijn de volgende stylesheetnummers géén Beta meer;
-
-|Label    | stylesheetnr | 
-| --- | --- | 
-|Aegon | 20241001000015 |
-|Stater generiek|2024090100034|
-|Svenska Handelsbanken|20241025000035|
-|Verklaring van Erfrecht|20240801000029|
-
+## 3 januari 2025
+Kleine aanpassing alleen in de Toelichting van Stater generiek: Achter het TB Registergoed bij de Overbruggingslening stond een puntkomma dit moet een punt zijn. Hiervoor is de stylesheet NIET aangepast.
 
 ## 4 december 2024
 Voor de Neo is een nieuwe stylesheet opgeleverd. In deze versie van het model zijn er alleen wijzigingen in de vaste tekst. De releasenotes en documentatie vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20241201000032)
