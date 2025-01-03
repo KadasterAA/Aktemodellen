@@ -21,7 +21,7 @@ AA-6057 | Nieuwste versie van dit tekstblok gebruiken. Het tekstblok is aangepas
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument Stater generiek|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Modeldocument%20Stater%20generiek%20v1.0.docx)**|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/2024090100034/Toelichting%20Modeldocument%20Stater%20generiek%20v1.0%20-%20v1.0.docx)**| X |
+Modeldocument Stater generiek|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20240901000034/Modeldocument%20Stater%20generiek%20v1.0.docx)**|**[1.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20240901000034/Toelichting%20Modeldocument%20Stater%20generiek%20v1.0%20-%20v1.0.docx)**| X |
 XSD StukAlgemeen|[12.0.0](/schema/stuk%20algemeen/12.0.0/StukAlgemeen-12.0.0.xsd)|| |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
