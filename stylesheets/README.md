@@ -8,20 +8,17 @@ Akte van verdeling|20231016000009|1|verdeling-5.0.0
 Doorhaling hypotheek|20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
  “ | “ |1|doorhaling_hypotheek-3.0.0
-Hypotheek|20250115000034|1|hypotheek_stater-2.0| |Beta
-Hypotheek|20241025000035|1|hypotheek_svenska-1.0
- “ |20240901000034|1|hypotheek_stater-1.0
 Hypotheek ABN AMRO AAB|20190801000001|1|hypotheek_abn_amro_aab-4.0.0
 Hypotheek ABN AMRO Florius|20190801000002|1|hypotheek_abn_amro_florius-4.0.0
-Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
+Hypotheek ABN AMRO MoneYou|20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0 
 Hypotheek ABP|20240321000019|2|hypotheek_abp-2.0.1
  “ | “ |1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
 Hypotheek Aegon|20241001000015|1|hypotheek_aegon-7.0
  “ |20231105000015|1|hypotheek_aegon-6.0.0
-Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0
+Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0 
 Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
-Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0
+Hypotheek ASR|20211015000020|1|hypotheek_asr-4.0.0 
 Hypotheek BLG|20190801000014|1|hypotheek_blg-3.0.0
 Hypotheek Credo|20230605000031|1|hypotheek_credo-1.0.0
 Hypotheek ING|20190601000004|1|hypotheek_ing-4.0.0
@@ -43,15 +40,13 @@ Hypotheek Rabobank|20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
 Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
-<<<<<<< Updated upstream
-Hypotheek Stater generiek|20240901000034|1|hypotheek_stater-1.0
+Hypotheek Stater generiek|20250115000034|1|hypotheek_stater-2.0| |Beta
+ “ |20240901000034|1|hypotheek_stater-1.0
 Hypotheek Svenska Handelsbanken|20241025000035|1|hypotheek_svenska-1.0
-=======
->>>>>>> Stashed changes
 Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |3|hypotheek_syntrus_achmea-3.1.1
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
-Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0
-Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
+Hypotheek Vista|20230511000024|1|hypotheek_vista-3.0.0 
 VerklaringVanErfrecht|20240801000029|1|vve_wettelijkeverdeling-2.0| |Beta
+Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
