@@ -11,7 +11,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 In deze release:
 - Nieuwe versie van de stylesheet levering opgeleverd. In deze versie is het mogelijk om de akte genderneutraal op te stellen. Hiervoor zijn een aantal tekstblokken aangepast. Tevens zijn er 2 bevindingen opgelost. De details van de aanpassingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20250101000007/Releasenotes%20Akte%20van%20Levering%2020250101000007%20-%201.md).
 - Voor de Stater generiek is een nieuwe versie van de stylesheet opgeleverd. In deze versie zijn 2 bevindingen opgelost. De details van de aanpassingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20250115000034/Releasenotes%20Stater%20generiek%2020250115000034-1.md).
-- Nieuwe versie XSD Algemeen v13.0.0 opgeleverd. Er is een waarde aan het element geslacht toegevoegd. Deze aanpassing was nodig om de akte genderneutraal op te kunnen stellen. De details en het XSD vind u [**hier**](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD) is hierop aangepast.
+- Nieuwe versie XSD Algemeen v13.0.0 opgeleverd. Er is een waarde aan het element geslacht toegevoegd. Deze aanpassing was nodig om de akte genderneutraal op te kunnen stellen. De details en het XSD vind u [**hier**](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
 
 ## 3 januari 2025
 Kleine aanpassing alleen in de Toelichting van Stater generiek: Achter het TB Registergoed bij de Overbruggingslening stond een puntkomma dit moet een punt zijn. Hiervoor is de stylesheet NIET aangepast.
