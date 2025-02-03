@@ -7,6 +7,15 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 31 januari 2025
+In deze release:
+1. We hebben aan de ING, Abn Amro AAB, Moneyou en Florius de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
+* De releasenotes van de ING vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ING/20250101000004/Releasenotes%20ING%2020250101000004%20-%201.md);
+* De releasenotes van de Abn Amro AAB vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20AAB/20250201000001/Releasenotes%20ABN%20AMRO%20AAB%2020250201000001%20-%201.md);
+* De releasenotes van de Moneyou vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20250201000003/Releasenotes%20ABN%20AMRO%20Moneyou%2020250201000003%20-%201.md);
+* De releasenotes van de Florius vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Florius/20250201000002/Releasenotes%20ABN%20AMRO%20Florius%2020250201000002%20-%201.md)
+2. In het tekstblok Partijnamen in hypotheekakten hebben we een bevinding opgelost. De details van deze aanpassing vindt u in de hierboven genoemde releasenotes.
+
 ## 27 januari 2025
 In deze release:
 - Nieuwe versie van de stylesheet levering opgeleverd. In deze versie is het mogelijk om de akte genderneutraal op te stellen. Hiervoor zijn een aantal tekstblokken aangepast. Tevens zijn er 2 bevindingen opgelost. De details van de aanpassingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20250101000007/Releasenotes%20Akte%20van%20Levering%2020250101000007%20-%201.md).
