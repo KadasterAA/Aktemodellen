@@ -54,7 +54,7 @@ AA-4846 | In deze versie van het Tekstblok is het mogelijk om een besluitnummer 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-**Modeldocument Obvion**|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20180501000012/Modeldocument%20Obvion%20v4.0.0.docx)|**[5.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20240201000012/Toelichting%20modeldocument%20Obvion%20v4.0.0%20-%20v5.0.0.docx)**| X |
+**Modeldocument Obvion**|[4.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20250201000012/Modeldocument%20Obvion%20v4.0.0.docx)|**[5.0.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20250201000012/Toelichting%20modeldocument%20Obvion%20v4.0.0%20-%20v5.0.0.docx)**| X |
 **XSD StukAlgemeen**|**[13.0.0](/schema/stuk%20algemeen/13.0.0/StukAlgemeen-13.0.0.xsd)**|  | X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
@@ -63,7 +63,7 @@ Tekstblok - Aanhef|[2.13](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Aanh
 Tekstblok - Equivalentieverklaring|[3.3](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Equivalentieverklaring%20v3.3.docx)|[3.9](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Equivalentieverklaring%203.3%20-%20v3.9.docx)|  |
 **Tekstblok - Gevolmachtigde**|**[3.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Gevolmachtigde%20v3.0.docx)**|**[3.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Gevolmachtigde%203.0%20-%20v3.0.docx)** | X |
 ~**Tekstblok - Legitimatie**~|~[](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Legitimatie%20v3.0.docx)~|~[](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Legitimatie%203.0%20-%20v3.0.docx)~|X |
-**Tekstblok - Natuurlijk persoon**|**[3.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Natuurlijk%20persoon%20v3.0.docx)**|**[4.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Natuurlijk%20persoon%203.0%20-%20v4.0.docx)**| X |
+**Tekstblok - Natuurlijk persoon**|**[3.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Natuurlijk%20persoon%20v3.0.docx)**|**[4.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Natuurlijk%20persoon%20v3.0%20-%20v4.0.docx)**| X |
 **Tekstblok - Partij natuurlijk persoon**|**[4.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Partij%20natuurlijk%20persoon%20v4.0.docx)**|**[4.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Partij%20natuurlijk%20persoon%204.0%20-%20v4.0.docx)**| X |
 **Tekstblok - Partij niet natuurlijk persoon**|**[4.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Partij%20niet%20natuurlijk%20persoon%20v4.0.docx)**|**[5.0](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Partij%20niet%20natuurlijk%20persoon%204.0%20-%20v5.0.docx)**| X |
 Tekstblok - Personalia van Natuurlijk persoon|[1.0](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%20v1.0.docx)|[1.4](/kik-modeldocumenten/tekstblokken/Toelichting%20Tekstblok%20-%20Personalia%20van%20Natuurlijk%20persoon%201.0%20-%20v1.4.docx)|   |
