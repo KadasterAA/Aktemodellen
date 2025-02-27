@@ -7,6 +7,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 26 februari 2025
+We hebben aan de Rabobank, Munt, ASR, Obvion en Svenska Handelsbanken de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. Tevens in de ASR en de Handelsbanken een bevinding opgelost. 
+* De releasenotes van de Rabobank vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20250201000005/Releasenotes%20Rabobank%2020250201000005%20-%201.md);
+* De releasenotes van de Munt vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20250201000018/Releasenotes%20Munt%2020250201000018-%201.md);
+* De releasenotes van de ASR vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASR/20250201000020/Releasenotes%20ASR%2020250201000020-%201.md);
+* De releasenotes van de Obvion vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20250201000012/Releasenotes%20Obvion%2020250201000012%20-%201.md);
+* De releasenotes van de Svenska Handelsbanken vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%201.md).
+
 ## 31 januari 2025
 In deze release:
 1. We hebben aan de ING, Abn Amro AAB, Moneyou en Florius de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
