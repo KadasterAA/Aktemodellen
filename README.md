@@ -7,6 +7,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 18 maart 2025
+We hebben aan de Neo, NIBC, Quion generiek en Stater generiek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
+* De releasenotes van de Neo vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20250301000032/Releasenotes%20Neo%20Hypotheken%2020250301000032%20-%201.md);
+* De releasenotes van de NIBC vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20250301000027/Releasenotes%20NIBC%20Direct%2020250301000027-%201.md);
+* De releasenotes van de Quion generiek vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Releasenotes%20Quion%20generiek%2020250301000028-%201.md);
+* De releasenotes van de Stater generiek vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20250301000034/Releasenotes%20Stater%20generiek%2020250301000034-1.md);
+
+
 ## 26 februari 2025
 We hebben aan de Rabobank, Munt, ASR, Obvion en Svenska Handelsbanken de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. Tevens in de ASR en de Handelsbanken een bevinding opgelost. 
 * De releasenotes van de Rabobank vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Rabobank/20250201000005/Releasenotes%20Rabobank%2020250201000005%20-%201.md);
