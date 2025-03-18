@@ -3409,7 +3409,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>den Bommel</SimpleValue>
+				<SimpleValue>Den Bommel</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>BML03</SimpleValue>
@@ -4753,7 +4753,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>den Dungen</SimpleValue>
+				<SimpleValue>Den Dungen</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>DGN02</SimpleValue>
@@ -8030,7 +8030,7 @@
 				<SimpleValue>2000-01-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="C">
-				<SimpleValue>den Ham</SimpleValue>
+				<SimpleValue>Den Ham</SimpleValue>
 			</Value>
 			<Value ColumnRef="D">
 				<SimpleValue>HAM00</SimpleValue>
