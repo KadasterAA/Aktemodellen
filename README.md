@@ -13,7 +13,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 Er wordt op korte termijn nieuwe versies van de stylesheets ING, AAB, Moneyou, Florius Raboban en TB Partijnamen in hypotheekakten opgeleverd. In de genoemde akten wordt verwezen naar een verkeerd versienummer van het Tekstblok Partijnamen in Hypotheekakten.
 
 
-In deze release:
+#In deze release:
 Nieuwe versie van de Toelichtingen Munt en Quion opgeleverd. Tekst verwijderd die niet relevant was voor deze akten. Informatie betreffende de wijziging vindt u in de Releasenotes van de Munt en Quion.
 
 
