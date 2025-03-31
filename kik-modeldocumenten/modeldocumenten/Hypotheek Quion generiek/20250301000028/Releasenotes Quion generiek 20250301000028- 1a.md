@@ -64,7 +64,7 @@ AA-4846 | In deze versie van het Tekstblok is het mogelijk om een besluitnummer 
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-**Modeldocument**|**[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Modeldocument%20Quion%20generiek%20model%20v3.0.docx)**|**[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Toelichting%20modeldocument%20Quion%20generiek%20v3.0%20-%20v3.1.docx)**| X |
+**Modeldocument**|**[3.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Modeldocument%20Quion%20generiek%20model%20v3.0.docx)**|**[3.1](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Toelichting%20modeldocument%20Quion%20generiek%20v3.0%20-%20v3.1.docx)**| X |
 **XSD StukAlgemeen**|**[13.0.0](/schema/stuk%20algemeen/13.0.0/StukAlgemeen-13.0.0.xsd)**|  | X |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
