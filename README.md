@@ -7,6 +7,16 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 8 april 2025
+We hebben aan de Lloyds, Lot, Nationale Nederlanden, Vista en de Particuliere Hypotheek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
+* De releasenotes van Lloyds vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20250301000021/Releasenotes%20Lloyds%2020250301000021%20-%201.md);
+* De releasenotes van Lot vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20250301000026/Releasenotes%20Lot%2020250301000026%20-%201.md);
+* De releasenotes van Nationale Nederlanden vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20250301000023/Releasenotes%20Nationale-Nederlanden%2020250301000023-1.md);
+* De releasenotes van Vista vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20250301000024/Releasenotes%20Vista%2020250301000024-%201.md);
+* De releasenotes van de Particuliere akte vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20250301000006/Releasenotes%20Hypotheek%20Particulier%2020250301000006%20-%201.md);
+
+
+
 ## 1 april 2025
 
 ### Rectificatie op eerder bericht van 31 maart 2025:
