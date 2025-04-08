@@ -7,6 +7,25 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
 
+## 1 april 2025
+
+### Rectificatie op eerder bericht van 31 maart 2025:
+Het blijkt dat er toch geen nieuwe stylsheets nodig zijn voor stylesheets ING, AAB, Moneyou, Florius Rabobank en TB Partijnamen in hypotheekakten.
+Er is wel nieuwe versie van de documentatie betreffende het Tekstblok Partijnamen in hypotheekakten gepubliceerd. In de oude versie waren nog niet de wijzigingen verwerkt tbv de mogelijkheid om de akte genderneutraal op te stellen. De releasenotes van genoemde akten zijn aangepast.
+Excuus voor de ontstane verwarring.
+
+## 31 maart 2025:
+
+### Mededeling:
+Er wordt op korte termijn nieuwe versies van de stylesheets ING, AAB, Moneyou, Florius Rabobank en TB Partijnamen in hypotheekakten opgeleverd. In de genoemde akten wordt verwezen naar een verkeerd versienummer van het Tekstblok Partijnamen in Hypotheekakten.
+
+
+#In deze release:
+Nieuwe versie van de Toelichtingen Munt en Quion opgeleverd. Tekst verwijderd die niet relevant was voor deze akten. Informatie betreffende de wijziging vindt u in de Releasenotes van de Munt en Quion.
+
+
+
+
 ## 18 maart 2025
 We hebben aan de Neo, NIBC, Quion generiek en Stater generiek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
 * De releasenotes van de Neo vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20250301000032/Releasenotes%20Neo%20Hypotheken%2020250301000032%20-%201.md);
