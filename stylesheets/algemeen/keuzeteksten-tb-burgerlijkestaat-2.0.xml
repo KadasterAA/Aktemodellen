@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_BurgerlijkeStaatTekst</tia:tagNaam>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>de niet-hertrouwde weduwe/weduwnaar van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>in wettelijke gemeenschap van goederen {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>in wettelijke gemeenschap van goederen {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>in algehele gemeenschap van goederen {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>in algehele gemeenschap van goederen {tia_BurgerlijkeStaatTekst} met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst} van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst} van {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>volgens zijn/haar/diens verklaring {tia_BurgerlijkeStaatTekst} naar het recht van {tia_BurgerlijkeStaatLand}</tia:tekst>
+        <tia:tekst>volgens zijn/haar/diens verklaring {tia_BurgerlijkeStaatTekst} naar het recht van {tia_BurgerlijkeStaatLand}</tia:tekst>
+        <tia:tekst>in beperkte gemeenschap van goederen gehuwd met {tia_PartnerGegevens}</tia:tekst>
+        <tia:tekst>in beperkte gemeenschap van goederen gehuwd</tia:tekst>
+        <tia:tekst>de niet-hertrouwde partner van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde partner van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde partner, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde partner, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde partner, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>niet-hertrouwde partner, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>de niet-hertrouwde partner van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>niet-hertrouwde partner van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>de niet-hertrouwde huwelijkspartner van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde huwelijkspartner van {tia_PartnerGegevens}, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde huwelijkspartner, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>niet-hertrouwde huwelijkspartner, niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>de niet-hertrouwde huwelijkspartner, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>niet-hertrouwde huwelijkspartner, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>de niet-hertrouwde huwelijkspartner van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>niet-hertrouwde huwelijkspartner van {tia_PartnerGegevens}, niet geregistreerd als partner</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_BurgerlijkeStaatTekstPartners</tia:tagNaam>
+        <tia:tekst>beiden {tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner</tia:tekst>
+        <tia:tekst>beiden {tia_BurgerlijkeStaatTekst} en niet geregistreerd als partner in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>in wettelijke gemeenschap van goederen {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>in algehele gemeenschap van goederen {tia_BurgerlijkeStaatTekst}e echtgenoten</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>onder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>zonder het maken van huwelijkse voorwaarden {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>in wettelijke gemeenschap van goederen {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>in algehele gemeenschap van goederen {tia_BurgerlijkeStaatTekst}</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}s</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s</tia:tekst>
+        <tia:tekst>{tia_BurgerlijkeStaatTekst}s in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>onder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>zonder het maken van partnerschapsvoorwaarden {tia_BurgerlijkeStaatTekst}s in de zin van het geregistreerd partnerschap</tia:tekst>
+        <tia:tekst>volgens hun verklaring met elkaar {tia_BurgerlijkeStaatTekst} naar het recht van {tia_BurgerlijkeStaatLand}</tia:tekst>
+        <tia:tekst>volgens hun verklaring {tia_BurgerlijkeStaatTekst}s naar het recht van {tia_BurgerlijkeStaatLand}</tia:tekst>
+        <tia:tekst>in beperkte gemeenschap van goederen gehuwd</tia:tekst>
+        <tia:tekst>in beperkte gemeenschap van goederen gehuwde echtgenoten</tia:tekst>
+   </tia:TekstKeuze>
+</tia:Keuzeteksten>
