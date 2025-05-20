@@ -1,25 +1,46 @@
 # Aktemodellen
+
 Kadaster Automatische Akteverwerking
 
 Op deze locatie staat de informatie ten behoeve van software leveranciers die software ontwikkelen ten behoeve van het notariaat. Specifiek staat hier de informatie welke nodig is om zogeheten KIK-Akten te kunnen vervaardigen.
 
 KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om sneller, met hogere kwaliteit en tegen lagere kosten akten in te kunnen schrijven bij het Kadaster.
 
-We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina https://desktop.github.com/ voor details over de GitHub Desktop.
+We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
+
+## 19 mei 2025
+
+In deze release hebben we een aantal nieuwe stylesheets opgeleverd zodat de akten ook genderneutraal kunnen worden opgesteld:
+
+* ABP: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ABP/20250401000019/Releasenotes%20ABP%2020250401000019-%201.md);
+
+* Aegon: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20250401000015/Releasenotes%20AEGON%2020250401000015-%201.md);
+
+* Argenta: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Argenta/20250401000025/Releasenotes%20Argenta%2020250401000025%20-1.md);
+
+* Credo: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Credo/20250401000031/Releasenotes%20Credo%20Hypotheken%2020250401000031-%201.md);
+
+* Doorhaling hypotheek: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Doorhaling%20hypotheek/20250501000010/Releasenotes%20Doorhaling%20hypotheek%2020250501000010%20-%201.md);
+
+* Notariele Verklaring: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Notariële%20verklaring/20250501000008/Releasenotes%20Notariële%20verklaring%20-%20Koop%20of%20optie%2020250501000008%20-%201.md).
 
 ## 8 april 2025
-We hebben aan de Lloyds, Lot, Nationale Nederlanden, Vista en de Particuliere Hypotheek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
+
+We hebben aan de Lloyds, Lot, Nationale Nederlanden, Vista en de Particuliere Hypotheek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen.
+
 * De releasenotes van Lloyds vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lloyds/20250301000021/Releasenotes%20Lloyds%2020250301000021%20-%201.md);
+
 * De releasenotes van Lot vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Lot/20250301000026/Releasenotes%20Lot%2020250301000026%20-%201.md);
+  
 * De releasenotes van Nationale Nederlanden vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Nationale-Nederlanden/20250301000023/Releasenotes%20Nationale-Nederlanden%2020250301000023-1.md);
 * De releasenotes van Vista vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Vista/20250301000024/Releasenotes%20Vista%2020250301000024-%201.md);
+
 * De releasenotes van de Particuliere akte vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Particulier/20250301000006/Releasenotes%20Hypotheek%20Particulier%2020250301000006%20-%201.md);
-
-
 
 ## 1 april 2025
 
 ### Rectificatie op eerder bericht van 31 maart 2025:
+
 Het blijkt dat er toch geen nieuwe stylsheets nodig zijn voor stylesheets ING, AAB, Moneyou, Florius Rabobank en TB Partijnamen in hypotheekakten.
 Er is wel nieuwe versie van de documentatie betreffende het Tekstblok Partijnamen in hypotheekakten gepubliceerd. In de oude versie waren nog niet de wijzigingen verwerkt tbv de mogelijkheid om de akte genderneutraal op te stellen. De releasenotes van genoemde akten zijn aangepast.
 Excuus voor de ontstane verwarring.
