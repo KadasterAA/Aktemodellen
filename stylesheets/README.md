@@ -5,7 +5,8 @@ Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Be
 Akte van levering KNB nieuw model|20250101000007|1|levering-9.0.0| |Beta
  “ |20231020000007|1|levering-8.0.0
 Akte van verdeling|20231016000009|1|verdeling-5.0.0
-Doorhaling hypotheek|20190826000010|3|doorhaling_hypotheek-3.1.1
+Doorhaling hypotheek|20250501000010|1|doorhaling_hypotheek-4.0.0| |Beta
+ “ |20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
  “ | “ |1|doorhaling_hypotheek-3.0.0
 Hypotheek Stater|20250301000034|1|hypotheek_stater-3.0| |Beta
@@ -19,17 +20,21 @@ Hypotheek ABN AMRO Florius|20250201000002|1|hypotheek_abn_amro_florius-5.0.0| |B
  “ |20190801000002|1|hypotheek_abn_amro_florius-4.0.0
 Hypotheek ABN AMRO MoneYou|20250201000003|1|hypotheek_abn_amro_moneyou-6.0.0| |Beta
  “ |20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
-Hypotheek ABP|20240321000019|2|hypotheek_abp-2.0.1
+Hypotheek ABP|20250401000019|1|hypotheek_abp-3.0.0| |Beta
+ “ |20240321000019|2|hypotheek_abp-2.0.1
  “ | “ |1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
-Hypotheek Aegon|20241001000015|1|hypotheek_aegon-7.0
+Hypotheek Aegon|20250401000015|1|hypotheek_aegon-8.0| |Beta
+ “ |20241001000015|1|hypotheek_aegon-7.0
  “ |20231105000015|1|hypotheek_aegon-6.0.0
-Hypotheek Argenta|20230524000025|1|hypotheek_argenta-3.0
+Hypotheek Argenta|20250401000025|1|hypotheek_argenta-4.0| |Beta
+ “ |20230524000025|1|hypotheek_argenta-3.0
 Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
 Hypotheek ASR|20250201000020|1|hypotheek_asr-5.0.0| |Beta
  “ |20211015000020|1|hypotheek_asr-4.0.0
 Hypotheek BLG|20190801000014|1|hypotheek_blg-3.0.0
-Hypotheek Credo|20230605000031|1|hypotheek_credo-1.0.0
+Hypotheek Credo|20250401000031|1|hypotheek_credo-2.0.0| |Beta
+“ |20230605000031|1|hypotheek_credo-1.0.0
 Hypotheek ING|20250101000004|1|hypotheek_ing-5.0.0| |Beta
  “ |20190601000004|1|hypotheek_ing-4.0.0
 Hypotheek Lloyds|20250301000021|1|hypotheek_lloyds-3.0.0| |Beta
@@ -66,5 +71,6 @@ Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
 Hypotheek Vista|20250301000024|1|hypotheek_vista-4.0.0| |Beta
  “ |20230511000024|1|hypotheek_vista-3.0.0
-Notariële verklaring|20231016000008|1|notariele_verklaring-4.0.0
+Notariële verklaring|20250501000008|1|notariele_verklaring-5.0.0| |Beta
+ “ |20231016000008|1|notariele_verklaring-4.0.0
 Verklaring van Erfrecht|20240801000029|1|vve_wettelijkeverdeling-2.0| |Beta

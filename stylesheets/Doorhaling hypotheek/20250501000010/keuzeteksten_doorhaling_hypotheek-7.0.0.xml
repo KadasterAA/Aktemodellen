@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tia:Keuzeteksten xmlns:tia="http://www.kadaster.nl/schemas/KIK/TIA_Algemeen">
+	<!--
+	Optional text choices for Mortgage cancellation deed
+	Version: 7.0.0 (AA-7711)
+	Date: 2025-04-16
+	-->
+	<!-- Begin common optional text choices -->
+	<tia:TekstKeuze>
+		<tia:tagNaam>margin-top</tia:tagNaam>
+		<tia:tekst>60</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>margin-left</tia:tagNaam>
+		<tia:tekst>50</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Dagaanduiding</tia:tagNaam>
+		<tia:tekst>Op</tia:tekst>
+		<tia:tekst>Heden</tia:tekst>
+		<tia:tekst>Vandaag</tia:tekst>
+	</tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_VerklaarderPlaatsaanduiding</tia:tagNaam>
+        <tia:tekst>in de gemeente {gemeente} kantoorhoudende te {woonplaats}</tia:tekst>
+        <tia:tekst>te {woonplaats}</tia:tekst>
+        <tia:tekst>gevestigd te {woonplaats}</tia:tekst>
+        <tia:tekst>met plaats van vestiging {woonplaats}</tia:tekst>
+        <tia:tekst>in de gemeente {gemeente}</tia:tekst>
+    </tia:TekstKeuze>
+     <tia:TekstKeuze>
+        <tia:tagNaam>k_OndertekenaarPlaatsaanduiding</tia:tagNaam>
+        <tia:tekst>in de gemeente {gemeente} kantoorhoudende te {woonplaats}</tia:tekst>
+        <tia:tekst>te {woonplaats}</tia:tekst>
+        <tia:tekst>gevestigd te {woonplaats}</tia:tekst>
+        <tia:tekst>met plaats van vestiging {woonplaats}</tia:tekst>
+        <tia:tekst>in de gemeente {gemeente}</tia:tekst>
+    </tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Professor</tia:tagNaam>
+		<tia:tekst>professor</tia:tekst>
+	</tia:TekstKeuze>	
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Statutair</tia:tagNaam>
+		<tia:tekst>statutair</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Kantoorhoudende</tia:tagNaam>
+		<tia:tekst>kantoorhoudende te</tia:tekst>
+		<tia:tekst>mede kantoorhoudende te</tia:tekst>
+		<tia:tekst>en aldaar kantoorhoudende aan</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_KantoorhoudendeLidwoord</tia:tagNaam>
+		<tia:tekst>de</tia:tekst>
+		<tia:tekst>het</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Voortstuwing</tia:tagNaam>
+		<tia:tekst>met de volgende motor</tia:tekst>
+		<tia:tekst>met de volgende motoren</tia:tekst>
+		<tia:tekst>met de volgende voortstuwingsmiddelen</tia:tekst>
+		<tia:tekst>met het volgende voortstuwingsmiddel</tia:tekst>
+		<tia:tekst>zonder voortstuwingswerktuigen</tia:tekst>
+		<tia:tekst/>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Scheepstoebehoren</tia:tagNaam>
+		<tia:tekst>alsmede alle scheepstoebehoren in de zin van artikel 8:1 Burgerlijk Wetboek, aan partijen genoegzaam bekend</tia:tekst>
+	</tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Woonplaatskeuze</tia:tagNaam>
+        <tia:tekst>De verschenen persoon, handelend als gemeld, verklaart ter zake van deze akte woonplaats te kiezen ten kantore van mij, notaris</tia:tekst>
+        <tia:tekst>De verschenen personen, handelend als gemeld, verklaren ter zake van deze akte woonplaats te kiezen ten kantore van mij, notaris</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_Mandeligheid</tia:tagNaam>
+        <tia:tekst>De tot mandelig bestemd</tia:tekst>
+        <tia:tekst>Het tot mandelig bestemd</tia:tekst>
+        <tia:tekst>De tot mandelig bestemde</tia:tekst>
+        <tia:tekst>Het tot mandelig bestemde</tia:tekst>
+        <tia:tekst>met bestemming mandeligheid</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_Eigendom</tia:tagNaam>
+        <tia:tekst>het recht van eigendom met betrekking tot</tia:tekst>
+        <tia:tekst>het onbekende onverdeeld aandeel in</tia:tekst>
+        <tia:tekst>een onbekend onverdeeld aandeel in</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_EigendomBelast</tia:tagNaam>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van opstal</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van opstal</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van opstal nutsvoorzieningen</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van opstal nutsvoorzieningen</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van opstal leidingen</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van opstal leidingen</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van erfpacht</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van erfpacht</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van erfpacht, welke eeuwigdurend is gevestigd</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van erfpacht, welke eeuwigdurend zijn gevestigd</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van vruchtgebruik</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van vruchtgebruik</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} zakelijk recht als bedoeld in artikel 5 lid 3 onder b van de Belemmeringenwet Privaatrecht zoals deze luidde tot een januari negentienhonderdtwee&#x00EB;nnegentig</tia:tekst>
+        <tia:tekst>een {getal}tal {k_NaderTeOmschrijven} zakelijke rechten als bedoeld in artikel 5 lid 3 onder b van de Belemmeringenwet Privaatrecht zoals deze luidde tot een januari negentienhonderdtwee&#x00EB;nnegentig</tia:tekst>
+        <tia:tekst>het {k_NaderTeOmschrijven} recht van gebruik en bewoning</tia:tekst>
+        <tia:tekst>de {k_NaderTeOmschrijven} rechten van gebruik en bewoning</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_NaderTeOmschrijven</tia:tagNaam>
+        <tia:tekst>nader te omschrijven</tia:tekst>
+        <tia:tekst>hierna nader te omschrijven</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_NaderTeOmschrijvenVariant</tia:tagNaam>
+        <tia:tekst>nader te omschrijven</tia:tekst>
+        <tia:tekst>hierna nader te omschrijven</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+    	<tia:tagNaam>k_Bepaald</tia:tagNaam>
+        <tia:tekst>het</tia:tekst>
+        <tia:tekst>een</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+        <tia:tagNaam>k_KvK</tia:tagNaam>
+        <tia:tekst>van de Kamer van Koophandel</tia:tekst>
+    </tia:TekstKeuze>
+    <tia:TekstKeuze>
+		<tia:tagNaam>k_WaarnemingVerklaarderTekst</tia:tagNaam>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van het vacante kantoor van</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van de met verlof afwezige</tia:tekst>
+		<tia:tekst>toegevoegd notaris, bevoegd om akten te passeren in het protocol van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als waarnemer van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als	waarnemer van het vacante kantoor van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als	waarnemer van de met verlof afwezige</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van het vacante protocol van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als	waarnemer van het vacante protocol van</tia:tekst>
+	</tia:TekstKeuze>
+   	<tia:TekstKeuze>
+		<tia:tagNaam>k_WaarnemingTekst</tia:tagNaam>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van het vacante kantoor van</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van de met verlof afwezige</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als waarnemer van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als waarnemer van het vacante kantoor van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als waarnemer van de met verlof afwezige</tia:tekst>
+		<tia:tekst>toegevoegd notaris, bevoegd om akten te passeren in het protocol van</tia:tekst>
+		<tia:tekst>hierna te noemen: ‘notaris’, als waarnemer van het vacante protocol van</tia:tekst>
+		<tia:tekst>kandidaat-notaris, hierna te noemen: ‘notaris’, als waarnemer van het vacante protocol van</tia:tekst>
+	</tia:TekstKeuze>
+   	<tia:TekstKeuze>
+		<tia:tagNaam>k_SoortDocument</tia:tagNaam>
+		<tia:tekst>afschrift</tia:tekst>
+		<tia:tekst>uittreksel</tia:tekst>
+	</tia:TekstKeuze>
+   	<tia:TekstKeuze>
+		<tia:tagNaam>k_MeervoudStuk</tia:tagNaam>
+		<tia:tekst>het desbetreffende gedeelte van</tia:tekst>
+		<tia:tekst>de betreffende gedeelten van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_WijzeVanLevering</tia:tagNaam>
+		<tia:tekst>aaneengesloten</tia:tekst>
+		<tia:tekst>doorgeleverd</tia:tekst>
+		<tia:tekst>verificatiekosten</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Aanduiding</tia:tagNaam>
+		<tia:tekst>1</tia:tekst>
+		<tia:tekst>2</tia:tekst>
+		<tia:tekst>3</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_AandeelGemeenschap</tia:tagNaam>
+		<tia:tekst>1</tia:tekst>
+		<tia:tekst>2</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidVoorZich</tia:tagNaam>
+		<tia:tekst>voor zich; en</tia:tekst>
+		<tia:tekst>voor zich in privé; en</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidAanduiding</tia:tagNaam>
+		<tia:tekst>te dezen handelend</tia:tekst>
+		<tia:tekst>te dezen rechtsgeldig vertegenwoordigend</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+        <tia:tagNaam>k_HoedanigheidVoornoemd</tia:tagNaam>
+        <tia:tekst>voornoemd</tia:tekst>
+    </tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidVariant</tia:tagNaam>
+		<tia:tekst>1</tia:tekst>
+		<tia:tekst>2</tia:tekst>
+		<tia:tekst>3</tia:tekst>
+		<tia:tekst>4</tia:tekst>
+		<tia:tekst>5</tia:tekst>
+		<tia:tekst>6</tia:tekst>
+		<tia:tekst>7</tia:tekst>
+		<tia:tekst>8</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant1</tia:tagNaam>
+		<tia:tekst>als zelfstandig bevoegde bestuurders van</tia:tekst>
+		<tia:tekst>als zelfstandig vertegenwoordigingsbevoegde bestuurders van</tia:tekst>
+		<tia:tekst>als zelfstandig bevoegde directeuren van</tia:tekst>
+		<tia:tekst>als zelfstandig vertegenwoordigingsbevoegde directeuren van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant2</tia:tagNaam>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van bestuurders van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van zelfstandig bevoegde bestuurders van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van zelfstandig vertegenwoordigingsbevoegde bestuurders van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van directeuren van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van zelfstandig bevoegde directeuren van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van zelfstandig vertegenwoordigingsbevoegde directeuren van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant3</tia:tagNaam>
+		<tia:tekst>als vertegenwoordiger van</tia:tekst>
+		<tia:tekst>als rechtsgeldig vertegenwoordiger van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant5</tia:tagNaam> 
+		<tia:tekst>als mondeling gevolmachtigden van</tia:tekst>
+		<tia:tekst>als schriftelijk gevolmachtigden van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant6</tia:tagNaam> 
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van curatoren van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van curatoren in het faillissement van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van curatoren (krachtens beschikking van de kantonrechter te plaats, de dato datum) van</tia:tekst>
+		<tia:tekst>in zijn/haar/diens/hun hoedanigheid van curatoren (krachtens beschikking van de kantonrechter te plaats, de dato datum) in het faillissement van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant7</tia:tagNaam> 
+		<tia:tekst>als bewindvoerders over de goederen van</tia:tekst>
+		<tia:tekst>als bewindvoerders (krachtens beschikking van de kantonrechter te plaats, de dato datum) over de goederen van</tia:tekst>
+		<tia:tekst>als bewindvoerders over het vermogen van</tia:tekst>
+		<tia:tekst>als bewindvoerders (krachtens beschikking van de kantonrechter te plaats, de dato datum) over het vermogen van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_HoedanigheidTekstVariant8</tia:tagNaam> 
+		<tia:tekst>als beherend vennoot van</tia:tekst>
+		<tia:tekst>als bevoegde vennoten van</tia:tekst>
+		<tia:tekst>als gezamenlijk bevoegde vennoten van</tia:tekst>
+		<tia:tekst>als enige vennoten van</tia:tekst>
+		<tia:tekst>als bevoegde maten van</tia:tekst>
+		<tia:tekst>als gezamenlijk bevoegde maten van</tia:tekst>
+		<tia:tekst>als enige maten van</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_EigendomAppartementsrecht</tia:tagNaam>
+		<tia:tekst>het onbekende aandeel in</tia:tekst>
+		<tia:tekst>een onbekend aandeel in</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Verklaring</tia:tagNaam>
+		<tia:tekst>verklaart</tia:tekst>
+		<tia:tekst>verklaar ik</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_TitelDoorhaling</tia:tagNaam>
+		<tia:tekst>Doorhaling</tia:tekst>
+		<tia:tekst>Doorhaling hypotheek</tia:tekst>
+		<tia:tekst>Gedeeltelijke doorhaling</tia:tekst>
+		<tia:tekst>Akte van doorhaling</tia:tekst>
+		<tia:tekst>Gedeeltelijke doorhaling schuldeiser</tia:tekst>
+		<tia:tekst>Royementsakte</tia:tekst>
+		<tia:tekst>Royement</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_Volmachtverlening</tia:tagNaam>
+		<tia:tekst>mondeling</tia:tekst>
+		<tia:tekst>schriftelijk</tia:tekst>
+	</tia:TekstKeuze>
+	<tia:TekstKeuze>
+		<tia:tagNaam>k_BijWaarnemer</tia:tagNaam>
+		<tia:tekst>een waarnemer van</tia:tekst>
+	</tia:TekstKeuze>
+	<!-- End common optional text choices -->
+</tia:Keuzeteksten>
