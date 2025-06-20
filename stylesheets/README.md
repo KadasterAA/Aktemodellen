@@ -29,10 +29,12 @@ Hypotheek Aegon|20250401000015|1|hypotheek_aegon-8.0| |Beta
  “ |20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20250401000025|1|hypotheek_argenta-4.0| |Beta
  “ |20230524000025|1|hypotheek_argenta-3.0
-Hypotheek ASN|20240601000033|1|hypotheek_asn-1.0.0
+Hypotheek ASN|20250601000033|1|hypotheek_asn-2.0.0| |Beta
+ “ |20240601000033|1|hypotheek_asn-1.0.0
 Hypotheek ASR|20250201000020|1|hypotheek_asr-5.0.0| |Beta
  “ |20211015000020|1|hypotheek_asr-4.0.0
-Hypotheek BLG|20190801000014|1|hypotheek_blg-3.0.0
+Hypotheek BLG|20250601000014|1|hypotheek_blg-4.0.0| | Beta
+ “ |20190801000014|1|hypotheek_blg-3.0.0
 Hypotheek Credo|20250401000031|1|hypotheek_credo-2.0.0| |Beta
 “ |20230605000031|1|hypotheek_credo-1.0.0
 Hypotheek ING|20250101000004|1|hypotheek_ing-5.0.0| |Beta
@@ -63,8 +65,10 @@ Hypotheek Quion generiek|20250301000028|1|hypotheek_quion_generiek-3.0| |Beta
 Hypotheek Rabobank|20250201000005|1|hypotheek_rabobank-6.0.0| |Beta
  “ |20190610000005|2|hypotheek_rabobank-5.0.1
  “ | “ |1|hypotheek_rabobank-5.0.0
-Hypotheek Regiobank|20190610000016|1|hypotheek_regiobank-3.0.0
-Hypotheek SNS|20190801000013|1|hypotheek_sns-2.5.0
+Hypotheek Regiobank|20250601000016|1|hypotheek_regiobank-4.0.0| |Beta
+ “ |20190610000016|1|hypotheek_regiobank-3.0.0
+Hypotheek SNS|20250601000013|1|hypotheek_sns-3.0.0| |Beta
+ “ |20190801000013|1|hypotheek_sns-2.5.0
 Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
  “ | “ |3|hypotheek_syntrus_achmea-3.1.1
  “ | “ |1|hypotheek_syntrus_achmea-3.0.0
