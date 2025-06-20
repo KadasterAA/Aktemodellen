@@ -8,6 +8,20 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 20 juni 2025
+
+In deze release hebben we een aantal nieuwe stylesheets opgeleverd zodat de akten ook genderneutraal kunnen worden opgesteld. Tevens was in de releasenotes van de handelsbank vergeten te vermelden dat er tevens een bevinding was opgelost. Dit is nu herstelt.
+
+* Handelsbank: de aangevulde releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%201a.md);
+
+* ASN: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASN/20250601000033/Releasenotes%20ASN%2020250601000033%20-%201.md);
+* BLG: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20BLG/20250601000014/Releasenotes%20BLG%2020250601000014%20-%201.md);
+* Regiobank: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20250601000016/Releasenotes%20Regiobank%2020250601000016%20-%201.md);
+* SNS: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20250601000013/Releasenotes%20SNS%2020190801000013%20%20-%201.md);
+* Verdeling: de releasenotes vind u [**hier**](/kik-modeldocumenten//modeldocumenten/Akte%20van%20verdeling/20250601000009/Releasenotes%20Akte%20van%20verdeling%2020250601000009%20-%201.md).
+
+**Let op! Vanaf 30 juni 2025 veranderd de naam Volksbank NV in ASN NV.**
+
 ## 19 mei 2025
 
 In deze release hebben we een aantal nieuwe stylesheets opgeleverd zodat de akten ook genderneutraal kunnen worden opgesteld:
