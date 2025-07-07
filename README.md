@@ -8,17 +8,21 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 7 juli 2025
+
+- Het is vanaf nu mogelijk om de generieke Quion akte te gebruiken om akten van de hypotheekverstrekker "bijBouwe" aan te bieden.
+- De stylesheet versie **20200907000022** voor de Syntrus Achmea met bankmodel HYSAREF00 zal **vanaf 1 augustus 2025** worden **uitgezet**. Voor de Syntrus Achmea akte is het de bedoeling om daar ook de Quion generieke stylesheet voor te gebruiken.
+
 ## 20 juni 2025
 
 In deze release hebben we een aantal nieuwe stylesheets opgeleverd zodat de akten ook genderneutraal kunnen worden opgesteld. Tevens was in de releasenotes van de handelsbank vergeten te vermelden dat er tevens een bevinding was opgelost. Dit is nu herstelt.
 
-* Handelsbank: de aangevulde releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%201a.md);
-
-* ASN: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASN/20250601000033/Releasenotes%20ASN%2020250601000033%20-%201.md);
-* BLG: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20BLG/20250601000014/Releasenotes%20BLG%2020250601000014%20-%201.md);
-* Regiobank: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20250601000016/Releasenotes%20Regiobank%2020250601000016%20-%201.md);
-* SNS: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20250601000013/Releasenotes%20SNS%2020190801000013%20%20-%201.md);
-* Verdeling: de releasenotes vind u [**hier**](/kik-modeldocumenten//modeldocumenten/Akte%20van%20verdeling/20250601000009/Releasenotes%20Akte%20van%20verdeling%2020250601000009%20-%201.md).
+- Handelsbanken: de aangevulde releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%201a.md);
+- ASN: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20ASN/20250601000033/Releasenotes%20ASN%2020250601000033%20-%201.md);
+- BLG: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20BLG/20250601000014/Releasenotes%20BLG%2020250601000014%20-%201.md);
+- Regiobank: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Regiobank/20250601000016/Releasenotes%20Regiobank%2020250601000016%20-%201.md);
+- SNS: de releasenotes vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20SNS/20250601000013/Releasenotes%20SNS%2020190801000013%20%20-%201.md);
+- Verdeling: de releasenotes vind u [**hier**](/kik-modeldocumenten//modeldocumenten/Akte%20van%20verdeling/20250601000009/Releasenotes%20Akte%20van%20verdeling%2020250601000009%20-%201.md).
 
 **Let op! Vanaf 30 juni 2025 veranderd de naam Volksbank NV in ASN NV.**
 
@@ -53,29 +57,32 @@ We hebben aan de Lloyds, Lot, Nationale Nederlanden, Vista en de Particuliere Hy
 
 ## 1 april 2025
 
-### Rectificatie op eerder bericht van 31 maart 2025:
+### Rectificatie op eerder bericht van 31 maart 2025":"
 
 Het blijkt dat er toch geen nieuwe stylsheets nodig zijn voor stylesheets ING, AAB, Moneyou, Florius Rabobank en TB Partijnamen in hypotheekakten.
 Er is wel nieuwe versie van de documentatie betreffende het Tekstblok Partijnamen in hypotheekakten gepubliceerd. In de oude versie waren nog niet de wijzigingen verwerkt tbv de mogelijkheid om de akte genderneutraal op te stellen. De releasenotes van genoemde akten zijn aangepast.
 Excuus voor de ontstane verwarring.
 
-## 31 maart 2025:
+## 31 maart 2025":"
 
-### Mededeling:
+### Mededeling":"
+
 Er wordt op korte termijn nieuwe versies van de stylesheets ING, AAB, Moneyou, Florius Rabobank en TB Partijnamen in hypotheekakten opgeleverd. In de genoemde akten wordt verwezen naar een verkeerd versienummer van het Tekstblok Partijnamen in Hypotheekakten.
 
+## In deze release":"
 
-#In deze release:
 Nieuwe versie van de Toelichtingen Munt en Quion opgeleverd. Tekst verwijderd die niet relevant was voor deze akten. Informatie betreffende de wijziging vindt u in de Releasenotes van de Munt en Quion.
 
-
-
-
 ## 18 maart 2025
-We hebben aan de Neo, NIBC, Quion generiek en Stater generiek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen. 
+
+We hebben aan de Neo, NIBC, Quion generiek en Stater generiek de mogelijkheid toegevoegd om de akte genderneutraal op te stellen.
+
 * De releasenotes van de Neo vindt u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20250301000032/Releasenotes%20Neo%20Hypotheken%2020250301000032%20-%201.md);
+  
 * De releasenotes van de NIBC vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20NIBC/20250301000027/Releasenotes%20NIBC%20Direct%2020250301000027-%201.md);
+
 * De releasenotes van de Quion generiek vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Quion%20generiek/20250301000028/Releasenotes%20Quion%20generiek%2020250301000028-%201.md);
+
 * De releasenotes van de Stater generiek vind u [**hier**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20250301000034/Releasenotes%20Stater%20generiek%2020250301000034-1.md);
 
 
