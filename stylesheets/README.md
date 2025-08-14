@@ -12,7 +12,8 @@ Doorhaling hypotheek|20250501000010|1|doorhaling_hypotheek-4.0.0| |Beta
 Hypotheek Stater|20250301000034|1|hypotheek_stater-3.0| |Beta
 “ |20250115000034|1|hypotheek_stater-2.0
 “ |20240901000034|1|hypotheek_stater-1.0
-Hypotheek Svenska Handelsbanken|20250201000035|1|hypotheek_svenska-2.0| |Beta
+Hypotheek Svenska Handelsbanken|20250201000035|2|hypotheek_svenska-2.1| |Beta
+ “ |20250201000035|1|hypotheek_svenska-2.0| |Beta
  “ |20241025000035|1|hypotheek_svenska-1.0 
 Hypotheek ABN AMRO AAB|20250201000001|1|hypotheek_abn_amro_aab-5.0.0| |Beta
  “ |20190801000001|1|hypotheek_abn_amro_aab-4.0.0
@@ -48,7 +49,8 @@ Hypotheek Munt|20250201000018|1|hypotheek_munt-4.0| |Beta
 Hypotheek Nationale Nederlanden|20250301000023|1|hypotheek_nationale-nederlanden-3.0.0| |Beta
  “ |20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
-Hypotheek NEO|20250301000032|1|hypotheek_neo-3.0| |Beta
+Hypotheek NEO|20250801000032|1|hypotheek_neo-4.0| |Beta
+ “ |20250301000032|1|hypotheek_neo-3.0| |Beta
  “ |20241201000032|1|hypotheek_neo-2.0
  “ |20240311000032|2|hypotheek_neo-1.0.1
  “ | “ |1|hypotheek_neo-1.0.0
@@ -69,9 +71,9 @@ Hypotheek Regiobank|20250601000016|1|hypotheek_regiobank-4.0.0| |Beta
  “ |20190610000016|1|hypotheek_regiobank-3.0.0
 Hypotheek SNS|20250601000013|1|hypotheek_sns-3.0.0| |Beta
  “ |20190801000013|1|hypotheek_sns-2.5.0
-Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2
- “ | “ |3|hypotheek_syntrus_achmea-3.1.1
- “ | “ |1|hypotheek_syntrus_achmea-3.0.0
+Hypotheek Syntrus Achmea|20200907000022|4|hypotheek_syntrus_achmea-3.1.2|01-08-2025||
+ “ | “ |3|hypotheek_syntrus_achmea-3.1.1|01-08-2025||
+ “ | “ |1|hypotheek_syntrus_achmea-3.0.0|01-08-2025||
 Hypotheek Triodos|20230401000030|1|hypotheek_triodos-1.0.0
 Hypotheek Vista|20250301000024|1|hypotheek_vista-4.0.0| |Beta
  “ |20230511000024|1|hypotheek_vista-3.0.0
