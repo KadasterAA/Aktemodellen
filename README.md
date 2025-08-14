@@ -8,6 +8,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 14 augustus 2025
+- Nieuw stylesheet van de Neo opgeleverd op basis van een nieuwe versie van het bankmodel. De [**release notes**](kik-modeldocumenten/modeldocumenten/Hypotheek%20Neo/20250801000031/Releasenotes%20Neo%20Hypotheken%2020250801000031-%201.md) vindt u hier. Deze versie van de Neo is een bèta versie. 
+- Nieuw implementatienummer van de Svenska Handelsbanken opgeleverd. De afsluitende tekst van de hypotheekgever partij was niet conform de toelichting en modeldocument.
+- Vanaf heden is stylesheet 20200907000022 van Syntrus Achmea  uitgezet zoals eerder is aangekondigd. Het is de bedoeling voortaan de stylesheet van Quion hiervoor te gebruiken.
+
+
 ## 7 juli 2025
 
 - Het is vanaf nu mogelijk om de generieke Quion akte te gebruiken om akten van de hypotheekverstrekker "bijBouwe" aan te bieden.
