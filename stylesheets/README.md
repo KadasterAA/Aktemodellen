@@ -57,7 +57,8 @@ Hypotheek NEO|20250801000032|1|hypotheek_neo-4.0| |Beta
 Hypotheek NIBC|20250301000027|1|hypotheek_nibc-4.0.0| |Beta
  “ |20231002000027|2|hypotheek_nibc-3.0.1
  “ | “ |1|hypotheek_nibc-3.0.0
-Hypotheek Obvion|20250201000012|1|hypotheek_obvion-6.0.0| |Beta
+Hypotheek Obvion|20250201000012|2|hypotheek_obvion-6.1.0| |Beta
+ “ |20250201000012|1|hypotheek_obvion-6.0.0| |Beta
  “ |20240201000012|1|hypotheek_obvion-5.0.0
  “ |20190624000012|1|hypotheek_obvion-4.0.0
 Hypotheek Particulier|20250301000006|1|hypotheek_particulier-4.0.0| |Beta
