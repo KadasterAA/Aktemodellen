@@ -25,7 +25,8 @@ Hypotheek ABP|20250401000019|1|hypotheek_abp-3.0.0| |Beta
  “ |20240321000019|2|hypotheek_abp-2.0.1
  “ | “ |1|hypotheek_abp-2.0.0
  “ |20190801000019|1|hypotheek_abp-1.0.0
-Hypotheek Aegon|20250401000015|1|hypotheek_aegon-8.0| |Beta
+Hypotheek Aegon|20251001000015|1|hypotheek_aegon-9.0| |Beta
+ “ |20250401000015|1|hypotheek_aegon-8.0| |Beta
  “ |20241001000015|1|hypotheek_aegon-7.0
  “ |20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20250401000025|1|hypotheek_argenta-4.0| |Beta
