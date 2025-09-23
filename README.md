@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 23 september 2025
 
-Met deze release hebben we een bug opgelost in de Aegon. Hiervoor is een nieuw stylesheetnummer opgeleverd: 20251001000015. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20251001000015/Releasenotes%20AEGON%2020251001000015%20-%201.md).
+Nieuw stylesheet van de Neo opgeleverd op basis van een nieuwe versie van het bankmodel. Hiervoor is een nieuw stylesheetnummer opgeleverd: 20251001000015. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20251001000015/Releasenotes%20AEGON%2020251001000015%20-%201.md).
 
 ## 11 september 2025
 
