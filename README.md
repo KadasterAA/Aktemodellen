@@ -8,6 +8,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 30 september 2025
+
+In de release van gisteren is er nog per abuis een bug over het hoofd gezien in de Svenska Handelsbanken in de afsluitende tekst van de hypotheekgever partij. Hiervoor is een nieuw implementatienummer opgeleverd: 20250201000035-implnr 4. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%204.md).
+
 ## 29 september 2025
 
 Met deze release hebben we een bug opgelost in de Svenska Handelsbanken. Hiervoor is een nieuw implementatienummer opgeleverd: 20250201000035-implnr 3. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%203.md).
