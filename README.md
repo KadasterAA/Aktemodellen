@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 1 oktober 2025
 
-In de release van gisteren is er nog per abuis een bug over het hoofd gezien in de Svenska Handelsbanken in de afsluitende tekst van de hypotheekgever partij. Hiervoor is een nieuw implementatienummer opgeleverd: 20250201000035-implnr 4. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%204.md).
+In de vorige release is er nog per abuis een bug over het hoofd gezien in de Svenska Handelsbanken in de afsluitende tekst van de hypotheekgever partij. Hiervoor is een nieuw implementatienummer opgeleverd: 20250201000035-implnr 4. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20250201000035/Releasenotes%20Svenska%20handelsbanken-20250201000035%20-%204.md).
 
 ## 29 september 2025
 
