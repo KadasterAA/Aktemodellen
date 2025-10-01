@@ -3,7 +3,7 @@ Product|Omschrijving|
 |---|---| 
 **Versie model Svenska handelsbanken**|HYSH00 versie 10-10-2024|
 **Stylesheetnummer**|20250201000035 **implementatienummer 4**|
-**Release**|30 september 2025|
+**Release**|1 oktober 2025|
 
 
 ### Wijziging Model":"
