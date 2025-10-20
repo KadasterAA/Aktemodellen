@@ -9,7 +9,8 @@ Doorhaling hypotheek|20250501000010|1|doorhaling_hypotheek-4.0.0| |Beta
  “ |20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
  “ | “ |1|doorhaling_hypotheek-3.0.0
-Hypotheek Stater|20250301000034|1|hypotheek_stater-3.0| |Beta
+Hypotheek Stater|20251001000034|1|hypotheek_stater-4.0| |Beta
+“ |20250301000034|1|hypotheek_stater-3.0| |Beta
 “ |20250115000034|1|hypotheek_stater-2.0
 “ |20240901000034|1|hypotheek_stater-1.0
 Hypotheek Svenska Handelsbanken|20250201000035|4|hypotheek_svenska-2.3| |Beta
