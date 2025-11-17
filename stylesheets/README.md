@@ -1,7 +1,7 @@
 Per implementatienummer vindt u hier de versie van het stylesheet
 
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met
-:---:|:---:|---|---|:---:|:---:
+:---:|:---:|---|---|:---:
 Akte van levering KNB nieuw model|20250101000007|1|levering-9.0.0
  “ |20231020000007|1|levering-8.0.0
 Akte van verdeling|20231016000009|1|verdeling-5.0.0
