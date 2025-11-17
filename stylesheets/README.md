@@ -4,7 +4,8 @@ Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met|Be
 :---:|:---:|---|---|:---:|:---:
 Akte van levering KNB nieuw model|20250101000007|1|levering-9.0.0| |Beta
  “ |20231020000007|1|levering-8.0.0
-Akte van verdeling|20231016000009|1|verdeling-5.0.0
+Akte van verdeling|20250601000009|1|verdeling-6.0.0| |Beta
+ “ |20231016000009|1|verdeling-5.0.0
 Doorhaling hypotheek|20250501000010|1|doorhaling_hypotheek-4.0.0| |Beta
  “ |20190826000010|3|doorhaling_hypotheek-3.1.1
  “ | “ |2|doorhaling_hypotheek-3.1.0
