@@ -8,6 +8,20 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 9 december 2025
+
+In deze release:
+
+- Voor de Obvion is er een nieuw stylesheetnummer opgeleverd en er is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20251101000012/Releasenotes%20Obvion%2020251101000012%20-1.md);
+- Voor de Rabobank is er een nieuwe versie van de RabobankHypotheekakte XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/kik-xsd/PartnerSpecifiek/RabobankHypotheekakte/Changelog%20XSD%20RabobankHypotheekakte.md);
+- Voor de Particuliere hypotheek is er een nieuwe versie van de ParticuliereHypotheek XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/kik-xsd/PartnerSpecifiek/ParticuliereHypotheekakte/Changelog%20XSD%20ParticuliereHypotheekakte.md);
+- Voor Levering met stylesheetnummer 20250101000007 hebben we implementatienummer 2 opgeleverd: Hiermee is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20250101000007/Releasenotes%20Akte%20van%20Levering%2020250101000007%20-%202.md);
+- Voor de Munt met stylesheetnummer 20250201000018 hebben we implementatienummer 2 opgeleverd: Hiermee is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20250201000018/Releasenotes%20Munt%2020250201000018-%202.md).
+- Voor de Aegon met stylesheetnummer 20251001000015 hebben we implementatienummer 2 opgeleverd. Hierin is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20251001000015/Releasenotes%20AEGON%2020251001000015%20-%202.md).
+- Voor de Triodos is er een nieuw stylesheetnummer opgeleverd tbv een wijziging op het bankmodel en het genderneutraal maken van deze akte. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20251201000030/Releasenotes%20Triodos%2020251201000030-%201.md).
+
+Ter info: Dit jaar zullen we nog een nieuw stylesheetnummer van de Svenska Handelsbanken opleveren ivm een wijziging op het bankmodel.
+
 ## 20 oktober 2025
 
 In deze release hebben we een nieuw stylesheetnummer voor Stater opgeleverd (20251001000034). Hierin hebben we een aanpassing gedaan op de Partijnaam van de hypotheekverstrekker-partij. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20251001000034/Releasenotes%20Stater%20generiek%2020251001000034-1.md).
@@ -133,7 +147,7 @@ In deze release:
 In deze release:
 - Nieuwe versie van de stylesheet levering opgeleverd. In deze versie is het mogelijk om de akte genderneutraal op te stellen. Hiervoor zijn een aantal tekstblokken aangepast. Tevens zijn er 2 bevindingen opgelost. De details van de aanpassingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20250101000007/Releasenotes%20Akte%20van%20Levering%2020250101000007%20-%201.md).
 - Voor de Stater generiek is een nieuwe versie van de stylesheet opgeleverd. In deze versie zijn 2 bevindingen opgelost. De details van de aanpassingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Stater%20generiek/20250115000034/Releasenotes%20Stater%20generiek%2020250115000034-1.md).
-- Nieuwe versie XSD Algemeen v13.0.0 opgeleverd. Er is een waarde aan het element geslacht toegevoegd. Deze aanpassing was nodig om de akte genderneutraal op te kunnen stellen. De details en het XSD vind u [**hier**](/schema/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.MD).
+- Nieuwe versie XSD Algemeen v13.0.0 opgeleverd. Er is een waarde aan het element geslacht toegevoegd. Deze aanpassing was nodig om de akte genderneutraal op te kunnen stellen. De details en het XSD vind u [**hier**](/kik-xsd/stuk%20algemeen/Changelog%20XSD%20StukAlgemeen.md).
 
 ## 3 januari 2025
 Kleine aanpassing alleen in de Toelichting van Stater generiek: Achter het TB Registergoed bij de Overbruggingslening stond een puntkomma dit moet een punt zijn. Hiervoor is de stylesheet NIET aangepast.

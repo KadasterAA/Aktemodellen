@@ -3,10 +3,16 @@
 |Product|Omschrijving|
 |---|---|
 |**Versie Bankmodel Aegon**|Model Aegon 25.03|
-|**Stylesheetnummer**|20251001000015 implementatienummer 1|
-|**Release**|23 september 2025|
+|**Stylesheetnummer**|20251001000015 implementatienummer 2|
+|**Release**|9 december 2025|
 
 ## Wijzigingen model
+
+| Wijziging | Omschrijving| Oplossing  |
+| --------- | ---------- | ---------- |
+| AA-8976   | BUG: Onder punt: 3 Gegevens van de Geldlening/ Algemene Voorwaarden mist in de zijn ‘in deze akte afwijken van de Algemene Voorwaarden dan hebben de bepalingen’ een komma. Hiervoor is een nieuw implementatienummer opgeleverd. | Stylesheet |
+
+### <span style="color:red">Release tbv implementatienr 1: 23 september 2025:</span>
 
 |Wijziging|Omschrijving|Oplossing|
 |---|---|---|
