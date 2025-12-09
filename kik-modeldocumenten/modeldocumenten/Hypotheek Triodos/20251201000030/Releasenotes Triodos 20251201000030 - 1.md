@@ -68,7 +68,7 @@
 
 |Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-|**Modeldocument Triodos**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20251101000012/Modeldocument%20Triodos%20Bank%20N.V.%20v2.0.docx)**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20251101000012/Toelichitng%20modeldocument%20Triodos%20Bank%20N.V.%202.0%20-v2.0.docx)**| X |
+|**Modeldocument Triodos**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20251201000030/Modeldocument%20Triodos%20Bank.%20v2.0.docx)**|**[2.0](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Triodos/20251201000030/Toelichitng%20modeldocument%20Triodos%20Bank%20v2.0%20-v2.0.docx)**| X |
 |**XSD StukAlgemeen**|**[13.0.0](/schema/stuk%20algemeen/13.0.0/StukAlgemeen-13.0.0.xsd)**|  | X |
 |Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  |
 |Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
