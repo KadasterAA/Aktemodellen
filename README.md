@@ -13,8 +13,8 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 In deze release:
 
 - Voor de Obvion is er een nieuw stylesheetnummer opgeleverd en er is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20251101000012/Releasenotes%20Obvion%2020251101000012%20-1.md);
-- Voor de Rabobank is er een nieuwe versie van de RabobankHypotheekakte XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/schema/PartnerSpecifiek);
-- Voor de Particuliere hypotheek is er een nieuwe versie van de ParticuliereHypotheek XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/schema/PartnerSpecifiek);
+- Voor de Rabobank is er een nieuwe versie van de RabobankHypotheekakte XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/schema/RabobankHypotheekakte);
+- Voor de Particuliere hypotheek is er een nieuwe versie van de ParticuliereHypotheek XSD opgeleverd. Hiervoor is een nieuw stylesheetnummer opgeleverd. De details vind u in het [**changelog**](/schema/ParticuliereHypotheekakte);
 - Voor Levering met stylesheetnummer 20250101000007 hebben we implementatienummer 2 opgeleverd: Hiermee is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Akte%20van%20levering/20250101000007/Releasenotes%20Akte%20van%20Levering%2020250101000007%20-%202.md);
 - Voor de Munt met stylesheetnummer 20250201000018 hebben we implementatienummer 2 opgeleverd: Hiermee is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Munt/20250201000018/Releasenotes%20Munt%2020250201000018-%202.md).
 - Voor de Aegon met stylesheetnummer 20251001000015 hebben we implementatienummer 2 opgeleverd. Hierin is een bug opgelost. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Aegon/20251001000015/Releasenotes%20AEGON%2020251001000015%20-%202.md).
