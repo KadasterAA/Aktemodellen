@@ -1,8 +1,10 @@
 Per implementatienummer vindt u hier de versie van het stylesheet
 
+"Akte van levering KNB nieuw model" is hernoemd naar "Akte van levering". Dit is enkel een tekstuele wijziging.
+
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met
 :---:|:---:|---|---|:---:
-Akte van levering KNB nieuw model|20250101000007|2|levering-9.1.0
+Akte van levering|20250101000007|2|levering-9.1.0
  “ |20250101000007|1|levering-9.0.0|06-07-2026
  “ |20231020000007|1|levering-8.0.0|06-07-2026
 Akte van verdeling|20250601000009|1|verdeling-6.0.0
@@ -15,7 +17,8 @@ Hypotheek Stater|20251001000034|1|hypotheek_stater-4.0
 “ |20250301000034|1|hypotheek_stater-3.0|06-07-2026
 “ |20250115000034|1|hypotheek_stater-2.0|06-07-2026
 “ |20240901000034|1|hypotheek_stater-1.0|06-07-2026
-Hypotheek Svenska Handelsbanken|20250201000035|4|hypotheek_svenska-2.3
+Hypotheek Svenska Handelsbanken|20251201000035|1|hypotheek_svenska-3.0
+ “ |20250201000035|4|hypotheek_svenska-2.3|06-07-2026
  “ |20250201000035|3|hypotheek_svenska-2.2|06-07-2026
  “ |20250201000035|2|hypotheek_svenska-2.1|06-07-2026
  “ |20250201000035|1|hypotheek_svenska-2.0|06-07-2026
