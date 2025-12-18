@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 18 december 2025
 
-In deze release hebben we een nieuw stylesheetnummer (20250201000035) voor de Svenska Handelsbanken opgeleverd. Een overzicht met de wijzigingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20251201000035/Releasenotes%20Svenska%20handelsbanken-20251201000035%20-%201.md).
+In deze release hebben we een nieuw stylesheetnummer (20251201000035) voor de Svenska Handelsbanken opgeleverd. Een overzicht met de wijzigingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20251201000035/Releasenotes%20Svenska%20handelsbanken-20251201000035%20-%201.md).
 
 ## 9 december 2025
 
