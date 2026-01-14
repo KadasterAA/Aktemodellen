@@ -1,7 +1,5 @@
 Per implementatienummer vindt u hier de versie van het stylesheet
 
-"Akte van levering KNB nieuw model" is hernoemd naar "Akte van levering". Dit is enkel een tekstuele wijziging.
-
 Modeldocument|Depotnummer|Implementatienr|Versie stylesheet|Geldig tot en met
 :---:|:---:|---|---|:---:
 Akte van levering|20250101000007|2|levering-9.1.0
@@ -67,7 +65,8 @@ Hypotheek NEO|20250801000032|1|hypotheek_neo-4.0
  “ | “ |1|hypotheek_neo-1.0.0|06-07-2026
 Hypotheek NIBC|20250301000027|1|hypotheek_nibc-4.0.0
  “ | “ |1|hypotheek_nibc-3.0.0|06-07-2026
-Hypotheek Obvion|20251101000012|1|hypotheek_obvion-7.0.0 
+Hypotheek Obvion|20251101000012|2|hypotheek_obvion-7.1.0 
+ “ |20251101000012|1|hypotheek_obvion-7.0.0 
  “ |20250201000012|2|hypotheek_obvion-6.1.0|06-07-2026
  “ |20250201000012|1|hypotheek_obvion-6.0.0|06-07-2026
  “ |20240201000012|1|hypotheek_obvion-5.0.0|06-07-2026

@@ -8,6 +8,10 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 14 januari 2026
+
+In deze release hebben we een nieuw implementatienummer voor de Obvion opgeleverd. Hierin is een bug opgelost dat alleen betrekking heeft op de stylesheet. De details vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Obvion/20251101000012/Releasenotes%20Obvion%2020251101000012%20-%202.md).
+
 ## 18 december 2025
 
 In deze release hebben we een nieuw stylesheetnummer (20251201000035) voor de Svenska Handelsbanken opgeleverd. Een overzicht met de wijzigingen vind u in de [**release notes**](/kik-modeldocumenten/modeldocumenten/Hypotheek%20Svenska%20Handelsbanken/20251201000035/Releasenotes%20Svenska%20handelsbanken-20251201000035%20-%201.md).
