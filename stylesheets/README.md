@@ -31,7 +31,8 @@ Hypotheek ABP|20250401000019|1|hypotheek_abp-3.0.0
  “ |20240321000019|2|hypotheek_abp-2.0.1|06-07-2026
  “ | “ |1|hypotheek_abp-2.0.0|06-07-2026
  “ |20190801000019|1|hypotheek_abp-1.0.0|06-07-2026
-Hypotheek Aegon|20251001000015|2|hypotheek_aegon-9.1
+Hypotheek Aegon|20260115000015|1|hypotheek_aegon-10.0
+ “ |20251001000015|2|hypotheek_aegon-9.1
  “ |20251001000015|1|hypotheek_aegon-9.0|06-07-2026
  “ |20250401000015|1|hypotheek_aegon-8.0|06-07-2026
  “ |20241001000015|1|hypotheek_aegon-7.0|06-07-2026
