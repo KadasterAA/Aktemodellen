@@ -10,7 +10,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 
 ## 10  maart 2026
-In deze release hebben we stylesheet 20260301000004 voor de ING opgeleverd. Deze is gebasseerd op het Stater model 26.02.
+In deze release hebben we stylesheet 20260301000004 voor de ING opgeleverd. Deze is gebaseerd op het Stater model 26.02.
 
 **MEDEDELING:**
 Per 1 april zijn er wijzigingen op een aantal waardelijsten waaronder waardelijst BRPland. Zie hiervoor de april release op: https://www.kadaster.nl/-/imkad-waardelijsten-release-april-2026
