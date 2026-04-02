@@ -330,7 +330,7 @@
 				<SimpleValue>5031</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Burma</SimpleValue>
+				<SimpleValue>Birma</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
 				<SimpleValue>1989-06-18</SimpleValue>
@@ -569,6 +569,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Ascension</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -576,6 +582,12 @@
 			</Value>
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Azoren</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -680,9 +692,6 @@
 			<Value ColumnRef="DatumTot">
 				<SimpleValue>1975-07-05</SimpleValue>
 			</Value>
-			<Value ColumnRef="Toelichting">
-				<SimpleValue>*</SimpleValue>
-			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -743,7 +752,7 @@
 				<SimpleValue>5074</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Saint Pierre en Miquelon</SimpleValue>
+				<SimpleValue>Saint-Pierre en Miquelon</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -808,6 +817,13 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Johnston</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
+
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -1043,7 +1059,7 @@
 				<SimpleValue>5101</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Timor Leste</SimpleValue>
+				<SimpleValue>Oost-Timor</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>2002-05-20</SimpleValue>
@@ -1167,7 +1183,7 @@
 				<SimpleValue>5112</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Gazastrook en Westelijke Jordaanoever</SimpleValue>
+				<SimpleValue>Gazastrook en Westelijke Jordaanoever, met inbegrip van Oost-Jeruzalem</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1948-05-15</SimpleValue>
@@ -1672,6 +1688,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Canarische Eilanden</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -1727,7 +1749,7 @@
 				<SimpleValue>6059</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>São Tomé en Principe</SimpleValue>
+				<SimpleValue>Sao Tomé en Principe</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -1737,6 +1759,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Sint-Helena</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -1744,6 +1772,12 @@
 			</Value>
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Tristan Da Cunha</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -1784,7 +1818,7 @@
 				<SimpleValue>6065</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Bosnië-Herzegovina</SimpleValue>
+				<SimpleValue>Bosnië en Herzegovina</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1992-04-06</SimpleValue>
@@ -1842,7 +1876,7 @@
 				<SimpleValue>7001</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Uganda</SimpleValue>
+				<SimpleValue>Oeganda</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -1850,7 +1884,7 @@
 				<SimpleValue>7002</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Kenya</SimpleValue>
+				<SimpleValue>Kenia</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1963-12-12</SimpleValue>
@@ -2577,7 +2611,13 @@
 				<SimpleValue>7087</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Madeira-eilanden</SimpleValue>
+				<SimpleValue>Madeira</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2615,7 +2655,7 @@
 				<SimpleValue>7092</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Caymaneilanden</SimpleValue>
+				<SimpleValue>Kaaimaneilanden</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2652,6 +2692,12 @@
 			</Value>
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Brits Antarctisch Territorium</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2723,6 +2769,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Midway</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -2744,6 +2796,12 @@
 			</Value>
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Wake</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2773,7 +2831,7 @@
 				<SimpleValue>8009</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Marianen</SimpleValue>
+				<SimpleValue>Noordelijke Marianen</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3020,6 +3078,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Kanaaleilanden</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -3085,6 +3149,12 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Panamakanaalzone</SimpleValue>
 			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-01-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
+			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -3131,6 +3201,71 @@
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1981-11-01</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8046</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Sint-Helena, Ascension en Tristan da Cunha</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8047</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Amerikaanse Kleinere Afgelegen Eilanden</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8048</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Zuid-Georgia en de Zuidelijke Sandwicheilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumVanaf">
+				<SimpleValue>1985-10-03</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8049</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Saint-Barthélemy</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumVanaf">
+				<SimpleValue>2007-02-22</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8050</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Sint-Maarten (Frankrijk)</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumVanaf">
+				<SimpleValue>2007-07-15</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8051</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Guernsey</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8052</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Jersey</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3207,7 +3342,7 @@
 				<SimpleValue>9008</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Congo</SimpleValue>
+				<SimpleValue>Republiek Congo</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumVanaf">
 				<SimpleValue>1960-08-15</SimpleValue>
@@ -3985,7 +4120,7 @@
 				<SimpleValue>9094</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Micronesia</SimpleValue>
+				<SimpleValue>Micronesië</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3993,7 +4128,7 @@
 				<SimpleValue>9095</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Svalbardeilanden</SimpleValue>
+				<SimpleValue>Spitsbergen</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
