@@ -50,7 +50,8 @@ Hypotheek Credo|20250401000031|1|hypotheek_credo-2.0.0
 Hypotheek ING|20260301000004|1|hypotheek_ing-6.0.0
  “ |20250101000004|1|hypotheek_ing-5.0.0
  “ |20190601000004|1|hypotheek_ing-4.0.0|06-07-2026
-Hypotheek Lloyds|20250301000021|1|hypotheek_lloyds-3.0.0
+Hypotheek Lloyds|20250301000021|2|hypotheek_lloyds-3.1.0
+ “ |20250301000021|1|hypotheek_lloyds-3.0.0
  “ |20211015000021|1|hypotheek_lloyds-2.0.0|06-07-2026
 Hypotheek Lot|20250301000026|1|hypotheek_lot-3.0.0
  “ |20211015000026|1|hypotheek_lot-2.0.0|06-07-2026
