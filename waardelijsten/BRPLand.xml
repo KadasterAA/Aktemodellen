@@ -570,7 +570,7 @@
 				<SimpleValue>Ascension</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -584,7 +584,7 @@
 				<SimpleValue>Azoren</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -818,7 +818,7 @@
 				<SimpleValue>Johnston</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -1689,7 +1689,7 @@
 				<SimpleValue>Canarische Eilanden</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -1760,7 +1760,7 @@
 				<SimpleValue>Sint-Helena</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -1774,7 +1774,7 @@
 				<SimpleValue>Tristan Da Cunha</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -2614,7 +2614,7 @@
 				<SimpleValue>Madeira</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -2694,7 +2694,7 @@
 				<SimpleValue>Brits Antarctisch Territorium</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -2770,7 +2770,7 @@
 				<SimpleValue>Midway</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -2798,7 +2798,7 @@
 				<SimpleValue>Wake</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -3079,7 +3079,7 @@
 				<SimpleValue>Kanaaleilanden</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -3150,7 +3150,7 @@
 				<SimpleValue>Panamakanaalzone</SimpleValue>
 			</Value>
 			<Value ColumnRef="DatumTot">
-				<SimpleValue>2026-01-01</SimpleValue>
+				<SimpleValue>2026-04-01</SimpleValue>
 			</Value>
 			<Value ColumnRef="Toelichting">
 				<SimpleValue>*</SimpleValue>
@@ -3266,6 +3266,14 @@
 			</Value>
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Jersey</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="Code">
+				<SimpleValue>8053</SimpleValue>
+			</Value>
+			<Value ColumnRef="Waarde">
+				<SimpleValue>Åland</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
