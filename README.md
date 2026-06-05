@@ -8,6 +8,13 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+
+## 5 juni 2026
+**MEDEDELING:**
+
+Vanaf heden is het niet meer mogelijk om stylesheet 20260301000004 van de ING te gebruiken. Tot nader order gaat de ING nog niet over naar Stater in tegenstelling tot wat eerder verwacht werd dat de ING per augustus dit jaar naar Stater zou overgaan. 
+Binnenkort zullen we wel een nieuwe stylesheet van de ING opleveren die gebasseerd zal zijn op de versie 20250101000004 van de ING. 
+
 ## 2 april 2026
 In deze release:
 - nieuwe stylesheet 20250301000021-impl_2 van de Lloyds opgeleverd. 
