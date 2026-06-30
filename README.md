@@ -12,6 +12,7 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 In deze release hebben we opgeleverd:
 - Voor de ING nieuw stylesheet 20260601000004, gebaseerd op stylesheetnummer 20250101000004, ivm wijziging bankmodel (HYING01).
 - Voor de ASR nieuw stylesheetnummer 20260501000020 ivm wijziging bankmodel (26.01)
+
 De details van deze wijzigingen vindt u in de releasenotes van beide akten.
 
 ## 5 juni 2026
