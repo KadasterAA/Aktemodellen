@@ -10,7 +10,6 @@ We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren 
 
 ## 27 augustus 2026
 In deze release hebben we opgeleverd:
-- NIBC (stylesheetnummer: 20250301000027): we hebben een overbodige controle op de aanduidingPartij van de vervreemder partij verwijderd.
 - Neo (stylesheetnummer: 20250801000032): De alineakop van Artikel 4 bevatten teveel woorden aan het einde ervan, dit is verwijderd. Dit betreft enkel een stylesheet aanpassing. Hiervoor is een nieuw implementatienummer opgeleverd.
 - ASN (stylesheetnummer: 20250601000033): Het afsluitende teken na de bankpartij was een puntkomma (;) maar moest een komma zijn, dit is aangepast. Ook dit betreft enkel een stylesheet aanpassing. Hiervoor is een nieuw implementatienummer opgeleverd.
 
