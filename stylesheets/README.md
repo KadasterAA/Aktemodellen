@@ -39,7 +39,8 @@ Hypotheek Aegon|20260115000015|1|hypotheek_aegon-10.0
  “ |20231105000015|1|hypotheek_aegon-6.0.0
 Hypotheek Argenta|20250401000025|1|hypotheek_argenta-4.0
  “ |20230524000025|1|hypotheek_argenta-3.0
-Hypotheek ASN|20250601000033|1|hypotheek_asn-2.0.0
+Hypotheek ASN|20250601000033|2|hypotheek_asn-2.1.0
+ “ | “ |1|hypotheek_asn-2.0.0
  “ |20240601000033|1|hypotheek_asn-1.0.0
 Hypotheek ASR|20260501000020|1|hypotheek_asr-6.1.0
  “ |20260501000020|1|hypotheek_asr-6.0.0
@@ -47,8 +48,6 @@ Hypotheek ASR|20260501000020|1|hypotheek_asr-6.1.0
  “ |20211015000020|1|hypotheek_asr-4.0.0
 Hypotheek BLG|20250601000014|1|hypotheek_blg-4.0.0
  “ |20190801000014|1|hypotheek_blg-3.0.0
-Hypotheek Credo|20250401000031|1|hypotheek_credo-2.0.0
-“ |20230605000031|1|hypotheek_credo-1.0.0
 Hypotheek ING|20260601000004|1|hypotheek_ing-7.1.0
  “ |20260601000004|1|hypotheek_ing-7.0.0
  “ |20260301000004|1|hypotheek_ing-6.0.0|05-06-2026
@@ -65,7 +64,8 @@ Hypotheek Munt|20250201000018|2|hypotheek_munt-4.1
 Hypotheek Nationale Nederlanden|20250301000023|1|hypotheek_nationale-nederlanden-3.0.0
  “ |20210318000023|2|hypotheek_nationale-nederlanden-2.1.0
  “ | “ |1|hypotheek_nationale-nederlanden-2.0.0
-Hypotheek NEO|20250801000032|1|hypotheek_neo-4.0
+Hypotheek NEO|20250801000032|2|hypotheek_neo-4.1
+ “ | “ |1|hypotheek_neo-4.0
  “ |20250301000032|1|hypotheek_neo-3.0
  “ |20241201000032|1|hypotheek_neo-2.0
  “ |20240311000032|2|hypotheek_neo-1.0.1
