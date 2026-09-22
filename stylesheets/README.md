@@ -42,7 +42,8 @@ Hypotheek Argenta|20250401000025|1|hypotheek_argenta-4.0
 Hypotheek ASN|20250601000033|2|hypotheek_asn-2.1.0
  “ | “ |1|hypotheek_asn-2.0.0
  “ |20240601000033|1|hypotheek_asn-1.0.0
-Hypotheek ASR|20260501000020|1|hypotheek_asr-6.1.0
+Hypotheek ASR|20260921000020|1|hypotheek_asr-7.0.0
+ “ |20260501000020|1|hypotheek_asr-6.1.0
  “ |20260501000020|1|hypotheek_asr-6.0.0
  “ |20250201000020|1|hypotheek_asr-5.0.0
  “ |20211015000020|1|hypotheek_asr-4.0.0
