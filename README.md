@@ -8,9 +8,14 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
-## 27 augustus 2026
+
+##22 september 2026
+In deze release hebben we in de ASR een bug opgelost. Hiervoor is stylesheet 20260921000020 opgeleverd.
+De details vind u in de releasenotes van de ASR.
+
+## 25 augustus 2026
 In deze release hebben we opgeleverd:
-- Credo: Deze akte is nooit live gegaan bij Stater en is daarom verwijderd.
+- NIBC (stylesheetnummer: 20250301000027): we hebben een overbodige controle op de aanduidingPartij van de vervreemder partij verwijderd.
 - Neo (stylesheetnummer: 20250801000032): De alineakop van Artikel 4 bevatten teveel woorden aan het einde ervan, dit is verwijderd. Dit betreft enkel een stylesheet aanpassing. Hiervoor is een nieuw implementatienummer opgeleverd.
 - ASN (stylesheetnummer: 20250601000033): Het afsluitende teken na de bankpartij was een puntkomma (;) maar moest een komma zijn, dit is aangepast. Ook dit betreft enkel een stylesheet aanpassing. Hiervoor is een nieuw implementatienummer opgeleverd.
 
