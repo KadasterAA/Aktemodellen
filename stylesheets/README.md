@@ -21,11 +21,14 @@ Hypotheek Svenska Handelsbanken|20251201000035|1|hypotheek_svenska-3.0
  “ |20250201000035|2|hypotheek_svenska-2.1
  “ |20250201000035|1|hypotheek_svenska-2.0
  “ |20241025000035|1|hypotheek_svenska-1.0
-Hypotheek ABN AMRO AAB|20250201000001|1|hypotheek_abn_amro_aab-5.0.0
+Hypotheek ABN AMRO AAB|20260901000001|1|hypotheek_abn_amro_aab-6.0.0
+ “ |20250201000001|1|hypotheek_abn_amro_aab-5.0.0
  “ |20190801000001|1|hypotheek_abn_amro_aab-4.0.0
-Hypotheek ABN AMRO Florius|20250201000002|1|hypotheek_abn_amro_florius-5.0.0
+Hypotheek ABN AMRO Florius|20260901000002|1|hypotheek_abn_amro_florius-6.0.0
+ “ |20250201000002|1|hypotheek_abn_amro_florius-5.0.0
  “ |20190801000002|1|hypotheek_abn_amro_florius-4.0.0
-Hypotheek ABN AMRO MoneYou|20250201000003|1|hypotheek_abn_amro_moneyou-6.0.0
+Hypotheek ABN AMRO MoneYou|20260901000003|1|hypotheek_abn_amro_moneyou-7.0.0
+ “ |20250201000003|1|hypotheek_abn_amro_moneyou-6.0.0
  “ |20230301000003|1|hypotheek_abn_amro_moneyou-5.0.0
 Hypotheek ABP|20250401000019|1|hypotheek_abp-3.0.0
  “ |20240321000019|2|hypotheek_abp-2.0.1
