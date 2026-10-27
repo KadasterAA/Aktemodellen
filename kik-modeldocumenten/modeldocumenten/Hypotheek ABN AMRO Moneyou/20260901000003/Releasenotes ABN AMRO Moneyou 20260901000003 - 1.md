@@ -20,7 +20,7 @@ Wijziging:
 ### Specificaties
 Naam|Versie MD/TB|Versie Toelich.|  |
 | --- |--- |--- |---|
-Modeldocument ABN AMRO - Moneyou|[4.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20260901000002/Modeldocument%20ABN%20AMRO%20-%20Moneyou%20v4.0.docx)|[5.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20260901000002/Toelichting%20modeldocument%20ABN%20AMRO%20-%20Moneyou%20v4.0%20-%20v5.0.docx)| X |
+Modeldocument ABN AMRO - Moneyou|[4.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20260901000003/Modeldocument%20ABN%20AMRO%20-%20Moneyou%20v4.0.docx)|[5.0]( /kik-modeldocumenten/modeldocumenten/Hypotheek%20ABN%20AMRO%20Moneyou/20260901000003/Toelichting%20modeldocument%20ABN%20AMRO%20-%20Moneyou%20v4.0%20-%20v5.0.docx)| X |
 XSD StukAlgemeen|[13.0.0](/schema/stuk%20algemeen/13.0.0/StukAlgemeen-13.0.0.xsd)|  | |
 Tekstblok - Algemene afspraken modeldocumenten en tekstblokken|[2.6](/kik-modeldocumenten/tekstblokken/Tekstblok%20-%20Algemene%20afspraken%20modeldocumenten%20en%20tekstblokken%20v2.6.docx)||  | 
 Toelichting - Comparitie nummering en layout||[1.1.2](/kik-modeldocumenten/tekstblokken/Toelichting%20-%20Comparitie%20nummering%20en%20layout%20v1.1.2.docx)|   |
