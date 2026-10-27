@@ -2,12 +2,19 @@
 
 Kadaster Automatische Akteverwerking
 
-Op deze locatie staat de informatie ten behoeve van software leveranciers die software ontwikkelen ten behoeve van het notariaat. Specifiek staat hier de informatie welke nodig is om zogeheten KIK-Akten te kunnen vervaardigen.
+Op deze locatie staat de informatie ten behoeve van software leveranciers die software ontwikkelen ten behoeve van het notariaat. Specifiek staat hier de informatie welke nodig is om zogeheten KIK-Akten te kunnen vervaardigen. Mocht u vragen of opmerkingen over deze informatie hebben dan kunt u contact opnemen met het KCC van het kadaster.
 
 KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om sneller, met hogere kwaliteit en tegen lagere kosten akten in te kunnen schrijven bij het Kadaster.
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 27 oktober 2026
+In deze release hebben we opgeleverd:
+- Diverse wijzigingen voor ABN AMRO bank. Stylesheet 20260901000001 opgeleverd.
+- Diverse wijzigingen voor Moneyou. Stylesheet 20260901000003 opgeleverd.
+- Diverse wijzigingen voor Florius. Stylesheet 20260901000002 opgeleverd. 
+
+Details van deze wijzigingen vindt u in de releasenotes van de betreffende aktemodellen.
 
 ## 22 september 2026
 In deze release hebben we in de ASR een bug opgelost. Hiervoor is stylesheet 20260921000020 opgeleverd.
