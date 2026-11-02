@@ -104,4 +104,5 @@ Hypotheek Vista|20250301000024|1|hypotheek_vista-4.0.0
  “ |20230511000024|1|hypotheek_vista-3.0.0
 Notariële verklaring|20250501000008|1|notariele_verklaring-5.0.0
  “ |20231016000008|1|notariele_verklaring-4.0.0
-Verklaring van Erfrecht|20240801000029|1|vve_wettelijkeverdeling-2.0
+Verklaring van Erfrecht|20240801000029|2|vve_wettelijkeverdeling-2.1
+ “ |20240801000029|1|vve_wettelijkeverdeling-2.0
