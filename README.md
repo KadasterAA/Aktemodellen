@@ -8,6 +8,12 @@ KIK staat voor Ketenintegratie Inschrijving Kadaster. KIK-Akten beoogt om snelle
 
 We raden aan om een GitHub Desktop te gebruiken om een lokale kopie te creëren van deze repository. Voordelen hiervan zijn dat de inhoud van de repository lokaal op een eigen bestandssysteem beschikbaar is en tegelijkertijd eenvoudig te synchroniseren is met de hier gepubliceerde kopie. Lees pagina <https://desktop.github.com/> voor details over de GitHub Desktop.
 
+## 2 november 2026
+In deze release: 
+- We hebben een bug opgelost in de stylesheet van de Verklaring van Erfrecht. Hiervoor is een nieuw implementatienummer opgeleverd.
+De details vind u in de releasenotes van dit aktemodel.
+- Er is een nieuwe versie van de waardelijst BRPLand opgeleverd. Zie hiervoor de release op https://www.kadaster.nl/-/imkad-waardelijsten-release-oktober-2026
+
 ## 27 oktober 2026
 In deze release hebben we opgeleverd:
 - Diverse wijzigingen voor ABN AMRO bank. Stylesheet 20260901000001 opgeleverd.
