@@ -964,12 +964,6 @@
 			<Value ColumnRef="Waarde">
 				<SimpleValue>Spitsbergen</SimpleValue>
 			</Value>
-			<Value ColumnRef="DatumTot">
-				<SimpleValue>1991-06-01</SimpleValue>
-			</Value>
-			<Value ColumnRef="Toelichting">
-				<SimpleValue>*</SimpleValue>
-			</Value>
 		</Row>
 		<Row>
 			<Value ColumnRef="Code">
@@ -4136,7 +4130,13 @@
 				<SimpleValue>9095</SimpleValue>
 			</Value>
 			<Value ColumnRef="Waarde">
-				<SimpleValue>Spitsbergen</SimpleValue>
+				<SimpleValue>Svalbardeilanden</SimpleValue>
+			</Value>
+			<Value ColumnRef="DatumTot">
+				<SimpleValue>2026-04-01</SimpleValue>
+			</Value>
+			<Value ColumnRef="Toelichting">
+				<SimpleValue>*</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
